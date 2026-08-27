@@ -1,0 +1,16 @@
+# Aniimo GG
+
+> 《伊莫》繁体中文非官方玩家攻略站，整理官方资讯、世界资料与开服后的实测攻略。
+
+## 主要页面
+- [首页](https://aniimogg.com/)
+- [攻略索引](https://aniimogg.com/guides/)
+- [艾德尔大陆地区](https://aniimogg.com/world.html)
+- [常见问题](https://aniimogg.com/faq.html)
+- [资料政策](https://aniimogg.com/guides/editorial-policy.html)
+
+## 内容规则
+- 官方信息优先引用官方公告。
+- 数值型攻略标记游戏版本与验证日期。
+- 封测资料不默认视为正式版结论。
+- Aniimo GG 与游戏开发、发行或代理单位无隶属关系。
