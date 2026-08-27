@@ -26,7 +26,12 @@
     "primaryNav": "Primary navigation",
     "pcConsole": "PC / Console",
     "mobile": "Mobile",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "authors": "Authors",
+    "terms": "Terms",
+    "writtenBy": "Written and reviewed by",
+    "lastReviewed": "Last reviewed"
   },
   "home": {
     "title": "Aniimo Guide - Tier List, Database, Map & Wiki",
@@ -115,6 +120,27 @@
       "description": "Privacy policy for the Aniimo Guide fan website.",
       "h1": "Privacy Policy",
       "lead": "This site currently has no accounts, comments, advertising, or newsletter collection. Hosting and security providers may process basic request logs for delivery, abuse prevention, and troubleshooting."
+    },
+    "contact": {
+      "title": "Contact Aniimo Guide",
+      "description": "Contact Aniimo Guide to report corrections, suggest improvements, or discuss site content.",
+      "h1": "Contact Aniimo Guide",
+      "lead": "Found an error or have a source we should review? Open a public issue and include the page URL, game version, and supporting evidence.",
+      "sections": [["Corrections and feedback","Use the GitHub issue tracker for corrections, source updates, accessibility problems, or site feedback."],["What to include","Include the affected URL, game version or platform, what appears incorrect, and a reliable source or screenshot when available."],["Privacy","Do not post passwords, account IDs, private messages, or other sensitive information in a public issue."]]
+    },
+    "authors": {
+      "title": "Authors & Review Standards | Aniimo Guide",
+      "description": "Meet the Aniimo Guide editorial team and learn how guides are researched, tested, and reviewed.",
+      "h1": "Authors and review standards",
+      "lead": "Aniimo Guide is maintained by an independent player-editor focused on source-aware, versioned game information.",
+      "sections": [["Aniimo Guide Editorial Team","The editorial team researches official announcements, records sources, and reviews guides for clarity and version accuracy."],["Testing standards","Release-version gameplay claims will be checked in game and labeled with platform, version, and verification date whenever those details matter."],["Corrections","Confirmed errors are updated promptly. Readers can submit evidence through the public issue tracker on the contact page."]]
+    },
+    "terms": {
+      "title": "Terms of Use | Aniimo Guide",
+      "description": "Terms of use for the independent Aniimo Guide fan website.",
+      "h1": "Terms of Use",
+      "lead": "By using this website, you understand that game details can change between versions and agree to use its information responsibly.",
+      "sections": [["Independent guide","Aniimo Guide is an unofficial fan website and is not affiliated with Pawprint Studio, FunPlus, or the official Aniimo team."],["Information accuracy","We aim to provide accurate, versioned information, but cannot guarantee that every detail remains current after patches or regional changes."],["Intellectual property","Aniimo names, logos, artwork, and other game materials belong to their respective owners. Original site text and layout may not be republished wholesale without permission."],["External links","External websites have their own terms and privacy practices. A link does not imply endorsement."],["Changes","These terms may be updated as site features, analytics, or advertising services change."]]
     }
   },
   "guides": {

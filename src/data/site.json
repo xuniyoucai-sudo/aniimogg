@@ -1,6 +1,7 @@
 {
   "domain":"https://aniimogg.com",
-  "routes":["","aniimo","tier-list","guides","database","map","tools","news","faq","about","privacy"],
+  "routes":["","aniimo","tier-list","guides","database","map","tools","news","faq","about","privacy","contact","authors","terms"],
+  "noindexRoutes":["aniimo","tier-list","database","tools","news"],
   "guideArticles":["getting-started","core-gameplay","editorial-policy"],
   "regions":["falling-stars","mistwoods","echoback","flowers","blitzwood","nimbus"],
   "platforms":["PlayStation 5","Xbox","Steam","Epic Games","iOS","Android"],
