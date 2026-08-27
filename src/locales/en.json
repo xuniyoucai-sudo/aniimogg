@@ -183,6 +183,62 @@
         ]
       ]
     },
+    "release-date-platforms": {
+      "title": "Aniimo Release Date, Time & Platforms",
+      "description": "Aniimo launches on PC and consoles September 16, 2026, followed by mobile September 23. See confirmed platforms and timing notes.",
+      "h1": "Aniimo Release Date and Platforms",
+      "body": [["Official global release dates","Pawprint Studio announced September 16, 2026 for PC and consoles, followed by September 23 for iOS and Android. The PlayStation listing specifies 10:00 UTC+8 on September 16."],["Confirmed platforms","The official site lists PlayStation 5, Xbox, Steam, Epic Games Store, App Store, and Google Play. No PlayStation 4, Xbox One, Nintendo Switch, or Mac version has been officially announced."],["Why Steam may show September 15","Steam currently displays September 15 in some regions. This is consistent with a September 16 launch in UTC+8 appearing on the previous calendar day in western time zones; follow the store countdown for your local unlock."],["Cross-platform support","Steam lists cross-platform multiplayer alongside single-player, online co-op, and online PvP. Final account-linking and cross-progression rules should be confirmed at launch."],["Release checklist","Wishlist or pre-register on your preferred platform, reserve at least 45 GB on PC, and check the official news page for preload and server-opening notices."]],
+      "sources": [["Official global launch announcement","https://www.aniimo.com/newslist/detail/100051"],["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo on PlayStation 5","https://www.playstation.com/games/aniimo/"]]
+    },
+    "pre-registration": {
+      "title": "Aniimo Pre-Registration Guide & Rewards",
+      "description": "How to pre-register for Aniimo on PC, console and mobile, plus confirmed global milestone rewards.",
+      "h1": "Aniimo Pre-Registration Guide",
+      "body": [["Where to pre-register","Start from the official Aniimo website and choose PS5, Xbox, Steam, Epic Games, App Store, or Google Play. Store availability can vary by country, so use the platform button shown for your region."],["Official milestone rewards","The official campaign lists Glimmer ×200 at 10 million registrations, Aniipod Ultra ×2 at 15 million, the limited Companion Promise avatar frame at 20 million, and the Sunlit Meadow limited outfit at 30 million."],["Website registration and store wishlists","A website registration, store wishlist, mobile pre-order, and console pre-order are not necessarily the same action. Complete the official account registration and then follow the relevant store page for the platform you intend to use."],["Avoid account mismatch","Use an email and login method you can access at launch. Time-limited web events may require the event email to match the account used to create the first in-game character."],["Paid PlayStation packs","Aniimo's base game is free. PlayStation may sell optional pre-order packs containing cosmetics or a Companion Handbook; buying a pack is not required to play."]],
+      "sources": [["Official Aniimo pre-registration page","https://www.aniimo.com/main/"],["Official launch and web-event notice","https://www.aniimo.com/newslist/detail/100051"]]
+    },
+    "system-requirements": {
+      "title": "Aniimo PC System Requirements: Minimum & Recommended",
+      "description": "Official Aniimo PC requirements covering Windows, CPU, GPU, RAM, DirectX, internet and storage.",
+      "h1": "Aniimo System Requirements",
+      "body": [["Minimum PC requirements","64-bit Windows 10; Intel Core i7-9700 or AMD Ryzen 5 3600X; 12 GB RAM; NVIDIA GTX 1060 or AMD Radeon RX 6600; DirectX 11; broadband internet; and 45 GB of available storage."],["Recommended PC requirements","64-bit Windows 10 or newer; Intel Core i7-12700F or AMD Ryzen 7 7700X; 16 GB RAM; NVIDIA GeForce RTX 3070 8 GB or AMD Radeon RX 6800; DirectX 11; broadband internet; and 45 GB available storage."],["Storage planning","The store lists 45 GB available space. Keep additional free space for unpacking, shader caches, patches, and screenshots rather than filling the drive to its limit."],["Laptop and handheld notes","Mobile GPU names do not map directly to desktop cards. Steam Deck and other handheld compatibility have not been officially confirmed, so wait for launch-version testing before assuming support."],["Internet requirement","Steam requires broadband internet and lists online interaction. Even if you focus on solo play, plan for downloads, account services, and online checks."]],
+      "sources": [["Official Steam system requirements","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "free-to-play": {
+      "title": "Is Aniimo Free to Play? Price & Purchases Explained",
+      "description": "Aniimo is a free-to-play game with optional in-game purchases. Learn what is confirmed before launch.",
+      "h1": "Is Aniimo Free to Play?",
+      "body": [["Yes, the base game is free","Pawprint Studio and the official store listings describe Aniimo as free to play. The base client does not require a standard purchase price."],["Optional purchases are confirmed","Steam and PlayStation both disclose optional in-game purchases. PlayStation also lists paid pre-order packs with cosmetics and Companion Handbook items."],["What has not been fully detailed","Final prices, regional currencies, battle-pass cadence, premium currency rates, and the complete shop catalogue have not yet been published. Closed-beta values should not be treated as final."],["Can you play without buying a pack?","Yes. PlayStation's store notice explicitly says the base game is available at no cost. Pre-order packs are optional extras, not an entry fee."],["Our review standard","After launch we will separate cosmetic purchases, progression items, passes, and convenience features, then evaluate value without presenting spending as required."]],
+      "sources": [["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo on PlayStation 5","https://www.playstation.com/games/aniimo/"]]
+    },
+    "confirmed-aniimo": {
+      "title": "Confirmed Aniimo List: Official Creatures Revealed",
+      "description": "A verified overview of officially revealed Aniimo, including Emberpup, Celestis, Nimbi, Bolty and evolution lines.",
+      "h1": "Confirmed Aniimo Characters",
+      "body": [["The official index is live","The official Aniimo Wiki currently lists more than 90 numbered entries. These are confirmed creatures rather than names inferred from leaks or fan art."],["Early official examples","Emberpup begins the official index at No.001, followed by Flameruff, Scorchhowl, and Inferlupa. Celestis and Stellarys appear at No.005–006, while Nimbi is No.018 and Bolty is No.048."],["Elements and roles","The official index filters creatures by elements including holy, fire, ice, dark, electric, grass, water, rock, and wind, plus roles such as DPS, Heal, Support, Break, and Regen."],["Forms and evolution","Official entries can include stages, alternate forms, habitats, mobility, traits, and skills. For example, Emberpup has multiple forms and an evolution line, while Nimbi is presented as a wind/electric support Aniimo."],["Why this is not a tier list","Confirmation does not establish strength. Stats and skills can change before or after launch, so rankings will remain separate and noindex until repeatable release-version testing is complete."]],
+      "sources": [["Official Aniimo Wiki index","https://wiki.aniimo.com/"],["Official Emberpup entry","https://wiki.aniimo.com/item/10002771"],["Official Nimbi entry","https://wiki.aniimo.com/item/10002789"]]
+    },
+    "catching-twine": {
+      "title": "Aniimo Catching & Twine System Explained",
+      "description": "How catching, Aniipods, traps, creature forms and the Twine transformation system work in Aniimo.",
+      "h1": "Catching and Twine System",
+      "body": [["How catching works","Official descriptions say Pathfinders catch Aniimo with Aniipods, can set traps, and need to time the catch. Exact capture-rate formulas and item modifiers should be verified in the release build."],["Spawns respond to the world","Aniimo can appear according to environment, weather, phenomena, and time of day. A useful location guide therefore needs more than a single coordinate: it should record conditions and version."],["What Twine means","Twine lets a Pathfinder become a collected Aniimo and use that creature's skills and perspective. It supports combat, puzzle solving, traversal, and environmental challenges."],["Traversal examples","Official material specifically shows gliding, diving, and burrowing. Individual official Wiki entries also list mobility or pathfinding abilities, such as Emberpup's faster movement and Nimbi's aerial dash."],["What we will verify at launch","We will test catch timing, trap behavior, failed-catch costs, form availability, stamina, cooldowns, and whether multiplayer changes capture ownership."]],
+      "sources": [["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Official Aniimo Wiki","https://wiki.aniimo.com/"]]
+    },
+    "multiplayer": {
+      "title": "Aniimo Multiplayer, Co-op, PvP & Cross-Platform Guide",
+      "description": "Confirmed Aniimo multiplayer features including online co-op, PvP, cross-platform play, camps and three-player Egg Heist.",
+      "h1": "Aniimo Multiplayer Explained",
+      "body": [["Confirmed online modes","Steam lists single-player, online co-op, online PvP, and cross-platform multiplayer. The store also discloses in-game chat and online interaction."],["Three-player Egg Heist","Egg Heist is described as a PvEvP mode in the Lost Isles. Players join a three-person team, search for supplies or objectives, fight in real time, and compete around a Giant Darkler Egg."],["Open-world social spaces","Each Pathfinder has a personal RV at a campsite where players can meet and interact. Homeland activities include planting crops, building decorations, and arranging a personal space with Aniimo."],["Solo play remains supported","Official descriptions explicitly mention solo and multiplayer play. That does not yet confirm which story activities allow drop-in co-op or how world progress is credited to guests."],["Cross-progression is still unclear","Cross-platform multiplayer is listed, but final cross-save, account linking, regional server, friend-limit, voice-chat, and platform-subscription requirements need launch confirmation."]],
+      "sources": [["Aniimo Steam features and multiplayer description","https://store.steampowered.com/app/4126040/Aniimo/"],["Official Egg Heist update notice","https://www.aniimo.com/newslist/detail/100015"]]
+    },
+    "regions-world": {
+      "title": "Aniimo Regions & World Guide: The Continent of Idyll",
+      "description": "Explore the six officially revealed Aniimo regions across Idyll, including forests, coasts, flower fields and cloud grasslands.",
+      "h1": "Aniimo Regions and World Guide",
+      "body": [["The continent of Idyll","Aniimo takes place across Idyll, an open world designed around catching, Twine abilities, traversal, challenges, races, discovery, and social camps."],["Forest of Falling Stars and Mistwoods","Forest of Falling Stars is a dense purple forest where Celestises glide among starine trees. Mistwoods is a poisonous swamp forest where glowing fruit helps guide travelers."],["Echoback Landing and Sea of Flowers","Echoback Landing centers on an enormous stranded Aniimo and the mystery of its song. Sea of Flowers surrounds a perfume-making village with vast purple flower fields."],["Blitzwood and Nimbus Fields","Blitzwood is scarred by lightning drawn to Bolties and filled with thunder-struck trees. Nimbus Fields places low clouds over broad grasslands where Nimbis bounce across the terrain."],["How the map will expand","The current guide covers only officially named regions. Coordinates, resource nodes, quests, fast-travel points, weather cycles, and spawn tables will be added after in-game verification."]],
+      "sources": [["Official Aniimo world page","https://www.aniimo.com/main/"]]
+    },
     "editorial-policy": {
       "title": "Data, Version & Correction Policy",
       "description": "How Aniimo Guide verifies sources, versions and corrections.",

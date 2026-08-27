@@ -183,6 +183,62 @@
         ]
       ]
     },
+    "release-date-platforms": {
+      "title": "Aniimo 発売日・配信時間・対応機種まとめ",
+      "description": "AniimoはPC・コンソール版が2026年9月16日、モバイル版が9月23日に配信。対応機種と時差表示を解説します。",
+      "h1": "Aniimoの発売日と対応機種",
+      "body": [["グローバル配信日","Pawprint StudioはPC・コンソール版を2026年9月16日、iOS・Android版を9月23日に配信すると発表しました。PlayStation Storeでは9月16日10:00（UTC+8）と案内されています。"],["対応が確認された機種","公式サイトにはPlayStation 5、Xbox、Steam、Epic Games Store、App Store、Google Playが掲載されています。PS4、Xbox One、Nintendo Switch、Mac版は現時点で正式発表されていません。"],["Steamで9月15日と表示される理由","地域によってSteamには9月15日と表示されます。UTC+8の9月16日が欧米のタイムゾーンでは前日になるためと考えられ、実際の解禁時刻は各ストアのカウントダウンを確認してください。"],["クロスプラットフォーム","Steamではクロスプラットフォーム・マルチプレイ、シングル、オンライン協力、オンラインPvPに対応と記載されています。クロスセーブやアカウント連携の詳細は正式サービス開始時に確認が必要です。"],["リリース前チェック","利用予定のストアで予約・ウィッシュリスト登録を済ませ、PCでは45GB以上を確保し、事前ダウンロードとサーバー開始時刻の告知を確認しましょう。"]],
+      "sources": [["公式グローバル配信日発表","https://www.aniimo.com/newslist/detail/100051"],["Steamストア","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5版","https://www.playstation.com/games/aniimo/"]]
+    },
+    "pre-registration": {
+      "title": "Aniimo 事前登録のやり方・報酬まとめ",
+      "description": "PC、コンソール、スマホ版Aniimoの事前登録方法と、公式のグローバル登録者数報酬をまとめています。",
+      "h1": "Aniimo 事前登録ガイド",
+      "body": [["事前登録できる場所","Aniimo公式サイトからPS5、Xbox、Steam、Epic Games、App Store、Google Playを選択します。ストアの公開状況は地域で異なるため、公式サイトに表示されるリンクを利用してください。"],["事前登録者数報酬","公式キャンペーンでは、1000万人でGlimmer ×200、1500万人でAniipod Ultra ×2、2000万人で限定アバターフレーム「Companion Promise」、3000万人で限定衣装「Sunlit Meadow」が案内されています。"],["公式登録とウィッシュリストの違い","公式サイトのアカウント登録、Steamのウィッシュリスト、モバイル予約、コンソールの予約購入は同じ操作とは限りません。公式登録後、遊ぶ予定のストアでも手続きを行うのが確実です。"],["アカウントの不一致に注意","リリース後も利用できるメールアドレスとログイン方法を使いましょう。期間限定Webイベントでは、イベント用メールと最初のキャラクター作成に使うアカウントの一致が条件になる場合があります。"],["PlayStationの有料パック","基本ゲームは無料です。PlayStationでは外見アイテムやCompanion Handbookを含む任意の予約パックが販売される場合がありますが、購入はプレイ条件ではありません。"]],
+      "sources": [["Aniimo公式事前登録ページ","https://www.aniimo.com/main/"],["公式リリース・Webイベント告知","https://www.aniimo.com/newslist/detail/100051"]]
+    },
+    "system-requirements": {
+      "title": "Aniimo PC版 必要・推奨スペック",
+      "description": "Aniimo PC版のOS、CPU、GPU、メモリ、DirectX、通信環境、必要容量を公式情報から整理。",
+      "h1": "Aniimoのシステム要件",
+      "body": [["最低動作環境","64bit Windows 10、Intel Core i7-9700またはAMD Ryzen 5 3600X、メモリ12GB、NVIDIA GTX 1060またはAMD Radeon RX 6600、DirectX 11、ブロードバンド接続、空き容量45GBです。"],["推奨動作環境","64bit Windows 10以降、Intel Core i7-12700FまたはAMD Ryzen 7 7700X、メモリ16GB、NVIDIA RTX 3070 8GBまたはAMD Radeon RX 6800、DirectX 11、ブロードバンド接続、空き容量45GBです。"],["ストレージの余裕","ストア表記は45GBですが、展開用領域、シェーダーキャッシュ、アップデート、スクリーンショットのために追加の空き容量を確保してください。"],["ノートPC・携帯型PC","モバイルGPUは同名のデスクトップ版と性能が異なります。Steam Deckなどの正式対応は確認されていないため、発売後の実機検証を待つのが安全です。"],["インターネット接続","Steamではブロードバンド接続が必須で、オンライン要素も明記されています。ソロ中心でもダウンロードやアカウントサービスへの接続を想定してください。"]],
+      "sources": [["Steam公式システム要件","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "free-to-play": {
+      "title": "Aniimoは無料？課金要素と価格を解説",
+      "description": "Aniimoは基本プレイ無料で、任意のゲーム内課金があります。発売前に確認できる料金情報を整理します。",
+      "h1": "Aniimoは基本プレイ無料？",
+      "body": [["基本ゲームは無料","Pawprint Studio、Steam、PlayStationはいずれもAniimoを基本プレイ無料と案内しており、通常版の購入料金は必要ありません。"],["任意のゲーム内課金","SteamとPlayStationはゲーム内購入があることを明記しています。PlayStationでは外見アイテムやCompanion Handbookを含む有料予約パックも案内されています。"],["未発表の料金情報","正式価格、地域別通貨、パスの更新周期、有料通貨のレート、ショップ全体の内容はまだ完全には公開されていません。ベータ版の価格を正式版に流用すべきではありません。"],["パックを買わなくても遊べる？","遊べます。PlayStationの案内でも基本ゲームは無料と明記され、予約パックは任意の追加商品です。"],["当サイトの確認方針","リリース後に外見、育成素材、パス、利便性機能を分けて検証し、支払いを必須であるかのように扱わず価値を評価します。"]],
+      "sources": [["Steamストア","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5版","https://www.playstation.com/games/aniimo/"]]
+    },
+    "confirmed-aniimo": {
+      "title": "登場確定アニモ一覧・公式図鑑まとめ",
+      "description": "Emberpup、Celestis、Nimbi、Boltyなど、公式図鑑で公開済みのアニモと進化・フォーム情報を解説。",
+      "h1": "登場が確認されたアニモ",
+      "body": [["公式図鑑が公開済み","公式Aniimo Wikiには現在、番号付きで90体以上が掲載されています。リークやファンアートから推測した名称ではなく、公式確認済みのアニモです。"],["序盤の代表的なアニモ","公式図鑑No.001はEmberpupで、Flameruff、Scorchhowl、Inferlupaへと続きます。CelestisとStellarysはNo.005–006、NimbiはNo.018、BoltyはNo.048です。"],["属性と役割","holy、fire、ice、dark、electric、grass、water、rock、windなどの属性と、DPS、Heal、Support、Break、Regenなどの役割で絞り込めます。"],["フォームと進化","個別ページには進化段階、別フォーム、生息地、移動能力、特性、スキルが掲載されます。Emberpupは複数フォームと進化系を持ち、Nimbiは風・電気属性のサポートとして紹介されています。"],["Tier Listとは別情報","登場確定は強さを意味しません。数値やスキルは調整される可能性があるため、正式版で再現可能な検証ができるまでランキングはnoindexのままにします。"]],
+      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式ページ","https://wiki.aniimo.com/item/10002771"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10002789"]]
+    },
+    "catching-twine": {
+      "title": "Aniimo 捕獲・Twineシステム解説",
+      "description": "Aniipod、罠、出現条件と、戦闘・探索でアニモに変身するTwineシステムを解説します。",
+      "h1": "捕獲とTwineシステム",
+      "body": [["捕獲の基本","公式説明ではAniipodを使い、罠を設置し、タイミングを合わせてアニモを捕まえます。正確な捕獲率やアイテム補正は正式版での確認が必要です。"],["出現条件は環境で変化","アニモは環境、天候、現象、時間帯によって出現します。実用的な出現場所ガイドには座標だけでなく条件と対応バージョンも必要です。"],["Twineとは","収集したアニモと一体化して、その姿、視点、能力を使うシステムです。バトル、謎解き、移動、フィールドギミックに活用します。"],["移動能力の例","公式映像では滑空、潜水、地中移動が紹介されています。公式WikiにもEmberpupの加速やNimbiの空中ダッシュなど、個別の移動能力が掲載されています。"],["リリース後の検証項目","捕獲タイミング、罠、失敗時の消費、フォーム条件、スタミナ、クールダウン、マルチプレイ時の捕獲権を検証します。"]],
+      "sources": [["Steam公式ゲーム紹介","https://store.steampowered.com/app/4126040/Aniimo/"],["公式Aniimo Wiki","https://wiki.aniimo.com/"]]
+    },
+    "multiplayer": {
+      "title": "Aniimo マルチプレイ・協力・PvP・クロスプレイ解説",
+      "description": "オンライン協力、PvP、クロスプレイ、キャンプ、3人チームのEgg Heistについて公式情報を整理。",
+      "h1": "Aniimoのマルチプレイ",
+      "body": [["確認済みのオンライン機能","Steamにはシングルプレイ、オンライン協力、オンラインPvP、クロスプラットフォーム・マルチプレイが掲載され、ゲーム内チャットとオンライン交流も明記されています。"],["3人チームのEgg Heist","Lost Islesで行われるPvEvPモードです。3人チームで物資や目標を探し、他のPathfinderとリアルタイムで戦い、Giant Darkler Eggをめぐって競います。"],["オープンワールドの交流","各Pathfinderはキャンプに個人用RVを持ち、他プレイヤーと交流できます。Homelandでは作物、装飾の建築、アニモと暮らす空間づくりが可能です。"],["ソロプレイにも対応","公式説明はソロとマルチの両方に言及しています。ただし、ストーリーのどこまで途中参加できるか、ゲスト側の進行がどう反映されるかは未確定です。"],["クロスセーブは要確認","クロスプレイは記載されていますが、クロスセーブ、アカウント連携、地域サーバー、フレンド上限、ボイスチャット、コンソールの加入条件は正式サービスで確認します。"]],
+      "sources": [["Steamのマルチプレイ情報","https://store.steampowered.com/app/4126040/Aniimo/"],["公式Egg Heistアップデート","https://www.aniimo.com/newslist/detail/100015"]]
+    },
+    "regions-world": {
+      "title": "Aniimo エリア・ワールド攻略：Idyll大陸",
+      "description": "森、海岸、花畑、雷の森、雲の草原など、Idyll大陸で公式公開された6エリアを紹介。",
+      "h1": "Aniimoのエリアと世界",
+      "body": [["Idyll大陸","Aniimoの舞台はIdyll大陸。捕獲、Twine能力、フィールド移動、チャレンジ、レース、発見、キャンプでの交流を軸にしたオープンワールドです。"],["Forest of Falling StarsとMistwoods","Forest of Falling StarsはCelestisが木々の間を滑空する紫色の森。Mistwoodsは毒の瘴気に包まれた湿地で、光る果実が旅人を導きます。"],["Echoback LandingとSea of Flowers","Echoback Landingでは浜に打ち上げられた巨大なアニモと歌の謎が描かれます。Sea of Flowersは香水作りの村を紫の花畑が囲む地域です。"],["BlitzwoodとNimbus Fields","BlitzwoodはBoltyに引き寄せられた雷が大地と雷撃樹を焦がす森。Nimbus Fieldsは低い雲が広い草原に触れ、Nimbiが跳ね回る地域です。"],["今後のマップ更新","現在は公式名称がある地域のみ掲載しています。座標、素材、クエスト、ファストトラベル、天候周期、出現表は正式版で確認後に追加します。"]],
+      "sources": [["Aniimo公式ワールド紹介","https://www.aniimo.com/main/"]]
+    },
     "editorial-policy": {
       "title": "データ・バージョン・訂正方針",
       "description": "情報源、検証バージョン、訂正に関する運営方針。",

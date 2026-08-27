@@ -2,7 +2,7 @@
   "domain":"https://aniimogg.com",
   "routes":["","aniimo","tier-list","guides","database","map","tools","news","faq","about","privacy","contact","authors","terms"],
   "noindexRoutes":["aniimo","tier-list","database","tools","news"],
-  "guideArticles":["getting-started","core-gameplay","editorial-policy"],
+  "guideArticles":["release-date-platforms","pre-registration","system-requirements","free-to-play","confirmed-aniimo","catching-twine","multiplayer","regions-world","getting-started","core-gameplay","editorial-policy"],
   "regions":["falling-stars","mistwoods","echoback","flowers","blitzwood","nimbus"],
   "platforms":["PlayStation 5","Xbox","Steam","Epic Games","iOS","Android"],
   "launch":{"pcConsole":"2026-09-16","mobile":"2026-09-23"}
