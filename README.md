@@ -17,6 +17,14 @@ python3 -m http.server 4173
 - 关于、隐私政策、404
 - robots、sitemap、llms 与 Cloudflare Pages 安全响应头
 
+## 多语言架构
+
+- English（默认）：`/`
+- 简体中文：`/zh-cn/`
+- 日本語：`/ja/`
+
+界面和内容翻译位于 `src/locales/`，语言无关的数据位于 `src/data/site.json`。运行 `npm run build` 生成三种语言的静态页面，运行 `npm test` 检查链接、HTML lang、canonical 与 hreflang。
+
 ## 发布提醒
 
 静态站点，无构建步骤，Cloudflare Pages 输出目录为 `/`。推送 `main` 会触发线上部署，因此 DNS 准备完成前请勿推送。

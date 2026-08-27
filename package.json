@@ -1,0 +1,1 @@
+{"name":"aniimogg","private":true,"type":"module","scripts":{"build":"node scripts/build-site.mjs","test":"node scripts/check-site.mjs"}}
