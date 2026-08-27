@@ -1,22 +1,224 @@
 {
-  "lang":"en","label":"English","prefix":"","locale":"en_US",
-  "nav":{"home":"Home","aniimo":"Aniimo","tierList":"Tier List","guides":"Guides","database":"Database","map":"Map","tools":"Tools","news":"News"},
-  "common":{"search":"Search Aniimo, guides, locations, or mechanics…","readMore":"Read guide","backHome":"Back to home","updated":"Updated","officialSource":"Official source","comingAfterLaunch":"Data will be verified after launch","language":"Language"},
-  "home":{"title":"Aniimo Guide - Tier List, Database, Map & Wiki","description":"Complete Aniimo guide featuring tier lists, Aniimo database, locations, builds, interactive maps, beginner guides, news and gameplay tips.","h1":"Aniimo Guide","eyebrow":"Unofficial player guide","lead":"Explore the world of Aniimo with clear, versioned guides. Find launch information, Aniimo locations, builds, database entries, maps, and beginner tips without unverified filler.","cards":[["Aniimo Wiki","Browse verified creature and world data."],["Aniimo Tier List","Rankings will be based on release-version testing."],["Aniimo Map","Explore regions, locations, resources, and discoveries."],["Beginner Guide","Start with platforms, launch dates, and core systems."]],"section":"Start your Aniimo adventure","sectionLead":"Everything currently published is based on official information. Detailed builds and rankings will be tested at launch."},
-  "pages":{
-    "aniimo":{"title":"Aniimo Database & Wiki","description":"Browse the Aniimo database with creatures, abilities, locations and verified game data.","h1":"Aniimo Database","lead":"A shared database for Aniimo IDs, attributes, skills, rarity, locations and builds. Structured entries will be published after release-version verification."},
-    "tier-list":{"title":"Aniimo Tier List","description":"Release-version Aniimo tier list with roles, builds and testing notes.","h1":"Aniimo Tier List","lead":"No speculative rankings. The first tier list will be published after repeatable release-version testing across progression, exploration and combat."},
-    "guides":{"title":"Aniimo Guides","description":"Beginner guides, gameplay systems, builds and exploration help for Aniimo.","h1":"Aniimo Guides","lead":"Official launch information now; tested progression, capture, build and exploration guides after release."},
-    "database":{"title":"Aniimo Database - Skills, Builds & Locations","description":"Structured Aniimo database for stats, skills, rarity, builds and locations.","h1":"Aniimo Database","lead":"Core IDs and numeric data are shared across languages; names, descriptions and guide notes are localized."},
-    "map":{"title":"Aniimo Map & Locations","description":"Aniimo map covering regions, locations, resources, quests and creature spawns.","h1":"Aniimo Map","lead":"The world index currently covers six officially revealed regions. Interactive coordinates will be added only after in-game verification."},
-    "tools":{"title":"Aniimo Tools","description":"Planning tools for Aniimo teams, builds, materials and exploration.","h1":"Aniimo Tools","lead":"Team, build and material planners are scheduled after the release database is verified."},
-    "news":{"title":"Aniimo News & Updates","description":"Official Aniimo launch news, updates and important notices.","h1":"Aniimo News","lead":"PC and console launch on September 16, 2026. Mobile launches September 23, 2026."},
-    "faq":{"title":"Aniimo FAQ","description":"Aniimo release date, platforms, pricing and guide-site questions.","h1":"Aniimo FAQ","lead":"Quick answers based on official information."},
-    "about":{"title":"About Aniimo Guide","description":"About Aniimo Guide, an independent fan-made game guide.","h1":"Built by players, for players","lead":"Aniimo Guide organizes scattered information into clear, source-aware, versioned guides."},
-    "privacy":{"title":"Privacy Policy | Aniimo Guide","description":"Privacy policy for the Aniimo Guide fan website.","h1":"Privacy Policy","lead":"This site currently has no accounts, comments, advertising, or newsletter collection. Hosting and security providers may process basic request logs for delivery, abuse prevention, and troubleshooting."}
+  "lang": "en",
+  "label": "English",
+  "prefix": "",
+  "locale": "en_US",
+  "nav": {
+    "home": "Home",
+    "aniimo": "Aniimo",
+    "tierList": "Tier List",
+    "guides": "Guides",
+    "database": "Database",
+    "map": "Map",
+    "tools": "Tools",
+    "news": "News"
   },
-  "guides":{"getting-started":{"title":"Aniimo Beginner Guide: Launch Preparation","description":"Aniimo release dates, platforms and beginner launch checklist.","h1":"Aniimo Beginner Guide","body":[["What is Aniimo?","Aniimo is a free-to-play, next-generation creature-catching open-world RPG set on the continent of Idyll. Players catch creatures, Twine with them, and explore by gliding, diving and burrowing."],["Launch dates","PC and console launch on September 16, 2026. Mobile launches on September 23, 2026."],["Before you start","Pre-register through the official site, choose your launch platform, and treat closed-beta values as provisional until the release build is tested."]]},"core-gameplay":{"title":"Aniimo Gameplay: Catching, Twine & Exploration","description":"Learn the confirmed core gameplay systems in Aniimo.","h1":"Catching, Twine & Exploration","body":[["Catch and train","Meet and catch Aniimo throughout the open world, then train them for combat and exploration."],["Twine","Twine lets the player merge with an Aniimo and use a different perspective or ability to move through the world."],["Explore together","Official material highlights gliding, diving, burrowing, challenges, racing, solo play and multiplayer exploration."]]},"editorial-policy":{"title":"Data, Version & Correction Policy","description":"How Aniimo Guide verifies sources, versions and corrections.","h1":"Data and Version Policy","body":[["Source labels","Official information, repeatable testing, community reports and speculation are kept clearly separate."],["Version control","Stats, drops, shops, capture rates and quest conditions include a game version and last verification date."],["Corrections","Confirmed errors are corrected promptly. Beta data is never assumed to remain unchanged at launch."]]}},
-  "regions":{"falling-stars":["Forest of Falling Stars","A purple forest where Celestises glide among starine trees."],"mistwoods":["Mistwoods","A swampy forest of poisonous miasma, with glimmer fruits guiding lost travelers."],"echoback":["Echoback Landing","A vast Aniimo lies stranded on the shore; the answer may be hidden in its song."],"flowers":["Sea of Flowers","Purple flower fields surround a perfume-making village that lives alongside Aniimo."],"blitzwood":["Blitzwood","Lightning drawn by Bolties scars the earth and crackles through thunder-struck trees."],"nimbus":["Nimbus Fields","Low clouds touch the grassland while Nimbis bounce across the open fields."]},
-  "faq":[["When does Aniimo launch?","PC and console: September 16, 2026. Mobile: September 23, 2026."],["Which platforms are supported?","PlayStation 5, Xbox, Steam, Epic Games, iOS and Android are listed by the official site."],["Is Aniimo free to play?","Yes. The official site describes it as free to play with optional in-game purchases."],["Is this an official website?","No. Aniimo Guide is an independent fan-made guide."]],
-  "disclaimer":"Aniimo Guide is an unofficial fan-made website and is not affiliated with or endorsed by Pawprint Studio, FunPlus, or the official Aniimo team."
+  "common": {
+    "search": "Search Aniimo, guides, locations, or mechanics…",
+    "readMore": "Read guide",
+    "backHome": "Back to home",
+    "updated": "Updated",
+    "officialSource": "Official source",
+    "comingAfterLaunch": "Data will be verified after launch",
+    "language": "Language",
+    "officialSite": "Official site",
+    "menu": "Menu",
+    "primaryNav": "Primary navigation",
+    "pcConsole": "PC / Console",
+    "mobile": "Mobile",
+    "privacy": "Privacy"
+  },
+  "home": {
+    "title": "Aniimo Guide - Tier List, Database, Map & Wiki",
+    "description": "Complete Aniimo guide featuring tier lists, Aniimo database, locations, builds, interactive maps, beginner guides, news and gameplay tips.",
+    "h1": "Aniimo Guide",
+    "eyebrow": "Unofficial player guide",
+    "lead": "Explore the world of Aniimo with clear, versioned guides. Find launch information, Aniimo locations, builds, database entries, maps, and beginner tips without unverified filler.",
+    "cards": [
+      [
+        "Aniimo Wiki",
+        "Browse verified creature and world data."
+      ],
+      [
+        "Aniimo Tier List",
+        "Rankings will be based on release-version testing."
+      ],
+      [
+        "Aniimo Map",
+        "Explore regions, locations, resources, and discoveries."
+      ],
+      [
+        "Beginner Guide",
+        "Start with platforms, launch dates, and core systems."
+      ]
+    ],
+    "section": "Start your Aniimo adventure",
+    "sectionLead": "Everything currently published is based on official information. Detailed builds and rankings will be tested at launch."
+  },
+  "pages": {
+    "aniimo": {
+      "title": "Aniimo Database & Wiki",
+      "description": "Browse the Aniimo database with creatures, abilities, locations and verified game data.",
+      "h1": "Aniimo Database",
+      "lead": "A shared database for Aniimo IDs, attributes, skills, rarity, locations and builds. Structured entries will be published after release-version verification."
+    },
+    "tier-list": {
+      "title": "Aniimo Tier List",
+      "description": "Release-version Aniimo tier list with roles, builds and testing notes.",
+      "h1": "Aniimo Tier List",
+      "lead": "No speculative rankings. The first tier list will be published after repeatable release-version testing across progression, exploration and combat."
+    },
+    "guides": {
+      "title": "Aniimo Guides",
+      "description": "Beginner guides, gameplay systems, builds and exploration help for Aniimo.",
+      "h1": "Aniimo Guides",
+      "lead": "Official launch information now; tested progression, capture, build and exploration guides after release."
+    },
+    "database": {
+      "title": "Aniimo Database - Skills, Builds & Locations",
+      "description": "Structured Aniimo database for stats, skills, rarity, builds and locations.",
+      "h1": "Aniimo Database",
+      "lead": "Core IDs and numeric data are shared across languages; names, descriptions and guide notes are localized."
+    },
+    "map": {
+      "title": "Aniimo Map & Locations",
+      "description": "Aniimo map covering regions, locations, resources, quests and creature spawns.",
+      "h1": "Aniimo Map",
+      "lead": "The world index currently covers six officially revealed regions. Interactive coordinates will be added only after in-game verification."
+    },
+    "tools": {
+      "title": "Aniimo Tools",
+      "description": "Planning tools for Aniimo teams, builds, materials and exploration.",
+      "h1": "Aniimo Tools",
+      "lead": "Team, build and material planners are scheduled after the release database is verified."
+    },
+    "news": {
+      "title": "Aniimo News & Updates",
+      "description": "Official Aniimo launch news, updates and important notices.",
+      "h1": "Aniimo News",
+      "lead": "PC and console launch on September 16, 2026. Mobile launches September 23, 2026."
+    },
+    "faq": {
+      "title": "Aniimo FAQ",
+      "description": "Aniimo release date, platforms, pricing and guide-site questions.",
+      "h1": "Aniimo FAQ",
+      "lead": "Quick answers based on official information."
+    },
+    "about": {
+      "title": "About Aniimo Guide",
+      "description": "About Aniimo Guide, an independent fan-made game guide.",
+      "h1": "Built by players, for players",
+      "lead": "Aniimo Guide organizes scattered information into clear, source-aware, versioned guides."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Aniimo Guide",
+      "description": "Privacy policy for the Aniimo Guide fan website.",
+      "h1": "Privacy Policy",
+      "lead": "This site currently has no accounts, comments, advertising, or newsletter collection. Hosting and security providers may process basic request logs for delivery, abuse prevention, and troubleshooting."
+    }
+  },
+  "guides": {
+    "getting-started": {
+      "title": "Aniimo Beginner Guide: Launch Preparation",
+      "description": "Aniimo release dates, platforms and beginner launch checklist.",
+      "h1": "Aniimo Beginner Guide",
+      "body": [
+        [
+          "What is Aniimo?",
+          "Aniimo is a free-to-play, next-generation creature-catching open-world RPG set on the continent of Idyll. Players catch creatures, Twine with them, and explore by gliding, diving and burrowing."
+        ],
+        [
+          "Launch dates",
+          "PC and console launch on September 16, 2026. Mobile launches on September 23, 2026."
+        ],
+        [
+          "Before you start",
+          "Pre-register through the official site, choose your launch platform, and treat closed-beta values as provisional until the release build is tested."
+        ]
+      ]
+    },
+    "core-gameplay": {
+      "title": "Aniimo Gameplay: Catching, Twine & Exploration",
+      "description": "Learn the confirmed core gameplay systems in Aniimo.",
+      "h1": "Catching, Twine & Exploration",
+      "body": [
+        [
+          "Catch and train",
+          "Meet and catch Aniimo throughout the open world, then train them for combat and exploration."
+        ],
+        [
+          "Twine",
+          "Twine lets the player merge with an Aniimo and use a different perspective or ability to move through the world."
+        ],
+        [
+          "Explore together",
+          "Official material highlights gliding, diving, burrowing, challenges, racing, solo play and multiplayer exploration."
+        ]
+      ]
+    },
+    "editorial-policy": {
+      "title": "Data, Version & Correction Policy",
+      "description": "How Aniimo Guide verifies sources, versions and corrections.",
+      "h1": "Data and Version Policy",
+      "body": [
+        [
+          "Source labels",
+          "Official information, repeatable testing, community reports and speculation are kept clearly separate."
+        ],
+        [
+          "Version control",
+          "Stats, drops, shops, capture rates and quest conditions include a game version and last verification date."
+        ],
+        [
+          "Corrections",
+          "Confirmed errors are corrected promptly. Beta data is never assumed to remain unchanged at launch."
+        ]
+      ]
+    }
+  },
+  "regions": {
+    "falling-stars": [
+      "Forest of Falling Stars",
+      "A purple forest where Celestises glide among starine trees."
+    ],
+    "mistwoods": [
+      "Mistwoods",
+      "A swampy forest of poisonous miasma, with glimmer fruits guiding lost travelers."
+    ],
+    "echoback": [
+      "Echoback Landing",
+      "A vast Aniimo lies stranded on the shore; the answer may be hidden in its song."
+    ],
+    "flowers": [
+      "Sea of Flowers",
+      "Purple flower fields surround a perfume-making village that lives alongside Aniimo."
+    ],
+    "blitzwood": [
+      "Blitzwood",
+      "Lightning drawn by Bolties scars the earth and crackles through thunder-struck trees."
+    ],
+    "nimbus": [
+      "Nimbus Fields",
+      "Low clouds touch the grassland while Nimbis bounce across the open fields."
+    ]
+  },
+  "faq": [
+    [
+      "When does Aniimo launch?",
+      "PC and console: September 16, 2026. Mobile: September 23, 2026."
+    ],
+    [
+      "Which platforms are supported?",
+      "PlayStation 5, Xbox, Steam, Epic Games, iOS and Android are listed by the official site."
+    ],
+    [
+      "Is Aniimo free to play?",
+      "Yes. The official site describes it as free to play with optional in-game purchases."
+    ],
+    [
+      "Is this an official website?",
+      "No. Aniimo Guide is an independent fan-made guide."
+    ]
+  ],
+  "disclaimer": "Aniimo Guide is an unofficial fan-made website and is not affiliated with or endorsed by Pawprint Studio, FunPlus, or the official Aniimo team."
 }
