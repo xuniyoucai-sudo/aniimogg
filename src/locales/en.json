@@ -119,7 +119,8 @@
       "title": "Privacy Policy | Aniimo Guide",
       "description": "Privacy policy for the Aniimo Guide fan website.",
       "h1": "Privacy Policy",
-      "lead": "This site currently has no accounts, comments, advertising, or newsletter collection. Hosting and security providers may process basic request logs for delivery, abuse prevention, and troubleshooting."
+      "lead": "This site has no accounts, comments, advertising, or newsletter collection. Cloudflare provides hosting, security, aggregate traffic analytics, and real-user performance measurements.",
+      "sections": [["Data processed","Cloudflare may process IP addresses, request metadata, device and browser information, approximate region, page visits, and performance timings to deliver and protect the site and report aggregate usage."],["How data is used","The data is used for content delivery, security, abuse prevention, troubleshooting, audience measurement, and Core Web Vitals monitoring. Aniimo Guide does not sell personal information."],["Services not currently active","Google Analytics, Google AdSense, user accounts, comments, and email subscriptions are not currently enabled. This policy will be updated before additional services are introduced."],["Your choices","You can limit optional browser storage through your browser settings. Contact us through the correction and feedback page with privacy questions."]]
     },
     "contact": {
       "title": "Contact Aniimo Guide",
