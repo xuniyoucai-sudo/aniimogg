@@ -31,7 +31,20 @@
     "authors": "Authors",
     "terms": "Terms",
     "writtenBy": "Written and reviewed by",
-    "lastReviewed": "Last reviewed"
+    "lastReviewed": "Last reviewed",
+    "published": "Published",
+    "gameVersion": "Information version",
+    "informationStatus": "Information status",
+    "statusOfficial": "Official information",
+    "statusBeta": "Beta — verify at launch",
+    "statusReleaseTested": "Release-tested",
+    "changeLog": "Update log",
+    "relatedGuides": "Related guides",
+    "guideCover": "original topic cover",
+    "guideVisual": "original guide summary graphic",
+    "imageCredit": "Original graphic by Aniimo Guide; facts are based on the official sources listed below.",
+    "changePublished": "Article published from official and clearly labeled beta sources.",
+    "changeVisual": "Added original visuals, information status, version details, and related reading."
   },
   "home": {
     "title": "Aniimo Guide - Tier List, Database, Map & Wiki",
@@ -182,6 +195,62 @@
           "Official material highlights gliding, diving, burrowing, challenges, racing, solo play and multiplayer exploration."
         ]
       ]
+    },
+    "download-preload": {
+      "title": "Aniimo Download & Preload Guide for PC, Console and Mobile",
+      "description": "Where to download Aniimo and what is officially confirmed about preload on Steam, Epic, PS5, Xbox, iOS and Android.",
+      "h1": "Aniimo Download and Preload Guide",
+      "body": [["Where to download Aniimo","Use the platform links on the official Aniimo website for Steam, Epic Games, PlayStation 5, Xbox, App Store, and Google Play. Avoid unofficial APK, launcher, or key-download sites."],["Is release preload available?","Pawprint Studio has not yet published a global-launch preload timetable. The July beta had a separate pre-download guide, but its dates and client do not confirm the release preload schedule."],["PC preparation","Steam lists 45 GB of available storage. Keep extra space for unpacking and patches, update GPU drivers, and sign in to the store account you plan to use before launch."],["Console and mobile preparation","Enable automatic updates and verify free space on your device. Store pages can roll out at different times by region, so use the official listing rather than a search advertisement."],["What we will update","This page will be updated when official preload times, launcher instructions, download sizes, and launch-day patch details are announced."]],
+      "sources": [["Official Aniimo website","https://www.aniimo.com/main/"],["Official beta download guide","https://www.aniimo.com/newslist/detail/100036"],["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "server-launch-times": {
+      "title": "Aniimo Server Launch Time by Region",
+      "description": "Aniimo global launch dates and the currently confirmed server-opening time converted for major regions.",
+      "h1": "Aniimo Server Launch Time by Region",
+      "body": [["Confirmed launch time","The official PlayStation listing states that the free-to-play launch begins September 16, 2026 at 10:00 UTC+8. Pawprint Studio separately confirms September 16 for PC and consoles and September 23 for mobile."],["Regional conversion","10:00 UTC+8 equals 02:00 UTC, 03:00 BST, 04:00 CEST, 22:00 EDT on September 15, and 19:00 PDT on September 15. Daylight-saving rules can change, so confirm your local store countdown."],["Mobile launch time","September 23 is confirmed for mobile, but a precise global server-opening hour has not been published. Do not assume it uses the same 10:00 UTC+8 time until Pawprint Studio confirms it."],["Steam date difference","Steam may display September 15 in western regions because the same global moment falls on the previous local calendar day."],["Server regions","Beta notices used APAC, Europe, and America schedules, but final launch server names, maintenance windows, and character-transfer rules remain unconfirmed."]],
+      "sources": [["Official global launch announcement","https://www.aniimo.com/newslist/detail/100051"],["PlayStation store listing","https://www.playstation.com/games/aniimo/"],["Official beta regional schedule","https://www.aniimo.com/newslist/detail/100035"]]
+    },
+    "crossplay-cross-save": {
+      "title": "Aniimo Crossplay & Cross-Save Support Explained",
+      "description": "What is confirmed about Aniimo cross-platform multiplayer, and what remains unknown about cross-save and account linking.",
+      "h1": "Aniimo Crossplay and Cross-Save",
+      "body": [["Crossplay is officially listed","Steam lists Cross-Platform Multiplayer alongside online co-op and online PvP. This supports play between more than one platform, although the exact platform combinations are not yet documented."],["Cross-save is not confirmed","Pawprint Studio has not published final cross-progression rules. Crossplay does not automatically mean that saves, purchases, or characters transfer between PC, console, and mobile."],["Account linking questions","The official site uses account-based registration, but launch rules for linking Steam, Epic, PlayStation, Xbox, Apple, and Google identities are still pending."],["Purchases and regional servers","Premium currency, platform-exclusive items, server regions, and friend lists may have platform restrictions. Wait for the launch FAQ before purchasing with the expectation of transfer."],["Safe launch approach","Choose one primary platform, use the same recoverable email where possible, and avoid creating duplicate characters until official linking instructions are available."]],
+      "sources": [["Steam feature list","https://store.steampowered.com/app/4126040/Aniimo/"],["Official Aniimo website","https://www.aniimo.com/main/"]]
+    },
+    "steam-deck": {
+      "title": "Does Aniimo Work on Steam Deck? Compatibility Status",
+      "description": "Aniimo Steam Deck support is not yet verified. Compare the official PC requirements and current compatibility status.",
+      "h1": "Aniimo Steam Deck Support",
+      "body": [["No official Steam Deck rating yet","Aniimo has not been marked Steam Deck Verified or Playable on its Steam store page. Pawprint Studio has not announced a dedicated handheld mode."],["Why compatibility is uncertain","The minimum specification lists Windows 10, 12 GB RAM, an i7-9700 or Ryzen 5 3600X, and GTX 1060 or RX 6600-class graphics. These desktop requirements cannot be translated directly into guaranteed Deck performance."],["Linux and anti-cheat","SteamOS compatibility can depend on Proton, launcher behavior, account services, codecs, and anti-cheat. Those details have not been confirmed for the release build."],["Possible alternatives","Aniimo is planned for GeForce NOW at launch, according to an official NVIDIA feature announcement. Cloud streaming may be an option on supported handheld devices and networks."],["Testing plan","After release we will test installation, login, controls, text size, frame pacing, battery use, suspend/resume, and online modes before assigning a recommendation."]],
+      "sources": [["Aniimo PC requirements on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Official NVIDIA and GeForce NOW announcement","https://www.aniimo.com/newslist/detail/100062"]]
+    },
+    "languages-voice-acting": {
+      "title": "Aniimo Supported Languages & Voice Acting",
+      "description": "Aniimo language support on Steam, including interface, subtitles and currently listed full-audio languages.",
+      "h1": "Aniimo Languages and Voice Acting",
+      "body": [["Thirteen Steam languages","Steam currently lists English, Simplified Chinese, Japanese, Traditional Chinese, Korean, French, German, Russian, Indonesian, Thai, Brazilian Portuguese, Latin American Spanish, and Vietnamese interface and subtitle support."],["Full audio languages","The current Steam table marks full audio for English and Korean. Japanese is listed for interface and subtitles but not full audio. Store information can change before release."],["Text and subtitle support","All thirteen listed languages currently have interface and subtitle check marks, making them the safest confirmed localization set for the PC release."],["Console and mobile differences","Language packs and voice options may differ by platform or region. Check the local store listing before downloading if a specific language is essential."],["Post-launch updates","We will verify language selection, downloadable voice packs, subtitle sizing, dubbing credits, and whether voice settings can be changed without reinstalling."]],
+      "sources": [["Steam language support table","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "egg-heist": {
+      "title": "Aniimo Egg Heist Guide: PvEvP Mode Explained",
+      "description": "How Operation: Egg Heist worked in the Aniimo beta, including teams, Lost Isles objectives, combat and launch caveats.",
+      "h1": "Aniimo Egg Heist Guide",
+      "body": [["What Egg Heist is","Operation: Egg Heist is a PvEvP activity set in the Lost Isles. Official beta notes describe gathering supplies, entering a forbidden area, fighting other Pathfinders, and competing for a Giant Darkler Egg."],["Team size and access","Official store text describes a three-player team. Beta patch notes required Veteran Pathfinder rank, but that unlock condition may change for the global release."],["PvE and PvP choices","A beta announcement said players could explore and gather supplies or fight other teams. This suggests risk-versus-reward decisions rather than continuous forced combat, but final rules need release testing."],["Beta-only details","Darkler-form rewards, matchmaking behavior, transport protection, scoring, extraction, and untwine fixes appeared in beta updates. None should be assumed unchanged at launch."],["Launch guide plan","The release-tested version will cover objectives, map flow, team roles, loadouts, reward tables, loss conditions, matchmaking, and efficient routes."]],
+      "sources": [["Official Egg Heist preview","https://www.aniimo.com/newslist/detail/100015"],["Official beta mode launch notes","https://www.aniimo.com/newslist/detail/100013"],["Official Egg Heist adjustments","https://www.aniimo.com/newslist/detail/100018"]]
+    },
+    "elements-roles": {
+      "title": "Aniimo Elements & Roles Explained",
+      "description": "Official Aniimo elements, combat roles and beta type-counter information explained without speculative rankings.",
+      "h1": "Aniimo Elements and Roles",
+      "body": [["Nine official index elements","The official Wiki currently filters Aniimo by holy, fire, ice, dark, electric, grass, water, rock, and wind."],["Five listed roles","The same index lists DPS, Heal, Support, BREAK, and REGEN. A creature may contribute through damage, survival, control, recovery, or breaking enemy defenses rather than raw attack alone."],["Counters in beta","An official beta handbook mentioned fire, water, grass, and lightning counters and recommended a balanced roster for Alpha battles. The complete release matchup chart has not been published."],["Dual-element and form changes","Official entries can show more than one element or different forms. Nimbi, for example, is listed with wind and electric variants, so one name does not always describe a single combat profile."],["Building teams responsibly","Do not treat a role filter as a tier ranking. Release testing must account for skills, traits, forms, enemy weaknesses, stamina, and team synergy."]],
+      "sources": [["Official Aniimo Wiki index","https://wiki.aniimo.com/"],["Official beta survival handbook","https://aniimo.com/newslist/detail/tipvtviq"],["Official Nimbi entry","https://wiki.aniimo.com/item/10002789"]]
+    },
+    "evolution-forms": {
+      "title": "Aniimo Evolution & Forms Explained",
+      "description": "How Aniimo evolution stages, branching evolution and alternate forms are presented in official Wiki and beta information.",
+      "h1": "Aniimo Evolution and Forms",
+      "body": [["Official stages","The official Wiki filters entries by Lumin, Gamma, and Nova stages. Individual evolution lines can contain multiple numbered creatures or more than one Nova outcome."],["Branching evolution","Official beta material describes multi-branch evolution. A beta update also noted that Fenrier could unlock the option to evolve into Glynsera at level 29, showing that evolution can involve conditions and player choice."],["Forms are not always evolutions","Official entries may list Basic, habitat-related, weather-related, or other forms. Forms can change element, appearance, skills, or movement without necessarily becoming a different index number."],["Special form terms","Official beta notices mention Prismana, Darkler, Sparkling, Alpha, weather forms, and other variants. Availability and preservation rules differed across events and should not be generalized to launch."],["What the database will record","After release we will separate species ID, evolution stage, form ID, unlock condition, element, skills, habitat, and version so forms are not mistaken for entirely separate species."]],
+      "sources": [["Official Aniimo Wiki index","https://wiki.aniimo.com/"],["Official Emberpup evolution entry","https://wiki.aniimo.com/item/10002771"],["Official evolution beta note","https://www.aniimo.com/newslist/detail/100014"],["Official form preservation FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
       "title": "Aniimo Release Date, Time & Platforms",

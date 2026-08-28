@@ -31,7 +31,20 @@
     "authors": "作者与审核",
     "terms": "使用条款",
     "writtenBy": "撰写与审核",
-    "lastReviewed": "最后审核"
+    "lastReviewed": "最后审核",
+    "published": "发布日期",
+    "gameVersion": "资料版本",
+    "informationStatus": "信息状态",
+    "statusOfficial": "官方已确认",
+    "statusBeta": "封测资料，正式版待验证",
+    "statusReleaseTested": "正式版实测",
+    "changeLog": "更新记录",
+    "relatedGuides": "相关攻略",
+    "guideCover": "原创主题封面",
+    "guideVisual": "原创攻略摘要图",
+    "imageCredit": "本站原创图片；其中的资料依据文末列出的官方来源。",
+    "changePublished": "依据官方资料和明确标记的封测资料发布文章。",
+    "changeVisual": "新增原创图片、信息状态、资料版本和相关攻略。"
   },
   "home": {
     "title": "Aniimo 伊莫攻略 - 图鉴、强度榜、地图与游戏攻略",
@@ -182,6 +195,62 @@
           "官方公开了滑翔、潜水、钻地、挑战、竞速以及单人和多人探索。"
         ]
       ]
+    },
+    "download-preload": {
+      "title": "Aniimo 伊莫下载与预载指南",
+      "description": "整理《伊莫》Steam、Epic、PS5、Xbox、iOS 和 Android 下载入口及预载状态。",
+      "h1": "Aniimo 伊莫下载与预载指南",
+      "body": [["官方下载入口","通过《伊莫》官网进入 Steam、Epic Games、PlayStation 5、Xbox、App Store 或 Google Play。不要使用非官方 APK、启动器或游戏下载站。"],["正式版是否开放预载","Pawprint Studio 尚未公布全球正式版预载时间表。7 月封测曾提供单独预下载指南，但封测日期和客户端不能证明正式版也按相同方式预载。"],["PC 准备","Steam 标注需要 45 GB 可用空间，建议额外预留解压和补丁空间，更新显卡驱动，并提前登录准备使用的商店账号。"],["主机和移动端准备","开启自动更新并检查设备空间。不同地区商店可能分批开放，应从官方平台页面进入，不要点击搜索广告中的未知下载链接。"],["后续更新","官方公布预载时间、启动器步骤、下载大小和首日补丁后，本站会立即更新。"]],
+      "sources": [["《伊莫》官网","https://www.aniimo.com/main/"],["官方封测下载指南","https://www.aniimo.com/newslist/detail/100036"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "server-launch-times": {
+      "title": "Aniimo 伊莫各地区开服时间",
+      "description": "《伊莫》全球上线日期、已确认开服时间及主要地区时区换算。",
+      "h1": "Aniimo 伊莫各地区开服时间",
+      "body": [["已确认时间","PlayStation 官方商店写明免费版于 2026 年 9 月 16 日 10:00（UTC+8）上线；Pawprint Studio 同时确认 PC／主机为 9 月 16 日，移动端为 9 月 23 日。"],["主要时区换算","10:00（UTC+8）对应 02:00 UTC、03:00 英国夏令时、04:00 欧洲中部夏令时；美国东部为 9 月 15 日 22:00，太平洋时间为 19:00。请再以当地商店倒计时为准。"],["移动端时间","移动版日期已确定为 9 月 23 日，但官方尚未公布具体开服小时，不能默认也采用 10:00（UTC+8）。"],["Steam 日期差异","欧美地区 Steam 可能显示 9 月 15 日，因为同一个全球时刻在当地仍是前一日。"],["服务器地区","封测曾按 APAC、Europe、America 公布时间，但正式服名称、维护窗口和角色转移规则尚未确认。"]],
+      "sources": [["官方全球上线公告","https://www.aniimo.com/newslist/detail/100051"],["PlayStation 商店页","https://www.playstation.com/games/aniimo/"],["官方封测分区时间","https://www.aniimo.com/newslist/detail/100035"]]
+    },
+    "crossplay-cross-save": {
+      "title": "Aniimo 伊莫跨平台联机与跨平台存档说明",
+      "description": "说明《伊莫》已确认的跨平台多人功能，以及尚未确认的跨平台存档与账号绑定。",
+      "h1": "Aniimo 伊莫 Crossplay 与 Cross-save",
+      "body": [["已确认跨平台多人","Steam 列出了 Cross-Platform Multiplayer、在线合作和在线 PvP，说明游戏支持不止一个平台之间的多人互动，但具体平台组合尚未公布。"],["跨平台存档尚未确认","Pawprint Studio 没有公布最终跨进度规则。支持跨平台联机不等于角色、存档、购买内容能在 PC、主机与移动端转移。"],["账号绑定","官网使用账号预约，但 Steam、Epic、PlayStation、Xbox、Apple 与 Google 身份如何绑定仍待正式说明。"],["购买与地区限制","付费货币、平台独占物品、服务器地区和好友列表可能受到平台限制，不要在官方 FAQ 前假设购买内容可以转移。"],["安全做法","先选择一个主要平台，尽量使用同一个可找回邮箱，在官方绑定说明公布前避免重复创建角色。"]],
+      "sources": [["Steam 功能列表","https://store.steampowered.com/app/4126040/Aniimo/"],["《伊莫》官网","https://www.aniimo.com/main/"]]
+    },
+    "steam-deck": {
+      "title": "Aniimo 伊莫支持 Steam Deck 吗？",
+      "description": "《伊莫》目前尚无 Steam Deck 验证，结合官方 PC 配置说明当前兼容状态。",
+      "h1": "Aniimo 伊莫 Steam Deck 支持状态",
+      "body": [["尚无官方验证","Steam 商店没有显示 Steam Deck Verified 或 Playable，Pawprint Studio 也没有公布掌机专用模式。"],["配置无法直接换算","最低配置为 Windows 10、12 GB 内存、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600，桌面配置不能直接等同于 Deck 实际表现。"],["Linux 与反作弊","SteamOS 能否运行还取决于 Proton、启动器、账号服务、视频解码和反作弊，正式版细节尚未确认。"],["可能的替代方式","官方 NVIDIA 公告表示 Aniimo 计划在上线时支持 GeForce NOW，网络和设备支持时可考虑云游戏。"],["上线后实测","本站会测试安装、登录、按键、文字大小、帧率、续航、休眠恢复和在线模式，再给出建议。"]],
+      "sources": [["Steam 官方配置","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 NVIDIA／GeForce NOW 公告","https://www.aniimo.com/newslist/detail/100062"]]
+    },
+    "languages-voice-acting": {
+      "title": "Aniimo 伊莫支持语言与配音",
+      "description": "整理 Steam 上《伊莫》的界面、字幕和完整配音语言支持。",
+      "h1": "Aniimo 伊莫语言与配音支持",
+      "body": [["Steam 列出 13 种语言","目前包括英语、简体中文、日语、繁体中文、韩语、法语、德语、俄语、印尼语、泰语、巴西葡萄牙语、拉丁美洲西班牙语和越南语。"],["完整配音","当前 Steam 表格为英语和韩语标注完整配音；日语标注界面和字幕，没有标注完整配音。商店信息在上线前仍可能更新。"],["界面与字幕","以上 13 种语言目前均标注支持界面和字幕，是 PC 版最可靠的已确认本地化范围。"],["不同平台可能不同","主机和移动端的语言包可能因平台或地区而异，如必须使用某语言，请在下载前查看当地商店页。"],["上线后核实","本站将核实语言选择、可下载语音包、字幕大小、配音名单以及切换语音是否需要重新下载。"]],
+      "sources": [["Steam 语言支持表","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "egg-heist": {
+      "title": "Aniimo 伊莫 Egg Heist PvEvP 模式指南",
+      "description": "介绍封测中的 Operation: Egg Heist 三人 PvEvP 模式、目标与正式版待确认内容。",
+      "h1": "Aniimo 伊莫 Egg Heist 指南",
+      "body": [["模式是什么","Operation: Egg Heist 是 Lost Isles 的 PvEvP 活动。官方封测公告描述了收集物资、进入禁区、与其他 Pathfinder 战斗并争夺 Giant Darkler Egg。"],["队伍与解锁","官方商店说明为三人队，封测补丁曾要求 Veteran Pathfinder 等级，但正式版解锁条件可能调整。"],["PvE 与 PvP 选择","封测公告称玩家可以独自探索收集物资，或与其他队伍交战，说明玩法可能强调风险收益选择，但最终规则要以正式版为准。"],["仅限封测的细节","Darkler 形态奖励、匹配、传送保护、计分、撤离和 untwine 修复都来自封测，不应默认原样上线。"],["正式版攻略计划","上线后将补充任务流程、地图路线、队伍定位、配装、奖励表、失败条件和匹配机制。"]],
+      "sources": [["官方 Egg Heist 预告","https://www.aniimo.com/newslist/detail/100015"],["封测模式上线公告","https://www.aniimo.com/newslist/detail/100013"],["官方模式调整","https://www.aniimo.com/newslist/detail/100018"]]
+    },
+    "elements-roles": {
+      "title": "Aniimo 伊莫元素与战斗定位说明",
+      "description": "解释官方图鉴中的九种元素、五种定位以及封测属性克制信息。",
+      "h1": "Aniimo 伊莫元素与定位",
+      "body": [["九种官方元素","官方 Wiki 当前可按 holy、fire、ice、dark、electric、grass、water、rock、wind 筛选。"],["五种定位","图鉴列出 DPS、Heal、Support、BREAK、REGEN。队伍价值不只由攻击决定，还包括生存、辅助、恢复与打破敌人防御。"],["封测克制","官方封测手册提到火、水、草、雷克制，并建议 Alpha 战准备均衡阵容，但完整正式版克制表尚未发布。"],["双元素与形态","官方条目可能展示多个元素或不同形态，例如 Nimbi 有风与电相关形态，同一个名称不一定只有一种战斗配置。"],["正确配队方式","定位筛选不是强度排名。正式版需要综合技能、特性、形态、敌人弱点、体力和队伍联动。"]],
+      "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["官方封测生存手册","https://aniimo.com/newslist/detail/tipvtviq"],["Nimbi 官方条目","https://wiki.aniimo.com/item/10002789"]]
+    },
+    "evolution-forms": {
+      "title": "Aniimo 伊莫进化与形态系统说明",
+      "description": "说明官方图鉴中的 Lumin、Gamma、Nova 阶段、分支进化和不同形态。",
+      "h1": "Aniimo 伊莫进化与形态",
+      "body": [["官方进化阶段","官方 Wiki 可按 Lumin、Gamma、Nova 阶段筛选，单条进化线可能包含多个编号或不止一种 Nova 结果。"],["分支进化","官方封测资料提到多分支进化；封测更新还记录 Fenrier 达到 29 级后可选择进化为 Glynsera，说明进化可能有条件和玩家选择。"],["形态不等于进化","官方条目可能包含基础、栖息地、天气等形态；形态可以改变元素、外观、技能或移动能力，但不一定产生新的图鉴编号。"],["特殊形态术语","封测公告出现 Prismana、Darkler、Sparkling、Alpha 和天气形态等名称，其获取和保留规则因活动而异，不能直接套用到正式版。"],["数据库记录方式","上线后会分别记录物种 ID、进化阶段、形态 ID、解锁条件、元素、技能、栖息地和版本，避免把形态误认为完全不同物种。"]],
+      "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup 官方进化条目","https://wiki.aniimo.com/item/10002771"],["官方进化封测说明","https://www.aniimo.com/newslist/detail/100014"],["官方形态保留 FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
       "title": "Aniimo 伊莫上线时间与平台汇总",

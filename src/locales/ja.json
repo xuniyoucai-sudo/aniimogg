@@ -31,7 +31,20 @@
     "authors": "運営・監修",
     "terms": "利用規約",
     "writtenBy": "執筆・監修",
-    "lastReviewed": "最終確認"
+    "lastReviewed": "最終確認",
+    "published": "公開日",
+    "gameVersion": "情報バージョン",
+    "informationStatus": "情報ステータス",
+    "statusOfficial": "公式確認済み",
+    "statusBeta": "ベータ情報・正式版で再確認",
+    "statusReleaseTested": "正式版で検証済み",
+    "changeLog": "更新履歴",
+    "relatedGuides": "関連記事",
+    "guideCover": "オリジナル記事カバー",
+    "guideVisual": "オリジナル攻略サマリー画像",
+    "imageCredit": "Aniimo Guide制作のオリジナル画像。内容は記事末尾の公式情報をもとにしています。",
+    "changePublished": "公式情報と明記したベータ情報をもとに記事を公開。",
+    "changeVisual": "オリジナル画像、情報ステータス、対応バージョン、関連記事を追加。"
   },
   "home": {
     "title": "Aniimo（アニモ）攻略 - Tier List・図鑑・マップ・攻略情報",
@@ -182,6 +195,62 @@
           "滑空、潜水、地中移動、チャレンジ、レースに加え、ソロとマルチプレイの両方が紹介されています。"
         ]
       ]
+    },
+    "download-preload": {
+      "title": "Aniimo ダウンロード・事前DLガイド",
+      "description": "Steam、Epic、PS5、Xbox、iOS、Android版Aniimoの公式ダウンロード先と事前DL状況を案内。",
+      "h1": "Aniimo ダウンロード・事前DLガイド",
+      "body": [["公式ダウンロード先","Aniimo公式サイトからSteam、Epic Games、PlayStation 5、Xbox、App Store、Google Playへ進んでください。非公式APKやランチャー、キー配布サイトは利用しないでください。"],["正式版の事前DLは？","Pawprint Studioはグローバル版の事前ダウンロード日程をまだ発表していません。7月のベータには専用ガイドがありましたが、その日程やクライアントは正式版の事前DLを保証しません。"],["PCの準備","Steam表記は空き容量45GBです。展開とパッチ用に余裕を持たせ、GPUドライバーを更新し、利用予定のストアアカウントへ事前にログインしましょう。"],["コンソール・スマホの準備","自動更新を有効にし、端末容量を確認してください。ストア公開は地域差があるため、検索広告ではなく公式リンクを使います。"],["今後の更新","事前DL時刻、ランチャー手順、容量、初日パッチが公式発表され次第更新します。"]],
+      "sources": [["Aniimo公式サイト","https://www.aniimo.com/main/"],["公式ベータダウンロードガイド","https://www.aniimo.com/newslist/detail/100036"],["Steamストア","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "server-launch-times": {
+      "title": "Aniimo 地域別サーバー開始時間",
+      "description": "Aniimoの世界同時配信日と、現在確認できる開始時刻を主要地域の時間へ換算。",
+      "h1": "Aniimo 地域別サーバー開始時間",
+      "body": [["確認済みの開始時間","PlayStation Storeでは2026年9月16日10:00（UTC+8）に基本プレイ無料版が開始。Pawprint StudioはPC・コンソール版を9月16日、モバイル版を9月23日と発表しています。"],["主な地域への換算","10:00（UTC+8）は02:00 UTC、03:00 BST、04:00 CEST、米東部では9月15日22:00、米太平洋では9月15日19:00です。最終的には各ストアのカウントダウンを確認してください。"],["モバイル版の時刻","9月23日という日付は確定していますが、正確な開始時刻は未発表です。同じ10:00（UTC+8）と決めつけることはできません。"],["Steamの日付表示","欧米では同じ瞬間が前日になるため、Steamに9月15日と表示される場合があります。"],["サーバー地域","ベータではAPAC、Europe、America別の日程がありましたが、正式版のサーバー名、メンテナンス、キャラクター移動は未確定です。"]],
+      "sources": [["公式グローバル配信発表","https://www.aniimo.com/newslist/detail/100051"],["PlayStation Store","https://www.playstation.com/games/aniimo/"],["公式ベータ地域別日程","https://www.aniimo.com/newslist/detail/100035"]]
+    },
+    "crossplay-cross-save": {
+      "title": "Aniimo クロスプレイ・クロスセーブ対応まとめ",
+      "description": "クロスプラットフォームプレイの確定情報と、クロスセーブ・アカウント連携の未確定事項を解説。",
+      "h1": "Aniimoのクロスプレイとクロスセーブ",
+      "body": [["クロスプレイは記載あり","Steamにはクロスプラットフォーム・マルチプレイ、オンライン協力、オンラインPvPが掲載されています。ただし、対応する機種の組み合わせは未公表です。"],["クロスセーブは未確認","Pawprint Studioは最終的な進行共有ルールを発表していません。クロスプレイ対応でも、キャラクター、セーブ、購入内容がPC・コンソール・スマホ間で移動できるとは限りません。"],["アカウント連携","公式サイトはアカウント登録を使用しますが、Steam、Epic、PlayStation、Xbox、Apple、Googleとの連携方法は発表待ちです。"],["購入・地域制限","有料通貨、機種限定品、サーバー地域、フレンドリストに制限がある可能性があります。公式FAQ前に移行可能と想定して購入しないでください。"],["安全な始め方","まずメイン機種を決め、可能なら同じ復旧可能なメールを使い、公式手順が出るまで重複キャラクター作成を避けましょう。"]],
+      "sources": [["Steam機能一覧","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo公式サイト","https://www.aniimo.com/main/"]]
+    },
+    "steam-deck": {
+      "title": "AniimoはSteam Deckで遊べる？対応状況",
+      "description": "AniimoはSteam Deck未検証。公式PCスペックと現時点の互換性情報を整理します。",
+      "h1": "Aniimo Steam Deck対応状況",
+      "body": [["公式認証は未取得","SteamストアにはDeck VerifiedまたはPlayableの表示がなく、Pawprint Studioも携帯型PC向けモードを発表していません。"],["必要スペックとの比較","最低環境はWindows 10、12GB RAM、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600です。デスクトップ向け表記からDeck性能を保証することはできません。"],["Linux・アンチチート","SteamOSではProton、ランチャー、アカウントサービス、動画コーデック、アンチチート対応が影響します。正式版の仕様は未確認です。"],["代替手段","公式NVIDIA発表では、Aniimoはサービス開始時にGeForce NOW対応予定です。対応端末と回線があればクラウドプレイも選択肢です。"],["発売後の検証","インストール、ログイン、操作、文字サイズ、フレームペーシング、バッテリー、スリープ復帰、オンライン機能を確認して評価します。"]],
+      "sources": [["Steam公式PC要件","https://store.steampowered.com/app/4126040/Aniimo/"],["公式NVIDIA／GeForce NOW発表","https://www.aniimo.com/newslist/detail/100062"]]
+    },
+    "languages-voice-acting": {
+      "title": "Aniimo 対応言語・ボイス一覧",
+      "description": "Steamで確認できるAniimoのインターフェース、字幕、フル音声対応言語を整理。",
+      "h1": "Aniimoの対応言語とボイス",
+      "body": [["Steamでは13言語","英語、簡体字中国語、日本語、繁体字中国語、韓国語、フランス語、ドイツ語、ロシア語、インドネシア語、タイ語、ブラジルポルトガル語、中南米スペイン語、ベトナム語が掲載されています。"],["フル音声","現在のSteam表では英語と韓国語にフル音声のチェックがあります。日本語はインターフェースと字幕のみで、フル音声欄にはチェックがありません。"],["表示・字幕","13言語すべてにインターフェースと字幕のチェックがあり、PC版で最も確実なローカライズ範囲です。"],["機種・地域差","コンソールとモバイルでは言語パックが地域や機種で異なる可能性があります。必要な言語がある場合は現地ストアを確認してください。"],["発売後の確認","言語切替、追加音声パック、字幕サイズ、キャスト表記、再インストールなしで音声変更できるかを確認します。"]],
+      "sources": [["Steam言語対応表","https://store.steampowered.com/app/4126040/Aniimo/"]]
+    },
+    "egg-heist": {
+      "title": "Aniimo Egg Heist攻略：PvEvPモード解説",
+      "description": "ベータ版Operation: Egg Heistの3人チーム、Lost Isles、目標、戦闘と正式版での注意点。",
+      "h1": "Aniimo Egg Heist攻略",
+      "body": [["Egg Heistとは","Lost Islesを舞台にしたPvEvPアクティビティです。公式ベータ情報では物資を集め、立入区域へ入り、他のPathfinderと戦い、Giant Darkler Eggを争います。"],["チーム人数と解放","公式ストア説明は3人チーム。ベータではVeteran Pathfinder到達が解放条件でしたが、正式版では変更される可能性があります。"],["PvEとPvPの選択","ベータ告知では単独で探索・物資収集するか、他チームと戦うかを選べるとされました。最終ルールは正式版で再確認します。"],["ベータ限定情報","Darklerフォーム報酬、マッチング、転送保護、スコア、脱出、untwine修正はベータ情報であり、そのまま正式版に適用できません。"],["正式版攻略予定","目的、マップ導線、役割、装備、報酬、敗北条件、マッチング、周回ルートを実測後に追加します。"]],
+      "sources": [["公式Egg Heist予告","https://www.aniimo.com/newslist/detail/100015"],["ベータモード開始告知","https://www.aniimo.com/newslist/detail/100013"],["公式モード調整","https://www.aniimo.com/newslist/detail/100018"]]
+    },
+    "elements-roles": {
+      "title": "Aniimo 属性・役割システム解説",
+      "description": "公式図鑑の9属性、5つの役割、ベータ版の相性情報をランキング抜きで解説。",
+      "h1": "Aniimoの属性と役割",
+      "body": [["9つの公式属性","公式Wikiではholy、fire、ice、dark、electric、grass、water、rock、windで絞り込めます。"],["5つの役割","DPS、Heal、Support、BREAK、REGENが掲載されています。攻撃だけでなく耐久、支援、回復、敵の防御崩しも編成価値になります。"],["ベータ版の相性","公式ベータ手引きは火、水、草、雷の相性と、Alpha戦でバランスのよい編成を推奨しています。正式版の完全な相性表は未公開です。"],["複属性・フォーム","公式ページには複数属性やフォームがあり、Nimbiには風・電気に関係する形態があります。同じ名前でも戦闘構成は一つとは限りません。"],["編成の考え方","役割フィルターはTier評価ではありません。正式版ではスキル、特性、フォーム、敵弱点、スタミナ、連携を含めて検証します。"]],
+      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["公式ベータ手引き","https://aniimo.com/newslist/detail/tipvtviq"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10002789"]]
+    },
+    "evolution-forms": {
+      "title": "Aniimo 進化・フォームシステム解説",
+      "description": "公式WikiのLumin、Gamma、Nova段階、分岐進化、別フォームの違いを整理。",
+      "h1": "Aniimoの進化とフォーム",
+      "body": [["公式の進化段階","公式WikiはLumin、Gamma、Novaで絞り込みでき、進化系統によって複数の番号やNova分岐を持つ場合があります。"],["分岐進化","公式ベータ資料は多分岐進化を紹介。ベータ更新ではFenrierがレベル29でGlynseraへの進化選択を解放する例もあり、条件とプレイヤー選択が関わります。"],["フォームと進化の違い","基本、生息地、天候などのフォームがあり、属性、外見、スキル、移動能力が変化しても別の図鑑番号になるとは限りません。"],["特殊フォーム用語","Prismana、Darkler、Sparkling、Alpha、天候フォームなどがベータ告知に登場します。入手・保存条件はイベントごとに異なり、正式版へ一般化できません。"],["データベース方針","正式版では種族ID、進化段階、フォームID、解放条件、属性、スキル、生息地、バージョンを分けて記録します。"]],
+      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式進化ページ","https://wiki.aniimo.com/item/10002771"],["公式ベータ進化情報","https://www.aniimo.com/newslist/detail/100014"],["公式フォーム保存FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
       "title": "Aniimo 発売日・配信時間・対応機種まとめ",
