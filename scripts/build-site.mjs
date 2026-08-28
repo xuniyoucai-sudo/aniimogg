@@ -10,7 +10,7 @@ const clean=s=>s.replace(/^\/+|\/+$/g,'');
 const urlPath=(l,r='')=>`/${l.prefix?l.prefix+'/':''}${clean(r)}${r&& !r.endsWith('/')?'/':''}`;
 const abs=(l,r='')=>data.domain+urlPath(l,r);
 const outPath=(l,r='')=>path.join(root,l.prefix,clean(r),'index.html');
-const write=(file,text)=>{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,text)};
+const write=(file,text)=>{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,text.replace('/site-content.css"','/site-content.css?v=20260828-2"'))};
 const alternates=route=>locales.map(l=>`<link rel="alternate" hreflang="${l.lang==='zh-CN'?'zh-CN':l.lang}" href="${abs(l,route)}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${abs(locales[0],route)}">`;
 const langLinks=(route,l)=>locales.map(x=>`<a${x.lang===l.lang?' class="current"':''} href="${urlPath(x,route)}" hreflang="${x.lang}">${esc(x.label)}</a>`).join('');
 const nav=(l,active,route)=>`<header class="topbar"><a class="brand" href="${urlPath(l)}"><span class="brand-mark">A</span><span>Aniimo<span class="brand-dot">.GG</span></span></a><nav aria-label="${esc(l.common.primaryNav)}"><a${active==='home'?' class="active"':''} href="${urlPath(l)}">${esc(l.nav.home)}</a>${['aniimo','tier-list','guides','database','map','tools','news'].map(k=>`<a${active===k?' class="active"':''} href="${urlPath(l,k)}">${esc(l.nav[k==='tier-list'?'tierList':k])}</a>`).join('')}</nav><details class="language-switcher"><summary aria-label="${esc(l.common.language)}">${esc(l.label)} ▾</summary><div>${langLinks(route,l)}</div></details><button class="menu-btn" aria-label="${esc(l.common.menu)}">☰</button></header>`;
