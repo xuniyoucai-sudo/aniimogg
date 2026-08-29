@@ -46,6 +46,15 @@
     "changePublished": "公式情報と明記したベータ情報をもとに記事を公開。",
     "changeVisual": "オリジナル画像、情報ステータス、対応バージョン、関連記事を追加。"
   },
+  "aniimoIndex": {
+    "title": "公式Aniimo図鑑インデックス（94件）",
+    "note": "2026年8月30日時点の公開公式Wikiをもとにしたスナップショットです。名称・属性・役割・ステージはアップデートで変更される場合があります。",
+    "number": "No.", "name": "Aniimo", "elements": "属性", "roles": "役割", "stage": "ステージ", "official": "公式ページ",
+    "unknownStage": "記載なし",
+    "elementLabels": {"holy":"聖","fire":"火","ice":"氷","dark":"闇","electric":"雷","grass":"草","water":"水","rock":"岩","wind":"風"},
+    "roleLabels": {"dps":"DPS","heal":"回復","sup":"サポート","break":"ブレイク","energy":"リジェネ"},
+    "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"}
+  },
   "home": {
     "title": "Aniimo（アニモ）攻略 - Tier List・図鑑・マップ・攻略情報",
     "description": "Aniimo（アニモ）のTier List、図鑑、出現場所、ビルド、マップ、初心者攻略、ニュースをまとめた非公式攻略サイトです。",
@@ -284,8 +293,8 @@
       "title": "登場確定アニモ一覧・公式図鑑まとめ",
       "description": "Emberpup、Celestis、Nimbi、Boltyなど、公式図鑑で公開済みのアニモと進化・フォーム情報を解説。",
       "h1": "登場が確認されたアニモ",
-      "body": [["公式図鑑が公開済み","公式Aniimo Wikiには現在、番号付きで90体以上が掲載されています。リークやファンアートから推測した名称ではなく、公式確認済みのアニモです。"],["序盤の代表的なアニモ","公式図鑑No.001はEmberpupで、Flameruff、Scorchhowl、Inferlupaへと続きます。CelestisとStellarysはNo.005–006、NimbiはNo.018、BoltyはNo.048です。"],["属性と役割","holy、fire、ice、dark、electric、grass、water、rock、windなどの属性と、DPS、Heal、Support、Break、Regenなどの役割で絞り込めます。"],["フォームと進化","個別ページには進化段階、別フォーム、生息地、移動能力、特性、スキルが掲載されます。Emberpupは複数フォームと進化系を持ち、Nimbiは風・電気属性のサポートとして紹介されています。"],["Tier Listとは別情報","登場確定は強さを意味しません。数値やスキルは調整される可能性があるため、正式版で再現可能な検証ができるまでランキングはnoindexのままにします。"]],
-      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式ページ","https://wiki.aniimo.com/item/10002771"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10002789"]]
+      "body": [["公式図鑑が公開済み","2026年8月30日時点で、公開公式Aniimo Wikiには94件の表示対象エントリーがあります。リークやファンアートから推測した名称ではなく、確認済みの図鑑レコードです。"],["序盤の代表的なアニモ","公式図鑑No.001はEmberpupで、Flameruff、Scorchhowl、Inferlupaへと続きます。CelestisとStellarysはNo.005–006、NimbiはNo.018、BoltyはNo.048です。"],["属性と役割","公式インデックスは聖・火・氷・闇・雷・草・水・岩・風の9属性と、DPS・回復・サポート・ブレイク・リジェネの5役割で絞り込めます。"],["表の使い方","下の表は3言語で1つの構造化データを共有しています。各行から公式Wikiへ移動でき、公式インデックスが返すステージ・属性・役割を確認できます。"],["Tier Listとは別情報","登場確定は強さを意味しません。数値やスキルは調整される可能性があるため、ランキングは正式版で再現可能なテストを行ってから公開します。"]],
+      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式ページ","https://wiki.aniimo.com/item/10002767"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10002793"]]
     },
     "catching-twine": {
       "title": "Aniimo 捕獲・Twineシステム解説",

@@ -46,6 +46,15 @@
     "changePublished": "依据官方资料和明确标记的封测资料发布文章。",
     "changeVisual": "新增原创图片、信息状态、资料版本和相关攻略。"
   },
+  "aniimoIndex": {
+    "title": "官方 Aniimo 伊莫图鉴索引（94 条）",
+    "note": "数据快照来自 2026 年 8 月 30 日公开的官方 Wiki；名称、属性、定位和阶段可能随游戏更新变化。",
+    "number": "编号", "name": "Aniimo 伊莫", "elements": "属性", "roles": "定位", "stage": "阶段", "official": "官方详情",
+    "unknownStage": "未标注",
+    "elementLabels": {"holy":"神圣","fire":"火","ice":"冰","dark":"暗","electric":"雷电","grass":"草","water":"水","rock":"岩石","wind":"风"},
+    "roleLabels": {"dps":"输出","heal":"治疗","sup":"辅助","break":"破韧","energy":"回复"},
+    "stageLabels": {"1":"Lumin 阶段","2":"Gamma 阶段","3":"Nova 阶段"}
+  },
   "home": {
     "title": "Aniimo 伊莫攻略 - 图鉴、强度榜、地图与游戏攻略",
     "description": "完整的 Aniimo 伊莫攻略站，提供伊莫图鉴、强度榜、地图、配队、地点、入门攻略、新闻和玩法技巧。",
@@ -284,8 +293,8 @@
       "title": "已确认的 Aniimo 伊莫名单与官方图鉴",
       "description": "整理官方已经公开的伊莫，包括 Emberpup、Celestis、Nimbi、Bolty 及进化与形态信息。",
       "h1": "官方已确认的 Aniimo 伊莫",
-      "body": [["官方图鉴已经开放","《伊莫》官方 Wiki 目前列出超过 90 个带编号条目，这些是正式公开的伊莫，不是根据泄露或同人图推测的名称。"],["较早编号的代表","Emberpup 是官方图鉴 No.001，之后为 Flameruff、Scorchhowl 和 Inferlupa；Celestis 与 Stellarys 是 No.005–006，Nimbi 是 No.018，Bolty 是 No.048。"],["元素与定位","官方图鉴可按 holy、fire、ice、dark、electric、grass、water、rock、wind 等元素，以及 DPS、Heal、Support、Break、Regen 等定位筛选。"],["形态与进化","条目可能包含阶段、不同形态、栖息地、移动能力、特性和技能。例如 Emberpup 有多种形态和进化线，Nimbi 被标注为风／电属性辅助型伊莫。"],["为什么这不是强度榜","确认登场不代表强弱。数值和技能可能在上线前后调整，因此强度榜会继续独立保留 noindex，直到正式版本可以重复实测。"]],
-      "sources": [["官方 Aniimo Wiki 图鉴","https://wiki.aniimo.com/"],["Emberpup 官方条目","https://wiki.aniimo.com/item/10002771"],["Nimbi 官方条目","https://wiki.aniimo.com/item/10002789"]]
+      "body": [["官方图鉴已经开放","截至 2026 年 8 月 30 日，公开的官方 Aniimo Wiki 列出 94 个可见条目。这些是已确认的图鉴记录，而不是根据泄露或同人图推测的名称。"],["较早编号的代表","Emberpup 是官方图鉴 No.001，之后为 Flameruff、Scorchhowl 和 Inferlupa；Celestis 与 Stellarys 是 No.005–006，Nimbi 是 No.018，Bolty 是 No.048。"],["属性与定位","官方索引使用神圣、火、冰、暗、雷电、草、水、岩石、风九种属性筛选，以及输出、治疗、辅助、破韧、回复五种定位筛选。"],["如何使用表格","下方表格由三种语言共用一份结构化数据生成。每一行都连接官方 Wiki 详情，并记录官方索引返回的阶段、属性和定位。"],["为什么这不是强度榜","确认登场不代表强弱。数值和技能可能在上线前后调整，因此强度榜会等待公开版本重复测试。"]],
+      "sources": [["官方 Aniimo Wiki 图鉴","https://wiki.aniimo.com/"],["Emberpup 官方条目","https://wiki.aniimo.com/item/10002767"],["Nimbi 官方条目","https://wiki.aniimo.com/item/10002793"]]
     },
     "catching-twine": {
       "title": "Aniimo 伊莫捕捉与 Twine 融合玩法说明",

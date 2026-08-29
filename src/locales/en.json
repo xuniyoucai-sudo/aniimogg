@@ -46,6 +46,15 @@
     "changePublished": "Article published from official and clearly labeled beta sources.",
     "changeVisual": "Added original visuals, information status, version details, and related reading."
   },
+  "aniimoIndex": {
+    "title": "Official Aniimo index — 94 entries",
+    "note": "Snapshot of the public official Wiki on August 30, 2026. Names, elements, roles and stages may change with game updates.",
+    "number": "No.", "name": "Aniimo", "elements": "Elements", "roles": "Role", "stage": "Stage", "official": "Official entry",
+    "unknownStage": "Not listed",
+    "elementLabels": {"holy":"Holy","fire":"Fire","ice":"Ice","dark":"Dark","electric":"Electric","grass":"Grass","water":"Water","rock":"Rock","wind":"Wind"},
+    "roleLabels": {"dps":"DPS","heal":"Heal","sup":"Support","break":"Break","energy":"Regen"},
+    "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"}
+  },
   "home": {
     "title": "Aniimo Guide - Tier List, Database, Map & Wiki",
     "description": "Complete Aniimo guide featuring tier lists, Aniimo database, locations, builds, interactive maps, beginner guides, news and gameplay tips.",
@@ -284,8 +293,8 @@
       "title": "Confirmed Aniimo List: Official Creatures Revealed",
       "description": "A verified overview of officially revealed Aniimo, including Emberpup, Celestis, Nimbi, Bolty and evolution lines.",
       "h1": "Confirmed Aniimo Characters",
-      "body": [["The official index is live","The official Aniimo Wiki currently lists more than 90 numbered entries. These are confirmed creatures rather than names inferred from leaks or fan art."],["Early official examples","Emberpup begins the official index at No.001, followed by Flameruff, Scorchhowl, and Inferlupa. Celestis and Stellarys appear at No.005–006, while Nimbi is No.018 and Bolty is No.048."],["Elements and roles","The official index filters creatures by elements including holy, fire, ice, dark, electric, grass, water, rock, and wind, plus roles such as DPS, Heal, Support, Break, and Regen."],["Forms and evolution","Official entries can include stages, alternate forms, habitats, mobility, traits, and skills. For example, Emberpup has multiple forms and an evolution line, while Nimbi is presented as a wind/electric support Aniimo."],["Why this is not a tier list","Confirmation does not establish strength. Stats and skills can change before or after launch, so rankings will remain separate and noindex until repeatable release-version testing is complete."]],
-      "sources": [["Official Aniimo Wiki index","https://wiki.aniimo.com/"],["Official Emberpup entry","https://wiki.aniimo.com/item/10002771"],["Official Nimbi entry","https://wiki.aniimo.com/item/10002789"]]
+      "body": [["The official index is live","The public official Aniimo Wiki listed 94 visible entries when checked on August 30, 2026. These are confirmed index records rather than names inferred from leaks or fan art."],["Early official examples","Emberpup begins the official index at No.001, followed by Flameruff, Scorchhowl, and Inferlupa. Celestis and Stellarys appear at No.005–006, while Nimbi is No.018 and Bolty is No.048."],["Elements and roles","The official index uses nine element filters: holy, fire, ice, dark, electric, grass, water, rock, and wind. Its five role filters are DPS, Heal, Support, Break, and Regen."],["How to use the table","The table below shares one structured source across all site languages. Each row links to its official Wiki entry and records the stage, elements and role returned by the official index."],["Why this is not a tier list","Confirmation does not establish strength. Stats and skills can change before or after launch, so rankings remain separate until repeatable release-version testing is complete."]],
+      "sources": [["Official Aniimo Wiki index","https://wiki.aniimo.com/"],["Official Emberpup entry","https://wiki.aniimo.com/item/10002767"],["Official Nimbi entry","https://wiki.aniimo.com/item/10002793"]]
     },
     "catching-twine": {
       "title": "Aniimo Catching & Twine System Explained",
