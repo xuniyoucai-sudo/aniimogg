@@ -200,14 +200,14 @@
       "title": "Aniimo ダウンロード・事前DLガイド",
       "description": "Steam、Epic、PS5、Xbox、iOS、Android版Aniimoの公式ダウンロード先と事前DL状況を案内。",
       "h1": "Aniimo ダウンロード・事前DLガイド",
-      "body": [["公式ダウンロード先","Aniimo公式サイトからSteam、Epic Games、PlayStation 5、Xbox、App Store、Google Playへ進んでください。非公式APKやランチャー、キー配布サイトは利用しないでください。"],["正式版の事前DLは？","Pawprint Studioはグローバル版の事前ダウンロード日程をまだ発表していません。7月のベータには専用ガイドがありましたが、その日程やクライアントは正式版の事前DLを保証しません。"],["PCの準備","Steam表記は空き容量45GBです。展開とパッチ用に余裕を持たせ、GPUドライバーを更新し、利用予定のストアアカウントへ事前にログインしましょう。"],["コンソール・スマホの準備","自動更新を有効にし、端末容量を確認してください。ストア公開は地域差があるため、検索広告ではなく公式リンクを使います。"],["今後の更新","事前DL時刻、ランチャー手順、容量、初日パッチが公式発表され次第更新します。"]],
-      "sources": [["Aniimo公式サイト","https://www.aniimo.com/main/"],["公式ベータダウンロードガイド","https://www.aniimo.com/newslist/detail/100036"],["Steamストア","https://store.steampowered.com/app/4126040/Aniimo/"]]
+      "body": [["公式ダウンロード先","Aniimo公式サイトからSteam、Epic Games、PlayStation 5、Xbox、App Store、Google Playへ進んでください。非公式APKやランチャー、キー配布サイトは利用しないでください。"],["正式版の事前DLは？","8月29日時点で、Pawprint Studioはグローバル版の事前ダウンロード日程を発表していません。7月のベータには専用ガイドがありましたが、その日程やクライアントは正式版の事前DLを保証しません。"],["PS Storeの予約パックは事前DLではない","PlayStationでは特典付きのAdvanced EditionとCollector’s Editionの予約パックが販売中です。基本ゲームはリリース時に無料となるため、特典パックの購入だけで正式版クライアントを事前DLできるとは確認できません。"],["PCの準備","Steam表記は空き容量45GBです。展開とパッチ用に余裕を持たせ、GPUドライバーを更新し、利用予定のストアアカウントへ事前にログインしましょう。"],["コンソール・スマホの準備","自動更新を有効にし、端末容量を確認してください。ストア公開は地域差があるため、検索広告ではなく公式リンクを使います。"],["今後の更新","事前DL時刻、ランチャー手順、容量、初日パッチが公式発表され次第更新します。"]],
+      "sources": [["Aniimo公式サイト","https://www.aniimo.com/main/"],["公式ベータダウンロードガイド","https://www.aniimo.com/newslist/detail/100036"],["Steamストア","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation Store","https://www.playstation.com/en-us/games/aniimo/"]]
     },
     "server-launch-times": {
       "title": "Aniimo 地域別サーバー開始時間",
       "description": "Aniimoの世界同時配信日と、現在確認できる開始時刻を主要地域の時間へ換算。",
       "h1": "Aniimo 地域別サーバー開始時間",
-      "body": [["確認済みの開始時間","PlayStation Storeでは2026年9月16日10:00（UTC+8）に基本プレイ無料版が開始。Pawprint StudioはPC・コンソール版を9月16日、モバイル版を9月23日と発表しています。"],["主な地域への換算","10:00（UTC+8）は02:00 UTC、03:00 BST、04:00 CEST、米東部では9月15日22:00、米太平洋では9月15日19:00です。最終的には各ストアのカウントダウンを確認してください。"],["モバイル版の時刻","9月23日という日付は確定していますが、正確な開始時刻は未発表です。同じ10:00（UTC+8）と決めつけることはできません。"],["Steamの日付表示","欧米では同じ瞬間が前日になるため、Steamに9月15日と表示される場合があります。"],["サーバー地域","ベータではAPAC、Europe、America別の日程がありましたが、正式版のサーバー名、メンテナンス、キャラクター移動は未確定です。"]],
+      "body": [["確認済みの開始時間","PlayStation StoreではPS5基本プレイ無料版が2026年9月16日10:00（UTC+8）に開始。Pawprint StudioはPC・コンソール版を9月16日、モバイル版を9月23日と発表していますが、SteamとXboxの正確なサーバー開始時刻は個別に発表されていません。"],["主な地域への換算","10:00（UTC+8）は02:00 UTC、03:00 BST、04:00 CEST、米東部では9月15日22:00、米太平洋では9月15日19:00です。最終的には各ストアのカウントダウンを確認してください。"],["モバイル版の時刻","9月23日という日付は確定していますが、正確な開始時刻は未発表です。同じ10:00（UTC+8）と決めつけることはできません。"],["Steamの日付表示","Steamは現在9月15日、Pawprint Studioのグローバル発表は9月16日と表示しています。PlayStationの開始時刻が米州では9月15日になることと整合しますが、全プラットフォームの同時解禁を保証するものではないため、各ストアのカウントダウンを優先してください。"],["サーバー地域","ベータではAPAC、Europe、America別の日程がありましたが、正式版のサーバー名、メンテナンス、キャラクター移動は未確定です。"]],
       "sources": [["公式グローバル配信発表","https://www.aniimo.com/newslist/detail/100051"],["PlayStation Store","https://www.playstation.com/games/aniimo/"],["公式ベータ地域別日程","https://www.aniimo.com/newslist/detail/100035"]]
     },
     "crossplay-cross-save": {

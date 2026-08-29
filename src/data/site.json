@@ -4,8 +4,8 @@
   "noindexRoutes":["aniimo","tier-list","database","tools","news"],
   "guideArticles":["download-preload","server-launch-times","crossplay-cross-save","steam-deck","languages-voice-acting","egg-heist","elements-roles","evolution-forms","release-date-platforms","pre-registration","system-requirements","free-to-play","confirmed-aniimo","catching-twine","multiplayer","regions-world","getting-started","core-gameplay","editorial-policy"],
   "guideMeta": {
-    "download-preload":{"published":"2026-08-28","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["release-date-platforms","system-requirements","pre-registration"]},
-    "server-launch-times":{"published":"2026-08-28","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["release-date-platforms","download-preload","multiplayer"]},
+    "download-preload":{"published":"2026-08-28","updated":"2026-08-29","version":"Pre-launch","status":"official","related":["release-date-platforms","system-requirements","pre-registration"]},
+    "server-launch-times":{"published":"2026-08-28","updated":"2026-08-29","version":"Pre-launch","status":"official","related":["release-date-platforms","download-preload","multiplayer"]},
     "crossplay-cross-save":{"published":"2026-08-28","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["multiplayer","server-launch-times","pre-registration"]},
     "steam-deck":{"published":"2026-08-28","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["system-requirements","download-preload","release-date-platforms"]},
     "languages-voice-acting":{"published":"2026-08-28","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["release-date-platforms","download-preload","pre-registration"]},

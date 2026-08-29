@@ -200,14 +200,14 @@
       "title": "Aniimo 伊莫下载与预载指南",
       "description": "整理《伊莫》Steam、Epic、PS5、Xbox、iOS 和 Android 下载入口及预载状态。",
       "h1": "Aniimo 伊莫下载与预载指南",
-      "body": [["官方下载入口","通过《伊莫》官网进入 Steam、Epic Games、PlayStation 5、Xbox、App Store 或 Google Play。不要使用非官方 APK、启动器或游戏下载站。"],["正式版是否开放预载","Pawprint Studio 尚未公布全球正式版预载时间表。7 月封测曾提供单独预下载指南，但封测日期和客户端不能证明正式版也按相同方式预载。"],["PC 准备","Steam 标注需要 45 GB 可用空间，建议额外预留解压和补丁空间，更新显卡驱动，并提前登录准备使用的商店账号。"],["主机和移动端准备","开启自动更新并检查设备空间。不同地区商店可能分批开放，应从官方平台页面进入，不要点击搜索广告中的未知下载链接。"],["后续更新","官方公布预载时间、启动器步骤、下载大小和首日补丁后，本站会立即更新。"]],
-      "sources": [["《伊莫》官网","https://www.aniimo.com/main/"],["官方封测下载指南","https://www.aniimo.com/newslist/detail/100036"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"]]
+      "body": [["官方下载入口","通过《伊莫》官网进入 Steam、Epic Games、PlayStation 5、Xbox、App Store 或 Google Play。不要使用非官方 APK、启动器或游戏下载站。"],["正式版是否开放预载","截至 8 月 29 日，Pawprint Studio 尚未公布全球正式版预载时间表。7 月封测曾提供单独预下载指南，但封测日期和客户端不能证明正式版也按相同方式预载。"],["PlayStation 预购礼包不等于预载","PlayStation 目前销售可选的高级版和收藏版预购礼包。商店同时写明基础游戏上线后免费；购买奖励礼包并不能证明正式版客户端已经开放预载。"],["PC 准备","Steam 标注需要 45 GB 可用空间，建议额外预留解压和补丁空间，更新显卡驱动，并提前登录准备使用的商店账号。"],["主机和移动端准备","开启自动更新并检查设备空间。不同地区商店可能分批开放，应从官方平台页面进入，不要点击搜索广告中的未知下载链接。"],["后续更新","官方公布预载时间、启动器步骤、下载大小和首日补丁后，本站会立即更新。"]],
+      "sources": [["《伊莫》官网","https://www.aniimo.com/main/"],["官方封测下载指南","https://www.aniimo.com/newslist/detail/100036"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 商店页","https://www.playstation.com/en-us/games/aniimo/"]]
     },
     "server-launch-times": {
       "title": "Aniimo 伊莫各地区开服时间",
       "description": "《伊莫》全球上线日期、已确认开服时间及主要地区时区换算。",
       "h1": "Aniimo 伊莫各地区开服时间",
-      "body": [["已确认时间","PlayStation 官方商店写明免费版于 2026 年 9 月 16 日 10:00（UTC+8）上线；Pawprint Studio 同时确认 PC／主机为 9 月 16 日，移动端为 9 月 23 日。"],["主要时区换算","10:00（UTC+8）对应 02:00 UTC、03:00 英国夏令时、04:00 欧洲中部夏令时；美国东部为 9 月 15 日 22:00，太平洋时间为 19:00。请再以当地商店倒计时为准。"],["移动端时间","移动版日期已确定为 9 月 23 日，但官方尚未公布具体开服小时，不能默认也采用 10:00（UTC+8）。"],["Steam 日期差异","欧美地区 Steam 可能显示 9 月 15 日，因为同一个全球时刻在当地仍是前一日。"],["服务器地区","封测曾按 APAC、Europe、America 公布时间，但正式服名称、维护窗口和角色转移规则尚未确认。"]],
+      "body": [["已确认时间","PlayStation 官方商店写明 PS5 免费版于 2026 年 9 月 16 日 10:00（UTC+8）上线；Pawprint Studio 同时确认 PC／主机为 9 月 16 日，移动端为 9 月 23 日，但尚未单独公布 Steam 或 Xbox 的具体开服小时。"],["主要时区换算","10:00（UTC+8）对应 02:00 UTC、03:00 英国夏令时、04:00 欧洲中部夏令时；美国东部为 9 月 15 日 22:00，太平洋时间为 19:00。请再以当地商店倒计时为准。"],["移动端时间","移动版日期已确定为 9 月 23 日，但官方尚未公布具体开服小时，不能默认也采用 10:00（UTC+8）。"],["Steam 日期差异","Steam 目前显示 9 月 15 日，而 Pawprint Studio 的全球公告写 9 月 16 日。这与 PlayStation 时刻在美洲仍为 9 月 15 日相符，但不能据此断定所有平台同时解锁，最终应以各平台实时倒计时为准。"],["服务器地区","封测曾按 APAC、Europe、America 公布时间，但正式服名称、维护窗口和角色转移规则尚未确认。"]],
       "sources": [["官方全球上线公告","https://www.aniimo.com/newslist/detail/100051"],["PlayStation 商店页","https://www.playstation.com/games/aniimo/"],["官方封测分区时间","https://www.aniimo.com/newslist/detail/100035"]]
     },
     "crossplay-cross-save": {
