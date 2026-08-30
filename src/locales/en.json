@@ -44,7 +44,9 @@
     "guideVisual": "original guide summary graphic",
     "imageCredit": "Original graphic by Aniimo Guide; facts are based on the official sources listed below.",
     "changePublished": "Article published from official and clearly labeled beta sources.",
-    "changeVisual": "Added original visuals, information status, version details, and related reading."
+    "changeVisual": "Added original visuals, information status, version details, and related reading.",
+    "browseAllAniimo": "Browse all 94 confirmed Aniimo",
+    "aniimoIndexLead": "Search the complete official Wiki snapshot by number, name, element, role, or stage."
   },
   "aniimoIndex": {
     "title": "Official Aniimo index — 94 entries",

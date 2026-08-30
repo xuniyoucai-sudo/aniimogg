@@ -44,7 +44,9 @@
     "guideVisual": "原创攻略摘要图",
     "imageCredit": "本站原创图片；其中的资料依据文末列出的官方来源。",
     "changePublished": "依据官方资料和明确标记的封测资料发布文章。",
-    "changeVisual": "新增原创图片、信息状态、资料版本和相关攻略。"
+    "changeVisual": "新增原创图片、信息状态、资料版本和相关攻略。",
+    "browseAllAniimo": "查看全部 94 个已确认伊莫",
+    "aniimoIndexLead": "可按编号、名称、属性、定位或阶段搜索完整官方 Wiki 数据快照。"
   },
   "aniimoIndex": {
     "title": "官方 Aniimo 伊莫图鉴索引（94 条）",

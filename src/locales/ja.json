@@ -44,7 +44,9 @@
     "guideVisual": "オリジナル攻略サマリー画像",
     "imageCredit": "Aniimo Guide制作のオリジナル画像。内容は記事末尾の公式情報をもとにしています。",
     "changePublished": "公式情報と明記したベータ情報をもとに記事を公開。",
-    "changeVisual": "オリジナル画像、情報ステータス、対応バージョン、関連記事を追加。"
+    "changeVisual": "オリジナル画像、情報ステータス、対応バージョン、関連記事を追加。",
+    "browseAllAniimo": "確認済みAniimo 94件を見る",
+    "aniimoIndexLead": "番号・名前・属性・役割・ステージから公式Wikiの全データスナップショットを検索できます。"
   },
   "aniimoIndex": {
     "title": "公式Aniimo図鑑インデックス（94件）",
