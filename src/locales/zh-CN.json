@@ -53,7 +53,8 @@
     "unknownStage": "未标注",
     "elementLabels": {"holy":"神圣","fire":"火","ice":"冰","dark":"暗","electric":"雷电","grass":"草","water":"水","rock":"岩石","wind":"风"},
     "roleLabels": {"dps":"输出","heal":"治疗","sup":"辅助","break":"破韧","energy":"回复"},
-    "stageLabels": {"1":"Lumin 阶段","2":"Gamma 阶段","3":"Nova 阶段"}
+    "stageLabels": {"1":"Lumin 阶段","2":"Gamma 阶段","3":"Nova 阶段"},
+    "search": "按名称或编号搜索", "allElements": "全部属性", "allRoles": "全部定位", "allStages": "全部阶段", "clear": "清除筛选", "showing": "正在显示 94 个中的 {count} 个", "noResults": "没有符合当前筛选条件的伊莫。"
   },
   "home": {
     "title": "Aniimo 伊莫攻略 - 图鉴、强度榜、地图与游戏攻略",

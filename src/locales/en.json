@@ -53,7 +53,8 @@
     "unknownStage": "Not listed",
     "elementLabels": {"holy":"Holy","fire":"Fire","ice":"Ice","dark":"Dark","electric":"Electric","grass":"Grass","water":"Water","rock":"Rock","wind":"Wind"},
     "roleLabels": {"dps":"DPS","heal":"Heal","sup":"Support","break":"Break","energy":"Regen"},
-    "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"}
+    "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"},
+    "search": "Search by name or number", "allElements": "All elements", "allRoles": "All roles", "allStages": "All stages", "clear": "Clear filters", "showing": "Showing {count} of 94 Aniimo", "noResults": "No Aniimo match these filters."
   },
   "home": {
     "title": "Aniimo Guide - Tier List, Database, Map & Wiki",

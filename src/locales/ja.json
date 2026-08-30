@@ -53,7 +53,8 @@
     "unknownStage": "記載なし",
     "elementLabels": {"holy":"聖","fire":"火","ice":"氷","dark":"闇","electric":"雷","grass":"草","water":"水","rock":"岩","wind":"風"},
     "roleLabels": {"dps":"DPS","heal":"回復","sup":"サポート","break":"ブレイク","energy":"リジェネ"},
-    "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"}
+    "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"},
+    "search": "名前・番号で検索", "allElements": "すべての属性", "allRoles": "すべての役割", "allStages": "すべてのステージ", "clear": "絞り込みを解除", "showing": "94件中{count}件を表示", "noResults": "条件に一致するAniimoはありません。"
   },
   "home": {
     "title": "Aniimo（アニモ）攻略 - Tier List・図鑑・マップ・攻略情報",

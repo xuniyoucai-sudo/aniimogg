@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
+const endpoint='https://wiki-backend.aniimo.com/entries/getBaseAll';
+const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json','X-Lang':'en-US'},body:'{}'});
+if(!response.ok) throw new Error(`Official Wiki request failed: HTTP ${response.status}`);
+const payload=await response.json();
+if(payload.code!==200||!Array.isArray(payload.data)) throw new Error(`Official Wiki returned code ${payload.code}: ${payload.message||'unknown error'}`);
+const normalize=item=>[item.searchKey.entryId,item.id,item.searchKey.name,Number(item.searchKey.currentStage),item.searchKey.position.map(v=>v.replace('position-','')).sort(),item.searchKey.attributes.map(v=>v.replace('attributes-','')).sort()];
+const official=payload.data.filter(item=>item.visible).map(normalize).sort((a,b)=>a[0].localeCompare(b[0]));
+const local=JSON.parse(fs.readFileSync(path.join(process.cwd(),'src/data/aniimo-index.json'),'utf8')).map(item=>[...item.slice(0,4),[...item[4]].sort(),[...item[5]].sort()]).sort((a,b)=>a[0].localeCompare(b[0]));
+const officialMap=new Map(official.map(item=>[item[0],item]));
+const localMap=new Map(local.map(item=>[item[0],item]));
+const added=official.filter(item=>!localMap.has(item[0]));
+const removed=local.filter(item=>!officialMap.has(item[0]));
+const changed=official.filter(item=>localMap.has(item[0])&&JSON.stringify(item)!==JSON.stringify(localMap.get(item[0]))).map(item=>({number:item[0],local:localMap.get(item[0]),official:item}));
+console.log(`Official visible entries: ${official.length}`);
+console.log(`Local snapshot entries: ${local.length}`);
+if(added.length) console.log('Added:',JSON.stringify(added));
+if(removed.length) console.log('Removed:',JSON.stringify(removed));
+if(changed.length) console.log('Changed:',JSON.stringify(changed));
+if(!added.length&&!removed.length&&!changed.length) console.log('No differences found.');
+if(added.length||removed.length||changed.length) process.exitCode=2;
