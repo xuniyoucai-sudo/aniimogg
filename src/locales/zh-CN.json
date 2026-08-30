@@ -223,10 +223,12 @@
       "sources": [["官方全球上线公告","https://www.aniimo.com/newslist/detail/100051"],["PlayStation 商店页","https://www.playstation.com/games/aniimo/"],["官方封测分区时间","https://www.aniimo.com/newslist/detail/100035"]]
     },
     "crossplay-cross-save": {
-      "title": "Aniimo 伊莫跨平台联机与跨平台存档说明",
-      "description": "说明《伊莫》已确认的跨平台多人功能，以及尚未确认的跨平台存档与账号绑定。",
-      "h1": "Aniimo 伊莫 Crossplay 与 Cross-save",
-      "body": [["已确认跨平台多人","Steam 列出了 Cross-Platform Multiplayer、在线合作和在线 PvP，说明游戏支持不止一个平台之间的多人互动，但具体平台组合尚未公布。"],["跨平台存档尚未确认","Pawprint Studio 没有公布最终跨进度规则。支持跨平台联机不等于角色、存档、购买内容能在 PC、主机与移动端转移。"],["账号绑定","官网使用账号预约，但 Steam、Epic、PlayStation、Xbox、Apple 与 Google 身份如何绑定仍待正式说明。"],["购买与地区限制","付费货币、平台独占物品、服务器地区和好友列表可能受到平台限制，不要在官方 FAQ 前假设购买内容可以转移。"],["安全做法","先选择一个主要平台，尽量使用同一个可找回邮箱，在官方绑定说明公布前避免重复创建角色。"]],
+      "title": "Aniimo 伊莫支持跨平台联机吗？Crossplay 与跨存档说明",
+      "description": "《伊莫》是否支持跨平台联机？整理已确认的 Crossplay，以及尚未确认的跨存档、跨进度和账号绑定状态。",
+      "h1": "Aniimo 伊莫跨平台联机、跨存档与跨进度说明",
+      "body": [["简短答案","支持。Steam 已正式列出 Cross-Platform Multiplayer、在线合作和在线 PvP；但官方尚未说明 PC、PlayStation 5、Xbox 与移动端之间的具体组合，因此目前只能确认游戏具有跨平台多人功能。"],["跨平台联机不等于跨存档","Crossplay 是不同平台玩家一起游玩；Cross-save／跨进度则是角色和进度在不同平台继续使用。Pawprint Studio 尚未确认跨存档、共享购买内容或角色转移。"],["账号绑定仍未确认","Steam、Epic Games、PlayStation、Xbox、Apple 与 Google 身份的绑定流程尚未公布。使用邮箱预约并不能证明所有平台账号都会自动合并。"],["购买、地区与好友限制","付费货币、平台独占物品、服务器地区和好友列表可能有限制。在官方上线 FAQ 公布前，不要默认一个平台的购买内容会出现在另一个平台。"],["最安全的上线做法","先选择主要平台，在平台允许时使用同一个可找回邮箱，并在官方账号绑定说明公布前避免重复创建角色。"]],
+      "matrix": {"title":"平台支持状态","headers":["平台","跨平台联机","跨存档／跨进度"],"rows":[["PC（Steam／Epic）","Steam 已列出跨平台多人","尚未确认"],["PlayStation 5","具体互通组合未公布","尚未确认"],["Xbox","具体互通组合未公布","尚未确认"],["iOS／Android","具体互通组合未公布","尚未确认"]],"note":"商店功能标签只能确认整体支持跨平台多人，不能证明所有平台两两互通或共享进度。"},
+      "faq": [["Aniimo 伊莫支持跨平台联机吗？","支持。Steam 已列出跨平台多人，但具体互通平台组合尚未公布。"],["《伊莫》支持 Crossplay 吗？","已确认跨平台多人、在线合作与在线 PvP；最终服务器和平台组合仍待官方说明。"],["《伊莫》支持跨平台存档吗？","跨存档和跨进度尚未得到官方确认，不能假设角色、进度或购买内容可以转移。"],["PC、主机和手机进度可以互通吗？","Pawprint Studio 尚未公布 PC、PlayStation 5、Xbox、iOS 与 Android 的账号绑定和进度转移规则。"]],
       "sources": [["Steam 功能列表","https://store.steampowered.com/app/4126040/Aniimo/"],["《伊莫》官网","https://www.aniimo.com/main/"]]
     },
     "steam-deck": {
@@ -310,7 +312,8 @@
       "title": "Aniimo 伊莫多人、联机、PvP 与跨平台说明",
       "description": "整理《伊莫》在线合作、PvP、跨平台、营地社交及三人 Egg Heist 模式。",
       "h1": "Aniimo 伊莫多人玩法说明",
-      "body": [["已确认的在线模式","Steam 列出单人、在线合作、在线 PvP 和跨平台多人，并披露游戏内聊天与在线互动。"],["三人 Egg Heist","Egg Heist 是 Lost Isles 中的 PvEvP 模式。玩家组成三人队伍，实时搜索物资或目标、与其他 Pathfinder 交战，并围绕 Giant Darkler Egg 展开竞争。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可在开放世界与其他玩家见面互动；Homeland 支持种植、建造装饰和布置个人空间。"],["仍然支持单人游玩","官方明确提到单人与多人玩法，但尚未最终确认哪些主线支持随进随出，以及访客世界进度如何结算。"],["跨平台存档仍待确认","跨平台多人已经列出，但跨平台存档、账号绑定、地区服务器、好友上限、语音聊天和主机会员要求仍需上线确认。"]],
+      "body": [["《伊莫》的多人玩法包括什么","Steam 已确认单人、在线合作、在线 PvP 与跨平台多人。多人玩法指在线活动范围；Crossplay 则特指不同平台玩家能否一起游玩。商店还披露了游戏内聊天和在线互动。"],["三人 Egg Heist","官方更新将 Egg Heist 描述为 Lost Isles 中的 PvEvP 活动。玩家组成三人队伍，收集物资、进入禁区、与其他 Pathfinder 交战并争夺 Giant Darkler Egg。"],["合作与主线范围尚未确认","官方提到单人和多人探索，但尚未公布 Egg Heist 之外的通用队伍人数、主线随进随出、访客任务进度、共同捕捉归属或房主世界进度。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可与其他玩家见面互动；Homeland 支持种植、建造装饰和布置空间，但官方尚未把这些描述为完整主线合作模式。"],["跨平台问题请查看专页","跨平台多人已确认，但跨存档、账号绑定、地区服务器、好友上限、语音聊天和主机会员要求仍待公布。具体平台状态见 Crossplay 与 Cross-save 专页。"]],
+      "faq": [["《伊莫》有多人模式吗？","有。Steam 列出在线合作、在线 PvP、跨平台多人和单人模式。"],["《伊莫》支持合作游玩吗？","已列出在线合作，但完整主线合作范围和普通开放世界队伍人数尚未公布。"],["Egg Heist 是几人队伍？","官方 Egg Heist 说明明确为三人队伍。"],["《伊莫》可以单人玩吗？","可以。Steam 正式列出单人模式，官方介绍也同时提到单人与多人游玩。"]],
       "sources": [["Steam 多人功能说明","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 Egg Heist 更新公告","https://www.aniimo.com/newslist/detail/100015"]]
     },
     "regions-world": {
