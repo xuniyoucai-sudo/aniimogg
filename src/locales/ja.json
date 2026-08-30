@@ -83,7 +83,10 @@
       ]
     ],
     "section": "アニモとの冒険を始めよう",
-    "sectionLead": "現在は公式発表を中心に掲載。ビルドやランキングは正式版を検証後に更新します。"
+    "sectionLead": "現在は公式発表を中心に掲載。ビルドやランキングは正式版を検証後に更新します。",
+    "sections": [["Aniimo（アニモ）はどんなゲーム？","AniimoはPawprint Studioが開発する基本プレイ無料のオープンワールド・クリーチャー収集RPGです。Idyll大陸を探索し、Aniipodでアニモを捕獲。Twineで仲間のアニモと一体化し、バトル、謎解き、フィールド移動に能力を活用します。Steamではシングル、オンライン協力、オンラインPvP、クロスプラットフォーム・マルチプレイが確認できます。","guides/getting-started","初心者ガイドを見る"],["Aniimoの発売日はいつ？","PC・コンソール版は2026年9月16日、iOS・Android版は9月23日にグローバル配信予定です。PlayStation StoreはPS5版を9月16日10:00（UTC+8）と案内していますが、Steam、Epic、Xbox、モバイルの正確な解禁時刻は個別に未発表です。各ストアの現地カウントダウンもあわせて確認してください。","guides/release-date-platforms","発売日・対応機種を確認"],["Aniimoはクロスプレイ対応？","はい。Steamにはクロスプラットフォーム・マルチプレイ、オンライン協力、オンラインPvPが掲載されています。ただし、機種ごとの接続組み合わせ、クロスセーブ、クロスプログレッション、購入内容の共有は未確認です。確定情報と未発表事項を混同せず、公式FAQ公開後に更新します。","guides/crossplay-cross-save","クロスプレイ対応状況を見る"],["このAniimo攻略Wikiで分かること","現在は公式Wikiで確認できる94件のアニモ索引を検索できるほか、属性・役割、フォーム、捕獲、マルチプレイ、地域、リリース準備を整理しています。図鑑への掲載は強さを示すものではありません。ビルド、出現場所、相性倍率、Tier Listは正式版で再現性のある検証ができた内容から更新します。","guides/confirmed-aniimo","確認済みアニモ一覧を見る"]],
+    "faq": [["Aniimoは基本プレイ無料ですか？","はい。Pawprint Studioと公式ストアは基本プレイ無料と案内しており、任意のゲーム内購入があります。"],["Aniimoの対応機種は？","PlayStation 5、Xbox、Steam、Epic Games Store、iOS、Androidが発表されています。"],["確認済みのアニモは何種類？","2026年8月30日の確認時点で、公開中の公式Wikiには94件の索引データが表示されていました。"],["このサイトはAniimo公式ですか？","いいえ。Aniimo Guideはファン運営の非公式攻略サイトで、Pawprint Studio、FunPlus、公式チームとは関係ありません。"]],
+    "sources": [["Aniimo公式サイト","https://www.aniimo.com/main/"],["Steam公式ストア","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5公式ページ","https://www.playstation.com/games/aniimo/"],["公式Aniimo Wiki","https://wiki.aniimo.com/"]]
   },
   "guideLibrary": {"popular":"人気のAniimo攻略","popularLead":"今プレイヤーが検索している注目トピックから確認できます。","launch":"リリース・対応機種","multiplayer":"マルチプレイ","database":"Aniimo図鑑データベース","gameplay":"ゲームシステム"},
   "pages": {

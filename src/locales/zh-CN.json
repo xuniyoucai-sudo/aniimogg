@@ -83,7 +83,10 @@
       ]
     ],
     "section": "开始你的伊莫冒险",
-    "sectionLead": "现有内容以官方公开信息为依据；配队、数值和排名将在正式上线后实测。"
+    "sectionLead": "现有内容以官方公开信息为依据；配队、数值和排名将在正式上线后实测。",
+    "sections": [["Aniimo《伊莫》是什么游戏？","《伊莫》是 Pawprint Studio 开发的免费开放世界捉宠 RPG。玩家在艾德尔大陆探索，使用 Aniipod 捕捉伊莫，并通过 Twine 与已收集的伊莫融合，利用它们的能力战斗、解谜和移动。官方商店已列出单人、在线合作、在线 PvP 与跨平台多人；更具体的正式版机制会在实际验证后更新。","guides/getting-started","查看新手攻略"],["《伊莫》什么时候上线？","PC 与主机版定于 2026 年 9 月 16 日全球上线，iOS 与 Android 移动版定于 9 月 23 日上线。PlayStation 标注 PS5 版为 10:00（UTC+8），但 Steam、Epic、Xbox 和移动端的准确解锁小时尚未分别公布。本站会把官方日期、时区换算和商店当地显示清楚区分。","guides/release-date-platforms","查看上线日期与平台"],["《伊莫》支持跨平台联机吗？","支持。Steam 正式列出了跨平台多人、在线合作和在线 PvP；但官方尚未公布具体平台互通组合，也没有确认跨存档、跨进度及购买内容共享。本站跨平台攻略会把已经确认的联机功能与仍待上线 FAQ 说明的账号功能分开。","guides/crossplay-cross-save","查看跨平台状态"],["这个伊莫攻略站包含什么？","本站是独立玩家攻略站，目前提供官方 Wiki 中 94 条可搜索伊莫索引，以及属性、定位、形态、捕捉、多人、地区和上线准备攻略。图鉴收录不等于强度排名；配队、地点、克制倍率和强度榜只有在正式公开版本中经过可重复验证后，才会标记为已实测。","guides/confirmed-aniimo","浏览全部已确认伊莫"]],
+    "faq": [["《伊莫》是免费游戏吗？","是。Pawprint Studio 与官方平台页面均说明游戏本体免费，并包含可选的游戏内购买。"],["《伊莫》支持哪些平台？","已公布平台包括 PlayStation 5、Xbox、Steam、Epic Games Store、iOS 和 Android。"],["目前确认了多少个伊莫？","截至 2026 年 8 月 30 日检查时，公开的官方 Wiki 索引显示 94 条可见记录。"],["本站是《伊莫》官网吗？","不是。本站是独立的非官方玩家攻略站，与 Pawprint Studio、FunPlus 或 Aniimo 官方团队没有隶属关系。"]],
+    "sources": [["Aniimo《伊莫》官网","https://www.aniimo.com/main/"],["Steam 官方商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5 官方商店页","https://www.playstation.com/games/aniimo/"],["官方 Aniimo Wiki","https://wiki.aniimo.com/"]]
   },
   "guideLibrary": {"popular":"热门 Aniimo 伊莫攻略","popularLead":"优先查看玩家目前搜索最多的主题。","launch":"上线与平台","multiplayer":"多人玩法","database":"伊莫图鉴数据库","gameplay":"玩法系统"},
   "pages": {
