@@ -85,6 +85,7 @@
     "section": "アニモとの冒険を始めよう",
     "sectionLead": "現在は公式発表を中心に掲載。ビルドやランキングは正式版を検証後に更新します。"
   },
+  "guideLibrary": {"popular":"人気のAniimo攻略","popularLead":"今プレイヤーが検索している注目トピックから確認できます。","launch":"リリース・対応機種","multiplayer":"マルチプレイ","database":"Aniimo図鑑データベース","gameplay":"ゲームシステム"},
   "pages": {
     "aniimo": {
       "title": "Aniimo（アニモ）図鑑・データベース",
@@ -253,10 +254,11 @@
       "sources": [["公式Egg Heist予告","https://www.aniimo.com/newslist/detail/100015"],["ベータモード開始告知","https://www.aniimo.com/newslist/detail/100013"],["公式モード調整","https://www.aniimo.com/newslist/detail/100018"]]
     },
     "elements-roles": {
-      "title": "Aniimo 属性・役割システム解説",
-      "description": "公式図鑑の9属性、5つの役割、ベータ版の相性情報をランキング抜きで解説。",
+      "title": "Aniimo 属性相性表・役割（ロール）解説",
+      "description": "公式Wikiで確認できる9属性と5つの役割を一覧化。正式版で未公表の相性倍率は明確に区別します。",
       "h1": "Aniimoの属性と役割",
-      "body": [["9つの公式属性","公式Wikiではholy、fire、ice、dark、electric、grass、water、rock、windで絞り込めます。"],["5つの役割","DPS、Heal、Support、BREAK、REGENが掲載されています。攻撃だけでなく耐久、支援、回復、敵の防御崩しも編成価値になります。"],["ベータ版の相性","公式ベータ手引きは火、水、草、雷の相性と、Alpha戦でバランスのよい編成を推奨しています。正式版の完全な相性表は未公開です。"],["複属性・フォーム","公式ページには複数属性やフォームがあり、Nimbiには風・電気に関係する形態があります。同じ名前でも戦闘構成は一つとは限りません。"],["編成の考え方","役割フィルターはTier評価ではありません。正式版ではスキル、特性、フォーム、敵弱点、スタミナ、連携を含めて検証します。"]],
+      "body": [["9つの公式属性","公式Wikiではholy、fire、ice、dark、electric、grass、water、rock、windで絞り込めます。9属性の名称は確認済みですが、完全な数値相性表は未公開です。"],["5つの役割","DPS、Heal、Support、BREAK、REGENが掲載されています。ダメージ、回復、エネルギー回復、支援・妨害、防御崩しという役割があります。"],["ベータ版の相性","公式ベータ手引きは火、水、草、雷の相性と、Alpha戦でバランスのよい編成を推奨しています。正式版の完全な相性表と倍率は未公開です。"],["複属性・フォーム","公式ページには複数属性やフォームがあり、Nimbiには風・電気に関係する形態があります。同じ名前でも戦闘構成は一つとは限りません。"],["編成の考え方","役割フィルターはTier評価ではありません。正式版ではスキル、特性、フォーム、敵弱点、スタミナ、連携を含めて検証します。"]],
+      "matrix": {"title":"Aniimoの属性・役割一覧","headers":["分類","公式表記","確認できる内容"],"rows":[["属性","聖・火・氷・闇・電気・草・水・岩・風","9属性すべて公式Wikiの絞り込み項目"],["攻撃","DPS","ダメージ役の表記"],["回復","Heal・Regen","HP回復・エネルギー回復の表記"],["支援","Support","効果はアニモごとに異なる"],["防御崩し","Break","正式版の詳細計算式は未確認"]],"note":"公式Wikiで確認できるのは属性・役割の表記です。正式版の完全な相性表と倍率はまだ公開されていません。"},
       "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["公式ベータ手引き","https://aniimo.com/newslist/detail/tipvtviq"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10002789"]]
     },
     "evolution-forms": {
@@ -267,10 +269,12 @@
       "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式進化ページ","https://wiki.aniimo.com/item/10002771"],["公式ベータ進化情報","https://www.aniimo.com/newslist/detail/100014"],["公式フォーム保存FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
-      "title": "Aniimo 発売日・配信時間・対応機種まとめ",
+      "title": "Aniimo 発売日：PC・PS5・Xbox・スマホ版の配信時間",
       "description": "AniimoはPC・コンソール版が2026年9月16日、モバイル版が9月23日に配信。対応機種と時差表示を解説します。",
       "h1": "Aniimoの発売日と対応機種",
-      "body": [["グローバル配信日","Pawprint StudioはPC・コンソール版を2026年9月16日、iOS・Android版を9月23日に配信すると発表しました。PlayStation Storeでは9月16日10:00（UTC+8）と案内されています。"],["対応が確認された機種","公式サイトにはPlayStation 5、Xbox、Steam、Epic Games Store、App Store、Google Playが掲載されています。PS4、Xbox One、Nintendo Switch、Mac版は現時点で正式発表されていません。"],["Steamで9月15日と表示される理由","地域によってSteamには9月15日と表示されます。UTC+8の9月16日が欧米のタイムゾーンでは前日になるためと考えられ、実際の解禁時刻は各ストアのカウントダウンを確認してください。"],["クロスプラットフォーム","Steamではクロスプラットフォーム・マルチプレイ、シングル、オンライン協力、オンラインPvPに対応と記載されています。クロスセーブやアカウント連携の詳細は正式サービス開始時に確認が必要です。"],["リリース前チェック","利用予定のストアで予約・ウィッシュリスト登録を済ませ、PCでは45GB以上を確保し、事前ダウンロードとサーバー開始時刻の告知を確認しましょう。"]],
+      "body": [["発売日早見","Pawprint StudioはPC・コンソール版を2026年9月16日、iOS・Android版を9月23日に配信すると発表しました。PlayStation Storeは9月16日10:00（UTC+8）と案内していますが、Steam、Epic、Xbox、モバイルの正確な解禁時刻は個別に未発表です。"],["対応が確認された機種","公式サイトにはPlayStation 5、Xbox、Steam、Epic Games Store、App Store、Google Playが掲載されています。PS4、Xbox One、Nintendo Switch、Mac版は現時点で正式発表されていません。"],["Steamで9月15日と表示される理由","UTC+8の9月16日は欧米のタイムゾーンでは前日になる場合があります。ただし全機種の同時解禁を保証するものではないため、各ストアのカウントダウンを確認してください。"],["クロスプラットフォーム","Steamにはクロスプラットフォーム・マルチプレイ、シングル、オンライン協力、オンラインPvPが掲載されています。クロスセーブやアカウント連携は未確認です。"],["リリース前チェック","利用予定のストアで予約・ウィッシュリスト登録を済ませ、PCでは45GB以上を確保し、事前ダウンロードとサーバー開始時刻の告知を確認しましょう。"]],
+      "matrix": {"title":"機種別の発売日一覧","headers":["機種","発売日","確認済み時刻／状況"],"rows":[["Steam／Epic Games","2026年9月16日（公式グローバル日）","ストア別の正確な時刻は未確認"],["PlayStation 5","2026年9月16日","10:00（UTC+8）"],["Xbox","2026年9月16日（公式コンソール日）","正確な解禁時刻は未確認"],["iOS／Android","2026年9月23日","モバイルの正確な時刻は未確認"]],"note":"Steamでは時差により9月15日と表示される場合があります。地域のカウントダウンを優先してください。"},
+      "faq": [["Aniimoの発売日はいつですか？","PC・コンソール版は2026年9月16日、iOS・Android版は9月23日です。"],["AniimoのPS5版はいつ配信されますか？","PlayStation Storeでは2026年9月16日10:00（UTC+8）と案内されています。"],["Xbox版の発売日はいつですか？","コンソール版は9月16日と発表されていますが、Xboxの正確な解禁時刻は未発表です。"],["Steamで9月15日と表示されるのはなぜ？","タイムゾーンによって公式の9月16日が前日表示になるためです。Steamの現地カウントダウンを確認してください。"],["Switch版やPS4版はありますか？","Nintendo Switch版とPlayStation 4版は正式発表されていません。"]],
       "sources": [["公式グローバル配信日発表","https://www.aniimo.com/newslist/detail/100051"],["Steamストア","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5版","https://www.playstation.com/games/aniimo/"]]
     },
     "pre-registration": {

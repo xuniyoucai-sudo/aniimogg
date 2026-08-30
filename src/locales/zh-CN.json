@@ -85,6 +85,7 @@
     "section": "开始你的伊莫冒险",
     "sectionLead": "现有内容以官方公开信息为依据；配队、数值和排名将在正式上线后实测。"
   },
+  "guideLibrary": {"popular":"热门 Aniimo 伊莫攻略","popularLead":"优先查看玩家目前搜索最多的主题。","launch":"上线与平台","multiplayer":"多人玩法","database":"伊莫图鉴数据库","gameplay":"玩法系统"},
   "pages": {
     "aniimo": {
       "title": "Aniimo 伊莫图鉴与百科",
@@ -253,10 +254,11 @@
       "sources": [["官方 Egg Heist 预告","https://www.aniimo.com/newslist/detail/100015"],["封测模式上线公告","https://www.aniimo.com/newslist/detail/100013"],["官方模式调整","https://www.aniimo.com/newslist/detail/100018"]]
     },
     "elements-roles": {
-      "title": "Aniimo 伊莫元素与战斗定位说明",
-      "description": "解释官方图鉴中的九种元素、五种定位以及封测属性克制信息。",
+      "title": "Aniimo 伊莫属性克制表与战斗定位说明",
+      "description": "整理官方 Wiki 的九种 Aniimo 伊莫属性、五种战斗定位，并明确标记尚未公布的正式版克制倍率。",
       "h1": "Aniimo 伊莫元素与定位",
-      "body": [["九种官方元素","官方 Wiki 当前可按 holy、fire、ice、dark、electric、grass、water、rock、wind 筛选。"],["五种定位","图鉴列出 DPS、Heal、Support、BREAK、REGEN。队伍价值不只由攻击决定，还包括生存、辅助、恢复与打破敌人防御。"],["封测克制","官方封测手册提到火、水、草、雷克制，并建议 Alpha 战准备均衡阵容，但完整正式版克制表尚未发布。"],["双元素与形态","官方条目可能展示多个元素或不同形态，例如 Nimbi 有风与电相关形态，同一个名称不一定只有一种战斗配置。"],["正确配队方式","定位筛选不是强度排名。正式版需要综合技能、特性、形态、敌人弱点、体力和队伍联动。"]],
+      "body": [["九种官方属性","官方 Wiki 当前可按 holy、fire、ice、dark、electric、grass、water、rock、wind 筛选。这九个标签已确认，但完整数值克制表尚未公布。"],["五种定位","图鉴列出 DPS、Heal、Support、BREAK、REGEN。队伍价值不只由攻击决定，还包括治疗、能量恢复、辅助控制与打破敌人防御。"],["封测克制","官方封测手册提到火、水、草、雷克制，并建议 Alpha 战准备均衡阵容，但完整正式版克制表和伤害倍率尚未发布。"],["双属性与形态","官方条目可能展示多个属性或不同形态，例如 Nimbi 有风与电相关形态，同一个名称不一定只有一种战斗配置。"],["正确配队方式","定位筛选不是强度排名。正式版需要综合技能、特性、形态、敌人弱点、体力和队伍联动。"]],
+      "matrix": {"title":"Aniimo 伊莫属性与定位表","headers":["类型","官方标签","已确认信息"],"rows":[["属性","神圣、火、冰、暗、电、草、水、岩、风","九种均为官方 Wiki 筛选项"],["输出","DPS","输出型定位标签"],["恢复","Heal、Regen","治疗与能量恢复定位"],["辅助","Support","具体效果取决于伊莫技能"],["破防","Break","正式版具体公式尚未确认"]],"note":"官方 Wiki 确认了标签，但没有公布完整正式版属性克制表和伤害倍率。"},
       "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["官方封测生存手册","https://aniimo.com/newslist/detail/tipvtviq"],["Nimbi 官方条目","https://wiki.aniimo.com/item/10002789"]]
     },
     "evolution-forms": {
@@ -267,10 +269,12 @@
       "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup 官方进化条目","https://wiki.aniimo.com/item/10002771"],["官方进化封测说明","https://www.aniimo.com/newslist/detail/100014"],["官方形态保留 FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
-      "title": "Aniimo 伊莫上线时间与平台汇总",
-      "description": "《伊莫》PC 与主机版于 2026 年 9 月 16 日上线，移动版于 9 月 23 日上线，并整理已确认平台。",
+      "title": "Aniimo 伊莫上线日期：PC、PS5、Xbox 与手机版时间",
+      "description": "《伊莫》PC、PS5 与 Xbox 于 2026 年 9 月 16 日上线，iOS 和 Android 于 9 月 23 日上线，并整理已确认时间。",
       "h1": "Aniimo 伊莫上线时间与支持平台",
-      "body": [["全球上线日期","Pawprint Studio 宣布 PC 与主机版于 2026 年 9 月 16 日上线，iOS 与 Android 移动版于 9 月 23 日上线。PlayStation 商店标注的具体时间为 9 月 16 日 10:00（UTC+8）。"],["已确认平台","官网列出 PlayStation 5、Xbox、Steam、Epic Games Store、App Store 与 Google Play。目前没有正式公布 PS4、Xbox One、Nintendo Switch 或 Mac 版本。"],["为什么 Steam 可能显示 9 月 15 日","部分地区的 Steam 商店显示 9 月 15 日，这与 UTC+8 的 9 月 16 日上线时间换算到欧美时区后落在前一日相符；实际解锁请以所在地商店倒计时为准。"],["跨平台支持","Steam 标注了跨平台多人、单人、在线合作和在线 PvP。账号互通及跨平台存档规则仍需等待上线公告。"],["上线前准备","在常用平台完成预约或愿望单，PC 至少预留 45 GB，并在临近上线时留意预载和服务器开放公告。"]],
+      "body": [["上线日期速览","Pawprint Studio 宣布 PC 与主机版于 2026 年 9 月 16 日上线，iOS 与 Android 于 9 月 23 日上线。PlayStation 商店标注 9 月 16 日 10:00（UTC+8）；Steam、Epic、Xbox 与移动端尚未分别公布准确解锁小时。"],["已确认平台","官网列出 PlayStation 5、Xbox、Steam、Epic Games Store、App Store 与 Google Play。目前没有正式公布 PS4、Xbox One、Nintendo Switch 或 Mac 版本。"],["为什么 Steam 可能显示 9 月 15 日","部分地区的 Steam 显示 9 月 15 日，这可能是 UTC+8 的 9 月 16 日换算到欧美时区后落在前一日，但不能据此断定所有平台同时解锁。请以所在地商店倒计时为准。"],["跨平台支持","Steam 标注跨平台多人、单人、在线合作和在线 PvP；账号互通和跨平台存档规则仍待官方说明。"],["上线前准备","在常用平台完成预约或愿望单，PC 至少预留 45 GB，并留意预载与服务器开放公告。"]],
+      "matrix": {"title":"各平台上线日期","headers":["平台","上线日期","已确认时间／状态"],"rows":[["Steam／Epic Games","2026 年 9 月 16 日（官方全球日期）","具体商店解锁小时未单独确认"],["PlayStation 5","2026 年 9 月 16 日","10:00（UTC+8）"],["Xbox","2026 年 9 月 16 日（官方主机日期）","具体解锁小时未单独确认"],["iOS／Android","2026 年 9 月 23 日","移动端具体小时未确认"]],"note":"Steam 因当地时区可能显示 9 月 15 日，请以商店实时倒计时为准。"},
+      "faq": [["Aniimo 伊莫什么时候上线？","PC 与主机版于 2026 年 9 月 16 日上线，iOS 和 Android 于 9 月 23 日上线。"],["《伊莫》PS5 版什么时候上线？","PlayStation 标注为 2026 年 9 月 16 日 10:00（UTC+8）。"],["《伊莫》Xbox 版什么时候上线？","官方确认主机版为 9 月 16 日，但尚未公布 Xbox 的准确解锁小时。"],["为什么 Steam 显示 9 月 15 日？","全球日期和当地时区不同，欧美地区可能显示前一日，最终以 Steam 当地倒计时为准。"],["《伊莫》有 Switch 或 PS4 版吗？","官方尚未公布 Nintendo Switch 或 PlayStation 4 版本。"]],
       "sources": [["官网全球上线公告","https://www.aniimo.com/newslist/detail/100051"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5 商店页","https://www.playstation.com/games/aniimo/"]]
     },
     "pre-registration": {
