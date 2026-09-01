@@ -16,6 +16,7 @@ python3 -m http.server 4173
 - 上线倒计时、当地时间换算、PC 内存与存储检查
 - 官方动态摘要与 94 条官方 Wiki 图鉴索引
 - PS5 预购礼包对比、独立新闻页面与 RSS 订阅
+- PS5 无障碍功能指南，以及英文、简中、日文独立 RSS
 - 上市准备、核心玩法、资料政策
 - 关于、隐私政策、404
 - robots、sitemap、llms 与 Cloudflare Pages 安全响应头
