@@ -240,8 +240,9 @@
       "title": "Aniimo 伊莫支持 Steam Deck 吗？",
       "description": "《伊莫》目前尚无 Steam Deck 验证，结合官方 PC 配置说明当前兼容状态。",
       "h1": "Aniimo 伊莫 Steam Deck 支持状态",
-      "body": [["尚无官方验证","Steam 商店没有显示 Steam Deck Verified 或 Playable，Pawprint Studio 也没有公布掌机专用模式。"],["配置无法直接换算","最低配置为 Windows 10、12 GB 内存、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600，桌面配置不能直接等同于 Deck 实际表现。"],["Linux 与反作弊","SteamOS 能否运行还取决于 Proton、启动器、账号服务、视频解码和反作弊，正式版细节尚未确认。"],["可能的替代方式","官方 NVIDIA 公告表示 Aniimo 计划在上线时支持 GeForce NOW，网络和设备支持时可考虑云游戏。"],["上线后实测","本站会测试安装、登录、按键、文字大小、帧率、续航、休眠恢复和在线模式，再给出建议。"]],
-      "sources": [["Steam 官方配置","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 NVIDIA／GeForce NOW 公告","https://www.aniimo.com/newslist/detail/100062"]]
+      "body": [["尚无官方验证","Steam 商店没有显示 Steam Deck Verified 或 Playable，Pawprint Studio 也没有公布掌机专用模式。"],["配置无法直接换算","最低配置为 Windows 10、12 GB 内存、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600，桌面配置不能直接等同于 Deck 实际表现。"],["Linux 与反作弊","SteamOS 能否运行还取决于 Proton、启动器、账号服务、视频解码和反作弊，正式版细节尚未确认。"],["云游戏尚未确认","Pawprint Studio 尚未宣布 Aniimo 登陆 GeForce NOW 或其他云游戏平台。官方 NVIDIA 公告实际是上线后的 NVIDIA ACE 互动功能，而不是云串流；不能因为 GeForce NOW 支持 Steam Deck 就推断 Aniimo 可通过其游玩。"],["上线后实测","本站会测试安装、登录、按键、文字大小、帧率、续航、休眠恢复和在线模式，再给出建议。"]],
+      "faq": [["Aniimo 伊莫获得 Steam Deck 验证了吗？","目前 Steam 商店尚未显示 Steam Deck Verified 或 Playable 标记。"],["Steam Deck 能运行 Aniimo 伊莫吗？","尚未获得官方验证。桌面 PC 配置不能证明 Steam Deck 性能或 SteamOS 兼容性。"],["Aniimo 伊莫会登录 GeForce NOW 吗？","目前没有官方确认。现有 NVIDIA ACE 公告是上线后的互动功能，不是云游戏支持。"]],
+      "sources": [["Steam 官方配置与 Deck 状态","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 NVIDIA ACE 更新","https://www.aniimo.com/newslist/detail/100062"]]
     },
     "languages-voice-acting": {
       "title": "Aniimo 伊莫支持语言与配音",
@@ -295,6 +296,8 @@
       "description": "《伊莫》官方 PC 最低和推荐配置，包括系统、CPU、显卡、内存、网络及硬盘空间。",
       "h1": "Aniimo 伊莫配置要求",
       "body": [["最低配置","64 位 Windows 10；Intel Core i7-9700 或 AMD Ryzen 5 3600X；12 GB 内存；NVIDIA GTX 1060 或 AMD Radeon RX 6600；DirectX 11；宽带网络；45 GB 可用空间。"],["推荐配置","64 位 Windows 10 或更新版本；Intel Core i7-12700F 或 AMD Ryzen 7 7700X；16 GB 内存；NVIDIA RTX 3070 8 GB 或 AMD Radeon RX 6800；DirectX 11；宽带网络；45 GB 可用空间。"],["硬盘空间建议","商店标注为 45 GB 可用空间。实际安装时应额外保留解压、着色器缓存、更新补丁和截图所需空间。"],["笔记本与掌机","移动端显卡名称不能直接与桌面显卡等同。目前官方没有确认 Steam Deck 等掌机兼容性，不应在正式版测试前默认支持。"],["网络要求","Steam 明确要求宽带连接并包含在线互动。即使主要进行单人探索，也要为下载、账号服务和联网验证做好准备。"]],
+      "matrix": {"title":"官方 PC 配置表","headers":["组件","最低配置","推荐配置"],"rows":[["系统","64 位 Windows 10","64 位 Windows 10 或更高"],["CPU","Intel i7-9700 / AMD Ryzen 5 3600X","Intel i7-12700F / AMD Ryzen 7 7700X"],["内存","12 GB","16 GB"],["显卡","GTX 1060 / Radeon RX 6600","RTX 3070 8 GB / Radeon RX 6800"],["DirectX","版本 11","版本 11"],["存储","45 GB 可用空间","45 GB 可用空间"]],"note":"以上是当前 Steam PC 商店要求。笔记本显卡和掌机需要在正式版单独测试。"},
+      "faq": [["Aniimo 伊莫需要多少存储空间？","Steam 当前最低与推荐配置均列出 45 GB 可用空间。"],["Aniimo 伊莫必须用 SSD 吗？","Steam 配置表没有指定 SSD 或 HDD。建议预留解压和补丁空间，但不要把硬盘类型当成已确认要求。"],["笔记本能玩 Aniimo 伊莫吗？","请用笔记本的具体 CPU、GPU 对照桌面配置；移动显卡名称不能直接等同于桌面表现。"],["Aniimo 伊莫支持 Steam Deck 吗？","尚未获得官方确认，请查看 Steam Deck 专页的当前证据。"]],
       "sources": [["Steam 官方配置要求","https://store.steampowered.com/app/4126040/Aniimo/"]]
     },
     "free-to-play": {

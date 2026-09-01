@@ -240,8 +240,9 @@
       "title": "AniimoはSteam Deckで遊べる？対応状況",
       "description": "AniimoはSteam Deck未検証。公式PCスペックと現時点の互換性情報を整理します。",
       "h1": "Aniimo Steam Deck対応状況",
-      "body": [["公式認証は未取得","SteamストアにはDeck VerifiedまたはPlayableの表示がなく、Pawprint Studioも携帯型PC向けモードを発表していません。"],["必要スペックとの比較","最低環境はWindows 10、12GB RAM、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600です。デスクトップ向け表記からDeck性能を保証することはできません。"],["Linux・アンチチート","SteamOSではProton、ランチャー、アカウントサービス、動画コーデック、アンチチート対応が影響します。正式版の仕様は未確認です。"],["代替手段","公式NVIDIA発表では、Aniimoはサービス開始時にGeForce NOW対応予定です。対応端末と回線があればクラウドプレイも選択肢です。"],["発売後の検証","インストール、ログイン、操作、文字サイズ、フレームペーシング、バッテリー、スリープ復帰、オンライン機能を確認して評価します。"]],
-      "sources": [["Steam公式PC要件","https://store.steampowered.com/app/4126040/Aniimo/"],["公式NVIDIA／GeForce NOW発表","https://www.aniimo.com/newslist/detail/100062"]]
+      "body": [["公式認証は未取得","SteamストアにはDeck VerifiedまたはPlayableの表示がなく、Pawprint Studioも携帯型PC向けモードを発表していません。"],["必要スペックとの比較","最低環境はWindows 10、12GB RAM、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600です。デスクトップ向け表記からDeck性能を保証することはできません。"],["Linux・アンチチート","SteamOSではProton、ランチャー、アカウントサービス、動画コーデック、アンチチート対応が影響します。正式版の仕様は未確認です。"],["クラウドゲーミングは未確認","Pawprint StudioはGeForce NOWなどのクラウドサービスでAniimoを配信すると発表していません。公式NVIDIA告知はサービス開始後のNVIDIA ACE連携であり、クラウドストリーミングの案内ではありません。GeForce NOWがSteam Deckに対応していることも、Aniimoを遊べる根拠にはなりません。"],["発売後の検証","インストール、ログイン、操作、文字サイズ、フレームペーシング、バッテリー、スリープ復帰、オンライン機能を確認して評価します。"]],
+      "faq": [["AniimoはSteam Deck Verifiedですか？","Steamストアには現在、Deck VerifiedまたはPlayableの表示がありません。"],["Steam DeckでAniimoを遊べますか？","公式検証はまだありません。PC向けの必要スペックだけではSteam Deckの性能やSteamOS対応を判断できません。"],["AniimoはGeForce NOWに対応しますか？","現時点で公式発表はありません。NVIDIA ACEの告知はクラウドゲーミング対応ではなく、サービス開始後のインタラクション機能に関する内容です。"]],
+      "sources": [["Steam公式PC要件・Deck状態","https://store.steampowered.com/app/4126040/Aniimo/"],["公式NVIDIA ACE更新","https://www.aniimo.com/newslist/detail/100062"]]
     },
     "languages-voice-acting": {
       "title": "Aniimo 対応言語・ボイス一覧",
@@ -295,6 +296,8 @@
       "description": "Aniimo PC版のOS、CPU、GPU、メモリ、DirectX、通信環境、必要容量を公式情報から整理。",
       "h1": "Aniimoのシステム要件",
       "body": [["最低動作環境","64bit Windows 10、Intel Core i7-9700またはAMD Ryzen 5 3600X、メモリ12GB、NVIDIA GTX 1060またはAMD Radeon RX 6600、DirectX 11、ブロードバンド接続、空き容量45GBです。"],["推奨動作環境","64bit Windows 10以降、Intel Core i7-12700FまたはAMD Ryzen 7 7700X、メモリ16GB、NVIDIA RTX 3070 8GBまたはAMD Radeon RX 6800、DirectX 11、ブロードバンド接続、空き容量45GBです。"],["ストレージの余裕","ストア表記は45GBですが、展開用領域、シェーダーキャッシュ、アップデート、スクリーンショットのために追加の空き容量を確保してください。"],["ノートPC・携帯型PC","モバイルGPUは同名のデスクトップ版と性能が異なります。Steam Deckなどの正式対応は確認されていないため、発売後の実機検証を待つのが安全です。"],["インターネット接続","Steamではブロードバンド接続が必須で、オンライン要素も明記されています。ソロ中心でもダウンロードやアカウントサービスへの接続を想定してください。"]],
+      "matrix": {"title":"公式PCスペック表","headers":["項目","最低","推奨"],"rows":[["OS","64bit Windows 10","64bit Windows 10以降"],["CPU","Intel i7-9700 / AMD Ryzen 5 3600X","Intel i7-12700F / AMD Ryzen 7 7700X"],["メモリ","12GB","16GB"],["GPU","GTX 1060 / Radeon RX 6600","RTX 3070 8GB / Radeon RX 6800"],["DirectX","Version 11","Version 11"],["ストレージ","空き45GB","空き45GB"]],"note":"現在のSteam PCストア表記です。ノートPCのGPUや携帯型PCは正式版で別途検証が必要です。"},
+      "faq": [["Aniimoに必要な空き容量は？","Steamでは最低・推奨ともに空き容量45GBと記載されています。"],["AniimoにSSDは必須ですか？","Steamの要件表ではSSD・HDDを指定していません。展開とアップデート用の余裕は確保しつつ、ドライブ種別を必須条件とは扱わないでください。"],["ノートPCで遊べますか？","搭載CPU・GPUをデスクトップ向け要件と比較してください。モバイルGPU名は同名のデスクトップGPUと同等ではありません。"],["AniimoはSteam Deck対応ですか？","公式確認はまだありません。現在の根拠はSteam Deck対応状況ページで確認してください。"]],
       "sources": [["Steam公式システム要件","https://store.steampowered.com/app/4126040/Aniimo/"]]
     },
     "free-to-play": {
