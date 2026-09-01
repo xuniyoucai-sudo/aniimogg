@@ -9,7 +9,7 @@ This schedule keeps the site useful between the initial content launch and the g
 | 2026-08-29 | Check the official download page and stores for preload details; update the download and server-time guides only if confirmed. |
 | 2026-08-30 | Recheck the official Wiki roster and refresh the confirmed Aniimo index. |
 | 2026-08-31 | Check official FAQs/store listings for cross-save and account-linking details. |
-| 2026-09-01 | Compare language and voice-over listings across the official site and stores. |
+| 2026-09-01 | Completed: rechecked the 13 Steam text languages and four full-audio languages; published the PS5 pre-order pack comparison, launch-time table, RSS feed and sourced news entries. |
 | 2026-09-02 | Recheck PC requirements and Steam Deck status. |
 | 2026-09-03 | Review Egg Heist rules; retain the Beta label until release behavior is tested. |
 | 2026-09-04 | Refresh elements, roles, evolution and forms from the official Wiki. |

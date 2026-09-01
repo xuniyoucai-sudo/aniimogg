@@ -15,6 +15,7 @@ python3 -m http.server 4173
 - 首页、攻略索引、世界地区、FAQ
 - 上线倒计时、当地时间换算、PC 内存与存储检查
 - 官方动态摘要与 94 条官方 Wiki 图鉴索引
+- PS5 预购礼包对比、独立新闻页面与 RSS 订阅
 - 上市准备、核心玩法、资料政策
 - 关于、隐私政策、404
 - robots、sitemap、llms 与 Cloudflare Pages 安全响应头
@@ -29,4 +30,4 @@ python3 -m http.server 4173
 
 ## 发布提醒
 
-静态站点，提交前先运行 `npm run build` 与 `npm test`，Cloudflare Pages 输出目录为 `/`。推送 `main` 会触发线上部署，因此请先确认生成页面和检查结果均已提交。
+静态站点，提交前先运行 `npm run build` 与 `npm test`，Cloudflare Pages 输出目录为 `/`。推送 `main` 会触发线上部署；部署完成后可运行 `npm run submit:indexnow` 提交 sitemap 中的 URL。

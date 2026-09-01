@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "global-launch-dates",
+    "date": "2026-08-26",
+    "updated": "2026-09-01",
+    "source": "https://www.aniimo.com/newslist/detail/100051",
+    "locales": {
+      "en": {"title": "Aniimo Global Launch Dates Confirmed", "description": "PC and consoles launch September 16, followed by mobile September 23.", "body": ["Pawprint Studio has confirmed a two-wave global launch: PC and consoles on September 16, 2026, followed by iOS and Android on September 23.", "The same announcement opened the Time to Aniimo web event through September 3 at 23:59 UTC+8. Its reward is tied to matching the event email with the email used for the first launch character."]},
+      "zh-CN": {"title": "Aniimo 伊莫全球上线日期确认", "description": "PC 与主机版 9 月 16 日上线，移动版 9 月 23 日上线。", "body": ["Pawprint Studio 已确认分两阶段全球上线：PC 与主机版于 2026 年 9 月 16 日上线，iOS 与 Android 于 9 月 23 日上线。", "同一公告还开启了 Time to Aniimo 网页活动，活动持续到 9 月 3 日 23:59（UTC+8）；奖励要求活动邮箱与上线后创建首个角色所用邮箱一致。"]},
+      "ja": {"title": "Aniimoのグローバル配信日が決定", "description": "PC・コンソール版は9月16日、モバイル版は9月23日に配信。", "body": ["Pawprint Studioは2段階のグローバル配信を発表しました。PC・コンソール版は2026年9月16日、iOS・Android版は9月23日です。", "同じ告知でTime to Aniimoウェブイベントも開始され、9月3日23:59（UTC+8）まで開催。報酬にはイベント用メールと正式開始後の最初のキャラクター作成メールを一致させる必要があります。"]}
+    }
+  },
+  {
+    "slug": "ps5-preorder-packs",
+    "date": "2026-09-01",
+    "updated": "2026-09-01",
+    "source": "https://www.playstation.com/en-us/games/aniimo/",
+    "locales": {
+      "en": {"title": "PS5 Pre-Order Packs and Prices Verified", "description": "The US PS5 store lists Advanced and Collector's reward packs while the base game remains free.", "body": ["The US PlayStation listing shows an Advanced Edition reward pack at US$9.99 and a Collector's Edition reward pack at US$19.99. Both edition cards include the base-game listing, Fluffy Friend and a version-specific Companion Handbook.", "The base game becomes free at launch. The pre-order period ends September 16 at 09:59 UTC+8. Regional prices and pack availability may differ."]},
+      "zh-CN": {"title": "PS5 预购礼包与价格已核实", "description": "美服 PS5 列出进阶版和收藏版奖励礼包，游戏本体仍为免费。", "body": ["美国 PlayStation 页面列出 9.99 美元的进阶版奖励礼包和 19.99 美元的收藏版奖励礼包；两个版本卡片均包含本体条目、Fluffy Friend 和对应 Companion Handbook。", "游戏本体在上线后免费。预购于 9 月 16 日 09:59（UTC+8）结束，地区价格和礼包供应可能不同。"]},
+      "ja": {"title": "PS5予約パックと価格を確認", "description": "米国PS5ではアドバンスド版とコレクターズ版の特典パックを販売。本編は無料です。", "body": ["米国PlayStationページでは、アドバンスド版特典パックが9.99ドル、コレクターズ版が19.99ドル。どちらの版にも本編の項目、Fluffy Friend、対応するCompanion Handbookが掲載されています。", "ゲーム本編は正式開始後に無料です。予約受付は9月16日09:59（UTC+8）まで。価格と販売状況は地域により異なる場合があります。"]}
+    }
+  },
+  {
+    "slug": "steam-language-support",
+    "date": "2026-09-01",
+    "updated": "2026-09-01",
+    "source": "https://store.steampowered.com/app/4126040/Aniimo/",
+    "locales": {
+      "en": {"title": "Steam Lists 13 Text Languages and Four Full-Audio Languages", "description": "English, Simplified Chinese, Japanese and Korean currently have full-audio support on Steam.", "body": ["A September 1 recheck of Steam shows 13 languages with interface and subtitle support.", "English, Simplified Chinese, Japanese and Korean are marked for full audio. Traditional Chinese and the other eight listed text languages are not currently marked for full audio."]},
+      "zh-CN": {"title": "Steam 列出 13 种文本语言与 4 种完整配音", "description": "英语、简体中文、日语和韩语目前在 Steam 标注完整配音。", "body": ["9 月 1 日重新核对 Steam 后，页面仍列出 13 种界面与字幕语言。", "英语、简体中文、日语和韩语标注完整配音；繁体中文及另外八种文本语言目前未标注完整配音。"]},
+      "ja": {"title": "Steamはテキスト13言語・フル音声4言語に対応", "description": "英語、簡体字中国語、日本語、韓国語がSteamでフル音声対応。", "body": ["9月1日にSteamを再確認し、13言語のインターフェースと字幕対応を確認しました。", "英語、簡体字中国語、日本語、韓国語はフル音声対応。繁体字中国語と残り8つのテキスト言語にはフル音声の表示がありません。"]}
+    }
+  }
+]

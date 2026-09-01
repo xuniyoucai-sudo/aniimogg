@@ -121,10 +121,10 @@
       "lead": "The world index currently covers six officially revealed regions. Interactive coordinates will be added only after in-game verification."
     },
     "tools": {
-      "title": "Aniimo Tools",
-      "description": "Planning tools for Aniimo teams, builds, materials and exploration.",
-      "h1": "Aniimo Tools",
-      "lead": "Team, build and material planners are scheduled after the release database is verified."
+      "title": "Aniimo Launch Countdown & Local Release Time",
+      "description": "Live Aniimo launch countdown, local release-time converter, official store links and PC RAM and storage readiness check.",
+      "h1": "Aniimo Launch Countdown",
+      "lead": "Convert the confirmed PS5 launch time to your local clock, open official stores and check the published PC memory and storage minimums."
     },
     "news": {
       "title": "Aniimo News & Updates",
@@ -336,6 +336,15 @@
       "h1": "Aniimo Regions and World Guide",
       "body": [["The continent of Idyll","Aniimo takes place across Idyll, an open world designed around catching, Twine abilities, traversal, challenges, races, discovery, and social camps."],["Forest of Falling Stars and Mistwoods","Forest of Falling Stars is a dense purple forest where Celestises glide among starine trees. Mistwoods is a poisonous swamp forest where glowing fruit helps guide travelers."],["Echoback Landing and Sea of Flowers","Echoback Landing centers on an enormous stranded Aniimo and the mystery of its song. Sea of Flowers surrounds a perfume-making village with vast purple flower fields."],["Blitzwood and Nimbus Fields","Blitzwood is scarred by lightning drawn to Bolties and filled with thunder-struck trees. Nimbus Fields places low clouds over broad grasslands where Nimbis bounce across the terrain."],["How the map will expand","The current guide covers only officially named regions. Coordinates, resource nodes, quests, fast-travel points, weather cycles, and spawn tables will be added after in-game verification."]],
       "sources": [["Official Aniimo world page","https://www.aniimo.com/main/"]]
+    },
+    "preorder-bundles": {
+      "title": "Aniimo Pre-Order Packs: Advanced vs Collector's Edition",
+      "description": "Compare Aniimo's PS5 Advanced and Collector's pre-order packs, prices, Companion Handbooks, exclusive reward and free base game.",
+      "h1": "Aniimo Pre-Order Packs Compared",
+      "body": [["The base game is free","Aniimo launches as a free-to-play game. The PlayStation pre-order prices buy optional reward packs, not access to the base game. Players can wait for launch and download the base game without buying either edition."],["Advanced Edition — US$9.99 on PS5","The Advanced pack includes the free base-game listing, one PlayStation-exclusive Fluffy Friend accessory and one Advanced Companion Handbook. The handbook includes a version-dependent Prismana Aniimo Egg with Perfect Potential, a related branching-evolution material and other progression rewards unlocked as the handbook levels."],["Collector's Edition — US$19.99 on PS5","The Collector's listing includes the free base-game listing, the same Fluffy Friend accessory and a Collector's Companion Handbook. PlayStation does not provide a complete item-by-item comparison on the main product page, so this guide does not invent additional Collector rewards."],["Important handbook conditions","The handbook is an in-game item that remains active until the end of the current version after redemption. Its exclusive Prismana Egg can vary by version, so the actual reward depends on when it is redeemed."],["Deadline and regional pricing","The PlayStation pre-order period ends September 16, 2026 at 09:59 UTC+8, one minute before the listed PS5 launch. US prices are US$9.99 and US$19.99; local prices, taxes and refund rules can differ by PlayStation region."],["Should you pre-order?","Buy only if the listed cosmetic and handbook rewards are worth the local price to you. A purchase is not required to play, and the current listing does not establish the long-term value of handbook progression or version-dependent eggs."]],
+      "matrix": {"title":"PS5 pre-order pack comparison","headers":["Option","US price","Confirmed contents"],"rows":[["Free base game","US$0 at launch","Full base game; no pre-order pack required"],["Advanced Edition","US$9.99","Fluffy Friend x1; Advanced Companion Handbook x1"],["Collector's Edition","US$19.99","Fluffy Friend x1; Collector's Companion Handbook x1"]],"note":"Prices and contents are from the US PlayStation listing checked September 1, 2026. Check your regional store before purchasing."},
+      "faq": [["Is Aniimo free even though PlayStation sells pre-order editions?","Yes. The base game becomes free at launch; the paid editions are optional reward packs."],["What is in the Advanced Edition?","The US PS5 listing confirms Fluffy Friend x1 and Advanced Companion Handbook x1, with a version-dependent Prismana Egg, evolution material and other handbook rewards."],["What is in the Collector's Edition?","The main US PS5 edition list confirms Fluffy Friend x1 and Collector's Companion Handbook x1. It does not show a complete item-by-item Collector reward breakdown."],["When does Aniimo pre-order end?","PlayStation states September 16, 2026 at 09:59 UTC+8."],["Are these prices available on every platform?","No. The comparison uses the US PS5 listing. Platform availability and regional prices may differ."]],
+      "sources": [["PlayStation Aniimo page and edition list","https://www.playstation.com/en-us/games/aniimo/"],["PlayStation Advanced Edition listing","https://store.playstation.com/en-us/concept/10018491/"]]
     },
     "editorial-policy": {
       "title": "Data, Version & Correction Policy",
