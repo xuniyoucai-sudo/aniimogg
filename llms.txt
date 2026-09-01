@@ -1,13 +1,17 @@
 # Aniimo GG
 
-> 《伊莫》繁体中文非官方玩家攻略站，整理官方资讯、世界资料与开服后的实测攻略。
+> Independent Aniimo player guide in English, Simplified Chinese and Japanese, with sourced launch information, world data and release-tested guides.
 
 ## 主要页面
 - [首页](https://aniimogg.com/)
 - [攻略索引](https://aniimogg.com/guides/)
-- [艾德尔大陆地区](https://aniimogg.com/world.html)
-- [常见问题](https://aniimogg.com/faq.html)
-- [资料政策](https://aniimogg.com/guides/editorial-policy.html)
+- [上线中心与工具](https://aniimogg.com/tools/)
+- [艾德尔大陆地区](https://aniimogg.com/map/)
+- [常见问题](https://aniimogg.com/faq/)
+- [资料政策](https://aniimogg.com/guides/editorial-policy/)
+- [English](https://aniimogg.com/)
+- [简体中文](https://aniimogg.com/zh-cn/)
+- [日本語](https://aniimogg.com/ja/)
 
 ## 内容规则
 - 官方信息优先引用官方公告。

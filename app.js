@@ -29,3 +29,21 @@ document.querySelectorAll('.aniimo-index').forEach(index=>{
   [search,element,role,stage].forEach(control=>control.addEventListener(control===search?'input':'change',apply));
   index.querySelector('.index-clear').addEventListener('click',()=>{search.value='';element.value='';role.value='';stage.value='';apply();search.focus()});
 });
+document.querySelectorAll('.launch-countdown').forEach(box=>{
+  const target=new Date(box.dataset.launch);
+  const output=box.querySelector('strong');
+  box.querySelector('time').textContent=new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(target);
+  const update=()=>{
+    const seconds=Math.max(0,Math.floor((target-Date.now())/1000));
+    const days=Math.floor(seconds/86400),hours=Math.floor(seconds%86400/3600),minutes=Math.floor(seconds%3600/60);
+    output.textContent=seconds?`${days}d ${hours}h ${minutes}m`:'Live now';
+  };
+  update();setInterval(update,60000);
+});
+document.querySelectorAll('.readiness-check').forEach(form=>form.addEventListener('submit',event=>{
+  event.preventDefault();
+  const result=form.querySelector('.check-result');
+  const ready=Number(form.elements.ram.value)>=12&&Number(form.elements.space.value)>=45;
+  result.textContent=ready?result.dataset.ready:result.dataset.fail;
+  result.className=`check-result ${ready?'is-ready':'is-fail'}`;
+}));

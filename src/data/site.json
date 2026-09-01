@@ -1,7 +1,8 @@
 {
   "domain":"https://aniimogg.com",
   "routes":["","aniimo","tier-list","guides","database","map","tools","news","faq","about","privacy","contact","authors","terms"],
-  "noindexRoutes":["aniimo","tier-list","database","tools","news"],
+  "noindexRoutes":["aniimo","tier-list","database"],
+  "routeModified":{"":"2026-09-01","guides":"2026-09-01","map":"2026-09-01","tools":"2026-09-01","news":"2026-09-01","faq":"2026-09-01","about":"2026-08-28","privacy":"2026-08-28","contact":"2026-08-28","authors":"2026-08-28","terms":"2026-08-28"},
   "guideArticles":["crossplay-cross-save","multiplayer","release-date-platforms","download-preload","server-launch-times","pre-registration","system-requirements","steam-deck","free-to-play","languages-voice-acting","egg-heist","confirmed-aniimo","elements-roles","evolution-forms","catching-twine","regions-world","getting-started","core-gameplay","editorial-policy"],
   "guideGroups":[{"id":"launch","articles":["release-date-platforms","download-preload","server-launch-times","pre-registration","system-requirements","steam-deck","free-to-play","languages-voice-acting"]},{"id":"multiplayer","articles":["crossplay-cross-save","multiplayer","egg-heist"]},{"id":"database","articles":["confirmed-aniimo","elements-roles","evolution-forms"]},{"id":"gameplay","articles":["catching-twine","regions-world","getting-started","core-gameplay","editorial-policy"]}],
   "guideMeta": {
