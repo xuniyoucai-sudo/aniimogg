@@ -21,7 +21,7 @@
     "system-requirements":{"published":"2026-08-27","updated":"2026-09-02","version":"Pre-launch Steam listing / official DLSS announcement","status":"official","related":["release-date-platforms","steam-deck","download-preload"]},
     "free-to-play":{"published":"2026-08-27","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["pre-registration","release-date-platforms","confirmed-aniimo"]},
     "confirmed-aniimo":{"published":"2026-08-27","updated":"2026-08-30","version":"Pre-launch official Wiki snapshot","status":"official","related":["elements-roles","evolution-forms","catching-twine"]},
-    "catching-twine":{"published":"2026-08-27","updated":"2026-08-28","version":"Official / Beta","status":"beta","related":["confirmed-aniimo","elements-roles","evolution-forms"]},
+    "catching-twine":{"published":"2026-08-27","updated":"2026-09-02","version":"Official / Beta catching workflow","status":"beta","related":["confirmed-aniimo","elements-roles","evolution-forms"]},
     "multiplayer":{"published":"2026-08-27","updated":"2026-08-31","version":"Official / Beta","status":"beta","related":["egg-heist","crossplay-cross-save","server-launch-times"]},
     "regions-world":{"published":"2026-08-27","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["map","catching-twine","confirmed-aniimo"]},
     "getting-started":{"published":"2026-08-27","updated":"2026-09-02","version":"Pre-launch official-source checklist","status":"official","related":["release-date-platforms","pre-registration","download-preload"]},
