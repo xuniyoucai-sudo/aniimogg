@@ -2,7 +2,7 @@
   "domain":"https://aniimogg.com",
   "routes":["","aniimo","tier-list","guides","database","map","tools","news","faq","about","privacy","contact","authors","terms"],
   "noindexRoutes":["aniimo","tier-list","database"],
-  "routeModified":{"":"2026-09-01","guides":"2026-09-01","map":"2026-09-01","tools":"2026-09-01","news":"2026-09-01","faq":"2026-09-01","about":"2026-08-28","privacy":"2026-08-28","contact":"2026-08-28","authors":"2026-08-28","terms":"2026-08-28"},
+  "routeModified":{"":"2026-09-02","guides":"2026-09-02","map":"2026-09-01","tools":"2026-09-01","news":"2026-09-01","faq":"2026-09-01","about":"2026-08-28","privacy":"2026-08-28","contact":"2026-08-28","authors":"2026-08-28","terms":"2026-08-28"},
   "guideArticles":["crossplay-cross-save","multiplayer","release-date-platforms","download-preload","server-launch-times","pre-registration","preorder-bundles","accessibility-features","system-requirements","steam-deck","free-to-play","languages-voice-acting","egg-heist","confirmed-aniimo","elements-roles","evolution-forms","catching-twine","regions-world","getting-started","core-gameplay","editorial-policy"],
   "guideGroups":[{"id":"launch","articles":["release-date-platforms","download-preload","server-launch-times","pre-registration","preorder-bundles","accessibility-features","system-requirements","steam-deck","free-to-play","languages-voice-acting"]},{"id":"multiplayer","articles":["crossplay-cross-save","multiplayer","egg-heist"]},{"id":"database","articles":["confirmed-aniimo","elements-roles","evolution-forms"]},{"id":"gameplay","articles":["catching-twine","regions-world","getting-started","core-gameplay","editorial-policy"]}],
   "guideMeta": {
@@ -11,7 +11,7 @@
     "crossplay-cross-save":{"published":"2026-08-28","updated":"2026-08-31","version":"Pre-launch","status":"official","related":["multiplayer","egg-heist","release-date-platforms"]},
     "steam-deck":{"published":"2026-08-28","updated":"2026-09-01","version":"Pre-launch official store check","status":"official","related":["system-requirements","download-preload","release-date-platforms"]},
     "languages-voice-acting":{"published":"2026-08-28","updated":"2026-09-01","version":"Pre-launch Steam listing rechecked","status":"official","related":["release-date-platforms","download-preload","system-requirements"]},
-    "egg-heist":{"published":"2026-08-28","updated":"2026-08-28","version":"Global Closed Beta","status":"beta","related":["multiplayer","elements-roles","catching-twine"]},
+    "egg-heist":{"published":"2026-08-28","updated":"2026-09-02","version":"Global Closed Beta rule timeline","status":"beta","related":["multiplayer","elements-roles","catching-twine"]},
     "elements-roles":{"published":"2026-08-28","updated":"2026-08-31","version":"Official Wiki / Beta","status":"beta","related":["confirmed-aniimo","evolution-forms","catching-twine"]},
     "evolution-forms":{"published":"2026-08-28","updated":"2026-08-28","version":"Official Wiki / Beta","status":"beta","related":["confirmed-aniimo","elements-roles","catching-twine"]},
     "release-date-platforms":{"published":"2026-08-27","updated":"2026-08-30","version":"Pre-launch","status":"official","related":["server-launch-times","download-preload","pre-registration"]},
@@ -24,8 +24,8 @@
     "catching-twine":{"published":"2026-08-27","updated":"2026-08-28","version":"Official / Beta","status":"beta","related":["confirmed-aniimo","elements-roles","evolution-forms"]},
     "multiplayer":{"published":"2026-08-27","updated":"2026-08-31","version":"Official / Beta","status":"beta","related":["egg-heist","crossplay-cross-save","server-launch-times"]},
     "regions-world":{"published":"2026-08-27","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["map","catching-twine","confirmed-aniimo"]},
-    "getting-started":{"published":"2026-08-27","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["release-date-platforms","pre-registration","download-preload"]},
-    "core-gameplay":{"published":"2026-08-27","updated":"2026-08-28","version":"Official / Beta","status":"beta","related":["catching-twine","elements-roles","multiplayer"]},
+    "getting-started":{"published":"2026-08-27","updated":"2026-09-02","version":"Pre-launch official-source checklist","status":"official","related":["release-date-platforms","pre-registration","download-preload"]},
+    "core-gameplay":{"published":"2026-08-27","updated":"2026-09-02","version":"Pre-launch official gameplay overview","status":"official","related":["catching-twine","elements-roles","multiplayer"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-08-28","version":"Site policy","status":"official","related":["authors","contact","privacy"]}
   },
   "regions":["falling-stars","mistwoods","echoback","flowers","blitzwood","nimbus"],

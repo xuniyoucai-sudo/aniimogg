@@ -176,41 +176,17 @@
   "guides": {
     "getting-started": {
       "title": "Aniimo 伊莫新手攻略：上线准备",
-      "description": "伊莫上线日期、平台与新手准备清单。",
+      "description": "伊莫上线日期、平台、账号准备与有官方来源的新手开服清单。",
       "h1": "Aniimo 伊莫新手攻略",
-      "body": [
-        [
-          "《伊莫》是什么？",
-          "《伊莫》是一款免费游玩的次世代捉宠开放世界 RPG。玩家将在艾德尔大陆捕捉伊莫、与它们融合（Twine），并通过滑翔、潜水和钻地探索世界。"
-        ],
-        [
-          "上线日期",
-          "PC 与主机版于 2026 年 9 月 16 日上线，移动版于 9 月 23 日上线。"
-        ],
-        [
-          "开服前准备",
-          "通过官网预约并确认账号；选择首发平台；封测数值在正式版实测前只作参考。"
-        ]
-      ]
+      "body": [["《伊莫》是什么？","《伊莫》是以艾德尔大陆为舞台的免费开放世界捉宠 RPG。玩家使用 Aniipod 捕捉伊莫，通过 Twine 与已收集的伊莫融合，并利用其能力战斗、解谜、滑翔、潜水和钻地。"],["上线日期与首发平台","PC 与主机版于 2026 年 9 月 16 日上线，iOS 与 Android 于 9 月 23 日上线。创建角色前先确定主要平台，因为跨存档、购买共享与平台账号绑定尚未确认。"],["账号与活动准备","使用可找回的邮箱。Time to Aniimo 活动邮箱必须与上线后创建首个角色所用邮箱一致。官网预约、商店愿望单和 PlayStation 付费预购包是不同操作，游戏本体仍免费。"],["配置与无障碍准备","Steam 最低配置列出 12 GB 内存和 45 GB 可用空间。PS5 已列出字幕、基础按键映射、灵敏度、免长按、手动保存、练习辅助和语音聊天转文字，但其他平台可能不同。"],["上线后先核实什么","封测路线、数值和奖励表只能当作历史参考。正式开服后应先核对服务器、账号绑定、下载大小、控制设置与当前版本，再使用配队或强度攻略。"]],
+      "sources": [["官方全球上线公告","https://www.aniimo.com/newslist/detail/100051"],["Aniimo Steam 商店","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo PlayStation 5 页面","https://www.playstation.com/en-us/games/aniimo/"]]
     },
     "core-gameplay": {
       "title": "伊莫玩法：捕捉、融合与探索",
       "description": "了解《伊莫》已经公开的核心玩法。",
       "h1": "捕捉、融合与探索",
-      "body": [
-        [
-          "捕捉与培养",
-          "在开放世界遇见并捕捉不同伊莫，再培养它们参与战斗与探索。"
-        ],
-        [
-          "Twine 融合",
-          "玩家可以与伊莫融合，用新的视角和能力在世界中行动。"
-        ],
-        [
-          "共同探索",
-          "官方公开了滑翔、潜水、钻地、挑战、竞速以及单人和多人探索。"
-        ]
-      ]
+      "body": [["用时机和工具捕捉","官方介绍称玩家会使用 Aniipod、布置陷阱并把握捕捉时机。伊莫出现可能受环境、天气、现象和时间影响；正式版概率与最佳工具仍需实测。"],["Twine 用于战斗、解谜与移动","Twine 让 Pathfinder 与已收集的伊莫融合，使用其视角和能力。官方示例包括解谜、战斗、滑翔、潜水和钻地，伊莫并不只是战斗单位。"],["进化与形态","多数伊莫可以进化，官方图鉴也列出不同形态。进化条件、形态获取方式和数值变化必须以公开正式版为准，不能直接照搬封测。"],["单人、多人和即时挑战","Steam 列出单人、在线合作、在线 PvP 和跨平台多人。Egg Heist 是目前最明确的三人 PvEvP 示例，普通剧情合作范围尚未公布。"],["房车营地与 Homeland","每位 Pathfinder 拥有停在开放世界营地的个人房车，可与其他玩家见面；Homeland 支持种植、装饰和与伊莫布置空间，但正式版访客权限与限制仍待确认。"]],
+      "sources": [["官方玩法介绍","https://www.playstation.com/en-us/games/aniimo/"],["Aniimo Steam 商店","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo 官方 Wiki","https://wiki.aniimo.com/"]]
     },
     "download-preload": {
       "title": "Aniimo 伊莫下载与预载指南",
@@ -256,8 +232,10 @@
       "title": "Aniimo 伊莫 Egg Heist PvEvP 模式指南",
       "description": "介绍封测中的 Operation: Egg Heist 三人 PvEvP 模式、目标与正式版待确认内容。",
       "h1": "Aniimo 伊莫 Egg Heist 指南",
-      "body": [["模式是什么","Operation: Egg Heist 是 Lost Isles 的 PvEvP 活动。官方封测公告描述了收集物资、进入禁区、与其他 Pathfinder 战斗并争夺 Giant Darkler Egg。"],["队伍与解锁","官方商店说明为三人队，封测补丁曾要求 Veteran Pathfinder 等级，但正式版解锁条件可能调整。"],["PvE 与 PvP 选择","封测公告称玩家可以独自探索收集物资，或与其他队伍交战，说明玩法可能强调风险收益选择，但最终规则要以正式版为准。"],["仅限封测的细节","Darkler 形态奖励、匹配、传送保护、计分、撤离和 untwine 修复都来自封测，不应默认原样上线。"],["正式版攻略计划","上线后将补充任务流程、地图路线、队伍定位、配装、奖励表、失败条件和匹配机制。"]],
-      "sources": [["官方 Egg Heist 预告","https://www.aniimo.com/newslist/detail/100015"],["封测模式上线公告","https://www.aniimo.com/newslist/detail/100013"],["官方模式调整","https://www.aniimo.com/newslist/detail/100018"]]
+      "body": [["模式是什么","Operation: Egg Heist 是 Lost Isles 中的三人 PvEvP 活动。封测公告描述了收集物资、进入禁区、击败 Alpha 伊莫或与其他 Pathfinder 交战，并争夺包括 Giant Darkler Egg 在内的蛋。"],["封测解锁与撤离目标","一份封测预告要求达到 Veteran Pathfinder 等级。之后的更新允许玩家在亲自提交 1 枚伊莫蛋，或亲自收集达到降低后的 Eggshell Coins 数量后撤离。这些都是有日期的封测规则。"],["队伍共享与撤离风险","2 月 4 日封测更新规定：成功安全撤离后，队友已提交的伊莫蛋会在队内共享；撤离失败时只能获得自己亲自提交的蛋，因此个人提交与全队生存是不同决策。"],["PvP 与 Team Mode 区别","2 月 2 日公告关闭了 Operation: Egg Heist PvP 中携带物品的符文效果，但 Team Mode 仍然生效；同次更新还增加 Alpha 宝箱的携带物品与符文奖励，并调整 Eggshell Coins 兑换。"],["保护机制与问题修复","封测曾加入进入战场时的短暂无敌保护与中央河道屏障，并修复小地图、匹配状态和异常解除 Twine 等问题，说明规则在测试期间变化较快。"],["正式版核实清单","公开版本需要重新确认解锁等级、队列类型、队伍人数、撤离目标、共享奖励、失败损失、符文规则、商店限制、地图流程及 Darkler 形态奖励，再标记为正式版实测。"]],
+      "matrix": {"title":"Egg Heist 封测规则时间线","headers":["官方公告","封测确认变化","正式版状态"],"rows":[["1 月 29 日","模式开放；收集物资、队伍交战、Giant Darkler Egg 与 Darkler 形态机会","上线后复核"],["1 月 31 日","Veteran Pathfinder 解锁预告与三人 Lost Isles 目标","解锁等级未确认"],["2 月 2 日","调整 Alpha 宝箱、Eggshell Coins 兑换与 PvP 符文限制","数值未确认"],["2 月 3 日","加入进场保护和中央河道屏障","地图规则未确认"],["2 月 4 日","加入队伍蛋共享与两类个人撤离目标","撤离规则未确认"]],"note":"表中全部为封测历史规则，公开正式版验证前不会标记为 Release-tested。"},
+      "faq": [["Egg Heist 是三人模式吗？","官方商店和封测说明均描述为三人队，但仍需核对公开正式版队列。"],["Egg Heist 的主要目标是什么？","封测版本包括收集物资和蛋、处理 PvE 或其他玩家、完成个人撤离目标并安全撤离。"],["提交的蛋会与队友共享吗？","2 月 4 日封测更新规定安全撤离后共享队友已提交的蛋；撤离失败时只保留自己提交的蛋。"],["PvP 中携带物品符文生效吗？","2 月 2 日封测更新关闭 PvP 模式中的符文效果，但 Team Mode 仍生效；正式版规则未确认。"],["这些是正式版最终规则吗？","不是。这是一份有官方来源的封测时间线，公开版本上线后会重新核对。"]],
+      "sources": [["封测模式上线公告","https://www.aniimo.com/newslist/detail/100013"],["官方 Egg Heist 预告","https://www.aniimo.com/newslist/detail/100015"],["2 月 2 日官方调整","https://www.aniimo.com/newslist/detail/100017"],["2 月 3 日官方调整","https://www.aniimo.com/newslist/detail/100018"],["2 月 4 日官方调整","https://www.aniimo.com/newslist/detail/100019"],["Aniimo PlayStation 5 页面","https://www.playstation.com/en-us/games/aniimo/"]]
     },
     "elements-roles": {
       "title": "Aniimo 伊莫属性与定位：属性表和克制关系",

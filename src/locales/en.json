@@ -176,41 +176,17 @@
   "guides": {
     "getting-started": {
       "title": "Aniimo Beginner Guide: Launch Preparation",
-      "description": "Aniimo release dates, platforms and beginner launch checklist.",
+      "description": "Aniimo release dates, platforms, account preparation and a sourced beginner launch checklist.",
       "h1": "Aniimo Beginner Guide",
-      "body": [
-        [
-          "What is Aniimo?",
-          "Aniimo is a free-to-play, next-generation creature-catching open-world RPG set on the continent of Idyll. Players catch creatures, Twine with them, and explore by gliding, diving and burrowing."
-        ],
-        [
-          "Launch dates",
-          "PC and console launch on September 16, 2026. Mobile launches on September 23, 2026."
-        ],
-        [
-          "Before you start",
-          "Pre-register through the official site, choose your launch platform, and treat closed-beta values as provisional until the release build is tested."
-        ]
-      ]
+      "body": [["What is Aniimo?","Aniimo is a free-to-play creature-catching open-world RPG set on Idyll. Players catch creatures with Aniipods, Twine with collected Aniimo, and use their abilities for combat, puzzles and traversal such as gliding, diving and burrowing."],["Launch dates and platform choice","PC and consoles launch September 16, 2026, followed by iOS and Android on September 23. Choose a primary platform before creating a character because cross-save, shared purchases and platform-account linking are not yet confirmed."],["Account and event preparation","Use a recoverable email. The Time to Aniimo event requires its email to match the email used for the first launch character. Store wishlists, website registration and paid PlayStation pre-order packs are separate actions; the base game is free."],["Storage and accessibility","Steam lists 12 GB RAM and 45 GB available storage as minimums. PS5 lists subtitles, basic remapping, sensitivity options, no-hold controls, manual saving, practice support and voice-chat transcription, but other platforms may differ."],["What to verify after launch","Treat beta routes, values and reward tables as provisional. At launch, verify server selection, account linking, download size, controller settings and the current version before following detailed builds or tier lists."]],
+      "sources": [["Official global launch announcement","https://www.aniimo.com/newslist/detail/100051"],["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo on PlayStation 5","https://www.playstation.com/en-us/games/aniimo/"]]
     },
     "core-gameplay": {
       "title": "Aniimo Gameplay: Catching, Twine & Exploration",
       "description": "Learn the confirmed core gameplay systems in Aniimo.",
       "h1": "Catching, Twine & Exploration",
-      "body": [
-        [
-          "Catch and train",
-          "Meet and catch Aniimo throughout the open world, then train them for combat and exploration."
-        ],
-        [
-          "Twine",
-          "Twine lets the player merge with an Aniimo and use a different perspective or ability to move through the world."
-        ],
-        [
-          "Explore together",
-          "Official material highlights gliding, diving, burrowing, challenges, racing, solo play and multiplayer exploration."
-        ]
-      ]
+      "body": [["Catch with timing and tools","Official descriptions say players use Aniipods, set traps and time a catch. Which Aniimo appear can depend on environment, weather, phenomena and time of day; exact release rates and optimal tools still need testing."],["Twine for combat, puzzles and movement","Twine lets a Pathfinder become a collected Aniimo and use its perspective and abilities. Official examples include solving puzzles, fighting, gliding, diving and burrowing rather than treating every Aniimo as only a battle unit."],["Evolution and forms","Most Aniimo can evolve, and official index entries include different forms. Evolution conditions, form availability and stat changes should be checked against the public release before beta instructions are treated as final."],["Solo, multiplayer and real-time challenges","Steam lists single-player, online co-op, online PvP and cross-platform multiplayer. Egg Heist is the clearest confirmed three-player PvEvP example, while general story co-op limits remain unpublished."],["RV camps and Homeland","Each Pathfinder has a personal RV at an open-world campsite where players can meet. Homeland is described as supporting crops, decoration and arranging a space with Aniimo, but launch limits and visitor permissions still require verification."]],
+      "sources": [["Official Aniimo gameplay description","https://www.playstation.com/en-us/games/aniimo/"],["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Official Aniimo Wiki","https://wiki.aniimo.com/"]]
     },
     "download-preload": {
       "title": "Aniimo Download & Preload Guide for PC, Console and Mobile",
@@ -256,8 +232,10 @@
       "title": "Aniimo Egg Heist Guide: PvEvP Mode Explained",
       "description": "How Operation: Egg Heist worked in the Aniimo beta, including teams, Lost Isles objectives, combat and launch caveats.",
       "h1": "Aniimo Egg Heist Guide",
-      "body": [["What Egg Heist is","Operation: Egg Heist is a PvEvP activity set in the Lost Isles. Official beta notes describe gathering supplies, entering a forbidden area, fighting other Pathfinders, and competing for a Giant Darkler Egg."],["Team size and access","Official store text describes a three-player team. Beta patch notes required Veteran Pathfinder rank, but that unlock condition may change for the global release."],["PvE and PvP choices","A beta announcement said players could explore and gather supplies or fight other teams. This suggests risk-versus-reward decisions rather than continuous forced combat, but final rules need release testing."],["Beta-only details","Darkler-form rewards, matchmaking behavior, transport protection, scoring, extraction, and untwine fixes appeared in beta updates. None should be assumed unchanged at launch."],["Launch guide plan","The release-tested version will cover objectives, map flow, team roles, loadouts, reward tables, loss conditions, matchmaking, and efficient routes."]],
-      "sources": [["Official Egg Heist preview","https://www.aniimo.com/newslist/detail/100015"],["Official beta mode launch notes","https://www.aniimo.com/newslist/detail/100013"],["Official Egg Heist adjustments","https://www.aniimo.com/newslist/detail/100018"]]
+      "body": [["What Egg Heist is","Operation: Egg Heist is a three-player PvEvP activity in the Lost Isles. Beta notices describe gathering supplies, entering a forbidden area, fighting Alpha Aniimo or rival Pathfinders and competing for eggs including the Giant Darkler Egg."],["Beta access and objectives","One beta preview required Veteran Pathfinder rank. A later update allowed evacuation after either personally submitting one Aniimo Egg or personally collecting a reduced Eggshell Coin target. These are dated beta rules, not guaranteed launch requirements."],["Team egg sharing and evacuation risk","In the February 4 beta update, successfully submitted Aniimo Eggs were shared with the team after a safe evacuation. If evacuation failed, a player received only the Eggs they personally submitted. This makes individual submission and team survival distinct decisions."],["PvP and Team Mode differences","The February 2 notes disabled carried-item rune effects in Operation: Egg Heist PvP while leaving them active in Egg Heist: Team Mode. The same update added carried items and runes to Alpha chest rewards and adjusted Eggshell Coin exchanges."],["Protection and fixes","Beta patches added brief invulnerability when entering the battlefield and barriers near the central river, while also fixing minimap, matchmaking and unexpected untwine issues. These changes show the mode evolved quickly during testing."],["Launch verification checklist","The public build must confirm unlock rank, queue types, team size, extraction targets, shared rewards, loss conditions, rune rules, shop limits, map flow and whether Darkler-form rewards remain available before this page is labeled release-tested."]],
+      "matrix": {"title":"Egg Heist beta rule timeline","headers":["Official notice","Confirmed beta change","Launch status"],"rows":[["January 29","Mode live; solo supply gathering, team combat, Giant Darkler Egg and Darkler-form opportunity","Recheck at launch"],["January 31","Veteran Pathfinder unlock preview and three-player Lost Isles objective","Unlock rank unconfirmed"],["February 2","Alpha chest rewards, Eggshell Coin exchanges and PvP rune restriction adjusted","Values unconfirmed"],["February 3","Entry protection and central-river barriers added","Map rules unconfirmed"],["February 4","Team egg sharing and alternative personal evacuation objectives added","Extraction rules unconfirmed"]],"note":"Every row describes the beta version. None is labeled release-tested until verified in the public build."},
+      "faq": [["Is Egg Heist a three-player mode?","Official store and beta descriptions identify a three-player team, but the public launch queue must still be checked."],["What is the main Egg Heist objective?","Beta versions involved gathering supplies and Eggs, confronting PvE or rival players, meeting a personal evacuation objective and extracting safely."],["Are submitted Eggs shared with teammates?","A February 4 beta update shared successfully submitted Eggs after safe evacuation; failed evacuation returned only a player's own submitted Eggs."],["Do carried-item runes work in PvP?","A February 2 beta update disabled rune effects in Operation: Egg Heist PvP while retaining them in Team Mode. Launch behavior is unconfirmed."],["Are these final launch rules?","No. They are a sourced beta timeline and will be rechecked against the public version." ]],
+      "sources": [["Official beta mode launch notes","https://www.aniimo.com/newslist/detail/100013"],["Official Egg Heist preview","https://www.aniimo.com/newslist/detail/100015"],["Official February 2 adjustments","https://www.aniimo.com/newslist/detail/100017"],["Official February 3 adjustments","https://www.aniimo.com/newslist/detail/100018"],["Official February 4 adjustments","https://www.aniimo.com/newslist/detail/100019"],["Aniimo on PlayStation 5","https://www.playstation.com/en-us/games/aniimo/"]]
     },
     "elements-roles": {
       "title": "Aniimo Elements & Roles: Element Chart and Counters",
