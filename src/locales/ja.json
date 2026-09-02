@@ -250,8 +250,10 @@
       "title": "Aniimo 進化・フォームシステム解説",
       "description": "公式WikiのLumin、Gamma、Nova段階、分岐進化、別フォームの違いを整理。",
       "h1": "Aniimoの進化とフォーム",
-      "body": [["公式の進化段階","公式WikiはLumin、Gamma、Novaで絞り込みでき、進化系統によって複数の番号やNova分岐を持つ場合があります。"],["分岐進化","公式ベータ資料は多分岐進化を紹介。ベータ更新ではFenrierがレベル29でGlynseraへの進化選択を解放する例もあり、条件とプレイヤー選択が関わります。"],["フォームと進化の違い","基本、生息地、天候などのフォームがあり、属性、外見、スキル、移動能力が変化しても別の図鑑番号になるとは限りません。"],["特殊フォーム用語","Prismana、Darkler、Sparkling、Alpha、天候フォームなどがベータ告知に登場します。入手・保存条件はイベントごとに異なり、正式版へ一般化できません。"],["データベース方針","正式版では種族ID、進化段階、フォームID、解放条件、属性、スキル、生息地、バージョンを分けて記録します。"]],
-      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式進化ページ","https://wiki.aniimo.com/item/10002771"],["公式ベータ進化情報","https://www.aniimo.com/newslist/detail/100014"],["公式フォーム保存FAQ","https://www.aniimo.com/newslist/detail/100020"]]
+      "body": [["公式の進化段階","公式WikiはLumin、Gamma、Novaで絞り込みでき、段階と種族IDは分けて記録する必要があります。"],["分岐進化と選択","1月30日のベータ更新ではFenrierがレベル29でGlynseraへの進化選択を解放。条件達成が強制進化とは限らない例です。"],["場所・交流条件","2月4日の更新では場所指定の進化目標に座標追跡を追加し、PiopiotaはSusutaに近づいて交流し、赤くなって追従するまで成功させる条件へ変更されました。"],["フォームとMorph Orbs","同じ更新で基本フォームがMorph Orbsの変身候補に追加。対象フォームとコストは正式版で再確認します。"],["特殊フォーム","Prismana、Darkler、Sparkling、Alpha、天候フォームはイベントごとにルールが異なり、正式版全体へ一般化できません。"],["正式版データ方針","種族ID、段階、フォームID、解放目標、属性、スキル、場所、消費、バージョンを分けて記録します。"]],
+      "matrix": {"title":"ベータ版の進化例","headers":["アニモ／システム","公式ベータ例","正式版ステータス"],"rows":[["Fenrier → Glynsera","レベル29で進化選択を解放","レベル・素材を再確認"],["Piopiota","Susutaが赤くなり追従するまで交流","手順を再確認"],["場所目標","座標追跡を追加","最終地点を再確認"],["Morph Orbs","基本フォームを変身候補へ追加","コスト・対象を再確認"]],"note":"すべてベータ例であり、正式版の最終条件ではありません。"},
+      "faq": [["すべて固定レベルで進化しますか？","いいえ。分岐、交流、場所目標の例もあります。"],["FenrierからGlynseraへの条件は？","ベータではレベル29で選択を解放。正式版は未確認です。"],["Piopiotaのベータ条件は？","Susutaと交流し、赤くなって追従するまで成功させます。"],["フォームは進化段階ですか？","必ずしも同じではなく、変身として扱われるフォームもあります。"],["正式版の条件ですか？","いいえ。公開版で再確認します。"]],
+      "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式進化ページ","https://wiki.aniimo.com/item/10002771"],["1月30日公式更新","https://www.aniimo.com/newslist/detail/100014"],["2月4日公式更新","https://www.aniimo.com/newslist/detail/100019"],["公式フォーム保存FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
       "title": "Aniimo 発売日：PC・PS5・Xbox・スマホ版の配信時間",
@@ -273,10 +275,10 @@
       "title": "Aniimo PC版 必要・推奨スペック",
       "description": "Aniimo PC版のOS、CPU、GPU、メモリ、DirectX、通信環境、必要容量を公式情報から整理。",
       "h1": "Aniimoのシステム要件",
-      "body": [["最低動作環境","64bit Windows 10、Intel Core i7-9700またはAMD Ryzen 5 3600X、メモリ12GB、NVIDIA GTX 1060またはAMD Radeon RX 6600、DirectX 11、ブロードバンド接続、空き容量45GBです。"],["推奨動作環境","64bit Windows 10以降、Intel Core i7-12700FまたはAMD Ryzen 7 7700X、メモリ16GB、NVIDIA RTX 3070 8GBまたはAMD Radeon RX 6800、DirectX 11、ブロードバンド接続、空き容量45GBです。"],["ストレージの余裕","ストア表記は45GBですが、展開用領域、シェーダーキャッシュ、アップデート、スクリーンショットのために追加の空き容量を確保してください。"],["ノートPC・携帯型PC","モバイルGPUは同名のデスクトップ版と性能が異なります。Steam Deckなどの正式対応は確認されていないため、発売後の実機検証を待つのが安全です。"],["インターネット接続","Steamではブロードバンド接続が必須で、オンライン要素も明記されています。ソロ中心でもダウンロードやアカウントサービスへの接続を想定してください。"]],
+      "body": [["最低動作環境","64bit Windows 10、Intel Core i7-9700またはAMD Ryzen 5 3600X、メモリ12GB、GTX 1060またはRX 6600、DirectX 11、空き45GBです。"],["推奨動作環境","64bit Windows 10以降、i7-12700FまたはRyzen 7 7700X、メモリ16GB、RTX 3070 8GBまたはRX 6800、空き45GBです。"],["DLSS 4.5を公式発表","DLSS 4.5 Dynamic Multi Frame Generationと第2世代Transformer Super Resolutionの導入が発表されています。"],["未確認のグラフィック機能","最終GPU一覧、プリセット、遅延、解像度別性能は未発表。FSR、XeSS、レイトレーシング、上限fpsも公式確認がありません。"],["容量・ノート・携帯型PC","45GBに加えて展開、キャッシュ、パッチ用容量を確保。モバイルGPUはデスクトップ版と同等ではなく、Steam Deckも未確認です。"],["ネット接続","Steamはブロードバンド接続とオンライン要素を記載しています。"]],
       "matrix": {"title":"公式PCスペック表","headers":["項目","最低","推奨"],"rows":[["OS","64bit Windows 10","64bit Windows 10以降"],["CPU","Intel i7-9700 / AMD Ryzen 5 3600X","Intel i7-12700F / AMD Ryzen 7 7700X"],["メモリ","12GB","16GB"],["GPU","GTX 1060 / Radeon RX 6600","RTX 3070 8GB / Radeon RX 6800"],["DirectX","Version 11","Version 11"],["ストレージ","空き45GB","空き45GB"]],"note":"現在のSteam PCストア表記です。ノートPCのGPUや携帯型PCは正式版で別途検証が必要です。"},
-      "faq": [["Aniimoに必要な空き容量は？","Steamでは最低・推奨ともに空き容量45GBと記載されています。"],["AniimoにSSDは必須ですか？","Steamの要件表ではSSD・HDDを指定していません。展開とアップデート用の余裕は確保しつつ、ドライブ種別を必須条件とは扱わないでください。"],["ノートPCで遊べますか？","搭載CPU・GPUをデスクトップ向け要件と比較してください。モバイルGPU名は同名のデスクトップGPUと同等ではありません。"],["AniimoはSteam Deck対応ですか？","公式確認はまだありません。現在の根拠はSteam Deck対応状況ページで確認してください。"]],
-      "sources": [["Steam公式システム要件","https://store.steampowered.com/app/4126040/Aniimo/"]]
+      "faq": [["必要容量は？","Steamは最低・推奨ともに45GBです。"],["DLSS 4.5対応？","公式発表済みですが、正式設定と対応GPUは未確認です。"],["FSRやXeSS対応？","現在の公式情報では未確認です。"],["SSD必須？","SteamはSSD・HDDを指定していません。"],["Steam Deck対応？","まだ公式確認がありません。"]],
+      "sources": [["Steam公式システム要件","https://store.steampowered.com/app/4126040/Aniimo/"],["公式DLSS 4.5発表","https://www.aniimo.com/newslist/detail/100023"]]
     },
     "free-to-play": {
       "title": "Aniimoは無料？課金要素と価格を解説",

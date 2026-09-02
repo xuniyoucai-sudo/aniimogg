@@ -250,8 +250,10 @@
       "title": "Aniimo 伊莫进化与形态系统说明",
       "description": "说明官方图鉴中的 Lumin、Gamma、Nova 阶段、分支进化和不同形态。",
       "h1": "Aniimo 伊莫进化与形态",
-      "body": [["官方进化阶段","官方 Wiki 可按 Lumin、Gamma、Nova 阶段筛选，单条进化线可能包含多个编号或不止一种 Nova 结果。"],["分支进化","官方封测资料提到多分支进化；封测更新还记录 Fenrier 达到 29 级后可选择进化为 Glynsera，说明进化可能有条件和玩家选择。"],["形态不等于进化","官方条目可能包含基础、栖息地、天气等形态；形态可以改变元素、外观、技能或移动能力，但不一定产生新的图鉴编号。"],["特殊形态术语","封测公告出现 Prismana、Darkler、Sparkling、Alpha 和天气形态等名称，其获取和保留规则因活动而异，不能直接套用到正式版。"],["数据库记录方式","上线后会分别记录物种 ID、进化阶段、形态 ID、解锁条件、元素、技能、栖息地和版本，避免把形态误认为完全不同物种。"]],
-      "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup 官方进化条目","https://wiki.aniimo.com/item/10002771"],["官方进化封测说明","https://www.aniimo.com/newslist/detail/100014"],["官方形态保留 FAQ","https://www.aniimo.com/newslist/detail/100020"]]
+      "body": [["官方进化阶段","官方 Wiki 可按 Lumin、Gamma、Nova 阶段筛选；阶段和物种 ID 需要分别记录。"],["分支进化与选择","1 月 30 日封测更新说明 Fenrier 达到 29 级后解锁进化为 Glynsera 的选择，表明达成条件不一定强制立即进化。"],["地点与互动条件","2 月 4 日更新为指定地点的进化任务加入坐标追踪，并把 Piopiota 条件改为接近 Susuta 并建立联系，直到它变红并跟随玩家。"],["形态与 Morph Orbs","同次更新把基础形态加入 Morph Orbs 转换选项；可用形态和消耗仍需正式版核实。"],["特殊形态","Prismana、Darkler、Sparkling、Alpha 和天气形态的活动规则不同，不能直接套用到正式版。"],["正式版记录计划","本站会分别记录物种 ID、阶段、形态 ID、解锁目标、属性、技能、地点、消耗和版本。"]],
+      "matrix": {"title":"封测进化实例","headers":["伊莫／系统","官方封测实例","正式版状态"],"rows":[["Fenrier → Glynsera","29 级解锁进化选择","等级与材料待复核"],["Piopiota","与 Susuta 建立联系直到其变红并跟随","流程待复核"],["地点任务","加入坐标追踪","最终地点待复核"],["Morph Orbs","基础形态加入转换选项","消耗与适用形态待复核"]],"note":"以上均为封测实例，不代表正式版最终要求。"},
+      "faq": [["所有伊莫都在固定等级进化吗？","不是，封测实例还包括分支选择、互动和地点任务。"],["Fenrier 如何进化为 Glynsera？","封测更新称 29 级解锁选择，正式版条件未确认。"],["Piopiota 的封测条件是什么？","接近 Susuta 并建立联系，直到它变红并跟随。"],["形态等于进化阶段吗？","不一定，部分形态属于转换。"],["这些是正式版条件吗？","不是，上线后会重新核实。"]],
+      "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup 官方进化条目","https://wiki.aniimo.com/item/10002771"],["1 月 30 日官方更新","https://www.aniimo.com/newslist/detail/100014"],["2 月 4 日官方更新","https://www.aniimo.com/newslist/detail/100019"],["官方形态保留 FAQ","https://www.aniimo.com/newslist/detail/100020"]]
     },
     "release-date-platforms": {
       "title": "Aniimo 伊莫上线日期：PC、PS5、Xbox 与手机版时间",
@@ -273,10 +275,10 @@
       "title": "Aniimo 伊莫 PC 配置要求：最低与推荐配置",
       "description": "《伊莫》官方 PC 最低和推荐配置，包括系统、CPU、显卡、内存、网络及硬盘空间。",
       "h1": "Aniimo 伊莫配置要求",
-      "body": [["最低配置","64 位 Windows 10；Intel Core i7-9700 或 AMD Ryzen 5 3600X；12 GB 内存；NVIDIA GTX 1060 或 AMD Radeon RX 6600；DirectX 11；宽带网络；45 GB 可用空间。"],["推荐配置","64 位 Windows 10 或更新版本；Intel Core i7-12700F 或 AMD Ryzen 7 7700X；16 GB 内存；NVIDIA RTX 3070 8 GB 或 AMD Radeon RX 6800；DirectX 11；宽带网络；45 GB 可用空间。"],["硬盘空间建议","商店标注为 45 GB 可用空间。实际安装时应额外保留解压、着色器缓存、更新补丁和截图所需空间。"],["笔记本与掌机","移动端显卡名称不能直接与桌面显卡等同。目前官方没有确认 Steam Deck 等掌机兼容性，不应在正式版测试前默认支持。"],["网络要求","Steam 明确要求宽带连接并包含在线互动。即使主要进行单人探索，也要为下载、账号服务和联网验证做好准备。"]],
+      "body": [["最低配置","64 位 Windows 10；Intel Core i7-9700 或 AMD Ryzen 5 3600X；12 GB 内存；NVIDIA GTX 1060 或 AMD Radeon RX 6600；DirectX 11；宽带网络；45 GB 可用空间。"],["推荐配置","64 位 Windows 10 或更新版本；Intel Core i7-12700F 或 AMD Ryzen 7 7700X；16 GB 内存；NVIDIA RTX 3070 8 GB 或 AMD Radeon RX 6800；DirectX 11；宽带网络；45 GB 可用空间。"],["DLSS 4.5 已确认","官方宣布集成 DLSS 4.5 Dynamic Multi Frame Generation 与第二代 Transformer Super Resolution。"],["仍未确认的图形功能","最终显卡支持表、预设、延迟与分辨率性能尚未公布；FSR、XeSS、光追和帧率上限也未获官方确认。"],["存储、笔记本与掌机","除 45 GB 外应预留解压、缓存与补丁空间；移动显卡不能直接等同桌面型号，Steam Deck 仍未确认。"],["网络要求","Steam 要求宽带网络并列出在线互动。"]],
       "matrix": {"title":"官方 PC 配置表","headers":["组件","最低配置","推荐配置"],"rows":[["系统","64 位 Windows 10","64 位 Windows 10 或更高"],["CPU","Intel i7-9700 / AMD Ryzen 5 3600X","Intel i7-12700F / AMD Ryzen 7 7700X"],["内存","12 GB","16 GB"],["显卡","GTX 1060 / Radeon RX 6600","RTX 3070 8 GB / Radeon RX 6800"],["DirectX","版本 11","版本 11"],["存储","45 GB 可用空间","45 GB 可用空间"]],"note":"以上是当前 Steam PC 商店要求。笔记本显卡和掌机需要在正式版单独测试。"},
-      "faq": [["Aniimo 伊莫需要多少存储空间？","Steam 当前最低与推荐配置均列出 45 GB 可用空间。"],["Aniimo 伊莫必须用 SSD 吗？","Steam 配置表没有指定 SSD 或 HDD。建议预留解压和补丁空间，但不要把硬盘类型当成已确认要求。"],["笔记本能玩 Aniimo 伊莫吗？","请用笔记本的具体 CPU、GPU 对照桌面配置；移动显卡名称不能直接等同于桌面表现。"],["Aniimo 伊莫支持 Steam Deck 吗？","尚未获得官方确认，请查看 Steam Deck 专页的当前证据。"]],
-      "sources": [["Steam 官方配置要求","https://store.steampowered.com/app/4126040/Aniimo/"]]
+      "faq": [["Aniimo 伊莫需要多少存储空间？","Steam 最低与推荐配置均列出 45 GB。"],["支持 DLSS 4.5 吗？","支持，正式版设置和显卡范围仍待确认。"],["支持 FSR 或 XeSS 吗？","当前官方来源尚未确认。"],["必须使用 SSD 吗？","Steam 没有指定 SSD 或 HDD。"],["支持 Steam Deck 吗？","尚未获得官方确认。"]],
+      "sources": [["Steam 官方配置要求","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 DLSS 4.5 公告","https://www.aniimo.com/newslist/detail/100023"]]
     },
     "free-to-play": {
       "title": "Aniimo 伊莫免费吗？收费模式与内购说明",

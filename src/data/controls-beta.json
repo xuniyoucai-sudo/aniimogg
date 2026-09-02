@@ -1,0 +1,17 @@
+{
+  "version": "Beta survival handbook — not release-tested",
+  "updated": "2026-09-02",
+  "source": "https://aniimo.com/newslist/detail/tipvtviq",
+  "bindings": [
+    {"key": "M", "action": "Open map", "context": "Official beta handbook"},
+    {"key": "Esc", "action": "Open menus and Aniimo Management", "context": "Official beta handbook"},
+    {"key": "C", "action": "Twine with the selected combat Aniimo", "context": "Official beta handbook"},
+    {"key": "H", "action": "Switch between Aniimo rosters", "context": "Official beta handbook"}
+  ],
+  "releaseChecklist": [
+    "Confirm every default PC key in the public build",
+    "Record controller layouts separately by platform",
+    "Test remapping, holds, toggles, sensitivity and accessibility options",
+    "Do not publish a standalone controls URL until the table is complete"
+  ]
+}
