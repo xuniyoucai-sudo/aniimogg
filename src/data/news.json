@@ -1,5 +1,16 @@
 [
   {
+    "slug": "launch-version-dev-letter",
+    "date": "2026-09-03",
+    "updated": "2026-09-03",
+    "source": "https://www.aniimo.com/de/newslist/detail/100064",
+    "locales": {
+      "en": {"title": "Aniimo Dev Letter Confirms Launch-Version Changes", "description": "Xbox cloud gaming, Egg Heist Chaos Mode, revised catching, training, Home and control improvements are confirmed for launch.", "body": ["Pawprint Studio confirms that Aniimo launches September 16 on PC, consoles and Xbox cloud gaming, with mobile following September 23. Xbox cloud gaming is the only cloud service named; GeForce NOW and other catalogues remain unconfirmed.", "The launch version redesigns the Irisalis encounter and Prismana acquisition, removes the carried-item rune system, simplifies training, expands Home features, improves mobile and controller input, adds main-story multilingual voiceover, and upgrades Egg Heist with more egg types and a high-difficulty Chaos Mode."]},
+      "zh-CN": {"title": "《伊莫》开发者信确认正式版重要调整", "description": "官方确认 Xbox 云游戏、Egg Heist 混沌模式，以及捕捉、培养、家园和操作优化。", "body": ["Pawprint Studio 确认《伊莫》将于 9 月 16 日登陆 PC、主机和 Xbox 云游戏，移动版于 9 月 23 日上线。官方只点名 Xbox 云游戏，尚未确认 GeForce NOW 或其他云平台。", "正式版重做 Irisalis 与 Prismana 获取流程，移除携带物品的符文系统，简化培养并扩充家园功能；同时改善移动端和手柄操作、加入主线多语言配音，并为 Egg Heist 增加更多蛋类与高难度 Chaos Mode。"]},
+      "ja": {"title": "Aniimo開発者レターで正式版の変更点を発表", "description": "Xboxクラウドゲーミング、Egg Heist Chaos Mode、捕獲・育成・Home・操作改善を正式発表。", "body": ["Pawprint Studioは、PC・コンソール・Xboxクラウドゲーミング版を9月16日、モバイル版を9月23日に配信すると発表しました。クラウドサービスで確認されたのはXboxのみで、GeForce NOWなどは未確認です。", "正式版ではIrisalisとPrismanaの入手方法を再設計し、携行品のルーンシステムを廃止。育成とHomeを改善し、モバイル・コントローラー操作、メインストーリーの多言語音声、Egg Heistの卵種類追加と高難度Chaos Modeも発表されています。"]}
+    }
+  },
+  {
     "slug": "global-launch-dates",
     "date": "2026-08-26",
     "updated": "2026-09-01",
