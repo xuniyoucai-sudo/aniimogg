@@ -6,8 +6,16 @@ document.querySelectorAll('.menu-btn').forEach(button=>button.addEventListener('
 document.addEventListener('click',event=>{
   if(!event.target.closest('.language-switcher')) document.querySelectorAll('.language-switcher[open]').forEach(menu=>menu.removeAttribute('open'));
 });
-document.querySelectorAll('.event-alert').forEach(alert=>{
-  if(Date.now()>=Date.parse('2026-09-03T15:59:00Z')) alert.hidden=true;
+document.querySelectorAll('[data-event-end]').forEach(alert=>{
+  if(Date.now()<Date.parse(alert.dataset.eventEnd)) return;
+  const label=alert.querySelector('span');
+  const title=alert.querySelector('h2');
+  const text=alert.querySelector('p');
+  if(label) label.textContent=alert.dataset.expiredLabel||label.textContent;
+  if(title) title.textContent=alert.dataset.expiredTitle||title.textContent;
+  if(text) text.textContent=alert.dataset.expiredText||text.textContent;
+  alert.querySelector('.event-official, .event-live-link')?.setAttribute('hidden','');
+  alert.classList.add('is-expired');
 });
 if(/\/guides\/$/.test(location.pathname)){
   const query=new URLSearchParams(location.search).get('q')?.trim().toLocaleLowerCase()||'';
