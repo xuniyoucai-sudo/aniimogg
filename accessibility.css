@@ -1,0 +1,11 @@
+/* High-contrast text overrides for small UI labels on light surfaces. */
+.topbar nav a:hover,.topbar nav .active,
+.quick .mint,
+.section-head>div>span,.label,
+.card-body a,
+.article-shell>a,
+.content-grid span,.region-grid b{color:#0f6f57}
+
+.quick small,.card-body .meta{color:#60736f}
+
+.guide-cover figcaption,.guide-visual figcaption{color:#5e706c}
