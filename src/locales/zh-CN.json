@@ -46,7 +46,8 @@
     "changePublished": "依据官方资料和明确标记的封测资料发布文章。",
     "changeVisual": "新增原创图片、信息状态、资料版本和相关攻略。",
     "browseAllAniimo": "查看全部 94 个已确认伊莫",
-    "aniimoIndexLead": "可按编号、名称、属性、定位或阶段搜索完整官方 Wiki 数据快照。"
+    "aniimoIndexLead": "可按编号、名称、属性、定位或阶段搜索完整官方 Wiki 数据快照。",
+    "aniimoEvolutionLink": "伊莫会进化吗？查看已确认阶段、分支实例与形态边界。"
   },
   "aniimoIndex": {
     "title": "官方 Aniimo 伊莫图鉴索引（94 条）",
@@ -115,10 +116,10 @@
       "lead": "ID 和数值由三种语言共用，名称、介绍与攻略内容按语言本地化。"
     },
     "map": {
-      "title": "Aniimo 伊莫地图与地点",
-      "description": "伊莫地图、地区、资源、任务和出没地点。",
+      "title": "Aniimo 伊莫地图：官方地区与互动地图状态",
+      "description": "收录 Aniimo 伊莫六个官方公开地区，说明已确认地点，以及经过实测的坐标、资源和出没点何时加入。",
       "h1": "伊莫地图",
-      "lead": "当前收录官方公开的六个地区；坐标和互动地图将在游戏内核实后加入。"
+      "lead": "正在找 Aniimo 伊莫地图？本站收录六个官方公开地区；坐标、资源、任务和出没点将在公开版本实测后加入。"
     },
     "tools": {
       "title": "Aniimo 伊莫上线倒计时与当地开服时间",
@@ -254,7 +255,7 @@
       "description": "说明官方图鉴中的 Lumin、Gamma、Nova 阶段、分支进化和不同形态。",
       "h1": "Aniimo 伊莫进化与形态",
       "evidence": ["正式版培养调整","随机符文槽与整个符文系统已经移除；Legendary Star Dust 产量提高，60 级以下 Capability Awakening 可重置返还材料，上限逐步解锁，Capafruit 效果可随继承自动转移。","9 月 3 日开发者信","https://www.aniimo.com/de/newslist/detail/100064"],
-      "body": [["官方进化阶段","官方 Wiki 可按 Lumin、Gamma、Nova 阶段筛选；阶段和物种 ID 需要分别记录。"],["分支进化与选择","1 月 30 日封测更新说明 Fenrier 达到 29 级后解锁进化为 Glynsera 的选择，表明达成条件不一定强制立即进化。"],["地点与互动条件","2 月 4 日更新为指定地点的进化任务加入坐标追踪，并把 Piopiota 条件改为接近 Susuta 并建立联系，直到它变红并跟随玩家。"],["形态与 Morph Orbs","同次更新把基础形态加入 Morph Orbs 转换选项；可用形态和消耗仍需正式版核实。"],["特殊形态","Prismana、Darkler、Sparkling、Alpha 和天气形态的活动规则不同，不能直接套用到正式版。"],["正式版记录计划","本站会分别记录物种 ID、阶段、形态 ID、解锁目标、属性、技能、地点、消耗和版本。"]],
+      "body": [["伊莫会进化吗？会，但条件不同","官方 Wiki 使用 Lumin、Gamma、Nova 阶段。官方 Beta 实例包括等级、分支选择、互动和地点目标，因此不能假设每只伊莫都在固定等级进化。"],["官方进化阶段","进化线可能有多个编号条目或不止一个 Nova 结果，阶段和物种 ID 需要分别记录。"],["分支进化与选择","1 月 30 日封测更新说明 Fenrier 达到 29 级后解锁进化为 Glynsera 的选择，表明达成条件不一定强制立即进化。"],["地点与互动条件","2 月 4 日更新为指定地点的进化任务加入坐标追踪，并把 Piopiota 条件改为接近 Susuta 并建立联系，直到它变红并跟随玩家。"],["形态与 Morph Orbs","同次更新把基础形态加入 Morph Orbs 转换选项；可用形态和消耗仍需正式版核实。"],["特殊形态","Prismana、Darkler、Sparkling、Alpha 和天气形态的活动规则不同，不能直接套用到正式版。"],["正式版记录计划","本站会分别记录物种 ID、阶段、形态 ID、解锁目标、属性、技能、地点、消耗和版本。"]],
       "matrix": {"title":"封测进化实例","headers":["伊莫／系统","官方封测实例","正式版状态"],"rows":[["Fenrier → Glynsera","29 级解锁进化选择","等级与材料待复核"],["Piopiota","与 Susuta 建立联系直到其变红并跟随","流程待复核"],["地点任务","加入坐标追踪","最终地点待复核"],["Morph Orbs","基础形态加入转换选项","消耗与适用形态待复核"]],"note":"以上均为封测实例，不代表正式版最终要求。"},
       "faq": [["所有伊莫都在固定等级进化吗？","不是，封测实例还包括分支选择、互动和地点任务。"],["Fenrier 如何进化为 Glynsera？","封测更新称 29 级解锁选择，正式版条件未确认。"],["Piopiota 的封测条件是什么？","接近 Susuta 并建立联系，直到它变红并跟随。"],["形态等于进化阶段吗？","不一定，部分形态属于转换。"],["这些是正式版条件吗？","不是，上线后会重新核实。"]],
       "sources": [["官方 Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup 官方进化条目","https://wiki.aniimo.com/item/10002771"],["1 月 30 日官方更新","https://www.aniimo.com/newslist/detail/100014"],["2 月 4 日官方更新","https://www.aniimo.com/newslist/detail/100019"],["官方形态保留 FAQ","https://www.aniimo.com/newslist/detail/100020"]]
@@ -311,10 +312,10 @@
       "sources": [["Steam 官方玩法介绍","https://store.steampowered.com/app/4126040/Aniimo/"],["全球封闭测试官方手册","https://aniimo.com/newslist/detail/tipvtviq"],["官方 Aniimo Wiki","https://wiki.aniimo.com/"]]
     },
     "multiplayer": {
-      "title": "Aniimo 伊莫多人攻略：合作、PvP、人数与 Egg Heist",
-      "description": "Aniimo 伊莫支持多人吗？查看在线合作、PvP、单人、3人 Egg Heist，以及上线前仍未确认的多人规则。",
-      "h1": "Aniimo 伊莫多人玩法说明",
-      "body": [["《伊莫》的多人玩法包括什么","Steam 已确认单人、在线合作、在线 PvP 与跨平台多人。多人玩法指在线活动范围；Crossplay 则特指不同平台玩家能否一起游玩。商店还披露了游戏内聊天和在线互动。"],["三人 Egg Heist","官方更新将 Egg Heist 描述为 Lost Isles 中的 PvEvP 活动。玩家组成三人队伍，收集物资、进入禁区、与其他 Pathfinder 交战并争夺 Giant Darkler Egg。"],["合作与主线范围尚未确认","官方提到单人和多人探索，但尚未公布 Egg Heist 之外的通用队伍人数、主线随进随出、访客任务进度、共同捕捉归属或房主世界进度。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可与其他玩家见面互动；Homeland 支持种植、建造装饰和布置空间，但官方尚未把这些描述为完整主线合作模式。"],["跨平台问题请查看专页","跨平台多人已确认，但跨存档、账号绑定、地区服务器、好友上限、语音聊天和主机会员要求仍待公布。具体平台状态见 Crossplay 与 Cross-save 专页。"]],
+      "title": "Aniimo 伊莫支持多人吗？合作、PvP、人数与 Egg Heist",
+      "description": "Aniimo 伊莫支持多人吗？支持：Steam 已列出单人、在线合作、PvP 和跨平台多人。查看已确认的 3 人 Egg Heist 与待公布限制。",
+      "h1": "Aniimo 伊莫支持多人吗？合作、PvP 与人数说明",
+      "body": [["简短答案：支持多人","Steam 已列出单人、在线合作、在线 PvP 与跨平台多人。当前只有 Egg Heist 的队伍人数得到确认；跨存档和具体平台互通组合仍未公布。"],["三人 Egg Heist","官方更新将 Egg Heist 描述为 Lost Isles 中的 PvEvP 活动。玩家组成三人队伍，收集物资、进入禁区、与其他 Pathfinder 交战并争夺 Giant Darkler Egg。"],["合作与主线范围尚未确认","官方提到单人和多人探索，但尚未公布 Egg Heist 之外的通用队伍人数、主线随进随出、访客任务进度、共同捕捉归属或房主世界进度。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可与其他玩家见面互动；Homeland 支持种植、建造装饰和布置空间，但官方尚未把这些描述为完整主线合作模式。"],["跨平台问题请查看专页","跨平台多人已确认，但跨存档、账号绑定、地区服务器、好友上限、语音聊天和主机会员要求仍待公布。具体平台状态见 Crossplay 与 Cross-save 专页。"]],
       "matrix": {"title":"已确认的多人模式","headers":["模式或功能","官方状态","人数或范围"],"rows":[["单人模式","Steam 已列出","支持单人"],["在线合作","Steam 已列出","普通队伍上限未公布"],["在线 PvP","Steam 已列出","赛制与人数未公布"],["Egg Heist PvEvP","官方已介绍","3人队伍"],["跨平台多人","Steam 已列出","具体平台组合未公布"]],"note":"目前只有 Egg Heist 有官方明确的队伍人数，不能据此推断所有开放世界或剧情内容均支持3人。"},
       "faq": [["《伊莫》有多人模式吗？","有。Steam 列出在线合作、在线 PvP、跨平台多人和单人模式。"],["《伊莫》支持合作游玩吗？","已列出在线合作，但完整主线合作范围和普通开放世界队伍人数尚未公布。"],["Egg Heist 是几人队伍？","官方 Egg Heist 说明明确为三人队伍。"],["《伊莫》可以单人玩吗？","可以。Steam 正式列出单人模式，官方介绍也同时提到单人与多人游玩。"]],
       "sources": [["Steam 多人功能说明","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 Egg Heist 更新公告","https://www.aniimo.com/newslist/detail/100015"]]
