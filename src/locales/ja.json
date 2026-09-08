@@ -324,11 +324,13 @@
     },
     "regions-world": {
       "title": "Aniimo エリア・ワールド攻略：Idyll大陸",
-      "description": "森、海岸、花畑、雷の森、雲の草原など、Idyll大陸で公式公開された6エリアを紹介。",
+      "description": "AniimoのIdyll大陸で公式公開された6エリア、各地域の既知情報、現在のマップの見方、正式版で確認が必要な場所情報を整理。",
       "h1": "Aniimoのエリアと世界",
       "evidence": ["正式版Homeの拡張","複数エリアのHome、家づくり、家具共有コード、インタラクティブ家具、HomeアニモのAI・仕事・撫でる機能、家具売却、RV派遣のPrismana特性卵、フレンドの畑を耕して収穫を分け合う機能が発表されました。","9月3日開発者レター","https://www.aniimo.com/de/newslist/detail/100064"],
-      "body": [["Idyll大陸","Aniimoの舞台はIdyll大陸。捕獲、Twine能力、フィールド移動、チャレンジ、レース、発見、キャンプでの交流を軸にしたオープンワールドです。"],["Forest of Falling StarsとMistwoods","Forest of Falling StarsはCelestisが木々の間を滑空する紫色の森。Mistwoodsは毒の瘴気に包まれた湿地で、光る果実が旅人を導きます。"],["Echoback LandingとSea of Flowers","Echoback Landingでは浜に打ち上げられた巨大なアニモと歌の謎が描かれます。Sea of Flowersは香水作りの村を紫の花畑が囲む地域です。"],["BlitzwoodとNimbus Fields","BlitzwoodはBoltyに引き寄せられた雷が大地と雷撃樹を焦がす森。Nimbus Fieldsは低い雲が広い草原に触れ、Nimbiが跳ね回る地域です。"],["今後のマップ更新","現在は公式名称がある地域のみ掲載しています。座標、素材、クエスト、ファストトラベル、天候周期、出現表は正式版で確認後に追加します。"]],
-      "sources": [["Aniimo公式ワールド紹介","https://www.aniimo.com/main/"]]
+      "body": [["Idyll大陸","Aniimoの舞台はIdyll大陸。捕獲、Twine能力、フィールド移動、チャレンジ、レース、発見、キャンプでの交流を軸にしたオープンワールドです。"],["現在確認できる6エリア","公式サイトが現在名前を公開しているのは、Forest of Falling Stars、Mistwoods、Echoback Landing、Sea of Flowers、Blitzwood、Nimbus Fieldsです。これはエリア索引であり、各エリア内のすべての地点が正式版で開放・到達可能・同一仕様であることを示すものではありません。"],["Forest of Falling StarsとMistwoods","Forest of Falling StarsはCelestisが木々の間を滑空する紫色の森。Mistwoodsは毒の瘴気に包まれた湿地で、光る果実が旅人を導きます。"],["Echoback LandingとSea of Flowers","Echoback Landingでは浜に打ち上げられた巨大なアニモと歌の謎が描かれます。Sea of Flowersは香水作りの村を紫の花畑が囲む地域です。"],["BlitzwoodとNimbus Fields","BlitzwoodはBoltyに引き寄せられた雷が大地と雷撃樹を焦がす森。Nimbus Fieldsは低い雲が広い草原に触れ、Nimbiが跳ね回る地域です。"],["現在のAniimoマップの使い方","マップページでは6つの公式エリア名を比較し、本ページでは世界観の背景を確認できます。未検証の座標、素材、クエスト、ファストトラベル、出現地点は意図的に載せていません。正式版で確認済みとするマップ情報には、バージョン、ルート、条件、再現可能な場所が必要です。"],["正式版で確認すること","公開版ではエリア境界、マップ表記、入口、移動条件、サーバーまたはストーリーの制限、天候周期、素材、出現条件を確認します。9月の開発者レターは複数エリアのHomeマップを確認していますが、Idyllのフィールドマップや座標表は公開していません。"]],
+      "matrix": {"title":"Idyll大陸の公式エリア索引","headers":["エリア","公式に説明された内容","未確認の内容"],"rows":[["Forest of Falling Stars","紫の森。Celestisが星皮の木の間を滑空","座標、出現、ルート"],["Mistwoods","光る果実が道を示す毒の湿地林","危険と移動条件"],["Echoback Landing","巨大な漂着アニモと歌の謎","クエストと進入方法"],["Sea of Flowers","香水の村を囲む紫の花畑","素材とショップ"],["Blitzwood","Boltyに関係する落雷で傷ついた森","天候ルールと遭遇"],["Nimbus Fields","低い雲とNimbiが跳ねる草原","移動ルートと見どころ"]],"note":"説明は公式ワールド紹介に基づきます。どの地点も検証済みの座標や出現地点としては扱いません。"},
+      "faq": [["公式公開されたAniimoのエリアはいくつ？","Forest of Falling Stars、Mistwoods、Echoback Landing、Sea of Flowers、Blitzwood、Nimbus Fieldsの6つです。"],["Aniimoマップに出現場所はありますか？","まだありません。公開版で確認できるまで、マップは公式エリアの背景に限定し、座標や出現地点を推測しません。"],["6エリアがローンチ時の全マップですか？","未確認です。公式サイトは6エリアを名前で紹介していますが、フィールドマップ全体の境界や座標表は公開していません。"],["IdyllとHomeの違いは？","Idyllは冒険の舞台です。9月の開発者レターは別途、複数エリアのHomeマップと家園機能を確認していますが、Idyllのフィールド全体を定義したものではありません。"],["マップ更新はどこで確認できますか？","Aniimoマップページで現在の収録範囲を確認し、このページでエリアの背景とバージョン別更新を見てください。"]],
+      "sources": [["Aniimo公式ワールド紹介","https://www.aniimo.com/main/"],["9月3日公式開発者レター","https://www.aniimo.com/de/newslist/detail/100064"]]
     },
     "accessibility-features": {
       "title": "Aniimo PS5アクセシビリティ：字幕・操作・音声",

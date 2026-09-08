@@ -23,7 +23,7 @@
     "confirmed-aniimo":{"published":"2026-08-27","updated":"2026-09-04","version":"Pre-launch official Wiki snapshot","status":"official","related":["elements-roles","evolution-forms","catching-twine"]},
     "catching-twine":{"published":"2026-08-27","updated":"2026-09-06","version":"Official launch-version catching changes / Beta workflow","status":"beta","related":["confirmed-aniimo","elements-roles","evolution-forms"]},
     "multiplayer":{"published":"2026-08-27","updated":"2026-09-04","version":"Official / Beta","status":"beta","related":["egg-heist","crossplay-cross-save","server-launch-times"]},
-    "regions-world":{"published":"2026-08-27","updated":"2026-09-03","version":"Pre-launch world / confirmed launch-version Home changes","status":"official","related":["map","catching-twine","confirmed-aniimo"]},
+    "regions-world":{"published":"2026-08-27","updated":"2026-09-08","version":"Official six-region world index / pre-launch map scope","status":"official","related":["map","catching-twine","confirmed-aniimo"]},
     "getting-started":{"published":"2026-08-27","updated":"2026-09-07","version":"Pre-launch official-source first-session checklist","status":"official","related":["release-date-platforms","pre-registration","download-preload"]},
     "core-gameplay":{"published":"2026-08-27","updated":"2026-09-03","version":"Pre-launch / announced post-launch NVIDIA ACE update","status":"official","related":["catching-twine","elements-roles","multiplayer"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-08-28","version":"Site policy","status":"official","related":["authors","contact","privacy"]}
