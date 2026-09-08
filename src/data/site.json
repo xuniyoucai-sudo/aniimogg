@@ -17,7 +17,7 @@
     "release-date-platforms":{"published":"2026-08-27","updated":"2026-09-03","version":"Pre-launch / Xbox cloud gaming confirmed","status":"official","related":["server-launch-times","download-preload","pre-registration"]},
     "pre-registration":{"published":"2026-08-27","updated":"2026-09-03","version":"Pre-launch / Time to Aniimo event cutoff","status":"official","related":["free-to-play","download-preload","release-date-platforms"]},
     "preorder-bundles":{"published":"2026-09-01","updated":"2026-09-01","version":"Pre-launch PlayStation listing","status":"official","related":["free-to-play","pre-registration","release-date-platforms"]},
-    "accessibility-features":{"published":"2026-09-01","updated":"2026-09-01","version":"Pre-launch PlayStation 5 listing","status":"official","related":["release-date-platforms","preorder-bundles","languages-voice-acting"]},
+    "accessibility-features":{"published":"2026-09-01","updated":"2026-09-09","version":"PS5 listing / Beta PC key reference — not release-tested","status":"official","related":["release-date-platforms","preorder-bundles","languages-voice-acting"]},
     "system-requirements":{"published":"2026-08-27","updated":"2026-09-02","version":"Pre-launch Steam listing / official DLSS announcement","status":"official","related":["release-date-platforms","steam-deck","download-preload"]},
     "free-to-play":{"published":"2026-08-27","updated":"2026-08-28","version":"Pre-launch","status":"official","related":["pre-registration","release-date-platforms","confirmed-aniimo"]},
     "confirmed-aniimo":{"published":"2026-08-27","updated":"2026-09-04","version":"Pre-launch official Wiki snapshot","status":"official","related":["elements-roles","evolution-forms","catching-twine"]},
