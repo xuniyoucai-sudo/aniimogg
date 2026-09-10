@@ -26,7 +26,7 @@
     "regions-world":{"published":"2026-08-27","updated":"2026-09-08","version":"Official six-region world index / pre-launch map scope","status":"official","related":["map","catching-twine","confirmed-aniimo"]},
     "getting-started":{"published":"2026-08-27","updated":"2026-09-07","version":"Pre-launch official-source first-session checklist","status":"official","related":["release-date-platforms","pre-registration","download-preload"]},
     "team-setup":{"published":"2026-09-10","updated":"2026-09-10","version":"Official Beta PC references — not release-tested","status":"beta","related":["accessibility-features","catching-twine","elements-roles"]},
-    "core-gameplay":{"published":"2026-08-27","updated":"2026-09-03","version":"Pre-launch / announced post-launch NVIDIA ACE update","status":"official","related":["catching-twine","elements-roles","multiplayer"]},
+    "core-gameplay":{"published":"2026-08-27","updated":"2026-09-11","version":"Pre-launch launch-version resource changes / announced post-launch NVIDIA ACE update","status":"official","related":["catching-twine","elements-roles","multiplayer"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-08-28","version":"Site policy","status":"official","related":["authors","contact","privacy"]}
   },
   "regions":["falling-stars","mistwoods","echoback","flowers","blitzwood","nimbus"],
