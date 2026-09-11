@@ -75,7 +75,8 @@ document.querySelectorAll('.aniimo-index').forEach(index=>{
 document.querySelectorAll('.launch-countdown').forEach(box=>{
   const target=new Date(box.dataset.launch);
   const output=box.querySelector('strong');
-  box.querySelector('time').textContent=new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(target);
+  const localTime=box.querySelector('time');
+  if(localTime) localTime.textContent=new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(target);
   const update=()=>{
     const seconds=Math.max(0,Math.floor((target-Date.now())/1000));
     const days=Math.floor(seconds/86400),hours=Math.floor(seconds%86400/3600),minutes=Math.floor(seconds%3600/60);

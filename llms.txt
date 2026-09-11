@@ -5,7 +5,7 @@
 ## 主要页面
 - [首页](https://aniimogg.com/)
 - [攻略索引](https://aniimogg.com/guides/)
-- [上线中心与工具](https://aniimogg.com/tools/)
+- [上线中心](https://aniimogg.com/launch/)
 - [艾德尔大陆地区](https://aniimogg.com/map/)
 - [常见问题](https://aniimogg.com/faq/)
 - [资料政策](https://aniimogg.com/guides/editorial-policy/)
