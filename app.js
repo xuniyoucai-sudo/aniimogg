@@ -54,23 +54,60 @@ document.querySelectorAll('.aniimo-index').forEach(index=>{
   const element=index.querySelector('.index-element');
   const role=index.querySelector('.index-role');
   const stage=index.querySelector('.index-stage');
+  const collection=index.querySelector('.index-collection');
   const rows=[...index.querySelectorAll('tbody tr')];
+  const cards=[...index.querySelectorAll('.aniimo-card')];
   const count=index.querySelector('.index-count');
   const empty=index.querySelector('.index-empty');
+  const emptySaved=index.querySelector('.index-empty-saved');
+  const collectionCount=index.querySelector('.index-collection-count');
   const template=index.dataset.showing;
+  const saveKey='aniimo-guide-collection-v1';
+  let saved=new Set();
+  try{saved=new Set(JSON.parse(localStorage.getItem(saveKey)||'[]'));}catch{}
+  const setSavedCopy=()=>{
+    index.querySelectorAll('[data-aniimo-save]').forEach(button=>{
+      const isSaved=saved.has(button.dataset.aniimoSave);
+      button.setAttribute('aria-pressed',String(isSaved));
+      button.classList.toggle('is-saved',isSaved);
+      button.querySelector('[aria-hidden="true"]').textContent=isSaved?'★':'☆';
+      button.querySelector('.aniimo-save-label').textContent=isSaved?button.dataset.removeText:button.dataset.saveText;
+      button.setAttribute('aria-label',isSaved?button.dataset.removeText:button.dataset.saveText);
+    });
+    collectionCount.textContent=collectionCount.dataset.template.replace('{count}',String(saved.size));
+  };
   const apply=()=>{
     const query=search.value.trim().toLowerCase();
     let visible=0;
-    rows.forEach(row=>{
-      const show=(!query||row.dataset.search.includes(query))&&(!element.value||row.dataset.elements.split(' ').includes(element.value))&&(!role.value||row.dataset.roles.split(' ').includes(role.value))&&(!stage.value||row.dataset.stage===stage.value);
-      row.hidden=!show;
+    const matches=item=>(!query||item.dataset.search.includes(query))&&(!element.value||item.dataset.elements.split(' ').includes(element.value))&&(!role.value||item.dataset.roles.split(' ').includes(role.value))&&(!stage.value||item.dataset.stage===stage.value)&&(!collection.value||collection.value==='all'||saved.has(item.dataset.aniimoEntry));
+    cards.forEach(card=>{
+      const show=matches(card);
+      card.hidden=!show;
       if(show) visible++;
     });
+    rows.forEach(row=>{row.hidden=!matches(row)});
     count.textContent=template.replace('{count}',String(visible));
     empty.hidden=visible!==0;
+    emptySaved.hidden=collection.value!=='saved'||saved.size!==0;
   };
-  [search,element,role,stage].forEach(control=>control.addEventListener(control===search?'input':'change',apply));
-  index.querySelector('.index-clear').addEventListener('click',()=>{search.value='';element.value='';role.value='';stage.value='';apply();search.focus()});
+  collectionCount.dataset.template=collectionCount.textContent;
+  index.querySelectorAll('[data-aniimo-save]').forEach(button=>{
+    button.addEventListener('click',()=>{
+      const id=button.dataset.aniimoSave;
+      if(saved.has(id))saved.delete(id);else saved.add(id);
+      try{localStorage.setItem(saveKey,JSON.stringify([...saved]));}catch{}
+      setSavedCopy();apply();
+    });
+  });
+  index.querySelectorAll('[data-index-view]').forEach(button=>button.addEventListener('click',()=>{
+    const view=button.dataset.indexView;
+    index.classList.toggle('is-gallery',view==='gallery');
+    index.classList.toggle('is-table',view==='table');
+    index.querySelectorAll('[data-index-view]').forEach(control=>{const active=control===button;control.classList.toggle('is-active',active);control.setAttribute('aria-pressed',String(active))});
+  }));
+  [search,element,role,stage,collection].forEach(control=>control.addEventListener(control===search?'input':'change',apply));
+  index.querySelector('.index-clear').addEventListener('click',()=>{search.value='';element.value='';role.value='';stage.value='';collection.value='all';apply();search.focus()});
+  setSavedCopy();apply();
 });
 document.querySelectorAll('.launch-countdown').forEach(box=>{
   const target=new Date(box.dataset.launch);

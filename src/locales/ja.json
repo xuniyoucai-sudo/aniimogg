@@ -57,7 +57,7 @@
     "elementLabels": {"holy":"聖","fire":"火","ice":"氷","dark":"闇","electric":"雷","grass":"草","water":"水","rock":"岩","wind":"風"},
     "roleLabels": {"dps":"DPS","heal":"回復","sup":"サポート","break":"ブレイク","energy":"リジェネ"},
     "stageLabels": {"1":"Lumin","2":"Gamma","3":"Nova"},
-    "search": "名前・番号で検索", "allElements": "すべての属性", "allRoles": "すべての役割", "allStages": "すべてのステージ", "clear": "絞り込みを解除", "showing": "94件中{count}件を表示", "noResults": "条件に一致するAniimoはありません。"
+    "search": "名前・番号で検索", "allElements": "すべての属性", "allRoles": "すべての役割", "allStages": "すべてのステージ", "clear": "絞り込みを解除", "showing": "94件中{count}件を表示", "noResults": "条件に一致するAniimoはありません。", "gallery": "カード図鑑", "table": "表形式", "view": "表示", "allEntries": "すべての図鑑", "savedEntries": "マイ図鑑", "save": "図鑑に保存", "remove": "図鑑から削除", "saved": "保存済み", "collectionCount": "この端末に {count} 件保存", "collectionLocal": "保存先はこの端末のみです。アカウントは必要ありません。", "emptySaved": "まだ保存したアニモはいません。カードのブックマークから図鑑を作りましょう。", "openOfficial": "公式Wikiを開く"
   },
   "home": {
     "title": "Aniimo（アニモ）攻略 - Tier List・図鑑・マップ・攻略情報",
@@ -300,7 +300,8 @@
       "title": "登場確定アニモ一覧・公式図鑑まとめ",
       "description": "Emberpup、Celestis、Nimbi、Boltyなど、公式図鑑で公開済みのアニモと進化・フォーム情報を解説。",
       "h1": "登場が確認されたアニモ",
-      "body": [["公式図鑑が公開済み","2026年8月30日時点で、公開公式Aniimo Wikiには94件の表示対象エントリーがあります。リークやファンアートから推測した名称ではなく、確認済みの図鑑レコードです。"],["序盤の代表的なアニモ","公式図鑑No.001はEmberpupで、Flameruff、Scorchhowl、Inferlupaへと続きます。CelestisとStellarysはNo.005–006、NimbiはNo.018、BoltyはNo.048です。"],["属性と役割","公式インデックスは聖・火・氷・闇・雷・草・水・岩・風の9属性と、DPS・回復・サポート・ブレイク・リジェネの5役割で絞り込めます。"],["表の使い方","下の表は3言語で1つの構造化データを共有しています。各行から公式Wikiへ移動でき、公式インデックスが返すステージ・属性・役割を確認できます。"],["Tier Listとは別情報","登場確定は強さを意味しません。数値やスキルは調整される可能性があるため、ランキングは正式版で再現可能なテストを行ってから公開します。"]],
+      "body": [["公式図鑑が公開済み","2026年8月30日時点で、公開公式Aniimo Wikiには94件の表示対象エントリーがあります。リークやファンアートから推測した名称ではなく、確認済みの図鑑レコードです。"],["序盤の代表的なアニモ","公式図鑑No.001はEmberpupで、Flameruff、Scorchhowl、Inferlupaへと続きます。CelestisとStellarysはNo.005–006、NimbiはNo.018、BoltyはNo.048です。"],["属性と役割","公式インデックスは聖・火・氷・闇・雷・草・水・岩・風の9属性と、DPS・回復・サポート・ブレイク・リジェネの5役割で絞り込めます。"],["図鑑の使い方","カード図鑑をそのまま見たり、コンパクトな表形式に切り替えたりできます。検索と絞り込みはどちらの表示にも反映され、カードのブックマークでこの端末だけのコレクションを作れます。各項目は公式Wikiへ移動でき、公式インデックスに掲載されたステージ・属性・役割だけを表示します。"],["Tier Listとは別情報","登場確定は強さを意味しません。数値やスキルは調整される可能性があるため、ランキングは正式版で再現可能なテストを行ってから公開します。"]],
+      "changeLog": "カード図鑑、端末内コレクション、絞り込み、表形式表示、公式Wiki詳細リンクを追加。",
       "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式ページ","https://wiki.aniimo.com/item/10002767"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10002793"]]
     },
     "catching-twine": {
