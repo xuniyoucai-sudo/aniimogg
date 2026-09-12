@@ -30,7 +30,7 @@ const launchHomeCopy={
 };
 const utilityCopy={
   en:{
-    updated:'Last checked September 11, 2026 (2026-09-11)',source:'Official source',pending:'Pending public-build verification',confirmed:'Confirmed',unconfirmed:'Exact time unconfirmed',
+    updated:'Last checked September 13, 2026 (2026-09-13)',source:'Official source',pending:'Pending public-build verification',confirmed:'Confirmed',unconfirmed:'Exact time unconfirmed',
     pages:{
       'server-status':['Aniimo Server Status & Launch Availability','Aniimo server and platform availability tracker with sourced launch dates and clearly marked unknowns.','Server status & availability','No official public server-status endpoint is available before launch. This page tracks what can be verified without guessing.'],
       codes:['Aniimo Codes: Confirmed Redemption Codes','A scam-resistant list of confirmed Aniimo redemption codes and official redemption guidance.','Aniimo codes','There are currently no confirmed public redemption codes. We will list a code only after its value, expiry and redemption path can be verified.'],
@@ -42,11 +42,11 @@ const utilityCopy={
     statusNote:'“Unconfirmed” means we found no platform-specific official unlock hour—not that the platform is delayed.',
     codeSections:[['Confirmed active codes','None as of the last check. Avoid pages that ask for passwords, payment or unofficial downloads.'],['How we verify a code','We require an official Aniimo channel, an in-game redemption screen or repeatable public-build evidence. Social reposts alone are not enough.'],['Redemption path','The release-build redemption menu and eligibility rules are not confirmed. We will add steps only after checking the public client.']],
     patchItems:[['2026-09-03','Launch-version developer letter','Confirmed launch content including Prismana, Irisalis, Capafruit and Chaos Mode.','https://aniimo.com/newslist/detail/100064'],['2026-08-28','Global launch dates','September 16 for PC, consoles and Xbox cloud gaming; September 23 for mobile.','https://aniimo.com/newslist/detail/100051']],
-    verifyItems:['Download, install size and first update','Login, queues, regions and maintenance messages','Controller prompts and keyboard rebinding','Crossplay, parties and account-link behavior','Accessibility menu and readable defaults','Frame pacing, graphics presets and crash recovery','Code redemption path and regional eligibility','Server names, latency display and reconnect flow'],
+    verifyItems:['Use only an official store entry; sign in to the platform account you plan to keep','Record platform, region, build number, install size and first update before testing','Confirm the live download or preload state; do not treat a paid pack as proof of client access','Login, queues, regions and maintenance messages','Controller prompts and keyboard rebinding','Crossplay, parties and account-link behavior','Accessibility menu and readable defaults','Frame pacing, graphics presets and crash recovery','Code redemption path and regional eligibility','Server names, latency display and reconnect flow'],
     glossary:[['Aniimo','Creatures players discover, catch and use in exploration and combat.'],['Itepetl','A confirmed region of the Idyll world.'],['Prismana','A launch-version region named in the official developer letter.'],['Irisalis','A launch-version system or feature name referenced by the official developer letter.'],['Capafruit','A launch-version training-related item or mechanic referenced by the official developer letter.'],['Catching Twine','The capture tool described in official beginner materials.'],['Evolution','A form-change system; exact release rules must be verified per Aniimo.'],['Element','A combat affinity used for matchup descriptions.'],['Role','A functional combat label such as offense or support.'],['Egg Heist','A beta-tested competitive mode; launch behavior may differ.'],['Chaos Mode','A launch-version mode confirmed by the developer letter.'],['Crossplay','Playing together across platforms; launch support details remain unconfirmed.'],['Cross-save','Using shared progression across platforms; it is separate from crossplay.']]
   },
   'zh-CN':{
-    updated:'最后核查：2026 年 9 月 11 日（2026-09-11）',source:'官方来源',pending:'等待正式版本验证',confirmed:'已确认',unconfirmed:'精确时间未确认',
+    updated:'最后核查：2026 年 9 月 13 日（2026-09-13）',source:'官方来源',pending:'等待正式版本验证',confirmed:'已确认',unconfirmed:'精确时间未确认',
     pages:{
       'server-status':['Aniimo《伊莫》服务器状态与上线可用性','追踪 Aniimo《伊莫》服务器与各平台上线状态，标注来源和未确认信息。','服务器状态与可用性','上线前暂无官方公开的服务器状态接口。本页只追踪可核实信息，不推测服务器是否正常。'],
       codes:['Aniimo《伊莫》兑换码：已确认代码','防诈骗的 Aniimo《伊莫》有效兑换码与官方兑换说明。','Aniimo《伊莫》兑换码','目前没有已确认的公开兑换码。只有在奖励、有效期与兑换入口都可验证后，本站才会收录。'],
@@ -58,11 +58,11 @@ const utilityCopy={
     statusNote:'“未确认”表示尚未找到对应平台的官方解锁时刻，不代表平台延期。',
     codeSections:[['已确认的有效兑换码','截至最后核查暂无。不要向任何兑换码页面提供密码、付款或下载非官方程序。'],['本站如何验证兑换码','至少需要官方 Aniimo 渠道、游戏内兑换界面，或可重复的正式版本证据；仅有社交平台转载不足以收录。'],['兑换入口','正式版本的兑换菜单和资格规则尚未确认；只有在公开客户端验证后才会添加步骤。']],
     patchItems:[['2026-09-03','正式版本开发者信','确认 Prismana、Irisalis、Capafruit 与 Chaos Mode 等上线内容。','https://aniimo.com/newslist/detail/100064'],['2026-08-28','全球上线日期','PC、主机与 Xbox 云游戏为 9 月 16 日，移动版为 9 月 23 日。','https://aniimo.com/newslist/detail/100051']],
-    verifyItems:['下载、安装体积与首次更新','登录、排队、地区与维护提示','手柄提示与键盘改键','跨平台联机、组队与账号关联','无障碍菜单与默认可读性','帧时间、画质预设与崩溃恢复','兑换入口与地区资格','服务器名称、延迟显示与断线重连'],
+    verifyItems:['只使用官方商店入口，并登录准备长期使用的平台账号','测试前记录平台、地区、版本号、安装体积与首次更新','确认实时下载或预载状态；付费礼包不等于已获得客户端','登录、排队、地区与维护提示','手柄提示与键盘改键','跨平台联机、组队与账号关联','无障碍菜单与默认可读性','帧时间、画质预设与崩溃恢复','兑换入口与地区资格','服务器名称、延迟显示与断线重连'],
     glossary:[['Aniimo / 伊莫','玩家在探索与战斗中发现、捕捉并使用的生物。'],['Itepetl','艾德尔世界中已经确认的地区。'],['Prismana','官方开发者信中确认的正式版本地区。'],['Irisalis','官方开发者信提到的正式版本系统或功能名称。'],['Capafruit','官方开发者信提到的训练相关道具或机制。'],['Catching Twine','官方新手资料中用于捕捉伊莫的工具。'],['进化','形态变化系统；正式版本规则需要逐个伊莫核实。'],['元素','用于描述战斗克制关系的属性。'],['定位','进攻、辅助等战斗功能标签。'],['Egg Heist','封测中出现的竞技模式；正式版行为可能变化。'],['Chaos Mode','开发者信确认的正式版本模式。'],['跨平台联机','不同平台玩家一起游玩；上线支持细节仍待确认。'],['跨平台存档','在不同平台共享进度，与跨平台联机不是同一功能。']]
   },
   ja:{
-    updated:'最終確認：2026年9月11日（2026-09-11）',source:'公式情報源',pending:'正式版での検証待ち',confirmed:'確認済み',unconfirmed:'正確な時刻は未確認',
+    updated:'最終確認：2026年9月13日（2026-09-13）',source:'公式情報源',pending:'正式版での検証待ち',confirmed:'確認済み',unconfirmed:'正確な時刻は未確認',
     pages:{
       'server-status':['Aniimo サーバーステータス・配信状況','Aniimoのサーバーと各機種の配信状況を、情報源と未確認項目付きで追跡します。','サーバーステータス・配信状況','リリース前の公式公開サーバーステータスはありません。推測せず、確認できる情報だけを追跡します。'],
       codes:['Aniimo コード：確認済み引き換えコード','詐欺を避けるための、確認済みAniimoコードと公式引き換え案内。','Aniimo 引き換えコード','現在、確認済みの一般公開コードはありません。報酬、期限、引き換え先を検証できた場合のみ掲載します。'],
@@ -74,7 +74,7 @@ const utilityCopy={
     statusNote:'「未確認」は機種別の公式解禁時刻が見つからないという意味で、延期を示すものではありません。',
     codeSections:[['確認済み有効コード','最終確認時点ではありません。パスワード、支払い、非公式ダウンロードを求めるページは避けてください。'],['確認方法','Aniimo公式チャンネル、ゲーム内引き換え画面、または再現可能な正式版の証拠が必要です。転載だけでは掲載しません。'],['引き換え方法','正式版のメニューと条件は未確認です。公開クライアントで確認後に手順を追加します。']],
     patchItems:[['2026-09-03','正式版開発者レター','Prismana、Irisalis、Capafruit、Chaos Modeなどを確認。','https://aniimo.com/newslist/detail/100064'],['2026-08-28','グローバル配信日','PC・コンソール・Xboxクラウドは9月16日、モバイルは9月23日。','https://aniimo.com/newslist/detail/100051']],
-    verifyItems:['ダウンロード、容量、初回更新','ログイン、待機列、地域、メンテナンス表示','コントローラー表示とキー変更','クロスプレイ、パーティー、アカウント連携','アクセシビリティ設定と初期表示','フレームペーシング、画質設定、クラッシュ復帰','コード入力場所と地域条件','サーバー名、遅延表示、再接続'],
+    verifyItems:['公式ストアの入口だけを使い、継続利用するプラットフォームアカウントにログイン','検証前に機種、地域、ビルド番号、容量、初回アップデートを記録','配信または事前ダウンロードの状況を確認。有料パックはクライアント利用権の証明ではない','ログイン、待機列、地域、メンテナンス表示','コントローラー表示とキー変更','クロスプレイ、パーティー、アカウント連携','アクセシビリティ設定と初期表示','フレームペーシング、画質設定、クラッシュ復帰','コード入力場所と地域条件','サーバー名、遅延表示、再接続'],
     glossary:[['Aniimo','探索や戦闘で発見、捕獲、使用する生物。'],['Itepetl','Idyll世界で確認済みの地域。'],['Prismana','公式開発者レターで確認された正式版地域。'],['Irisalis','公式開発者レターに記載された正式版のシステムまたは機能名。'],['Capafruit','公式開発者レターに記載された育成関連のアイテムまたは仕組み。'],['Catching Twine','公式初心者向け資料で説明された捕獲道具。'],['進化','形態変化システム。正式版の条件はAniimoごとに検証が必要。'],['エレメント','戦闘の相性を表す属性。'],['ロール','攻撃や支援などの戦闘上の役割。'],['Egg Heist','ベータでテストされた対戦モード。正式版では変更の可能性があります。'],['Chaos Mode','開発者レターで確認された正式版モード。'],['クロスプレイ','異なる機種間で一緒に遊ぶこと。対応詳細は未確認。'],['クロスセーブ','異なる機種間で進行を共有すること。クロスプレイとは別機能。']]
   }
 };
