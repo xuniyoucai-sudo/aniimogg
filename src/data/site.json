@@ -11,7 +11,7 @@
     "crossplay-cross-save":{"published":"2026-08-28","updated":"2026-09-11","version":"Pre-launch official-feature recheck","status":"official","related":["multiplayer","egg-heist","release-date-platforms"]},
     "steam-deck":{"published":"2026-08-28","updated":"2026-09-11","version":"Pre-launch compatibility recheck / Xbox cloud gaming confirmed","status":"official","related":["system-requirements","download-preload","release-date-platforms"]},
     "languages-voice-acting":{"published":"2026-08-28","updated":"2026-09-03","version":"Pre-launch Steam listing / launch-version dev letter","status":"official","related":["release-date-platforms","download-preload","system-requirements"]},
-    "egg-heist":{"published":"2026-08-28","updated":"2026-09-03","version":"Beta timeline / confirmed launch-version changes","status":"beta","related":["multiplayer","elements-roles","catching-twine"]},
+    "egg-heist":{"published":"2026-08-28","updated":"2026-09-14","version":"Beta timeline / official launch-version change audit","status":"beta","related":["multiplayer","elements-roles","catching-twine"]},
     "elements-roles":{"published":"2026-08-28","updated":"2026-09-03","version":"Official Wiki snapshot / Beta matchups","status":"beta","related":["confirmed-aniimo","evolution-forms","catching-twine"]},
     "evolution-forms":{"published":"2026-08-28","updated":"2026-09-04","version":"Official Wiki / Beta evolution / launch training changes","status":"beta","related":["confirmed-aniimo","elements-roles","catching-twine"]},
     "release-date-platforms":{"published":"2026-08-27","updated":"2026-09-03","version":"Pre-launch / Xbox cloud gaming confirmed","status":"official","related":["server-launch-times","download-preload","pre-registration"]},
