@@ -196,8 +196,8 @@
       "title": "Aniimo 伊莫下载与预载指南",
       "description": "整理《伊莫》Steam、Epic、PS5、Xbox、iOS 和 Android 下载入口及预载状态。",
       "h1": "Aniimo 伊莫下载与预载指南",
-      "body": [["官方下载入口","通过《伊莫》官网进入 Steam、Epic Games、PlayStation 5、Xbox、App Store 或 Google Play。不要使用非官方 APK、启动器或游戏下载站。"],["Steam 已开放预载","Steam 于 9 月 15 日官方公告确认，Steam 版现已开放预下载。这只确认 Steam 预载；Epic、Xbox、PlayStation、iOS 和 Android 的预载、下载大小或解锁时间并未因此得到确认。"],["PlayStation 预购礼包不等于预载","PlayStation 目前销售可选的高级版和收藏版预购礼包。商店同时写明基础游戏上线后免费；购买奖励礼包并不能证明正式版客户端已经开放预载。"],["PC 准备","Steam 标注需要 45 GB 可用空间，建议额外预留解压和补丁空间，更新显卡驱动，并提前登录准备使用的 Steam 账号。"],["主机和移动端准备","开启自动更新并检查设备空间。不同地区商店可能分批开放，应从官方平台页面进入，不要点击搜索广告中的未知下载链接。"],["仍待核实的信息","首日补丁说明、Steam 最终安装大小，以及 Epic、Xbox 与移动版预载或下载状态，均未在本次核对的官方来源中确认；只有各平台公告出现后才会更新。"]],
-      "sources": [["《伊莫》官网","https://www.aniimo.com/main/"],["Steam 预载公告","https://steamcommunity.com/games/4126040/announcements/detail/693146024068252742"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 商店页","https://www.playstation.com/en-us/games/aniimo/"]]
+      "body": [["使用官方下载入口","9 月 14 日官方 FAQ 提供 Windows PC 启动器下载，并链接 PlayStation 5 与 Xbox 预购页。请只从这些官方入口或《伊莫》官网获取客户端，不要使用非官方 APK、启动器或密钥下载站。"],["PC、PS5 与 Xbox 预下载已确认","Pawprint Studio 已确认 Windows PC、PlayStation 5 和 Xbox 可预下载。PC 玩家可下载官方启动器；PS5 与 Xbox 玩家购买对应平台预购礼包后可以预下载。这不代表 Epic 或移动版已经开放预下载。"],["空间与安装","PC 客户端至少预留 40 GB 空间，尽量安装到 SSD。官方 FAQ 要求主机预留约 30–35 GB；PS5 客户端只能安装到主机内置 SSD。旧封测客户端无法继续使用，须安装最新启动器与客户端。"],["开服与账号数据","PC／主机将于 2026 年 9 月 16 日 10:00（UTC+8）开放服务。同一份官方 FAQ 说明：同一服务器内所有平台的游戏进度完全共享，不同服务器的数据独立。"],["仍待核实的信息","首日补丁说明、最终安装大小、Epic 专属预载、移动版下载时间，以及游戏内完整账号绑定步骤，仍须等待官方公告或公开版本验证。"]],
+      "sources": [["PC／主机预下载官方 FAQ","https://aniimo.com/newslist/detail/100089"],["Steam 预载公告","https://steamcommunity.com/games/4126040/announcements/detail/693146024068252742"],["《伊莫》官网","https://www.aniimo.com/main/"]]
     },
     "server-launch-times": {
       "title": "Aniimo 伊莫各地区开服时间",
@@ -208,13 +208,13 @@
     },
     "crossplay-cross-save": {
       "title": "Aniimo 伊莫支持跨平台联机吗？Crossplay 与跨存档说明",
-      "description": "《伊莫》是否支持跨平台联机？整理已确认的 Crossplay，以及尚未确认的跨存档、跨进度和账号绑定状态。",
+      "description": "《伊莫》是否支持跨平台联机与跨进度？整理官方已确认的同服务器跨平台进度共享、Steam 账号绑定和仍待说明的限制。",
       "h1": "Aniimo 伊莫跨平台联机、跨存档与跨进度说明",
-      "evidence": ["已确认的活动规则不等于跨存档","官方 Time to Aniimo 网页活动说明：活动邮箱与上线后创建首个角色的邮箱一致时，活动奖励会发放到该角色。这只确认一次活动的奖励归属，不能证明跨存档、平台账号合并或进度转移。","官方上线与 Time to Aniimo 公告","https://www.aniimo.com/newslist/detail/100051"],
-      "body": [["简短答案","支持。Steam 已正式列出 Cross-Platform Multiplayer、在线合作和在线 PvP；但官方尚未说明 PC、PlayStation 5、Xbox 与移动端之间的具体组合，因此目前只能确认游戏具有跨平台多人功能。"],["跨平台联机不等于跨存档","Crossplay 是不同平台玩家一起游玩；Cross-save／跨进度则是角色和进度在不同平台继续使用。Pawprint Studio 尚未确认跨存档、共享购买内容或角色转移。"],["账号绑定仍未确认","Steam、Epic Games、PlayStation、Xbox、Apple 与 Google 身份的绑定流程尚未公布。使用邮箱预约并不能证明所有平台账号都会自动合并。"],["购买、地区与好友限制","付费货币、平台独占物品、服务器地区和好友列表可能有限制。在官方上线 FAQ 公布前，不要默认一个平台的购买内容会出现在另一个平台。"],["最安全的上线做法","先选择主要平台，在平台允许时使用同一个可找回邮箱，并在官方账号绑定说明公布前避免重复创建角色。"]],
-      "matrix": {"title":"平台支持状态","headers":["平台","跨平台联机","跨存档／跨进度"],"rows":[["PC（Steam／Epic）","Steam 已列出跨平台多人","尚未确认"],["PlayStation 5","具体互通组合未公布","尚未确认"],["Xbox","具体互通组合未公布","尚未确认"],["iOS／Android","具体互通组合未公布","尚未确认"]],"note":"商店功能标签只能确认整体支持跨平台多人，不能证明所有平台两两互通或共享进度。"},
-      "faq": [["Aniimo 伊莫支持跨平台联机吗？","支持。Steam 已列出跨平台多人，但具体互通平台组合尚未公布。"],["《伊莫》支持 Crossplay 吗？","已确认跨平台多人、在线合作与在线 PvP；最终服务器和平台组合仍待官方说明。"],["《伊莫》支持跨平台存档吗？","跨存档和跨进度尚未得到官方确认，不能假设角色、进度或购买内容可以转移。"],["PC、主机和手机进度可以互通吗？","Pawprint Studio 尚未公布 PC、PlayStation 5、Xbox、iOS 与 Android 的账号绑定和进度转移规则。"]],
-      "sources": [["Steam 功能列表","https://store.steampowered.com/app/4126040/Aniimo/"],["《伊莫》官网","https://www.aniimo.com/main/"]]
+      "evidence": ["官方 FAQ 已明确确认","9 月 14 日 PC／主机预下载 FAQ 明确说明：不同服务器的数据独立；同一服务器内，所有平台之间的游戏进度完全共享。这是官方对跨进度的直接说明，不是依据商店标签推测。","PC／主机预下载官方 FAQ","https://aniimo.com/newslist/detail/100089"],
+      "body": [["简短答案","支持。Steam 已列出 Cross-Platform Multiplayer、在线合作和在线 PvP；9 月 14 日官方 FAQ 进一步确认：同一服务器内，所有平台之间的游戏进度完全共享。"],["官方已确认的进度规则","官方 FAQ 明确区分服务器：不同服务器的数据独立；同一服务器内可在所有平台之间共享游戏进度。这是目前跨进度的官方依据。"],["仍未说明的细节","FAQ 没有公布平台两两互通表、所有身份提供商的完整绑定流程、跨平台购买内容共享、跨服务器角色转移或地区限制，不能自行推断。"],["Steam 账号绑定","对于参加过 Steam 封测的玩家，FAQ 说明可在 Steam 客户端提示中，或在游戏内“邮箱绑定”页面，将 Steam 与 Aniimo Pass 邮箱关联；其他平台的具体流程尚未公布。"],["安全设置建议","在平台允许时使用同一个可找回邮箱，慎重选择服务器；不要默认购买内容或角色可以在不同服务器之间移动。"]],
+      "matrix": {"title":"官方平台与进度状态","headers":["主题","已确认","仍待说明"],"rows":[["跨平台联机","Steam 已列出跨平台多人","具体平台组合表"],["游戏进度","同一服务器内全平台共享","跨服务器与地区规则"],["服务器隔离","不同服务器数据独立","正式服务器列表与限制"],["Steam 绑定","可关联 Aniimo Pass 邮箱","其他平台绑定流程"],["购买内容","FAQ 未涉及","跨平台购买内容共享"]],"note":"进度共享仅适用于同一服务器，不能据此推断购买共享或跨服务器角色转移。"},
+      "faq": [["Aniimo 伊莫支持跨平台联机吗？","支持。Steam 已列出跨平台多人、在线合作和在线 PvP。"],["《伊莫》支持跨存档或跨进度吗？","9 月 14 日官方 FAQ 说明：同一服务器内，所有平台之间的游戏进度完全共享；不同服务器数据独立。"],["角色可以转到其他服务器吗？","尚未确认。FAQ 只说明不同服务器的数据独立。"],["怎样绑定 Steam 账号？","官方 FAQ 说明，参加过 Steam 封测的玩家可在 Steam 提示或游戏内“邮箱绑定”页面关联 Aniimo Pass 邮箱；其他平台流程尚未详述。"]],
+      "sources": [["PC／主机预下载官方 FAQ","https://aniimo.com/newslist/detail/100089"],["Steam 功能列表","https://store.steampowered.com/app/4126040/Aniimo/"]]
     },
     "steam-deck": {
       "title": "Aniimo 伊莫支持 Steam Deck 吗？",
