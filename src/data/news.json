@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pc-console-launch-faq",
+    "date": "2026-09-14",
+    "updated": "2026-09-16",
+    "source": "https://aniimo.com/newslist/detail/100089",
+    "locales": {
+      "en": {"title": "Official PC and Console FAQ Covers Download, Progress and Support", "description": "Pawprint Studio documents PC/PS5/Xbox download routes, same-server cross-platform progress and common install guidance.", "body": ["The official FAQ documents the PC and console service time, Windows PC launcher route, and pre-download paths for PlayStation 5 and Xbox. It asks PC players to reserve at least 40 GB and console players to reserve about 30–35 GB.", "For accounts, the FAQ says game progress is fully shared across all platforms within the same server, while data on different servers is independent. It also describes Steam-to-Aniimo Pass email linking for previous Steam beta participants. Purchase sharing, server transfer and every platform-specific account workflow are not explained."]},
+      "zh-CN": {"title": "PC／主机官方 FAQ 覆盖下载、进度与支持信息", "description": "Pawprint Studio 说明 PC／PS5／Xbox 下载路径、同服跨平台进度共享和常见安装排障。", "body": ["官方 FAQ 记录 PC／主机服务时间、Windows PC 启动器入口，以及 PlayStation 5 与 Xbox 的预下载路径。PC 建议至少预留 40 GB，主机约预留 30–35 GB。", "账号部分说明：同一服务器内所有平台的游戏进度完全共享，不同服务器数据独立；同时说明了参加过 Steam 封测的玩家如何关联 Steam 与 Aniimo Pass 邮箱。购买内容共享、跨服转移和所有平台的账号流程尚未在 FAQ 中说明。"]},
+      "ja": {"title": "PC・コンソール公式FAQがDL・進行共有・サポートを案内", "description": "Pawprint StudioがPC／PS5／XboxのDL導線、同一サーバー内の進行共有、主なインストール案内を公開。", "body": ["公式FAQはPC・コンソールのサービス時刻、Windows PCランチャーの導線、PS5・Xboxの事前ダウンロードを案内しています。PCには40GB以上、コンソールには約30〜35GBの空き容量を求めています。", "アカウントについては、同じサーバー内で全プラットフォーム間のゲーム進行が完全に共有され、異なるサーバーのデータは独立すると説明しています。過去のSteamテスト参加者向けにSteamとAniimo Passメールの連携も案内されています。購入共有、サーバー移動、全機種の連携手順は未説明です。"]}
+    }
+  },
+  {
+    "slug": "intel-cpu-stability-notice",
+    "date": "2026-09-14",
+    "updated": "2026-09-16",
+    "source": "https://aniimo.com/newslist/detail/100100",
+    "locales": {
+      "en": {"title": "Official Intel 13th/14th-Gen Stability Notice Published", "description": "Pawprint Studio advises affected desktop Intel users with crashes or out-of-VRAM errors to review BIOS and microcode guidance.", "body": ["Pawprint Studio says some systems with affected 13th- or 14th-Gen Intel Core desktop processors may experience crashes, freezes, graphical issues, out-of-VRAM errors or blue screens when using outdated microcode. This is not a claim that every Intel PC is affected.", "The official notice recommends following Intel or motherboard-manufacturer BIOS instructions and using Intel microcode 0x12B or later. Firmware and tuning changes carry risk; users who are not comfortable with them should seek manufacturer or official support rather than copying settings from another player."]},
+      "zh-CN": {"title": "官方发布 Intel 第 13／14 代 CPU 稳定性提示", "description": "Pawprint Studio 建议遇到崩溃或显存不足错误的受影响 Intel 台式机用户检查 BIOS 与微代码指引。", "body": ["Pawprint Studio 表示，部分使用受影响 Intel 第 13／14 代 Core 台式机处理器的设备，在微代码过旧时可能出现崩溃、卡死、图形异常、显存不足报错或蓝屏。这并不代表每台 Intel 电脑都会受影响。", "官方建议遵循 Intel 或主板厂商的 BIOS 指引，并使用 0x12B 或更新的 Intel 微代码。固件与调校有风险；不熟悉时应联系硬件厂商或官方支持，而不是照搬其他玩家的设置。"]},
+      "ja": {"title": "Intel第13／14世代CPUの安定性に関する公式告知", "description": "Pawprint StudioはクラッシュやVRAM不足エラーが出る対象IntelデスクトップPCに、BIOSとマイクロコードの確認を案内。", "body": ["Pawprint Studioは、影響を受ける第13／14世代Intel CoreデスクトップCPUと古いマイクロコードの組み合わせで、クラッシュ、フリーズ、描画異常、VRAM不足エラー、ブルースクリーンが起こる場合があると案内しています。すべてのIntel PCが対象という意味ではありません。", "公式告知はIntelまたはマザーボードメーカーのBIOS手順に従い、Intelマイクロコード0x12B以降を使うことを推奨しています。ファームウェアやチューニングにはリスクがあるため、不慣れならメーカーまたは公式サポートへ相談してください。"]}
+    }
+  },
+  {
     "slug": "launch-version-dev-letter",
     "date": "2026-09-03",
     "updated": "2026-09-03",
