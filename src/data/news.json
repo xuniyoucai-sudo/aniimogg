@@ -1,5 +1,16 @@
 [
   {
+    "slug": "beta-reward-account-linking",
+    "date": "2026-09-15",
+    "updated": "2026-09-16",
+    "source": "https://www.aniimo.com/newslist/detail/100111",
+    "locales": {
+      "en": {"title": "Official Beta Reward and Account-Linking Instructions Published", "description": "Aniimo explains how eligible test players should use their test email, and when support is required to protect an existing character.", "body": ["Aniimo’s September 15 notice says eligible previous-test players should sign in to the live game with the same email used during testing. The notice specifically recommends entering that email and verification code rather than using a third-party sign-in if the goal is to claim test rewards.", "The official guidance distinguishes between accounts before and after character creation. It warns that players who cannot accept losing their existing character, and Steam-test participants with reward issues, should contact in-game Customer Support. Do not follow community account-unlinking suggestions blindly; account actions can affect a character or rewards."]},
+      "zh-CN": {"title": "官方发布封测奖励与账号绑定领取说明", "description": "Aniimo 说明符合条件的测试玩家应如何使用测试邮箱，以及何时应联系支持以保护已有角色。", "body": ["Aniimo 9 月 15 日公告称，符合条件的既往测试玩家应使用测试时的同一邮箱登录正式服领取测试奖励。若目标是领取奖励，官方特别建议手动输入该邮箱并通过验证码登录，而非使用第三方登录。", "官方说明区分了创建角色前后：不能接受失去已有角色的玩家，以及 Steam 测试参与者遇到奖励问题时，应联系游戏内客服。不要盲目照搬社区中的解绑建议，账号操作可能影响角色或奖励。"]},
+      "ja": {"title": "ベータ報酬・アカウント連携の公式手順を公開", "description": "Aniimoがテスト参加者向けの登録メール利用方法と、既存キャラクターを守るためサポートが必要な場面を案内。", "body": ["Aniimoの9月15日の告知では、対象となる過去テスト参加者はテスト時と同じメールアドレスで正式版にログインして報酬を受け取るよう案内されています。報酬受け取りが目的の場合、第三者ログインではなく、メールアドレスと認証コードを手動入力することを推奨しています。", "公式案内はキャラクター作成の前後を区別しています。既存キャラクターを失えない場合や、Steamテスト参加者の報酬問題はゲーム内サポートへの連絡が必要です。コミュニティの解除手順をそのまま試さないでください。アカウント操作はキャラクターや報酬に影響する可能性があります。"]}
+    }
+  },
+  {
     "slug": "pc-console-launch-faq",
     "date": "2026-09-14",
     "updated": "2026-09-16",
