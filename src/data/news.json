@@ -1,5 +1,16 @@
 [
   {
+    "slug": "steam-launch-rewards-and-queues",
+    "date": "2026-09-16",
+    "updated": "2026-09-17",
+    "source": "https://steamcommunity.com/app/4126040/announcements/",
+    "locales": {
+      "en": {"title": "Official Steam Launch Notice Covers Queues, Rewards and Test Data", "description": "Aniimo is live on Steam; the official launch notice flags possible login queues and explains launch-reward and prior-test data boundaries.", "body": ["Aniimo’s official Steam launch notice says the game is live on Steam and that players may encounter login queues or slower loading during the launch period. It recommends a stable connection, closing unnecessary background programs and checking the published device requirements. These are operational suggestions, not a guarantee that every connection issue has the same cause.", "The notice says prior test data does not carry into the live game, while eligible test rewards use the official reward process. It also lists launch reward categories, including a Grade I Wayfarer Prismana-form selection, Aniilog collection milestones, event catching items, login-day egg rewards and free outfits. Exact eligibility, timing and regional availability should be checked in-game or through official support. It separately advertises a future PC-and-mobile cross-platform reward, so it should not be claimed before the mobile launch and its terms are available."]},
+      "zh-CN": {"title": "Steam 官方上线公告说明排队、奖励与测试数据", "description": "Aniimo 已在 Steam 上线；官方公告提示可能出现登录排队，并说明上线奖励与既往测试数据的边界。", "body": ["Aniimo 的 Steam 官方上线公告称游戏已在 Steam 上线，开服期间可能出现登录排队或加载变慢。官方建议保持网络稳定、关闭不必要的后台程序，并对照已公布的设备要求。这些是运营建议，不代表每一种连接问题都具有相同原因。", "公告说明既往测试数据不会带入正式服，符合条件的测试奖励应通过官方奖励流程领取；同时列出 Wayfarer I 阶段的 Prismana 形态选择、Aniilog 收集里程碑、活动捕捉道具、累计登录蛋奖励和免费服装等类别。具体资格、时间和地区可用性须以游戏内或官方客服为准。公告另提到未来 PC 与移动端的跨平台奖励，移动版上线及规则明确前不应提前认领。"]},
+      "ja": {"title": "Steam公式開始告知が待機列・報酬・テストデータを案内", "description": "AniimoはSteamで配信開始。公式告知はログイン待機の可能性と、開始報酬・過去テストデータの扱いを説明しています。", "body": ["AniimoのSteam公式開始告知では、Steamで配信開始済みであり、開始直後はログイン待機や読み込みの遅さが発生する可能性があると案内しています。安定した回線、不要なバックグラウンドプログラムの終了、公開済み動作環境の確認が推奨されています。これは運用上の案内であり、すべての接続問題が同じ原因という意味ではありません。", "過去テストのセーブデータは正式版へ引き継がれず、対象者のテスト報酬は公式の受け取り手順を使うと案内されています。Wayfarer Grade IでのPrismana Form選択、Aniilog収集の節目、イベントの捕獲アイテム、ログイン日数の卵報酬、無料衣装などのカテゴリも掲載されています。対象条件、時期、地域差はゲーム内または公式サポートで確認してください。PCとモバイルのクロスプラットフォーム報酬は将来の案内であり、モバイル配信と条件の公表前に受け取りを前提にしないでください。"]}
+    }
+  },
+  {
     "slug": "beta-reward-account-linking",
     "date": "2026-09-15",
     "updated": "2026-09-16",
