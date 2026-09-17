@@ -273,12 +273,13 @@
       "sources": [["官网全球上线公告","https://www.aniimo.com/newslist/detail/100051"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5 商店页","https://www.playstation.com/games/aniimo/"]]
     },
     "pre-registration": {
-      "title": "Aniimo 伊莫预约方法与奖励指南",
-      "description": "整理《伊莫》PC、主机、移动端预约入口以及已公布的全球预约里程碑奖励。",
-      "h1": "Aniimo 伊莫预约指南",
+      "title": "Aniimo 伊莫预约奖励：领取指南与活动状态",
+      "description": "官方 Aniimo 伊莫预约活动、上线与测试奖励领取指南：活动状态、邮箱匹配规则及账号支持边界。",
+      "h1": "Aniimo 伊莫预约与上线奖励",
       "eventStatus": {"label":"进行中 · 23:59（UTC+8）截止","title":"Time to Aniimo 活动状态","text":"官方活动定于 2026 年 9 月 3 日 23:59（UTC+8）关闭。","link":"打开官方活动","expiredLabel":"活动已结束","expiredTitle":"Time to Aniimo 已于 9 月 3 日结束","expiredText":"官方参与窗口已于 23:59（UTC+8）关闭。已经完成活动的玩家应保留对应邮箱，用于上线后创建首个角色。"},
-      "body": [["在哪里预约","从《伊莫》官网进入，选择 PS5、Xbox、Steam、Epic、App Store 或 Google Play。商店开放情况可能因地区不同，以官网为当前地区显示的入口为准。"],["官方里程碑奖励","官网活动列出：全球预约 1000 万获得 Glimmer ×200；1500 万获得 Aniipod Ultra ×2；2000 万获得限定头像框“Companion Promise”；3000 万获得限定服装“Sunlit Meadow”。"],["Time to Aniimo 网页活动","官方活动持续到 2026 年 9 月 3 日 23:59（UTC+8）。每日登录可以孵化 Aniimo，与好友交换重复内容，并争取限定个人资料卡背景奖励。"],["活动邮箱必须一致","官方公告说明，活动邮箱必须与上线后创建首个角色所用邮箱一致，奖励才会发放。请使用自己能控制的邮箱；若想领取活动奖励，不要用另一邮箱创建首个角色。"],["活动页面语言范围","网页活动目前支持英语、日语、韩语和繁体中文。这四种活动页面语言与 Steam 正式游戏列出的 13 种语言属于不同范围。"],["官网预约与商店愿望单的区别","官网账号预约、Steam 愿望单、移动端预订和主机预购不一定属于同一操作。建议先完成官网账号预约，再在准备游玩的平台完成对应商店操作。"],["PlayStation 付费预购包","游戏本体免费。PlayStation 销售包含外观或 Companion Handbook 的可选预购包，不购买也能游玩基础游戏。"]],
-      "sources": [["《伊莫》官网预约页","https://www.aniimo.com/main/"],["官网上线与网页活动公告","https://www.aniimo.com/newslist/detail/100051"]]
+      "body": [["活动状态：预约已成为历史信息","Time to Aniimo 的参与窗口已于 2026 年 9 月 3 日 23:59（UTC+8）结束。截止时间后，旧活动页、愿望单或商店预购都不应被理解为新的预约入口。"],["里程碑活动曾提供什么","官网活动列出：全球预约 1000 万获得 Glimmer ×200；1500 万获得 Aniipod Ultra ×2；2000 万获得限定头像框“Companion Promise”；3000 万获得限定服装“Sunlit Meadow”。这些是活动记录，并不表示每个账号的奖励都会以相同方式自动出现。"],["活动奖励请使用相同邮箱","原活动公告要求活动邮箱与上线后创建首个角色所用邮箱一致。若在核对活动关联奖励，请保留该邮箱访问权，并避免用另一个邮箱创建首个角色。"],["测试奖励如何领取","官方奖励说明要求使用测试期间所用邮箱并按游戏内步骤领取。已有角色无法接收时，应使用官方游戏内客服渠道，不要为了绕过问题创建第二个角色或分享账号。"],["在正确位置核对上线奖励","上线奖励与网页活动奖励是不同项目。请先查看当前角色绑定账号、游戏内邮箱和官方公告，再判断奖励是否缺失。"],["愿望单、预约与付费包不是同一操作","官网注册、Steam 愿望单、移动端预订和主机付费包是不同操作。游戏本体免费；PlayStation 可选包既不是游玩门槛，也不会单独证明奖励资格。"],["向客服提交前保留必要信息","保留账号邮箱、平台、角色／服务器信息与相关官方公告。不要向声称能解决奖励问题的人提供密码、一次性验证码或完整付款资料。"]],
+      "faq": [["现在还能预约《伊莫》吗？","Time to Aniimo 活动参与窗口已在 2026 年 9 月 3 日结束；当前下载和账号操作请使用官方商店与账号页面。"],["活动奖励该用哪个邮箱？","应使用原活动与首个上线角色关联的邮箱，具体以官方活动公告要求为准。"],["测试奖励无法领取怎么办？","先按官方游戏内步骤操作，并携带账号和角色信息联系官方客服；不要创建重复账号作为替代方案。"]],
+      "sources": [["官网上线与网页活动公告","https://www.aniimo.com/newslist/detail/100051"],["官方测试奖励与账号指引","https://www.aniimo.com/newslist/detail/100111"],["Steam 官方商店页","https://store.steampowered.com/app/4126040/Aniimo/"]]
     },
     "system-requirements": {
       "title": "Aniimo 伊莫 PC 配置要求：最低与推荐配置",
@@ -297,10 +298,10 @@
       "sources": [["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5 商店页","https://www.playstation.com/games/aniimo/"]]
     },
     "confirmed-aniimo": {
-      "title": "已确认的 Aniimo 伊莫名单与官方图鉴",
-      "description": "整理官方已经公开的伊莫，包括 Emberpup、Celestis、Nimbi、Bolty 及进化与形态信息。",
-      "h1": "官方已确认的 Aniimo 伊莫",
-      "body": [["官方图鉴已经开放","截至 2026 年 8 月 30 日，公开的官方 Aniimo Wiki 列出 94 个可见条目。这些是已确认的图鉴记录，而不是根据泄露或同人图推测的名称。"],["较早编号的代表","Emberpup 是官方图鉴 No.001，之后为 Flameruff、Scorchhowl 和 Inferlupa；Celestis 与 Stellarys 是 No.005–006，Nimbi 是 No.018，Bolty 是 No.048。"],["属性与定位","官方索引使用神圣、火、冰、暗、雷电、草、水、岩石、风九种属性筛选，以及输出、治疗、辅助、破韧、回复五种定位筛选。"],["图鉴的使用方式","默认可浏览卡片图鉴，也可切换为紧凑表格。搜索与筛选会同时作用于两种视图；点击卡片书签可在本设备建立私人收藏。每条记录都会链接至官方 Wiki，并只展示官方索引返回的阶段、属性与定位。"],["为什么这不是强度榜","确认登场不代表强弱。数值和技能可能在上线前后调整，因此强度榜会等待公开版本重复测试。"]],
+      "title": "Aniimo 伊莫图鉴：94 个官方已确认伊莫",
+      "description": "浏览 94 条官方 Aniimo 伊莫图鉴记录，支持属性、定位、阶段搜索与筛选、本机收藏，并可直达官方 Wiki。",
+      "h1": "Aniimo 伊莫图鉴：94 个已确认伊莫",
+      "body": [["这份伊莫图鉴包含什么","本图鉴整理官方 Aniimo Wiki 索引中的 94 个可见条目。这是已核实的索引快照，不是泄露名单，也不代表每个条目在所有地区或进度下都以相同方式出现。"],["较早编号的代表","Emberpup 是官方图鉴 No.001，之后为 Flameruff、Scorchhowl 和 Inferlupa；Celestis 与 Stellarys 是 No.005–006，Nimbi 是 No.018，Bolty 是 No.048。"],["属性与定位","官方索引使用神圣、火、冰、暗、雷电、草、水、岩石、风九种属性筛选，以及输出、治疗、辅助、破韧、回复五种定位筛选。"],["图鉴的使用方式","默认可浏览卡片图鉴，也可切换为紧凑表格。搜索与筛选会同时作用于两种视图；点击卡片书签可在本设备建立私人收藏。每条记录都会链接至官方 Wiki，并只展示官方索引返回的阶段、属性与定位。"],["为什么这不是强度榜","确认登场不代表强弱。数值和技能可能在上线前后调整，因此强度榜会等待公开版本重复测试。"]],
       "changeLog": "新增卡片式图鉴、本机收藏书签、筛选、表格视图与官方 Wiki 详情入口。",
       "sources": [["官方 Aniimo Wiki 图鉴","https://wiki.aniimo.com/"],["Emberpup 官方条目","https://wiki.aniimo.com/item/10002767"],["Nimbi 官方条目","https://wiki.aniimo.com/item/10002793"]]
     },
@@ -315,13 +316,13 @@
       "sources": [["Steam 官方玩法介绍","https://store.steampowered.com/app/4126040/Aniimo/"],["全球封闭测试官方手册","https://aniimo.com/newslist/detail/tipvtviq"],["9 月 3 日官方开发者信","https://www.aniimo.com/de/newslist/detail/100064"],["官方 Aniimo Wiki","https://wiki.aniimo.com/"]]
     },
     "multiplayer": {
-      "title": "Aniimo 伊莫支持多人吗？合作、PvP、人数与 Egg Heist",
-      "description": "Aniimo 伊莫支持多人吗？支持：Steam 已列出单人、在线合作、PvP 和跨平台多人。查看已确认的 3 人 Egg Heist 与待公布限制。",
-      "h1": "Aniimo 伊莫支持多人吗？合作、PvP 与人数说明",
-      "body": [["简短答案：支持多人","Steam 已列出单人、在线合作、在线 PvP 与跨平台多人。当前只有 Egg Heist 的队伍人数得到确认；跨存档和具体平台互通组合仍未公布。"],["三人 Egg Heist","官方更新将 Egg Heist 描述为 Lost Isles 中的 PvEvP 活动。玩家组成三人队伍，收集物资、进入禁区、与其他 Pathfinder 交战并争夺 Giant Darkler Egg。"],["合作与主线范围尚未确认","官方提到单人和多人探索，但尚未公布 Egg Heist 之外的通用队伍人数、主线随进随出、访客任务进度、共同捕捉归属或房主世界进度。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可与其他玩家见面互动；Homeland 支持种植、建造装饰和布置空间，但官方尚未把这些描述为完整主线合作模式。"],["跨平台问题请查看专页","跨平台多人已确认，但跨存档、账号绑定、地区服务器、好友上限、语音聊天和主机会员要求仍待公布。具体平台状态见 Crossplay 与 Cross-save 专页。"]],
-      "matrix": {"title":"已确认的多人模式","headers":["模式或功能","官方状态","人数或范围"],"rows":[["单人模式","Steam 已列出","支持单人"],["在线合作","Steam 已列出","普通队伍上限未公布"],["在线 PvP","Steam 已列出","赛制与人数未公布"],["Egg Heist PvEvP","官方已介绍","3人队伍"],["跨平台多人","Steam 已列出","具体平台组合未公布"]],"note":"目前只有 Egg Heist 有官方明确的队伍人数，不能据此推断所有开放世界或剧情内容均支持3人。"},
-      "faq": [["《伊莫》有多人模式吗？","有。Steam 列出在线合作、在线 PvP、跨平台多人和单人模式。"],["《伊莫》支持合作游玩吗？","已列出在线合作，但完整主线合作范围和普通开放世界队伍人数尚未公布。"],["Egg Heist 是几人队伍？","官方 Egg Heist 说明明确为三人队伍。"],["《伊莫》可以单人玩吗？","可以。Steam 正式列出单人模式，官方介绍也同时提到单人与多人游玩。"]],
-      "sources": [["Steam 多人功能说明","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 Egg Heist 更新公告","https://www.aniimo.com/newslist/detail/100015"]]
+      "title": "Aniimo 伊莫多人与跨平台：合作、PvP 和 Egg Heist",
+      "description": "Aniimo 有多人和跨平台吗？有。查看官方已列出的合作、PvP、跨平台、同服务器进度共享，以及 3 人 Egg Heist。",
+      "h1": "Aniimo 伊莫多人与跨平台：合作、PvP 和 Egg Heist",
+      "body": [["Aniimo 有多人和跨平台吗？","有。Steam 已列出单人、在线合作、在线 PvP 与跨平台多人；官方 PC 与主机 FAQ 还说明，同一服务器的进度可在不同平台共享，不同服务器的数据则彼此独立。"],["三人 Egg Heist","官方更新将 Egg Heist 描述为 Lost Isles 中的 PvEvP 活动。玩家组成三人队伍，收集物资、进入禁区、与其他 Pathfinder 交战并争夺 Giant Darkler Egg。"],["合作与主线范围尚未确认","官方提到单人和多人探索，但尚未公布 Egg Heist 之外的通用队伍人数、主线随进随出、访客任务进度、共同捕捉归属或房主世界进度。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可与其他玩家见面互动；Homeland 支持种植、建造装饰和布置空间，但官方尚未把这些描述为完整主线合作模式。"],["同服共享仍不能解答所有问题","官方 FAQ 确认同服跨平台进度共享，但没有公布所有组队、好友、语音或转服限制。选择平台或服务器前，请查看独立的 Crossplay 与 Cross-save 指南。"]],
+      "matrix": {"title":"已确认的多人模式","headers":["模式或功能","官方状态","人数或范围"],"rows":[["单人模式","Steam 已列出","支持单人"],["在线合作","Steam 已列出","普通队伍上限未公布"],["在线 PvP","Steam 已列出","赛制与人数未公布"],["Egg Heist PvEvP","官方已介绍","3人队伍"],["跨平台进度","官方 FAQ","同服务器共享；不同服务器独立"]],"note":"目前只有 Egg Heist 有官方明确的队伍人数，不能据此推断所有开放世界或剧情内容均支持3人。"},
+      "faq": [["《伊莫》有多人模式吗？","有。Steam 列出在线合作、在线 PvP、跨平台多人和单人模式。"],["《伊莫》支持跨平台或跨存档吗？","官方 FAQ 说明同一服务器的进度可在不同平台共享；不同服务器的数据独立，未列出的限制仍需等待官方说明。"],["《伊莫》支持合作游玩吗？","已列出在线合作，但完整主线合作范围和普通开放世界队伍人数尚未公布。"],["Egg Heist 是几人队伍？","官方 Egg Heist 说明明确为三人队伍。"],["《伊莫》可以单人玩吗？","可以。Steam 正式列出单人模式，官方介绍也同时提到单人与多人游玩。"]],
+      "sources": [["Steam 多人功能说明","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 PC 与主机 FAQ","https://www.aniimo.com/newslist/detail/100089"],["官方 Egg Heist 更新公告","https://www.aniimo.com/newslist/detail/100015"]]
     },
     "regions-world": {
       "title": "Aniimo 伊莫地区与世界地图指南",
