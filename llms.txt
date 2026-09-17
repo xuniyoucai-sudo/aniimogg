@@ -1,6 +1,6 @@
 # Aniimo GG
 
-> Independent Aniimo player guide in English, Simplified Chinese and Japanese, with sourced launch information, world data and release-tested guides.
+> Independent Aniimo player guide in English, Simplified Chinese, Traditional Chinese and Japanese, with sourced launch information, world data and release-tested guides.
 
 ## 主要页面
 - [首页](https://aniimogg.com/)
@@ -16,6 +16,7 @@
 - [资料政策](https://aniimogg.com/guides/editorial-policy/)
 - [English](https://aniimogg.com/)
 - [简体中文](https://aniimogg.com/zh-cn/)
+- [繁體中文](https://aniimogg.com/zh-tw/)
 - [日本語](https://aniimogg.com/ja/)
 
 ## 内容规则
