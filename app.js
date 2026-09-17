@@ -128,31 +128,3 @@ document.querySelectorAll('.readiness-check').forEach(form=>form.addEventListene
   result.textContent=ready?result.dataset.ready:result.dataset.fail;
   result.className=`check-result ${ready?'is-ready':'is-fail'}`;
 }));
-
-// Official Aniimo Wiki artwork is loaded only for compendium cards with a
-// name-to-image mapping verified from the public official Wiki index.
-if(document.querySelector('.aniimo-card')){
-  fetch('/src/data/aniimo-official-images.json')
-    .then(response=>response.ok?response.json():{})
-    .then(images=>{
-      const base='https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/';
-      document.querySelectorAll('.aniimo-card').forEach(card=>{
-        const name=card.querySelector('h3')?.textContent.trim();
-        const file=images[name];
-        const mark=card.querySelector('.aniimo-card-mark');
-        if(!file||!mark)return;
-        const image=new Image();
-        image.src=base+file;
-        image.alt=`${name} — official Aniimo Wiki artwork`;
-        image.width=320;
-        image.height=320;
-        image.loading='lazy';
-        image.decoding='async';
-        image.referrerPolicy='no-referrer';
-        image.addEventListener('error',()=>mark.classList.remove('has-official-art'),{once:true});
-        mark.classList.add('has-official-art');
-        mark.replaceChildren(image);
-      });
-    })
-    .catch(()=>{});
-}
