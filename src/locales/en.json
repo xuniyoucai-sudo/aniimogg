@@ -19,6 +19,8 @@
     "backHome": "Back to home",
     "updated": "Updated",
     "officialSource": "Official source",
+    "communityEvidence": "Community-reported launch leads",
+    "communityEvidenceCaveat": "These are third-party launch references, not official documentation or Aniimo Guide release testing. Their platform, client version, scope and accuracy have not been independently verified here; use them only as leads to compare with the live game, and do not treat their values, controls, locations or rewards as settled facts.",
     "comingAfterLaunch": "Data will be verified after launch",
     "language": "Language",
     "officialSite": "Official site",
