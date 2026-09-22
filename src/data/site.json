@@ -8,7 +8,7 @@
   "guideMeta": {
     "download-preload":{"published":"2026-08-28","updated":"2026-09-16","version":"Official PC and console pre-download FAQ","status":"official","related":["release-date-platforms","system-requirements","pre-registration"]},
     "launch-troubleshooting":{"published":"2026-09-19","updated":"2026-09-19","version":"Official PC and console live announcement","status":"official","related":["download-preload","mobile-launch","system-requirements"]},
-    "mobile-launch":{"published":"2026-09-19","updated":"2026-09-20","version":"Official launch announcement / Xbox Cloud Gaming FAQ","status":"official","related":["download-preload","crossplay-cross-save","system-requirements"]},
+    "mobile-launch":{"published":"2026-09-19","updated":"2026-09-23","version":"Official mobile launch, account and device FAQ","status":"official","related":["download-preload","crossplay-cross-save","system-requirements"]},
     "server-launch-times":{"published":"2026-08-28","updated":"2026-09-15","version":"Official Steam regional launch-time announcement","status":"official","related":["release-date-platforms","download-preload","multiplayer"]},
     "crossplay-cross-save":{"published":"2026-08-28","updated":"2026-09-16","version":"Official PC and console pre-download FAQ","status":"official","related":["multiplayer","egg-heist","release-date-platforms"]},
     "steam-deck":{"published":"2026-08-28","updated":"2026-09-11","version":"Pre-launch compatibility recheck / Xbox cloud gaming confirmed","status":"official","related":["system-requirements","download-preload","release-date-platforms"]},
