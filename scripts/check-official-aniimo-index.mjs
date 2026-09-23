@@ -8,7 +8,8 @@ const payload=await response.json();
 if(payload.code!==200||!Array.isArray(payload.data)) throw new Error(`Official Wiki returned code ${payload.code}: ${payload.message||'unknown error'}`);
 const normalize=item=>[item.searchKey.entryId,item.id,item.searchKey.name,Number(item.searchKey.currentStage),item.searchKey.position.map(v=>v.replace('position-','')).sort(),item.searchKey.attributes.map(v=>v.replace('attributes-','')).sort()];
 const official=payload.data.filter(item=>item.visible).map(normalize).sort((a,b)=>a[0].localeCompare(b[0]));
-const local=JSON.parse(fs.readFileSync(path.join(process.cwd(),'src/data/aniimo-index.json'),'utf8')).map(item=>[...item.slice(0,4),[...item[4]].sort(),[...item[5]].sort()]).sort((a,b)=>a[0].localeCompare(b[0]));
+const snapshotPath=path.join(process.cwd(),'src/data/aniimo-index.json');
+const local=JSON.parse(fs.readFileSync(snapshotPath,'utf8')).map(item=>[...item.slice(0,4),[...item[4]].sort(),[...item[5]].sort()]).sort((a,b)=>a[0].localeCompare(b[0]));
 const officialMap=new Map(official.map(item=>[item[0],item]));
 const localMap=new Map(local.map(item=>[item[0],item]));
 const added=official.filter(item=>!localMap.has(item[0]));
@@ -20,4 +21,7 @@ if(added.length) console.log('Added:',JSON.stringify(added));
 if(removed.length) console.log('Removed:',JSON.stringify(removed));
 if(changed.length) console.log('Changed:',JSON.stringify(changed));
 if(!added.length&&!removed.length&&!changed.length) console.log('No differences found.');
-if(added.length||removed.length||changed.length) process.exitCode=2;
+if(process.argv.includes('--write')){
+  fs.writeFileSync(snapshotPath,`${JSON.stringify(official,null,2)}\n`);
+  console.log(`Updated ${path.relative(process.cwd(),snapshotPath)} from the official visible index.`);
+}else if(added.length||removed.length||changed.length) process.exitCode=2;

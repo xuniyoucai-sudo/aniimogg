@@ -1,5 +1,27 @@
 [
   {
+    "slug": "mobile-launch-live",
+    "date": "2026-09-23",
+    "updated": "2026-09-23",
+    "source": "https://www.aniimo.com/de/newslist/detail/100147",
+    "locales": {
+      "en": {"title": "Aniimo Is Officially Live on iOS and Android", "description": "Aniimo mobile is now live worldwide with same-server cross-platform progression and official launch rewards.", "body": ["Pawprint Studio says Aniimo launched worldwide on iOS and Android on September 23. Players should use the official App Store or Google Play listing and avoid APK mirrors or modified clients.", "The official notice confirms full cross-platform progression when the same account and same server are used. Existing PC or console players can continue their progress, resources and party lineups on mobile; data on different servers remains separate.", "The launch notice also lists progression, collection, login and pre-registration rewards. Eligibility and delivery should be checked in game, especially when an earlier event or test used a linked email address."]},
+      "zh-CN": {"title": "Aniimo《伊莫》已正式登陆 iOS 与 Android", "description": "《伊莫》移动版现已全球上线，官方确认同账号同服务器跨平台进度互通，并公布上线奖励。", "body": ["Pawprint Studio 已确认《伊莫》于 9 月 23 日在全球 iOS 与 Android 平台正式上线。请只使用官方 App Store 或 Google Play 页面下载，避免 APK 镜像和修改客户端。", "官方公告确认：使用同一账号并选择同一服务器时，移动端与 PC、主机完整共享进度、资源和队伍；不同服务器的数据仍相互独立。", "上线公告同时列出进度、图鉴、累计登录和预约相关奖励。若此前活动或测试使用过绑定邮箱，请在游戏内核对领取资格与发放状态。"]},
+      "ja": {"title": "Aniimoモバイル版がiOS・Androidで正式配信開始", "description": "Aniimoモバイル版が世界同時配信。同一アカウント・同一サーバーでのクロスプログレッションと開始報酬が公式確認されました。", "body": ["Pawprint Studioは9月23日、Aniimoモバイル版をiOSとAndroidで正式配信しました。公式App StoreまたはGoogle Playから入手し、APKミラーや改変クライアントは使用しないでください。", "公式告知では、同じアカウントと同じサーバーを使う場合、PC・コンソール・モバイルで進行、資源、パーティ編成が共有されます。異なるサーバーのデータは独立しています。", "開始告知には進行、図鑑、ログイン、事前登録に関する報酬も掲載されています。過去イベントやテストで連携メールを使った場合は、ゲーム内で対象条件と配布状況を確認してください。"]}
+    }
+  },
+  {
+    "slug": "september-23-version-1-1-update",
+    "date": "2026-09-21",
+    "updated": "2026-09-23",
+    "source": "https://aniimo.com/newslist/detail/100145",
+    "locales": {
+      "en": {"title": "Aniimo Version 1.1 Adds Irisalis, Chaos Mode and New Events", "description": "The September 23 update adds the Irisalis legendary journey, Egg Heist Chaos Mode, events, quality-of-life changes and bug fixes.", "body": ["Version 1.1 maintenance was scheduled for September 23 from 00:00 to 10:00 UTC+8, with 500 Glimmer compensation for eligible accounts registered before the update. Players should restart the client after maintenance and verify the current version before reporting an issue.", "Irisalis enters through Windchaser’s Departure. The event begins September 25 at 10:00 UTC+8 for players who reach Student I; weekly Iris Petals are used to craft its Legendary Aniipod and unlock the Rift Space encounter.", "Egg Heist Chaos Mode unlocks September 24 at 04:00 UTC+8 after reaching Tier IV Elite Egg Seeker and requires a Chaos Ticket. The update also announces Glamour Star, Aniimo Discovery, Vein Abundance and Journey Chronicles, alongside companion, resource-sharing, voice-to-text, UI, rendering and reconnection fixes."]},
+      "zh-CN": {"title": "《伊莫》1.1版本加入 Irisalis、混沌模式与新活动", "description": "9月23日更新带来 Irisalis 传说旅程、Egg Heist 混沌模式、多项活动、体验优化与问题修复。", "body": ["1.1 版本维护计划为 9 月 23 日 00:00–10:00（UTC+8）；更新前注册且符合条件的玩家可获得 500 Glimmer 补偿。维护后应重启客户端并确认版本，再提交异常报告。", "Irisalis 将通过 Windchaser’s Departure 登场。活动于 9 月 25 日 10:00（UTC+8）开启，要求达到 Student I；玩家每周获取 Iris Petals，用于制作专属 Legendary Aniipod 并解锁 Rift Space 遭遇。", "Egg Heist 混沌模式于 9 月 24 日 04:00（UTC+8）开放，要求达到 Tier IV Elite Egg Seeker，并消耗 Chaos Ticket。更新还包含 Glamour Star、Aniimo Discovery、Vein Abundance、Journey Chronicles，以及组队、资源共享、语音转文字、界面、渲染和重连优化。"]},
+      "ja": {"title": "Aniimoバージョン1.1でIrisalis・Chaos Mode・新イベントを追加", "description": "9月23日アップデートでIrisalisの伝説旅、Egg Heist Chaos Mode、各種イベント、操作改善と不具合修正が追加されます。", "body": ["バージョン1.1のメンテナンスは9月23日00:00～10:00（UTC+8）の予定で、更新前に登録した対象者にはGlimmer 500の補償が案内されています。終了後はクライアントを再起動し、現在のバージョンを確認してください。", "IrisalisはWindchaser’s Departureで登場します。イベントは9月25日10:00（UTC+8）開始、Student I到達が条件です。毎週入手できるIris Petalsで専用Legendary Aniipodを作成し、Rift Spaceの遭遇を解放します。", "Egg Heist Chaos Modeは9月24日04:00（UTC+8）解放。Tier IV Elite Egg Seeker到達とChaos Ticketが必要です。Glamour Star、Aniimo Discovery、Vein Abundance、Journey Chroniclesに加え、Companion、資源共有、音声文字化、UI、描画、再接続の改善も含まれます。"]}
+    }
+  },
+  {
     "slug": "steam-launch-rewards-and-queues",
     "date": "2026-09-16",
     "updated": "2026-09-17",
