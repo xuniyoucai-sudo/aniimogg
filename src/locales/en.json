@@ -101,9 +101,50 @@
     },
     "tier-list": {
       "title": "Aniimo Tier List",
-      "description": "Release-version Aniimo tier list with roles, builds and testing notes.",
+      "description": "No release-tested ranking is published here yet. Use this comparison checklist to evaluate candidates for your own team, then consult the catalogue and relevant gameplay guides.",
       "h1": "Aniimo Tier List",
-      "lead": "No speculative rankings. The first tier list will be published after repeatable release-version testing across progression, exploration and combat."
+      "lead": "No release-tested ranking is published here yet. Use this comparison checklist to evaluate candidates for your own team, then consult the catalogue and relevant gameplay guides.",
+      "sections": [
+        [
+          "Start with a task, not a letter grade",
+          "Write down the problem you want to solve: completing a particular encounter, surviving longer or improving an exploration route. A character that helps with one task may not help with another. Compare candidates within the same task before assigning an overall rank."
+        ],
+        [
+          "Build a shortlist from the catalogue",
+          "Filter the catalogue by element and role, then open the official Wiki record for each candidate. Treat these labels as a way to find options. A stage, element or role label alone does not establish damage, survivability, availability or investment cost."
+        ],
+        [
+          "Keep comparison conditions consistent",
+          "For a useful personal test, record the game version, platform, opponent, character level, upgrades, equipment and team members. Change one candidate at a time where possible. If investment differs, record that difference instead of presenting the result as a direct strength comparison."
+        ],
+        [
+          "Record more than a fastest run",
+          "Repeat the same task and note completion time, failures, recovery needs and ease of execution. Keep unsuccessful attempts in your notes. A single favorable result is not enough to establish a reliable recommendation; separate your observation from a general conclusion."
+        ],
+        [
+          "Compare the cost of switching",
+          "Before spending limited materials, check the requirements shown in your current game client and what you already own. A small improvement may not justify rebuilding a team. This is a decision checklist, not a claim that any named character needs a particular item or upgrade."
+        ],
+        [
+          "What a future ranking must show",
+          "A published ranking needs a defined activity, tested version, comparable investment, recorded observations and limitations. We have not completed that evidence set, so this page does not assign S/A/B grades or claim a best character. Use the linked guides below for the evidence currently available."
+        ]
+      ],
+      "linksTitle": "Further reading",
+      "links": [
+        [
+          "Aniimo List: 86 Confirmed Characters",
+          "guides/confirmed-aniimo"
+        ],
+        [
+          "Aniimo Elements and Roles",
+          "guides/elements-roles"
+        ],
+        [
+          "How to Change Aniimo and Set Up Your Team",
+          "guides/team-setup"
+        ]
+      ]
     },
     "guides": {
       "title": "Aniimo Guides: Multiplayer, Crossplay, Elements & Launch",
@@ -145,14 +186,99 @@
       "title": "About Aniimo Guide",
       "description": "About Aniimo Guide, an independent fan-made game guide.",
       "h1": "Built by players, for players",
-      "lead": "Aniimo Guide organizes scattered information into clear, source-aware, versioned guides."
+      "lead": "Aniimo Guide organizes scattered information into clear, source-aware, versioned guides.",
+      "sections": [
+        [
+          "What you can find here",
+          "Aniimo.GG is an independent guide to Aniimo. Start with the searchable creature catalogue for names, elements and roles; use the guides for platform, account and gameplay questions. News summaries link back to the announcement they describe."
+        ],
+        [
+          "Who maintains the site",
+          "The site is maintained by an independent player-editor under the Aniimo Guide Editorial Team name. It is not an official support service and is not affiliated with the game developer or publisher. We cannot recover game accounts, grant rewards or resolve purchases."
+        ],
+        [
+          "How to judge an answer",
+          "Check the source links, information-status label and version note before applying a guide. An official announcement confirms what was announced; it does not mean we personally tested every platform. Beta notes and community reports remain labeled until independently verified."
+        ],
+        [
+          "Corrections and language editions",
+          "Send a page URL and supporting source through the contact page when an answer is outdated. English, Simplified Chinese, Traditional Chinese and Japanese pages share the same data; game names may differ between translations. The linked official source is the reference when wording is ambiguous."
+        ]
+      ],
+      "linksTitle": "Further reading",
+      "links": [
+        [
+          "Authors and review standards",
+          "authors"
+        ],
+        [
+          "Contact Aniimo Guide",
+          "contact"
+        ],
+        [
+          "Data and Version Policy",
+          "guides/editorial-policy"
+        ]
+      ]
     },
     "privacy": {
       "title": "Privacy Policy | Aniimo Guide",
       "description": "Privacy policy for the Aniimo Guide fan website.",
       "h1": "Privacy Policy",
       "lead": "This site has no accounts, comments, newsletter collection, or active advertising. Cloudflare provides hosting, security, aggregate traffic analytics, and real-user performance measurements.",
-      "sections": [["Data processed","Cloudflare may process IP addresses, request metadata, device and browser information, approximate region, page visits, and performance timings to deliver and protect the site and report aggregate usage."],["How data is used","The data is used for content delivery, security, abuse prevention, troubleshooting, audience measurement, and Core Web Vitals monitoring. Aniimo Guide does not sell personal information."],["Advertising status and third parties","Google AdSense and other advertising services are not active on this site today. If advertising is enabled in the future, Google and its advertising partners may use cookies or similar technologies to measure delivery, limit fraud, and, where permitted, provide or measure personalized advertising. This policy will be updated before ads are served."],["Cookies and consent","If advertising is introduced, visitors in regions where consent is required will be shown an appropriate consent choice before optional advertising technologies are used. Available choices may include accepting, rejecting, or managing consent. Non-essential advertising cookies will not be treated as essential site functionality."],["Your choices","You can limit optional browser storage through your browser settings. If advertising is enabled, you can also revisit the site consent controls where available. Contact us through the correction and feedback page with privacy questions."]]
+      "sections": [
+        [
+          "Data processed",
+          "Cloudflare may process IP addresses, request metadata, device and browser information, approximate region, page visits, and performance timings to deliver and protect the site and report aggregate usage."
+        ],
+        [
+          "How data is used",
+          "The data is used for content delivery, security, abuse prevention, troubleshooting, audience measurement, and Core Web Vitals monitoring. Aniimo Guide does not sell personal information."
+        ],
+        [
+          "Advertising status and third parties",
+          "Google AdSense and other advertising services are not active on this site today. If advertising is enabled in the future, Google and its advertising partners may use cookies or similar technologies to measure delivery, limit fraud, and, where permitted, provide or measure personalized advertising. This policy will be updated before ads are served."
+        ],
+        [
+          "Cookies and consent",
+          "If advertising is introduced, visitors in regions where consent is required will be shown an appropriate consent choice before optional advertising technologies are used. Available choices may include accepting, rejecting, or managing consent. Non-essential advertising cookies will not be treated as essential site functionality."
+        ],
+        [
+          "Your choices",
+          "You can limit optional browser storage through your browser settings. If advertising is enabled, you can also revisit the site consent controls where available. Contact us through the correction and feedback page with privacy questions."
+        ],
+        [
+          "Saved catalogue entries and browser storage",
+          "The catalogue stores the IDs you bookmark in this browser’s localStorage. These bookmarks are not connected to a game account or synced across devices. Remove an entry with its bookmark button, or clear this site’s browser data to erase the stored collection. Blocking storage may prevent bookmarks from persisting."
+        ],
+        [
+          "Search and external links",
+          "Catalogue filters run in your browser. Guide search may place your search text in the URL query string, which can appear in browser history and hosting request logs. Do not enter personal information in search fields. Opening an official source or GitHub takes you to another service with its own privacy policy."
+        ],
+        [
+          "Advertising application and preferences",
+          "We have applied for Google AdSense and selected Google’s consent management platform. This does not mean ads or a consent banner are already running on this website. If ads are enabled, Google and other advertising vendors may use cookies based on visits to this and other websites. The links below explain Google’s data use and personalized-ad choices."
+        ]
+      ],
+      "linksTitle": "Further reading",
+      "links": [
+        [
+          "Google — Privacy & Terms",
+          "https://policies.google.com/technologies/partner-sites"
+        ],
+        [
+          "Google — My Ad Center",
+          "https://myadcenter.google.com/"
+        ],
+        [
+          "Cloudflare — Privacy",
+          "https://www.cloudflare.com/privacypolicy/"
+        ],
+        [
+          "Contact Aniimo Guide",
+          "contact"
+        ]
+      ]
     },
     "contact": {
       "title": "Contact Aniimo Guide",
@@ -450,6 +576,22 @@
     [
       "Is this an official website?",
       "No. Aniimo Guide is an independent fan-made guide."
+    ],
+    [
+      "Does saving a creature change my game account?",
+      "No. Catalogue bookmarks are stored only in this browser. They do not verify ownership, transfer progress or sync with the game."
+    ],
+    [
+      "Why is there no S-tier ranking?",
+      "The site has not completed comparable release-version tests. The tier-list page explains how to compare candidates without treating catalogue labels as strength ratings."
+    ],
+    [
+      "How do I report an outdated answer?",
+      "Use the contact page and include the affected URL, platform, game version and supporting source. Do not post passwords, verification codes or private account information."
+    ],
+    [
+      "Does the server page show a live outage feed?",
+      "No. Published launch schedules are historical reference information. Check current official notices and the message in your game client for a present connection problem."
     ]
   ],
   "disclaimer": "Aniimo Guide is an unofficial fan-made website and is not affiliated with or endorsed by Pawprint Studio, FunPlus, or the official Aniimo team."
