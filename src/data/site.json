@@ -29,7 +29,7 @@
     "regions-world":{"published":"2026-08-27","updated":"2026-09-08","version":"Official six-region world index / pre-launch map scope","status":"official","related":["map","catching-twine","confirmed-aniimo"]},
     "getting-started":{"published":"2026-08-27","updated":"2026-09-28","version":"Official launch and version 1.1 first-day roadmap","status":"official","related":["codes","patch-notes","crossplay-cross-save"]},
     "beginner-mistakes":{"published":"2026-09-11","updated":"2026-09-11","version":"Pre-launch official-source decision checklist","status":"official","related":["getting-started","crossplay-cross-save","team-setup"]},
-    "team-setup":{"published":"2026-09-10","updated":"2026-09-18","version":"Official Beta PC references / community launch leads","status":"beta","related":["accessibility-features","catching-twine","elements-roles"]},
+    "team-setup":{"published":"2026-09-10","updated":"2026-09-28","version":"Official Compendium role and element framework","status":"official","related":["elements-roles","confirmed-aniimo","getting-started"]},
     "core-gameplay":{"published":"2026-08-27","updated":"2026-09-11","version":"Pre-launch launch-version resource changes / announced post-launch NVIDIA ACE update","status":"official","related":["catching-twine","elements-roles","multiplayer"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-08-28","version":"Site policy","status":"official","related":["authors","contact","privacy"]}
   },
@@ -37,8 +37,7 @@
     "egg-heist":[["Community-reported launch guide — web article, 2026-09-17","https://www.destructoid.com/aniimo-operation-egg-heist-guide/"]],
     "elements-roles":[["Community-reported element-chart reference — web guide, accessed 2026-09-18","https://aniimo.wiki/tier-list/type-chart/"]],
     "evolution-forms":[["Community-reported evolution-menu reference — web guide, updated 2026-09-16","https://aniimo.guide/en/guides/how-to-evolve-aniimo"]],
-    "catching-twine":[["Community-reported catching reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/how-to-catch-an-aniimo"],["Community-reported Twine reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/twine-explained"]],
-    "team-setup":[["Community-reported PC controls reference — web guide, accessed 2026-09-18","https://aniimos.wiki/guides/controls/"]]
+    "catching-twine":[["Community-reported catching reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/how-to-catch-an-aniimo"],["Community-reported Twine reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/twine-explained"]]
   },
   "regions":["falling-stars","mistwoods","echoback","flowers","blitzwood","nimbus"],
   "platforms":["PlayStation 5","Xbox","Steam","Epic Games","iOS","Android"],
