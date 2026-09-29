@@ -30,7 +30,7 @@
     "getting-started":{"published":"2026-08-27","updated":"2026-09-28","version":"Official launch and version 1.1 first-day roadmap","status":"official","related":["codes","patch-notes","crossplay-cross-save"]},
     "beginner-mistakes":{"published":"2026-09-11","updated":"2026-09-11","version":"Pre-launch official-source decision checklist","status":"official","related":["getting-started","crossplay-cross-save","team-setup"]},
     "team-setup":{"published":"2026-09-10","updated":"2026-09-28","version":"Official Compendium role and element framework","status":"official","related":["elements-roles","confirmed-aniimo","getting-started"]},
-    "core-gameplay":{"published":"2026-08-27","updated":"2026-09-11","version":"Pre-launch launch-version resource changes / announced post-launch NVIDIA ACE update","status":"official","related":["catching-twine","elements-roles","multiplayer"]},
+    "core-gameplay":{"published":"2026-08-27","updated":"2026-09-29","version":"Official launch training changes / community public-build 1.0 help record","status":"verified","related":["team-setup","evolution-forms","catching-twine"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-08-28","version":"Site policy","status":"official","related":["authors","contact","privacy"]}
   },
   "communityEvidence":{
