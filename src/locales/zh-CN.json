@@ -322,14 +322,14 @@
   },
   "guides": {
     "getting-started": {
-      "title": "Aniimo 伊莫新手攻略：首日路线与免费奖励",
-      "description": "正式服 Aniimo 伊莫新手路线：官方下载、同服跨平台进度、邮箱与兑换码、活动等级门槛和官方免费奖励。",
+      "title": "Aniimo 伊莫新手攻略：首日路线、日常周常与免费奖励",
+      "description": "正式服伊莫新手路线：官方下载、同服进度、邮箱、活动门槛、免费奖励，以及按来源标注的日常与周常清单。",
       "h1": "Aniimo 伊莫新手攻略",
       "body": [["从官方客户端和正确服务器开始","《伊莫》已在 PC、主机和移动端上线。只通过 Aniimo 官网或官方平台商店下载。官方账号说明确认：同一服务器内可跨平台共享进度，不同服务器数据相互独立，因此投入时间前要核对服务器名称。"],["先完成开场教学再投入资源","通过教学学习捕捉、Twine、战斗和移动。先检查字幕、控制和音频，再保留早期材料，等正式服菜单说明用途后使用。封测成本、路线和捕捉率只能作为历史资料。"],["解锁邮箱和兑换码入口","正式服社区实测的兑换入口为“设置 → 账号 → 礼包码兑换”。奖励通过游戏内邮箱发放，而邮箱需要推进 Chasing the Clouds 主线后解锁。代码区分大小写，也可能过期或达到领取上限。"],["关注正式服等级门槛","当前官方活动使用明确等级：追风启程为 Student I，Glamour Star 与 Aniimo Discovery 为 Student II，Holo-Battle Interlink 为 Trailblazer I，Egg Heist 混沌模式为 Tier IV Elite Egg Seeker。把它们作为阶段目标，不必跳过剧情强行冲级。"],["领取官方免费上线奖励","上线公告列出 Grade I Wayfarer 可选一只稀有 Prismana 伊莫、Aniilog 收集饰品、活动捕捉道具、累计登录限定蛋、4 套免费服装、预约里程碑奖励和跨平台登录奖励；最终仍以实时账号资格和活动规则为准。"],["先搭建可调整的队伍","理解定位、属性和当前遭遇前，不要直接照搬永久强度榜。可先兼顾输出、Break 和生存，再等正式服升级规则与成本明确后投入稀有材料。"],["按下一项决定继续查阅","兑换码页提供分级来源代码，活动日历列出截止时间，捕捉攻略整理确认流程；更换设备或服务器前先看跨平台指南。"]],
-      "matrix": {"title":"正式服首日路线","headers":["顺序","目标","继续前检查"],"rows":[["1. 安装","使用官方客户端并选定服务器","服务器名称和实时版本"],["2. 学习","完成开场教学","控制、字幕、捕捉和 Twine"],["3. 解锁邮箱","推进 Chasing the Clouds","兑换代码前确认邮箱可用"],["4. 推进等级","先达到 Student I，再到 Student II","当前活动期限和门槛"],["5. 谨慎投入","建立定位均衡且可调整的队伍","实时成本、升级规则和可重复证据"]],"note":"本路线整理自官方上线与 1.1 版本资料；具体任务节奏和账号资格请以正式服客户端为准。"},
+      "matrix": {"title":"首日与周期任务清单","headers":["时间","优先事项","证据边界"],"rows":[["首次登录","使用官方客户端、选择服务器并完成教学","官方账号说明"],["完成 Chasing the Clouds 后","解锁邮箱、领取合资格奖励并核对兑换码","社区正式服菜单实测"],["每天","检查 Daily Activity；长时间离线前避免 Primegy 达到上限","1.0 客户端帮助记录；数值可能变化"],["需要培养材料时","按 Challenge 分类寻找进化、Resonance、Held Item 或 Capability 材料","社区正式服记录"],["周四至周一","查看 Holo-Battle Interlink 开放情况和本周目标","1.1 官方日程"],["每周重置前","在客户端核对 Stamp、活动和奖励上限","不使用无版本的固定清单"]],"note":"04:00 服务器时间的日常刷新及 Primegy 恢复细节来自带版本的正式服帮助记录，并非官网公告；请在游戏中复核当前数值。"},
       "faq": [["《伊莫》现在可以玩吗？","可以。PC 与主机版已于 2026 年 9 月 16 日上线，iOS 与 Android 于 9 月 23 日上线。"],["不同平台可以共享进度吗？","官方说明确认同一服务器内跨平台共享进度；不同服务器的数据相互独立。"],["怎样解锁兑换码奖励？","推进 Chasing the Clouds 主线解锁游戏内邮箱，然后在“设置 → 账号 → 礼包码兑换”输入代码，并从邮箱领取成功兑换的奖励。"],["当前活动需要什么等级？","1.1 官方公告列出：追风启程为 Student I，Glamour Star 与 Aniimo Discovery 为 Student II，Holo-Battle Interlink 为 Trailblazer I，混沌模式为 Tier IV Elite Egg Seeker。"],["官方上线免费奖励有哪些？","公告列出稀有 Prismana 自选、Aniilog 饰品、捕捉道具、累计登录蛋、4 套服装、预约奖励与跨平台登录奖励，具体以实时资格规则为准。"]],
-      "sources": [["官方上线公告与免费奖励","https://steamcommunity.com/app/4126040/announcements/"],["PC／主机官方账号 FAQ","https://aniimo.com/newslist/detail/100089"],["1.1 版本官方更新公告","https://aniimo.com/newslist/detail/100145"],["Aniimo Steam 商店","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo PlayStation 5 页面","https://www.playstation.com/en-us/games/aniimo/"]],
-      "changeLog": "将 2026-09-07 核查的上线前清单升级为正式服首日路线，并补充官方免费奖励和 1.1 版本等级门槛。"
+      "sources": [["官方上线公告与免费奖励","https://steamcommunity.com/app/4126040/announcements/"],["PC／主机官方账号 FAQ","https://aniimo.com/newslist/detail/100089"],["1.1 版本官方更新公告","https://aniimo.com/newslist/detail/100145"],["社区正式服 Institute Guide 与日常记录","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["Aniimo Steam 商店","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo PlayStation 5 页面","https://www.playstation.com/en-us/games/aniimo/"]],
+      "changeLog": "新增按来源标注的日常与周常清单，覆盖 Daily Activity、Primegy、定向材料挑战与官方 Holo-Battle 日程。"
     },
     "core-gameplay": {
       "title": "Aniimo 伊莫培养攻略：等级、潜能、共鸣与资源",
