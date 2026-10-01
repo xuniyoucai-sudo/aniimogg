@@ -466,13 +466,14 @@
       "sources": [["Steam 官方玩法介绍","https://store.steampowered.com/app/4126040/Aniimo/"],["全球封闭测试官方手册","https://aniimo.com/newslist/detail/tipvtviq"],["9 月 3 日官方开发者信","https://www.aniimo.com/de/newslist/detail/100064"],["官方 Aniimo Wiki","https://wiki.aniimo.com/"]]
     },
     "multiplayer": {
-      "title": "Aniimo 伊莫多人与跨平台：合作、PvP 和 Egg Heist",
-      "description": "Aniimo 有多人和跨平台吗？有。查看官方已列出的合作、PvP、跨平台、同服务器进度共享，以及 3 人 Egg Heist。",
-      "h1": "Aniimo 伊莫多人与跨平台：合作、PvP 和 Egg Heist",
-      "body": [["Aniimo 有多人和跨平台吗？","有。Steam 已列出单人、在线合作、在线 PvP 与跨平台多人；官方 PC 与主机 FAQ 还说明，同一服务器的进度可在不同平台共享，不同服务器的数据则彼此独立。"],["三人 Egg Heist","官方更新将 Egg Heist 描述为 Lost Isles 中的 PvEvP 活动。玩家组成三人队伍，收集物资、进入禁区、与其他 Pathfinder 交战并争夺 Giant Darkler Egg。"],["合作与主线范围尚未确认","官方提到单人和多人探索，但尚未公布 Egg Heist 之外的通用队伍人数、主线随进随出、访客任务进度、共同捕捉归属或房主世界进度。"],["开放世界社交空间","每位 Pathfinder 都有停在营地的个人房车，可与其他玩家见面互动；Homeland 支持种植、建造装饰和布置空间，但官方尚未把这些描述为完整主线合作模式。"],["同服共享仍不能解答所有问题","官方 FAQ 确认同服跨平台进度共享，但没有公布所有组队、好友、语音或转服限制。选择平台或服务器前，请查看独立的 Crossplay 与 Cross-save 指南。"]],
-      "matrix": {"title":"已确认的多人模式","headers":["模式或功能","官方状态","人数或范围"],"rows":[["单人模式","Steam 已列出","支持单人"],["在线合作","Steam 已列出","普通队伍上限未公布"],["在线 PvP","Steam 已列出","赛制与人数未公布"],["Egg Heist PvEvP","官方已介绍","3人队伍"],["跨平台进度","官方 FAQ","同服务器共享；不同服务器独立"]],"note":"目前只有 Egg Heist 有官方明确的队伍人数，不能据此推断所有开放世界或剧情内容均支持3人。"},
-      "faq": [["《伊莫》有多人模式吗？","有。Steam 列出在线合作、在线 PvP、跨平台多人和单人模式。"],["《伊莫》支持跨平台或跨存档吗？","官方 FAQ 说明同一服务器的进度可在不同平台共享；不同服务器的数据独立，未列出的限制仍需等待官方说明。"],["《伊莫》支持合作游玩吗？","已列出在线合作，但完整主线合作范围和普通开放世界队伍人数尚未公布。"],["Egg Heist 是几人队伍？","官方 Egg Heist 说明明确为三人队伍。"],["《伊莫》可以单人玩吗？","可以。Steam 正式列出单人模式，官方介绍也同时提到单人与多人游玩。"]],
-      "sources": [["Steam 多人功能说明","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 PC 与主机 FAQ","https://www.aniimo.com/newslist/detail/100089"],["官方 Egg Heist 更新公告","https://www.aniimo.com/newslist/detail/100015"]]
+      "title": "Aniimo 伊莫多人攻略：Holo-Battle、跨平台与 Egg Heist",
+      "description": "正式服多人攻略：四人 Holo-Battle Interlink、三人 Egg Heist、AI 队友、同服进度共享及跨平台边界。",
+      "h1": "Aniimo 伊莫多人、Holo-Battle 与 Egg Heist 攻略",
+      "body": [["Aniimo 有多人和跨平台吗？","有。Steam 列出单人、在线合作、在线 PvP 与跨平台多人；官方 FAQ 确认同一服务器跨平台共享进度，不同服务器数据独立。"],["Holo-Battle Interlink 是四人合作模式","1.1 官方公告说明可组成四人队伍，也可匹配 AI 队友；达到 Trailblazer I 后开放，并按各服务器时区于周四至周一开启。"],["三条路线、星级与队长决策","Holo-Battle 提供三条挑战路线。进入前选择队伍和初始增益，每次胜利后由队长为全队二选一增益；最高星级与每周奖励让定位覆盖和沟通比照搬单一阵容更重要。"],["Egg Heist 是独立的三人 PvEvP","Egg Heist 使用三人队伍收集物资、进入禁区、与其他 Pathfinder 对抗并撤离伊莫蛋。混沌模式另有 Tier IV Elite Egg Seeker 门槛，不能与 Holo-Battle 的路线和星级规则混淆。"],["Companion Mode 与交换属于社区正式服实测","基于 1.0 客户端帮助的记录整理了好友、Affinity、Aniimo Exchange 和 Companion Mode；这些信息可解释结伴流程，但具体交换限制仍以当前客户端为准。"],["主线与房主世界边界仍要谨慎","官网尚未完整定义访客主线进度、永久传送点、共同捕捉归属和全部房主世界规则。特定活动人数不能代表整个主线的队伍上限。"],["同服进度并不代表所有内容共享","同服跨平台进度不自动证明跨服转移、付费内容共享或全部好友与语音限制。更换平台或服务器前应查看跨平台指南。"]],
+      "matrix": {"title":"当前多人模式","headers":["模式或功能","证据","人数或范围"],"rows":[["Holo-Battle Interlink","1.1 官方公告","四人或 AI 队友；三条路线"],["Egg Heist PvEvP","官方已介绍","三人队伍"],["在线合作与 PvP","Steam 已列出","具体范围取决于玩法"],["Companion Mode／交换","社区正式服帮助记录","好友与 Affinity 系统；核对当前限制"],["跨平台进度","官方 FAQ","同服务器共享；不同服务器独立"]],"note":"人数属于具体玩法规则；Holo-Battle 四人和 Egg Heist 三人都不能代表整个主线的队伍上限。"},
+      "faq": [["Holo-Battle Interlink 是几人？","1.1 官方公告说明可以四人组队，也可匹配 AI 队友。"],["Holo-Battle 什么时候开放？","官方日程为周四至周一，采用服务器当地时区；准确窗口请查看实时活动面板。"],["Egg Heist 是几人队伍？","官方说明明确为三人队伍。"],["《伊莫》支持跨平台进度吗？","同一服务器可以跨平台共享进度，不同服务器数据独立。"],["可以单人玩吗？","可以。Steam 列出单人模式，Holo-Battle 还提供 AI 队友；其他多人玩法可能有不同规则。"]],
+      "changeLog": "补充 1.1 官方 Holo-Battle 四人／AI、三条路线、星级、队长增益和每周开放日程。",
+      "sources": [["1.1 官方 Holo-Battle 与混沌模式公告","https://aniimo.com/newslist/detail/100145"],["Steam 多人功能说明","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 PC 与主机 FAQ","https://www.aniimo.com/newslist/detail/100089"],["官方 Egg Heist 更新公告","https://www.aniimo.com/newslist/detail/100015"],["社区正式服好友与 Companion Mode 记录","https://aniimo.guide/en/guides/friends-trading-companion-mode"]]
     },
     "regions-world": {
       "title": "Aniimo 伊莫地区与世界地图指南",

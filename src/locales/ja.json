@@ -466,13 +466,14 @@
       "sources": [["Steam公式ゲーム紹介","https://store.steampowered.com/app/4126040/Aniimo/"],["グローバルクローズドベータ公式ハンドブック","https://aniimo.com/newslist/detail/tipvtviq"],["9月3日公式開発者レター","https://www.aniimo.com/de/newslist/detail/100064"],["公式Aniimo Wiki","https://wiki.aniimo.com/"]]
     },
     "multiplayer": {
-      "title": "Aniimo マルチプレイ・クロスプレイ：協力、PvP、Egg Heist",
-      "description": "Aniimoはマルチプレイとクロスプレイに対応？対応しています。公式掲載の協力、PvP、同一サーバー進行共有、3人Egg Heistを解説します。",
-      "h1": "Aniimo マルチプレイ・クロスプレイ：協力、PvP、Egg Heist",
-      "body": [["Aniimoはマルチプレイ・クロスプレイ対応？","対応しています。Steamにはシングルプレイ、オンライン協力、オンラインPvP、クロスプラットフォーム・マルチプレイが掲載されています。PC・コンソール公式FAQでは、同一サーバーであれば進行度を機種間で共有でき、サーバーが異なる場合はデータが別になると案内されています。"],["3人チームのEgg Heist","公式アップデートでは、Lost Islesで行うPvEvPコンテンツとして紹介されています。3人チームで物資を集め、禁止区域へ進み、他のPathfinderと戦ってGiant Darkler Eggを奪います。"],["協力プレイの範囲は未確定","ソロとマルチの両方が案内されていますが、Egg Heist以外の通常パーティ人数、ストーリー途中参加、ゲスト側のクエスト進行、捕獲権、ホストのワールド進行は未発表です。"],["オープンワールドの交流","各Pathfinderはキャンプに個人用RVを持ち、他プレイヤーと交流できます。Homelandでは作物や装飾を配置できますが、これがキャンペーン全体の協力プレイを意味するとは発表されていません。"],["同一サーバー共有でも未回答の点","FAQは同一サーバーでの機種間進行共有を確認していますが、パーティ、フレンド、ボイスチャット、サーバー移動の全制限は公開していません。機種やサーバーを決める前に、専用のクロスプレイ記事も確認してください。"]],
-      "matrix": {"title":"確認済みのマルチプレイ要素","headers":["モード／機能","公式掲載状況","人数・範囲"],"rows":[["シングルプレイ","Steam掲載あり","ソロ対応"],["オンライン協力","Steam掲載あり","通常パーティ上限は未発表"],["オンラインPvP","Steam掲載あり","ルールと人数は未発表"],["Egg Heist PvEvP","公式紹介あり","3人チーム"],["クロスプラットフォーム進行","公式FAQ","同一サーバーで共有／別サーバーは独立"]],"note":"公式にチーム人数が明記されているのは現在Egg Heistのみです。すべての探索・ストーリーが3人対応とは限りません。"},
-      "faq": [["Aniimoにマルチプレイはありますか？","はい。Steamにはオンライン協力、オンラインPvP、クロスプラットフォーム・マルチプレイ、シングルプレイが掲載されています。"],["Aniimoはクロスプレイ・クロスセーブ対応ですか？","公式FAQでは、同一サーバーの進行度を機種間で共有できると案内されています。別サーバーのデータは独立し、未掲載の制限は公式確認が必要です。"],["Aniimoは協力プレイに対応していますか？","オンライン協力は掲載されていますが、ストーリー全体の対応範囲や通常フィールドの最大人数は未発表です。"],["Egg Heistは何人プレイですか？","公式説明では3人チームです。"],["Aniimoはソロでも遊べますか？","はい。Steamにシングルプレイが掲載され、公式紹介でもソロとマルチの両方に言及しています。"]],
-      "sources": [["Steamのマルチプレイ情報","https://store.steampowered.com/app/4126040/Aniimo/"],["PC・コンソール公式FAQ","https://www.aniimo.com/newslist/detail/100089"],["公式Egg Heistアップデート","https://www.aniimo.com/newslist/detail/100015"]]
+      "title": "Aniimoマルチ攻略：Holo-Battle・クロスプレイ・Egg Heist",
+      "description": "4人Holo-Battle Interlink、3人Egg Heist、AI仲間、同一サーバー進行共有、クロスプラットフォームの現行情報。",
+      "h1": "Aniimoマルチプレイ・Holo-Battle・Egg Heist",
+      "body": [["Aniimoはマルチ・クロスプレイ対応？","Steamはシングル、オンライン協力、PvP、クロスプラットフォームを掲載。公式FAQでは同一サーバーの進行を機種間共有でき、別サーバーは独立します。"],["Holo-Battle Interlinkは4人協力","Ver.1.1公式告知では4人チームまたはAI仲間で挑戦できます。Trailblazer Iで解放され、各サーバー時刻の木曜から月曜に開催されます。"],["3ルート・星・リーダー判断","3つのルートがあり、編成と初期バフを選択します。勝利後はTeam Leaderが全体用バフを二択で決定。最高星と週報酬があるため、万能編成より役割分担と相談が重要です。"],["Egg Heistは別の3人PvEvP","3人で物資を集め、禁止区域で他プレイヤーと戦い、タマゴを持ち帰ります。Chaos ModeはTier IV Elite Egg Seeker条件があり、Holo-Battleとは別ルールです。"],["Companion Modeと交換はコミュニティ検証","1.0クライアントのヘルプ記録にFriends、Affinity、Aniimo Exchange、Companion Modeがあります。交流手順の参考ですが、交換制限は現行クライアントで確認します。"],["ストーリーとホスト世界の境界","ゲストのメイン進行、恒久的な移動解放、共同捕獲、ホスト世界の全ルールは公式Webで完全には説明されていません。モード別人数を全編の上限にしません。"],["同一サーバー進行の限界","同服進行共有は、サーバー移動、購入共有、すべてのフレンド・ボイス制限まで保証しません。機種変更前にクロスプレイ記事を確認してください。"]],
+      "matrix": {"title":"現在のマルチプレイ","headers":["モード／機能","根拠","人数・範囲"],"rows":[["Holo-Battle Interlink","公式Ver.1.1","4人またはAI。3ルート"],["Egg Heist PvEvP","公式紹介","3人チーム"],["オンライン協力・PvP","Steam掲載","範囲はモード別"],["Companion Mode／交換","コミュニティ正式版ヘルプ記録","Friends・Affinity。制限は要確認"],["機種間進行","公式FAQ","同一サーバー共有／別サーバー独立"]],"note":"人数はモード固有です。Holo-Battleの4人、Egg Heistの3人はメイン全体の上限ではありません。"},
+      "faq": [["Holo-Battle Interlinkは何人？","公式Ver.1.1告知では4人チーム、またはAI仲間で挑戦できます。"],["Holo-Battleの開催日は？","各サーバー時刻の木曜〜月曜です。正確な時間はライブイベント画面を確認してください。"],["Egg Heistは何人？","公式説明では3人チームです。"],["機種間で進行共有できる？","同一サーバーなら共有でき、別サーバーは独立します。"],["ソロでも遊べる？","はい。Steamにシングルが掲載され、Holo-BattleにはAI仲間もあります。他モードは個別ルールです。"]],
+      "changeLog": "公式Ver.1.1のHolo-Battle 4人／AI、3ルート、星、リーダーバフ、週間日程を追加。",
+      "sources": [["公式Ver.1.1 Holo-Battle・Chaos Mode告知","https://aniimo.com/newslist/detail/100145"],["Steamマルチプレイ情報","https://store.steampowered.com/app/4126040/Aniimo/"],["PC・コンソール公式FAQ","https://www.aniimo.com/newslist/detail/100089"],["公式Egg Heist更新","https://www.aniimo.com/newslist/detail/100015"],["コミュニティ正式版Friends・Companion Mode記録","https://aniimo.guide/en/guides/friends-trading-companion-mode"]]
     },
     "regions-world": {
       "title": "Aniimo エリア・ワールド攻略：Idyll大陸",
