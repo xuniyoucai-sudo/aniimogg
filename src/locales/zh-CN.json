@@ -440,11 +440,15 @@
       "sources": [["Steam 官方配置要求","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 Intel CPU 稳定性公告","https://aniimo.com/newslist/detail/100100"],["官方 DLSS 4.5 公告","https://www.aniimo.com/newslist/detail/100023"]]
     },
     "free-to-play": {
-      "title": "Aniimo 伊莫免费吗？收费模式与内购说明",
-      "description": "《伊莫》是免费游戏，并包含可选内购；这里整理上线前已确认的收费信息。",
-      "h1": "Aniimo 伊莫是免费游戏吗？",
-      "body": [["游戏本体免费","Pawprint Studio、Steam 和 PlayStation 都将《伊莫》描述为免费游玩，下载基础客户端不需要购买标准版。"],["已确认可选内购","Steam 和 PlayStation 均披露存在可选游戏内购买；PlayStation 还展示了包含外观和 Companion Handbook 的付费预购包。"],["尚未完整公布的内容","最终定价、地区货币、通行证周期、付费货币比例和完整商城商品尚未全部公开，封测价格不能视为正式版结论。"],["不买预购包能否游玩","可以。PlayStation 商店明确说明基础游戏免费，预购包只是可选附加内容，不是入场费用。"],["本站评测原则","上线后会区分外观、养成道具、通行证和便利功能，再根据正式价格评估价值，不会把消费描述成游玩必需。"]],
-      "sources": [["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5 商店页","https://www.playstation.com/games/aniimo/"]]
+      "title": "Aniimo 伊莫免费吗、是抽卡游戏吗？收费模式说明",
+      "description": "《伊莫》本体免费并含可选内购；核对正式版传奇获取、商城商品和封测抽卡争议，区分官方结论与实机观察。",
+      "h1": "Aniimo 伊莫免费吗？正式版是否抽卡？",
+      "evidence": ["正式版重做传奇获取","Pawprint Studio 将 Irisalis 的重复概率挑战改为通过探索与剧情收集代币，再制作个人专属 Legendary Aniipod。","9 月 3 日开发者信","https://aniimo.com/newslist/detail/100064"],
+      "body": [["游戏本体免费","Steam 与 PlayStation 官方商店均把《伊莫》列为免费游玩，并披露存在可选游戏内购买；下载基础客户端不要求购买付费包。"],["为什么仍有人称它为抽卡游戏","最终封测曾用 Rift Exploration 提供低概率传奇遭遇，因此旧文章和视频可能直接写成“抽卡”。官方表示正式版已取消反复依赖概率获取 Irisalis 的流程，改为通过探索和剧情获得传奇代币。"],["官方正式版传奇流程","收集传奇代币、制作个人专属 Legendary Aniipod、解锁专属遭遇、击败 Irisalis 后用该 Aniipod 建立羁绊。1.1 版本另有每周限量 Iris Petal 来源，以及明确标注 100% 捕获率的季节 Aniipod。"],["正式服商城目前卖什么","PC Gamer 的上线后实机记录显示，可用 Lumin Crystals 固定价格购买外观，也有包含道具或货币的礼包；其未观察到角色或装备卡池。这属于独立媒体的当前版本观察，不是未来商城永不变化的官方承诺。"],["免费不等于全部内购都是外观","官方商店只确认存在可选内购，没有把完整商品目录全部归类。外观、便利道具、养成材料、通行证与限时礼包应分别判断，付款前应查看实际内容和概率公示。"],["安全消费检查清单","不要套用封测价格；确认服务器与平台账号；比较礼包内容和免费获取途径；查看有效期、退款说明；不要使用非官方代充网站。"],["仍不能下定论的部分","官方没有承诺未来所有 Aniimo 或养成内容永远不采用随机获取。本页只描述当前官方 Irisalis 路线与已记录的正式服商城，不能将其扩大成永久保证。"]],
+      "matrix": {"title":"《伊莫》收费模式证据表","headers":["问题","当前结论","证据"],"rows":[["游戏本体免费吗？","是","Steam 与 PlayStation 官方商店"],["有可选内购吗？","有","官方商店披露"],["正式版 Irisalis 需要反复付费抽取吗？","官方路线使用可获取代币与制作 Aniipod","官方开发者信与 1.1 公告"],["正式服有角色或装备卡池吗？","引用的上线后实机评测未观察到","独立媒体观察"],["所有付费内容都是外观吗？","不能这样假设","礼包可能包含外观、道具或货币"],["以后收费方式会变化吗？","可能","在线服务商品和活动会更新"]],"note":"本站明确区分官方声明、商店披露和第三方实机观察。"},
+      "faq": [["《伊莫》是免费游戏吗？","是。官方商店将本体列为免费游玩，并包含可选内购。"],["《伊莫》正式版是抽卡游戏吗？","引用的正式服评测未发现角色或装备卡池，官方 Irisalis 路线也改为探索代币与制作 Aniipod；旧的抽卡说法主要对应已被重做的封测系统。"],["不付费能获得 Irisalis 吗？","官方说明传奇代币来自世界探索和剧情进度；具体每周限制与活动日期应以当前游戏界面为准。"],["付费内容只有外观吗？","不能假定只有外观。除固定价格外观外，礼包也可能包含道具或货币，应逐项查看正式服商品。"],["可以使用第三方代充吗？","不建议。只使用官方平台和游戏内支付渠道，避免账号、退款与诈骗风险。"]],
+      "changeLog": "将上线前内购摘要升级为有来源标注的正式版收费指南，补充 Irisalis 获取改版、商城实机观察与安全消费建议。",
+      "sources": [["官方开发者信与 Irisalis 获取改版","https://aniimo.com/newslist/detail/100064"],["官方 1.1 版本 Irisalis 活动说明","https://www.aniimo.com/newslist/detail/100145"],["Steam 商店页","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5 商店页","https://www.playstation.com/games/aniimo/"],["PC Gamer 正式服收费模式评测","https://www.pcgamer.com/games/rpg/aniimo-is-it-gacha-monetization-explained/"]]
     },
     "confirmed-aniimo": {
       "title": "Aniimo 伊莫图鉴：86 个官方已确认伊莫",
