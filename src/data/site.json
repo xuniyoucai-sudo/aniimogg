@@ -29,7 +29,7 @@
     "multiplayer":{"published":"2026-08-27","updated":"2026-10-01","version":"Official version 1.1 Holo-Battle / Egg Heist / same-server progress","status":"verified","related":["egg-heist","crossplay-cross-save","team-setup"]},
     "regions-world":{"published":"2026-08-27","updated":"2026-10-02","version":"Official Home expansion / community public-build Homeland workflow","status":"verified","related":["core-gameplay","getting-started","confirmed-aniimo"]},
     "getting-started":{"published":"2026-08-27","updated":"2026-09-30","version":"Official launch and 1.1 roadmap / community public-build daily routine","status":"verified","related":["codes","core-gameplay","patch-notes"]},
-    "beginner-mistakes":{"published":"2026-09-11","updated":"2026-09-11","version":"Pre-launch official-source decision checklist","status":"official","related":["getting-started","crossplay-cross-save","team-setup"]},
+    "beginner-mistakes":{"published":"2026-09-11","updated":"2026-10-04","version":"Official live-service account rules / community public-build beginner workflow","status":"verified","related":["getting-started","catching-twine","regions-world"]},
     "team-setup":{"published":"2026-09-10","updated":"2026-09-28","version":"Official Compendium role and element framework","status":"official","related":["elements-roles","confirmed-aniimo","getting-started"]},
     "core-gameplay":{"published":"2026-08-27","updated":"2026-09-29","version":"Official launch training changes / community public-build 1.0 help record","status":"verified","related":["team-setup","evolution-forms","catching-twine"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-08-28","version":"Site policy","status":"official","related":["authors","contact","privacy"]}
