@@ -459,6 +459,17 @@
       "changeLog": "新增卡片式图鉴、本机收藏书签、筛选、表格视图与官方 Wiki 详情入口。",
       "sources": [["官方 Aniimo Wiki 图鉴","https://wiki.aniimo.com/"],["Emberpup 官方条目","https://wiki.aniimo.com/item/10003064"],["Nimbi 官方条目","https://wiki.aniimo.com/item/10003150"]]
     },
+    "prismana-rare-forms": {
+      "title": "Aniimo 伊莫 Prismana 稀有形态攻略：Flow、闪光与 Umbral",
+      "description": "说明 Prismana Flow 与 Nurturing，并区分 Prismana、Sparkling、Umbral、Umbrabow、Perfect Potential 和 Alpha。",
+      "h1": "Aniimo 伊莫 Prismana 与稀有形态攻略",
+      "evidence": ["正式版重做稀有遭遇","官方确认每次 Nurturing 使用固定基础概率并保留保底；Lucky Strike 可触发 Prismana Flow，Wild Surge 可出现 Umbral。","9 月 3 日开发者信","https://www.aniimo.com/de/newslist/detail/100064"],
+      "body": [["先分清术语，它们不是同义词","Prismana 是与 Prismana 环境相关的稀有形态；Sparkling 是独立外观变异；正式服客户端文本把 Umbral 定义为带 Perfect Potential 的野外状态；Umbrabow 是另一套图鉴与伊莫蛋标签；Alpha 表示高威胁遭遇，Perfect 描述潜力而非颜色形态。"],["官方确认的 Nurturing 调整","正式版取消低 Prismatic Energy 导致的前期概率衰减，每次 Nurturing 现在拥有相同基础概率触发 Prismana Flow，同时保留保底。生态培育固定增加 Prismatic Energy，供品品质不再改变 Wild Surge 品质。"],["Lucky Strike 与 Wild Surge","Lucky Strike 可获得道具、提高地区 Prismatic Energy，并有机会直接触发 Prismana Flow。Wild Surge 还可能出现拥有 Perfect Potential 和特殊配色的 Umbral；官方开发者信没有公布准确百分比。"],["三种有来源区分的 Prismana 路线","官方资料确认 Prismana Flow 与 Prismana 蛋；带版本的正式服记录把 Nurturing 描述为积累地区 Prismatic Energy 的可重复路线。Homeland RV 派遣也可能产出带 Prismana 特性的蛋。具体物种池与地区要求以当前客户端为准。"],["Prismana 不等于必定更强","稀有形态可能有不同条目、属性或技能，但 Prismana 名称本身不证明更高 Potential 或绝对最强。应比较具体形态条目；Sparkling 与 Perfect Potential 是独立属性。"],["Umbral 与 Umbrabow 不同","带版本的客户端术语说明，Umbral 的特殊外观会在进化或变形后消失；Umbrabow 则有独立图鉴标签和 Lost Isles 伊莫蛋描述。官方没有解释 Umbrabow 与隐藏 Sparkling 类型的准确关系，因此本站不会把两者合并。"],["稳妥的稀有形态狩猎流程","先在当前形态条目选择目标，确认地区和条件，提升当地收集进度，使用实时 Nurturing 界面，观察 Prismatic Energy 与 Flow，刷新前准备 Aniipod，并记录客户端版本。不要仅因两个稀有术语相似就消耗高级捕捉道具。"],["本页不会断言的内容","不会把非官方准确概率、通用刷新坐标、RV 等级奖励或完整物种数量写成官方结论。这些数据可能来自客户端、限时活动或后续更新，应以当前游戏界面与官方概率公示为准。"]],
+      "matrix": {"title":"稀有术语速查","headers":["术语","含义","不能证明"],"rows":[["Prismana","与 Prismana 条件相关的稀有形态","Perfect Potential 或必定最强"],["Sparkling","独立外观变异","就是 Prismana"],["Umbral","正式服记录为带 Perfect Potential 的野外状态","等于 Umbrabow 或进化后永久保留外观"],["Umbrabow","独立图鉴与伊莫蛋标签","与 Umbral 相同"],["Perfect","Potential 品质","颜色或形态"],["Alpha","高威胁遭遇标签","所有结果都会继承的永久稀有度"]],"note":"官方正式版调整与带版本客户端术语分开标注，并主动省略未经官方公布的准确概率。"},
+      "faq": [["如何触发 Prismana Flow？","使用当前地区的 Nurturing 系统并积累 Prismatic Energy。官方说明每次培育拥有相同基础概率，同时保留保底。"],["Prismana 等于 Sparkling 吗？","不等于。Prismana 是形态，Sparkling 是独立外观属性，两者不能混用。"],["Umbral 和 Umbrabow 是同一种吗？","不是。客户端记录把 Umbral 作为带 Perfect Potential 的野外状态，把 Umbrabow 作为独立图鉴与伊莫蛋类别。"],["Umbral 外观会在进化后保留吗？","带版本客户端文本说明会在进化或变形后消失；操作前请再次核对实时警告。"],["Prismana 的准确概率是多少？","官方只确认固定基础概率与保底，没有在开发者信中公布数字；当前数值应查看官方游戏内概率说明。"]],
+      "changeLog": "新增有来源分层的稀有形态指南，区分 Prismana、Sparkling、Umbral、Umbrabow、Perfect Potential 与 Alpha，并排除争议概率。",
+      "sources": [["官方开发者信与正式版稀有形态调整","https://www.aniimo.com/newslist/detail/100064"],["官方 Aniimo Wiki 图鉴","https://wiki.aniimo.com/"],["带版本正式服 Prismana 与 Umbrabow 术语记录","https://aniimo.guide/en/guides/prismana-and-umbrabow"],["社区带版本 Prismana 与 Nurturing 概览","https://www.aniimoverse.com/guides/prismana"]]
+    },
     "catching-twine": {
       "title": "Aniimo 伊莫捕捉与 Twine 融合玩法说明",
       "description": "以正式版核实为前提的 Aniimo 捕捉与 Twine 指南：确认流程、仅限封测的技巧、常见误区、Aniipod、陷阱与融合变身。",

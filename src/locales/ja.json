@@ -459,6 +459,17 @@
       "changeLog": "カード図鑑、端末内コレクション、絞り込み、表形式表示、公式Wiki詳細リンクを追加。",
       "sources": [["公式Aniimo Wiki","https://wiki.aniimo.com/"],["Emberpup公式ページ","https://wiki.aniimo.com/item/10003064"],["Nimbi公式ページ","https://wiki.aniimo.com/item/10003150"]]
     },
+    "prismana-rare-forms": {
+      "title": "Aniimo Prismana攻略：Flow・Sparkling・Umbralの違い",
+      "description": "Prismana FlowとNurturingの仕組み、Prismana、Sparkling、Umbral、Umbrabow、Perfect Potential、Alphaの違いを解説します。",
+      "h1": "Aniimo Prismanaとレア形態ガイド",
+      "evidence": ["正式版でレア遭遇を再設計","公式はNurturingごとの基本確率を一定にし保証を維持、Lucky StrikeによるPrismana FlowとWild SurgeのUmbral遭遇を確認しています。","9月3日開発者レター","https://www.aniimo.com/de/newslist/detail/100064"],
+      "body": [["用語は同義ではありません","PrismanaはPrismana環境に結びつくレア形態、Sparklingは別の外見変異です。バージョン付きクライアント記録ではUmbralはPerfect Potentialを持つ野生状態、Umbrabowは別の図鑑・卵ラベルです。Alphaは高脅威遭遇、Perfectは色ではなくPotentialを示します。"],["公式のNurturing変更","正式版では低いPrismatic Energyによる序盤の確率低下が廃止され、各Nurturingは同じ基本確率でPrismana Flowを発生させ、保証も残ります。Ecosystem Nurturingは一定量のPrismatic Energyを与え、Offering品質はWild Surge品質に影響しなくなりました。"],["Lucky StrikeとWild Surge","Lucky Strikeはアイテム、地域Prismatic Energy、Prismana Flowの直接発生機会を与えます。Wild SurgeではPerfect Potentialと特徴的な色を持つUmbralが現れる可能性もあります。公式レターは正確な割合を公開していません。"],["根拠を分けた3つのPrismana経路","公式資料はPrismana FlowとPrismana Eggを確認し、バージョン付き正式版記録はNurturingを地域Prismatic Energyの反復ルートとして説明します。Homeland RV派遣もPrismana特性の卵を出す可能性があります。種族プールと地域条件は現行クライアントを優先してください。"],["Prismanaだけで強さは決まりません","レア形態は異なる項目、属性、キットを持つ場合がありますが、Prismanaという名前だけで高いPotentialや最強を証明しません。具体的な形態項目を比較し、SparklingとPerfect Potentialを別に扱ってください。"],["UmbralとUmbrabowは別物","クライアント用語ではUmbralの外見は進化や変形後に消えます。Umbrabowには独立した図鑑ラベルとLost Islesの卵記述があります。Umbrabowと非表示Sparklingタイプの正確な関係は公式説明がないため統合しません。"],["安全なレア狩り手順","現行の形態項目から目標を選び、地域と条件を確認し、収集進行を上げ、Nurturing画面とPrismatic Energy・Flow表示を見て、出現前にAniipodを準備し、クライアント版を記録します。名称が似ているだけで高価な捕獲アイテムを使わないでください。"],["このページが断定しないもの","非公式の正確な確率、万能座標、RVレベル報酬、完全な種族数は公式事実として掲載しません。クライアント抽出・期間イベント・更新で変わるため、ゲーム内表示と公式確率表を優先します。"]],
+      "matrix": {"title":"レア用語早見表","headers":["用語","意味","証明しないこと"],"rows":[["Prismana","Prismana条件に関連するレア形態","Perfect Potentialや最強"],["Sparkling","独立した外見変異","Prismana形態"],["Umbral","Perfect Potentialを持つと記録された野生状態","Umbrabowと同一、進化後も外見維持"],["Umbrabow","独立した図鑑・卵ラベル","Umbralと同一"],["Perfect","Potential品質","色や形態"],["Alpha","高脅威遭遇ラベル","結果すべてに継承される永久レア度"]],"note":"公式の正式版変更とバージョン付きクライアント用語を分離し、正確な確率は意図的に省いています。"},
+      "faq": [["Prismana Flowはどう発生させる？","現行地域のNurturingを使いPrismatic Energyを上げます。公式は各Nurturingの基本確率が同じで保証も残ると説明しています。"],["PrismanaとSparklingは同じ？","違います。Prismanaは形態、Sparklingは別の外見属性です。"],["UmbralとUmbrabowは同じ？","違います。クライアント記録はUmbralをPerfect Potential付き野生状態、Umbrabowを別の図鑑・卵カテゴリとして扱います。"],["Umbralの外見は進化後も残る？","バージョン付きテキストでは進化・変形後に消えるとされています。実行前に現行警告を再確認してください。"],["Prismanaの正確な確率は？","公式レターは一定の基本確率と保証を確認しますが数値は未掲載です。現行値は公式ゲーム内確率情報を確認してください。"]],
+      "changeLog": "Prismana、Sparkling、Umbral、Umbrabow、Perfect Potential、Alphaを区別し、未確認確率を排除した根拠付きレア形態ガイドを公開しました。",
+      "sources": [["公式開発者レターと正式版レア形態変更","https://www.aniimo.com/newslist/detail/100064"],["公式Aniimo Wiki","https://wiki.aniimo.com/"],["バージョン付き正式版Prismana・Umbrabow用語記録","https://aniimo.guide/en/guides/prismana-and-umbrabow"],["コミュニティ版Prismana・Nurturing概要","https://www.aniimoverse.com/guides/prismana"]]
+    },
     "catching-twine": {
       "title": "Aniimo 捕獲・Twineシステム解説",
       "description": "正式版で確認するためのAniimo捕獲・Twineガイド。確認済みの流れ、ベータ限定のヒント、よくある誤解、Aniipod、罠と変身を整理します。",
