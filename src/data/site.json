@@ -31,7 +31,7 @@
     "getting-started":{"published":"2026-08-27","updated":"2026-09-30","version":"Official launch and 1.1 roadmap / community public-build daily routine","status":"verified","related":["codes","core-gameplay","patch-notes"]},
     "beginner-mistakes":{"published":"2026-09-11","updated":"2026-10-04","version":"Official live-service account rules / community public-build beginner workflow","status":"verified","related":["getting-started","catching-twine","regions-world"]},
     "team-setup":{"published":"2026-09-10","updated":"2026-09-28","version":"Official Compendium role and element framework","status":"official","related":["elements-roles","confirmed-aniimo","getting-started"]},
-    "core-gameplay":{"published":"2026-08-27","updated":"2026-09-29","version":"Official launch training changes / community public-build 1.0 help record","status":"verified","related":["team-setup","evolution-forms","catching-twine"]},
+    "core-gameplay":{"published":"2026-08-27","updated":"2026-10-05","version":"Official launch training changes / community public-build 1.0 Held Item and contract workflow","status":"verified","related":["team-setup","evolution-forms","catching-twine"]},
     "editorial-policy":{"published":"2026-08-27","updated":"2026-10-04","version":"Editorial, evidence, versioning and corrections policy","status":"official","related":["authors","contact","privacy"]}
   },
   "communityEvidence":{
