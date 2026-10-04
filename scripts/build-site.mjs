@@ -228,4 +228,10 @@ for(const l of locales){const e=errors[l.lang],body=`<section class="error-page"
 fs.copyFileSync(path.join(root,'404','index.html'),path.join(root,'404.html'));
 write(path.join(root,'_redirects'),`/world.html /map/ 301\n/faq.html /faq/ 301\n/about.html /about/ 301\n/privacy.html /privacy/ 301\n/guides/getting-started.html /guides/getting-started/ 301\n/guides/core-gameplay.html /guides/core-gameplay/ 301\n/guides/editorial-policy.html /guides/editorial-policy/ 301\n/tools/ /launch/ 301\n/zh-cn/tools/ /zh-cn/launch/ 301\n/ja/tools/ /ja/launch/ 301\n`);
 fs.appendFileSync(path.join(root,'_redirects'),`/aniimo/ /guides/confirmed-aniimo/ 301\n/database/ /guides/confirmed-aniimo/ 301\n/zh-cn/aniimo/ /zh-cn/guides/confirmed-aniimo/ 301\n/zh-cn/database/ /zh-cn/guides/confirmed-aniimo/ 301\n/zh-tw/aniimo/ /zh-tw/guides/confirmed-aniimo/ 301\n/zh-tw/database/ /zh-tw/guides/confirmed-aniimo/ 301\n/ja/aniimo/ /ja/guides/confirmed-aniimo/ 301\n/ja/database/ /ja/guides/confirmed-aniimo/ 301\n`);
+// AdSense asks publishers to place this loader on every page before review.
+// Keep the publisher meta tag as the ownership signal and inject the loader
+// after all localized and generated HTML files have been written.
+const adsenseCode='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8711357634093602" crossorigin="anonymous"></script>';
+const addAdsenseCode=directory=>{for(const entry of fs.readdirSync(directory,{withFileTypes:true})){if(['.git','node_modules','src'].includes(entry.name))continue;const file=path.join(directory,entry.name);if(entry.isDirectory())addAdsenseCode(file);else if(entry.name.endsWith('.html')){const html=fs.readFileSync(file,'utf8');if(!html.includes('pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'))fs.writeFileSync(file,html.replace('</head>',adsenseCode+'</head>'))}}};
+addAdsenseCode(root);
 console.log(`Generated ${locales.length} locales and ${sitemap.length} localized sitemap URLs.`);
