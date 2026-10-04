@@ -128,6 +128,14 @@
         [
           "正式排名需要哪些证据",
           "可复核的排名需要明确活动、测试版本、可比的培养投入、观察记录与局限。本站尚未完成这组证据，因此不提供 S/A/B 等级或最强角色结论。下方攻略提供目前已有的资料。"
+        ],
+        [
+          "按定位分别比较",
+          "DPS、BREAK、SUPPORT、HEAL 与 REGEN 解决的问题不同。应在同一职责和同一场景内比较，不要把不同职责压成一个总分。"
+        ],
+        [
+          "版本与证据规则",
+          "未来每项推荐都必须注明客户端版本和复核日期，区分官方分类与 Aniimo.GG 实测，并在平衡更新导致证据过期时提示。社区报告可以提供测试线索，但不能在缺少可重复正式服证据时直接变成排名。"
         ]
       ],
       "linksTitle": "相关资料",
@@ -160,9 +168,9 @@
     },
     "map": {
       "title": "Aniimo 伊莫地图：官方地区与互动地图状态",
-      "description": "收录 Aniimo 伊莫六个官方公开地区，说明已确认地点，以及经过实测的坐标、资源和出没点何时加入。",
+      "description": "浏览《伊莫》六个官方区域，并进入地区、捕捉、稀有形态与图鉴攻略；不使用未经验证的坐标。",
       "h1": "伊莫地图",
-      "lead": "正在找 Aniimo 伊莫地图？本站收录六个官方公开地区；坐标、资源、任务和出没点将在公开版本实测后加入。"
+      "lead": "这里是地区与探索导航中心：收录 Idyll 六个官方区域，并连接捕捉、稀有形态和图鉴资料。精确坐标只有在正式服具备可重复证据后才会发布。"
     },
     "tools": {
       "title": "Aniimo 伊莫上线倒计时与当地开服时间",
@@ -366,11 +374,11 @@
       "sources": [["PC／主机预下载官方 FAQ","https://aniimo.com/newslist/detail/100089"],["Steam 功能列表","https://store.steampowered.com/app/4126040/Aniimo/"]]
     },
     "steam-deck": {
-      "title": "Aniimo 伊莫支持 Steam Deck 吗？",
-      "description": "《伊莫》目前尚无 Steam Deck 验证，结合官方 PC 配置说明当前兼容状态。",
-      "h1": "Aniimo 伊莫 Steam Deck 支持状态",
-      "body": [["尚无官方验证","Steam 商店没有显示 Steam Deck Verified 或 Playable，Pawprint Studio 也没有公布掌机专用模式。"],["配置无法直接换算","最低配置为 Windows 10、12 GB 内存、i7-9700／Ryzen 5 3600X、GTX 1060／RX 6600，桌面配置不能直接等同于 Deck 实际表现。"],["Linux 与反作弊","SteamOS 能否运行还取决于 Proton、启动器、账号服务、视频解码和反作弊，正式版细节尚未确认。"],["Xbox 云游戏已经确认","Pawprint Studio 9 月 3 日开发者信确认 Xbox 云游戏将于 9 月 16 日上线。这不代表 Steam Deck 原生兼容，也不确认 GeForce NOW、PlayStation 云串流或其他云平台；NVIDIA ACE 是另一项上线后互动技术。"],["上线后实测","本站会测试安装、登录、按键、文字大小、帧率、续航、休眠恢复和在线模式，再给出建议。"]],
-      "faq": [["Aniimo 伊莫获得 Steam Deck 验证了吗？","目前 Steam 商店尚未显示 Steam Deck Verified 或 Playable 标记。"],["Steam Deck 能运行 Aniimo 伊莫吗？","尚未获得官方验证。桌面 PC 配置不能证明 Steam Deck 性能或 SteamOS 兼容性。"],["《伊莫》支持云游戏吗？","官方确认 9 月 16 日登陆 Xbox 云游戏；GeForce NOW 和其他云平台尚未确认。"]],
+      "title": "Aniimo 伊莫 Steam Deck 兼容性：可玩状态与限制",
+      "description": "Steam 现已将《伊莫》标为 Steam Deck 可玩；了解官方状态、部分手柄支持与仍需核对的掌机体验。",
+      "h1": "Aniimo 伊莫 Steam Deck 可玩状态",
+      "body": [["Steam 现已标为可玩","当前 Steam 商店将《伊莫》的 Steam Deck 兼容性标为“可玩”，而不是“已验证”。这取代了早期未知状态，但不代表所有交互都为掌机优化。"],["可玩不等于已验证","可玩状态仍可能涉及手动设置、小字号、启动器交互或操作限制。不同语言的公开摘要可能不同，应在自己的 Steam 账号中查看最新兼容详情。"],["以当前配置作为边界","Steam 当前最低要求是 Windows 10、8 GB 内存、GTX 970／RX 5600 级显卡和 40 GB 空间。桌面配置不能预测 Deck 帧率、续航或每次 Proton 更新。"],["手柄支持为部分支持","Steam 标注 Xbox 与 DualSense 手柄的部分支持。完整流程独立实测前，账号、启动器或文字输入步骤应保留触屏、触控板或外接键盘。"],["云游戏是独立方案","受支持账号和地区可使用 Xbox Cloud Gaming，但它与 Steam Deck 原生兼容性不同。已核对的官方来源仍未确认 GeForce NOW。"],["更新后重新验证","客户端、Proton 或兼容性更新后，应重新检查登录、文字、按键提示、休眠恢复、在线玩法、帧时间和续航；“可玩”不是性能保证。"]],
+      "faq": [["Aniimo 获得 Steam Deck Verified 了吗？","没有。Steam 当前评级是“可玩”，不是“已验证”。"],["Steam Deck 能运行 Aniimo 吗？","Steam 的可玩评级说明可以使用，但部分交互可能需要额外步骤，性能也随设置和更新变化。"],["Aniimo 是完整手柄支持吗？","不是。Steam 标注 Xbox 与 DualSense 手柄的部分支持。"],["Aniimo 支持云游戏吗？","官方支持 Xbox Cloud Gaming，但它是独立服务，不改变 Steam Deck 原生评级。"]],
       "sources": [["Steam 官方配置与 Deck 状态","https://store.steampowered.com/app/4126040/Aniimo/"],["官方 NVIDIA ACE 更新","https://www.aniimo.com/newslist/detail/100062"],["9 月 3 日开发者信","https://www.aniimo.com/de/newslist/detail/100064"]]
     },
     "languages-voice-acting": {
@@ -559,21 +567,29 @@
       "sources": [["手游预下载、上线、账号与设备官方 FAQ","https://www.aniimo.com/newslist/detail/100137"],["含 Xbox 云游戏说明的 PC／主机官方 FAQ","https://aniimo.com/newslist/detail/100089"],["Aniimo Google Play 官方商品页","https://play.google.com/store/apps/details?id=com.x.aniimos"],["Aniimo App Store 官方商品页","https://apps.apple.com/app/aniimo/id6759098797"],["Aniimo 官方网站","https://www.aniimo.com/"]]
     },
     "editorial-policy": {
-      "title": "资料、版本与纠错政策",
-      "description": "Aniimo 攻略站如何核实来源、版本和纠错。",
-      "h1": "资料与版本政策",
+      "title": "Aniimo.GG 编辑、证据与纠错政策",
+      "description": "说明 Aniimo.GG 如何分级官方来源、正式服实测和社区报告，管理版本时效、不确定性与纠错。",
+      "h1": "编辑、证据与纠错政策",
       "body": [
         [
-          "资料标记",
-          "官方信息、重复实测、社区发现与推测内容会明确区分。"
+          "来源优先级",
+          "优先使用当前游戏客户端、Aniimo 官方公告、官方 Wiki 与平台商店，其次是可重复的正式服实测。带版本的第三方观察可作为待验证线索；匿名说法、无日期截图和转载表格不视为已确认事实。"
         ],
         [
-          "版本管理",
-          "数值、掉落、商店、捕捉率和任务条件标注版本与验证日期。"
+          "证据标签与边界",
+          "页面区分官方事实、Aniimo.GG 编辑建议、正式服观察、社区报告与未确认信息。官方确认某项功能，并不等于相关的所有数值、平台行为、坐标、费用或概率都已确认。"
         ],
         [
-          "纠错",
-          "确认错误后及时修正；封测数据不会默认沿用到正式版。"
+          "版本与时效管理",
+          "活动、数值、掉落、商店、捕捉率和任务条件等可变信息会标注版本或复核日期。过期的上线、预购和活动资料只有在明确标为历史记录时才保留。"
+        ],
+        [
+          "实测标准",
+          "正式服结果应记录平台、适用时的服务器或地区、客户端版本、条件和可重复步骤。单一账号结果不会写成通用概率、保证坐标或强度排名。"
+        ],
+        [
+          "纠错与独立性",
+          "确认错误后会尽快修正，重要修改写入变更记录。封测步骤不会悄悄沿用到正式服。广告、广告申请和来源链接不会决定攻略结论；未来如有赞助或联盟关系，必须在相关内容附近明确披露。"
         ]
       ]
     }
