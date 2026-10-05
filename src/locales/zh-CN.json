@@ -339,6 +339,16 @@
       "sources": [["官方上线公告与免费奖励","https://steamcommunity.com/app/4126040/announcements/"],["PC／主机官方账号 FAQ","https://aniimo.com/newslist/detail/100089"],["1.1 版本官方更新公告","https://aniimo.com/newslist/detail/100145"],["社区正式服 Institute Guide 与日常记录","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["Aniimo Steam 商店","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo PlayStation 5 页面","https://www.playstation.com/en-us/games/aniimo/"]],
       "changeLog": "新增按来源标注的日常与周常清单，覆盖 Daily Activity、Primegy、定向材料挑战与官方 Holo-Battle 日程。"
     },
+    "potential-personality": {
+      "title": "Aniimo 伊莫潜能与性格攻略：鉴定、能力觉醒和稳妥培养",
+      "description": "分清伊莫潜能、鉴定、能力觉醒与性格，明确标注官方上线调整、1.0 正式服社区观察及安全培养建议。",
+      "h1": "伊莫潜能与性格攻略",
+      "body": [["潜能与性格是两个系统","1.0 正式服记录将 Potential 描述为由 Innate 与 Acquired 进度构成的属性质量，而 Personality 是另一层独立特性。好性格不等于高潜能，鉴定等级也不能单独代表完整强度。"],["官方上线说明确认了什么","Pawprint Studio 确认高潜能 9/9 与 10/10 野生伊莫出现率提高、Sparkling Cube 保证 Perfect Potential、Capability 上限随等级和 Resonance 逐步开放、60 级以下 Capability Awakening 可重置并返还材料、Capafruit 可随继承转移。官方没有公布完整鉴定表或性格加成表。"],["投入稀缺材料前先鉴定","1.0 帮助中心记录称，鉴定会显示已捕获伊莫的 Potential 信息。投入前应结合正式服技能、当前定位和预定队伍比较实际需要的属性，不能用一个总等级代替完整面板。"],["Innate 与 Acquired Potential","社区正式服记录区分个体自带的 Innate Potential 与通过 Capability Awakening 增加的 Acquired Potential。精确上限、成本与材料区间若无官网确认都属于客户端观察，因此本站不把竞品成本表写成永久规则。"],["性格需要单独判断","1.0 社区记录称 Personality 不会随升级或进化改变，可通过 Psyche Fruit 调整。具体加成比例、所谓最优组合和商店成本并未由官方网页完整公布，使用前请核对当前 Personality 面板。"],["稳妥的保留、培养或替换流程","先确认种类、形态和当前技能，再鉴定 Potential，随后比较定位相关属性，单独检查 Personality，最后考虑已有投入与继承。这是 Aniimo.GG 编辑建议，不是官方强度榜。"],["继承降低更换个体的风险","官方上线说明确认 Capafruit 效果会在继承时自动转移；1.0 社区帮助记录还描述了兼容伊莫间的培养进度转移。确认双方、兼容条件和当前预览后再操作，不要假定 Personality 或所有个体字段都会转移。"],["证据边界","官方事实来自 Pawprint Studio 上线前开发者信；菜单路径和 Personality 行为是带 1.0 版本标记的正式服社区观察。争议概率、固定费用和万能最优性格均未采用。"]],
+      "matrix": {"title":"潜能与性格判断清单","headers":["检查项","可用于","不能推出"],"rows":[["官方上线调整","高潜能、重置、Capafruit 与 Sparkling Cube 的当前边界","完整潜能公式"],["鉴定面板","比较当前个体可见属性信息","仅凭等级判断全部战力"],["当前技能与定位","决定本构筑需要哪些属性","所有伊莫通用的最优分配"],["Personality 面板","检查独立特性层","性格等同潜能"],["继承预览","确认当前客户端将转移什么","所有个体字段都会转移"]],"note":"若社区记录与当前客户端不同，以当前客户端为准，并向本站反馈差异。"},
+      "faq": [["Personality 和 Potential 是同一个系统吗？","不是。1.0 客户端记录显示，Potential 关系属性成长，Personality 是独立特性层。"],["高潜能等级是否一定是最强伊莫？","不是。它只是一个判断维度，还要结合当前技能、定位、形态、性格和实际玩法。"],["Capability Awakening 可以重置吗？","官方开发者信称 60 级以下可以重置并返还培养材料；具体确认提示和可能费用以当前客户端为准。"],["Sparkling Cube 是否保证 Perfect Potential？","是。9 月 3 日官方开发者信明确写明，通过 Sparkling Cube 捕获的伊莫保证 Perfect Potential。"],["伊莫进化后性格会改变吗？","1.0 社区记录称不会，并称 Psyche Fruit 用于改变性格。这是客户端观察，不是官方网页的永久规则。"],["继承前应检查什么？","在当前客户端确认来源个体、接收个体、兼容条件、预览进度和返还材料。官方只明确确认 Capafruit 转移，并未确认所有社区描述字段。"]],
+      "changeLog": "新增潜能与性格证据分层流程，分开官方上线事实、1.0 客户端观察与本站培养建议。",
+      "sources": [["9 月 3 日官方开发者信与潜能调整","https://aniimo.com/newslist/detail/100064"],["Aniimo 官方图鉴","https://wiki.aniimo.com/"],["社区正式服 1.0 培养记录","https://aniimo.guide/en/guides/aniimo-training-guide"],["社区 Potential 与 Capability 记录","https://aniimo.guide/en/guides/potential-capability-awakening"],["用于缺口分析的第三方 Potential 专题","https://www.aniimoverse.com/guides/potential"]]
+    },
     "core-gameplay": {
       "title": "Aniimo 伊莫培养攻略：等级、潜能、共鸣与资源",
       "description": "分层整理伊莫等级、潜能、能力觉醒、共鸣、继承和 Held Items，并明确区分官方调整、正式服社区实测与本站建议。",
