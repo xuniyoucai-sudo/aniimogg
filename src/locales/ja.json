@@ -359,6 +359,16 @@
       "changeLog": "バージョン付きResonance Star-Up・Ascension手順、素材区分、判断表、FAQ、根拠境界を公開。",
       "sources": [["9月3日公式開発者レターと育成変更","https://aniimo.com/newslist/detail/100064"],["コミュニティ正式版1.0育成記録","https://aniimo.guide/en/guides/aniimo-training-guide"],["コミュニティInstitute Guide・素材分類","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["内容不足分析に使用した第三者Resonance記事","https://www.aniimoverse.com/guides/resonance"]]
     },
+    "research-aniilog": {
+      "title": "Aniimo Aniilog Research攻略：Field Notes・課題・報酬",
+      "description": "Field Notes、研究課題、Research Points、家族進行、アクセサリー枠、安全な確認手順を根拠別に解説。",
+      "h1": "Aniimo Aniilog Research・Field Notes攻略",
+      "body": [["Aniilogは種族一覧だけではない","公式図鑑は現在の種族、形態、役割、属性、家族情報を確認できます。1.0クライアント記録では、Aniilog内にField Notesと課題で観察・達成を記録するResearch層もあります。"],["公式リリース告知の確認範囲","Pawprint Studioは捕獲・収集でAniilogマイルストーンを進め、専用アニモアクセサリーを得られると説明しています。収集と報酬の関係は公式ですが、全Research Point閾値、課題数、アクセサリー枠規則は公開していません。"],["項目を開いてヒントを読む","1.0コミュニティ記録では対象アニモのAniilog項目を開き、ResearchまたはField Notesから表示中の達成ヒントを読みます。バージョンなし一覧ではなく、現在の形態・家族に表示された文を追ってください。"],["研究課題は行動が異なる","正式版記録にはスキル使用、行動観察、捕獲・撃破、形態入手、進化、撮影などの課題型があります。組合せは対象ごとに異なり、1種族の一覧を全家族へ流用できません。"],["家族と形態の境界","1.0記録では家族内で共有されるResearch進行がある一方、選択形態や表示ヒントに依存する観察もあります。別形態へ自動適用されると仮定せず、選択項目を確認します。"],["安全なフィールド手順","Outpostを出る前に未完了ヒントを1〜2個選び、地域、捕獲ルート、編成と組み合わせます。指定行動後にAniilogを開いて進行を確認し、対象外行動の反復を避けます。"],["Research Points、クラウン、外観","コミュニティガイドではResearch Pointsがクラウン型マイルストーンと追加アクセサリー容量につながります。正確な閾値、最大枠、報酬は公式公開がない限りバージョン付き観察であり、現行表示を優先します。"],["サイトのお気に入りとは別","Aniimo.GGのお気に入りはブラウザ内の表示設定で、ゲーム進行を変更しません。ゲーム内Aniilog Research、報酬、アクセサリー枠はクライアントで達成します。"],["根拠の境界","公式事実は公式図鑑とリリース告知に限定します。Field Notes、課題型、共有進行、クラウン挙動は1.0コミュニティ観察です。未確認の近道、自動化、固定所要時間は公式情報にしません。"]],
+      "matrix": {"title":"Aniilog Research確認表","headers":["行動前","実行","確認"],"rows":[["正しい家族・形態を開く","現行Field Note・課題ヒントを読む","選択項目と文言"],["フィールド経路を選ぶ","互換する目標を1〜2個組み合わせる","地域、天候、対象"],["指定行動を行う","要求スキル、捕獲、撮影、成長手順","Aniilogのカウンター・ノート更新"],["表示マイルストーン到達","クライアント報酬を確認","Research Points・アクセサリー受取"],["更新後","変更されたヒント・閾値を再確認","現行クライアントを優先"]],"note":"課題型と閾値は家族・バージョンで異なります。テスト行動ごとに進行を確認してください。"},
+      "faq": [["Aniilog Researchとは？","1.0記録では、種族一覧を見るだけでなく、アニモ項目に付くField Notesと課題目標です。"],["Aniilog報酬は公式ですか？","高いレベルでは公式です。リリース告知は収集マイルストーンの専用アクセサリーを確認しますが、完全な閾値表はありません。"],["全形態でResearch進行を共有しますか？","コミュニティ記録では一部家族進行は共有されますが、一部観察は選択形態・ヒントに依存します。"],["行動がカウントされない理由は？","現行ヒントのアニモ、形態、スキル、対象、条件を確認し、制御した1回の行動後にAniilogを再確認します。"],["サイトのお気に入りはゲームと同期しますか？","しません。ブラウザ内設定だけで、ゲーム内ResearchはAniimoクライアントで達成・受取します。"],["Researchで何枠増えますか？","コミュニティ記録には追加容量がありますが、公式Webに恒久最大値はありません。現行マイルストーン表示を確認してください。"]],
+      "changeLog": "Field Notes、課題型、家族境界、進行確認、報酬、サイトお気に入りとの違いを扱う根拠付きAniilog Research手順を公開。",
+      "sources": [["Aniimo公式図鑑","https://wiki.aniimo.com/"],["公式リリース告知・Aniilogアクセサリー報酬","https://aniimo.com/newslist/detail/100115"],["コミュニティ正式版1.0 Aniilog Research記録","https://aniimo.guide/en/guides/aniilog-research-points"],["内容不足分析に使用した第三者Research記事","https://www.aniimoverse.com/guides/research"]]
+    },
     "core-gameplay": {
       "title": "Aniimo育成ガイド：レベル・Potential・Resonance・資源",
       "description": "レベル、Potential、Capability Awakening、Resonance、継承、Held Itemsを、公式変更・正式版コミュニティ検証・編集提案に分けて解説。",

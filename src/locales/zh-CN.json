@@ -359,6 +359,16 @@
       "changeLog": "新增带版本标记的 Resonance Star-Up 与 Ascension 流程、材料区分、判断表、FAQ 和证据边界。",
       "sources": [["9 月 3 日官方开发者信与培养调整","https://aniimo.com/newslist/detail/100064"],["社区正式服 1.0 培养记录","https://aniimo.guide/en/guides/aniimo-training-guide"],["社区 Institute Guide 与材料分类","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["用于缺口分析的第三方 Resonance 专题","https://www.aniimoverse.com/guides/resonance"]]
     },
+    "research-aniilog": {
+      "title": "Aniimo 伊莫图鉴研究攻略：Field Notes、课题和奖励",
+      "description": "按证据分层说明 Aniilog Research 的 Field Notes、研究课题、Research Points、家族进度、饰品槽与核验流程。",
+      "h1": "伊莫 Aniilog Research 与 Field Notes 攻略",
+      "body": [["Aniilog 不只是物种列表","官方图鉴确认当前物种、形态、定位、属性和家族信息；1.0 客户端记录还显示 Aniilog 内存在独立 Research 层，通过 Field Notes 与研究课题记录观察和完成情况。"],["官方上线公告确认了什么","Pawprint Studio 表示捕捉和收集伊莫可推进 Aniilog 里程碑，并获得专属伊莫饰品。这确认了收集与奖励关系，但官方网页没有公开全部 Research Point 阈值、课题数量或饰品槽规则。"],["打开条目并阅读线索","1.0 社区记录的流程是打开目标伊莫的 Aniilog 条目，进入 Research 或 Field Notes 区域，读取每个可见完成线索。应跟随当前形态或家族显示的文字，而不是无版本清单。"],["研究课题要求不同动作","社区正式服记录出现使用技能、观察行为、捕捉或击败目标、获得形态、进化、拍照及其他指定动作等课题类型。具体组合因对象而异，不能把一个物种的清单套给所有家族。"],["家族与形态边界很重要","1.0 记录显示部分 Research 进度在家族内共享，但某些观察仍与形态或当前线索有关。操作前先确认所选条目，不要假定一个形态的完成会覆盖另一个。"],["稳妥的野外流程","离开 Outpost 前只固定一到两个未完成线索，与当前地区、捕捉路线或队伍组合；执行文字指定动作后重新打开 Aniilog 核对进度，避免反复刷不计数的行为。"],["Research Points、皇冠与外观","社区指南记录称 Research Points 会推进皇冠式里程碑和额外饰品容量。精确阈值、最大槽位和奖励内容若无官方公告，都只是带版本客户端观察，以游戏当前预览为准。"],["与本站收藏功能分开","Aniimo.GG 的本地收藏书签只保存浏览器偏好，不会改变游戏进度。官方 Aniilog Research、奖励和饰品槽属于游戏账号，必须在客户端完成。"],["证据边界","官方事实限于官方图鉴与上线公告；Field Notes、课题类型、共享进度与皇冠机制标注为 1.0 社区观察。本站不把争议捷径、自动化方法或固定耗时写成官方结论。"]],
+      "matrix": {"title":"Aniilog Research 核对表","headers":["操作前","执行","核验"],"rows":[["打开正确家族／形态","阅读当前 Field Note 或课题线索","所选条目和文字正确"],["选择野外路线","组合一到两个兼容目标","地区、天气或目标仍匹配"],["完成指定动作","使用要求的技能、捕捉、拍照或成长步骤","Aniilog 计数或笔记更新"],["到达可见里程碑","查看客户端奖励预览","Research Points 或饰品奖励可领取"],["版本更新后","重读发生变化的线索和阈值","当前客户端覆盖旧攻略"]],"note":"课题类型和阈值会因家族及版本不同；每次试验动作后都应核对进度。"},
+      "faq": [["Aniilog Research 是什么？","1.0 客户端记录显示，它是依附于伊莫条目的 Field Notes 与课题目标，不等于只浏览物种索引。"],["Aniilog 奖励是官方确认的吗？","奖励关系已确认。上线公告称收集里程碑会给予专属伊莫饰品，但没有完整阈值表。"],["所有形态都共享 Research 进度吗？","社区记录称部分家族进度共享，但部分观察取决于所选形态或线索；请以当前条目为准。"],["为什么动作没有计数？","核对正式服线索指定的伊莫、形态、技能、目标和条件，执行一次可控动作后重新查看 Aniilog。"],["本站收藏会同步游戏吗？","不会。本站收藏只是本地浏览器偏好，游戏内 Research 必须在《伊莫》客户端完成并领取。"],["Research 能解锁多少饰品槽？","社区指南记录了额外容量，但官方网页没有公布永久最大值，应查看游戏内当前里程碑预览。"]],
+      "changeLog": "新增有来源分层的 Aniilog Research 流程，覆盖 Field Notes、课题类型、家族边界、进度核验、奖励与本站收藏区别。",
+      "sources": [["Aniimo 官方图鉴","https://wiki.aniimo.com/"],["官方上线公告与 Aniilog 饰品奖励","https://aniimo.com/newslist/detail/100115"],["社区正式服 1.0 Aniilog Research 记录","https://aniimo.guide/en/guides/aniilog-research-points"],["用于缺口分析的第三方 Research 专题","https://www.aniimoverse.com/guides/research"]]
+    },
     "core-gameplay": {
       "title": "Aniimo 伊莫培养攻略：等级、潜能、共鸣与资源",
       "description": "分层整理伊莫等级、潜能、能力觉醒、共鸣、继承和 Held Items，并明确区分官方调整、正式服社区实测与本站建议。",
