@@ -349,6 +349,16 @@
       "changeLog": "新增潜能与性格证据分层流程，分开官方上线事实、1.0 客户端观察与本站培养建议。",
       "sources": [["9 月 3 日官方开发者信与潜能调整","https://aniimo.com/newslist/detail/100064"],["Aniimo 官方图鉴","https://wiki.aniimo.com/"],["社区正式服 1.0 培养记录","https://aniimo.guide/en/guides/aniimo-training-guide"],["社区 Potential 与 Capability 记录","https://aniimo.guide/en/guides/potential-capability-awakening"],["用于缺口分析的第三方 Potential 专题","https://www.aniimoverse.com/guides/potential"]]
     },
+    "resonance-ascension": {
+      "title": "Aniimo 伊莫共鸣与升阶攻略：Star-Up 流程和材料判断",
+      "description": "按证据分层说明伊莫 Resonance Star-Up、Ascension、材料用途、进度门槛和稳妥升级流程，不采用未经确认的固定成本表。",
+      "h1": "伊莫 Resonance Star-Up 与 Ascension 攻略",
+      "body": [["Resonance 与等级、Potential 分开","1.0 帮助记录将 Resonance 放在 Aniimo Training 内。Star-Up 分阶段增加属性进度，Ascension 开启下一阶段；Capability Awakening 则独立提高 Acquired Potential，不能把 Star Dust 当成 Resonance 材料。"],["官方开发者信确认的范围","Pawprint Studio 确认培养上限会随伊莫等级和 Resonance star rank 逐步开放；同一公告还确认 60 级以下 Capability Awakening 可重置，但没有公布完整 Resonance 阶段表、固定成本或通用刷取路线。"],["1.0 版本菜单流程","基于 1.0 客户端的社区记录给出流程：打开 Aniimo Training → Resonance，使用当前 Star-Up 面板指定的地区 Dewdrop Crystal，填满阶段后满足显示的等级要求，再用列出的属性材料及附加材料 Ascend。当前预览始终优先。"],["不同材料承担不同用途","社区记录区分 Star-Up 使用的地区 Dewdrop Crystals 与 Ascension 使用的属性材料；Star Dust、Star Sand 和 Starcryst Essence 属于 Capability Awakening。应阅读当前伊莫材料面板，不要假定所有家族共用完全相同路线。"],["稳妥的升级顺序","先选定已进入主力计划的伊莫，只完成当前可用的固定步骤，为下一次 Ascension 预留屏幕列出的材料，遇到等级或版本门槛就停止。不要为复制无版本终局表而耗空第二名队员。"],["Resonance 与其他培养的关系","官方说明把 Resonance star rank 与逐步开放的 Capability 上限关联起来；社区记录还称兼容继承可转移 Resonance 阶段和 star rank。这不代表 Resonance、Potential 与等级是同一系统。"],["刷取信息的证据边界","1.0 指南建议通过 Alpha 遭遇和相应 Challenge 分类寻找材料。官方网页没有公布固定掉率、每日限制、阶段总成本或最快路线，因此本站不把这些数字写成永久事实。"],["确认 Ascension 前检查","核对伊莫等级、当前星数、指定地区晶体、属性材料、附加条件和预览加成。若任何字段与本页不同，以正式服客户端为准并向本站反馈。"]],
+      "matrix": {"title":"Resonance 决策表","headers":["画面状态","稳妥操作","证据边界"],"rows":[["可 Star-Up","使用当前伊莫面板指定的材料","1.0 客户端流程"],["阶段星数已满","核对等级及所有 Ascension 材料","客户端预览优先"],["受等级门槛限制","转回等级、进化或其他培养系统","没有已确认的材料绕过方式"],["缺少材料","查看当前物品来源或 Challenge 分类","官方未公布通用掉率"],["准备替换已培养个体","重练前核对兼容继承","官方确认 Capafruit；其他字段为社区记录"]],"note":"本表解释判断流程，不提供固定成本；数值和来源会随版本变化。"},
+      "faq": [["《伊莫》的 Resonance 是什么？","它是分阶段培养系统。1.0 记录描述为先完成 Star-Up，再 Ascension 进入下一阶段。"],["Resonance 和 Capability Awakening 相同吗？","不同。Resonance 有独立阶段流程，Capability Awakening 使用另一组材料提高 Acquired Potential。"],["Resonance 使用哪些材料？","1.0 记录称 Star-Up 使用地区 Dewdrop Crystals，Ascension 使用画面列出的属性或附加材料；具体名称以当前伊莫面板为准。"],["升级会自动完成 Ascension 吗？","不会。社区记录称等级只满足门槛，仍需核对材料并确认 Ascension。"],["Resonance 能通过继承转移吗？","1.0 社区记录称兼容继承可转移阶段和 star rank；官方开发者信独立确认的是 Capafruit 转移，并未列出所有字段。"],["去哪里刷 Resonance 材料？","使用当前物品来源列表与对应 Challenge 分类。官方网页没有永久掉率或最快路线表。"]],
+      "changeLog": "新增带版本标记的 Resonance Star-Up 与 Ascension 流程、材料区分、判断表、FAQ 和证据边界。",
+      "sources": [["9 月 3 日官方开发者信与培养调整","https://aniimo.com/newslist/detail/100064"],["社区正式服 1.0 培养记录","https://aniimo.guide/en/guides/aniimo-training-guide"],["社区 Institute Guide 与材料分类","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["用于缺口分析的第三方 Resonance 专题","https://www.aniimoverse.com/guides/resonance"]]
+    },
     "core-gameplay": {
       "title": "Aniimo 伊莫培养攻略：等级、潜能、共鸣与资源",
       "description": "分层整理伊莫等级、潜能、能力觉醒、共鸣、继承和 Held Items，并明确区分官方调整、正式服社区实测与本站建议。",
