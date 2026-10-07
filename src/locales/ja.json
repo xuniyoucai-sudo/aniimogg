@@ -369,6 +369,16 @@
       "changeLog": "Field Notes、課題型、家族境界、進行確認、報酬、サイトお気に入りとの違いを扱う根拠付きAniilog Research手順を公開。",
       "sources": [["Aniimo公式図鑑","https://wiki.aniimo.com/"],["公式リリース告知・Aniilogアクセサリー報酬","https://aniimo.com/newslist/detail/100115"],["コミュニティ正式版1.0 Aniilog Research記録","https://aniimo.guide/en/guides/aniilog-research-points"],["内容不足分析に使用した第三者Research記事","https://www.aniimoverse.com/guides/research"]]
     },
+    "level-titles-elite-training": {
+      "title": "Aniimo レベル・称号・Elite Training攻略",
+      "description": "Pathfinder Level、Safaris、称号上限、Elite Training、昇格確認を根拠別に説明し、未確認XP表は使いません。",
+      "h1": "Aniimo Pathfinderレベル・称号・Elite Training",
+      "body": [["Pathfinder Levelとアニモレベルは別","1.0ヘルプ記録ではSafarisはPathfinder経験値です。Pathfinder Levelは能力とアニモ育成上限を開きますが、各アニモのバーには別途EXP・成長アイテムが必要です。"],["満タンの経験バーが止まる理由","コミュニティ正式版記録では現在の称号がレベル上限を設定します。止まった時はSafarisだけを増やさず、キャラクター称号画面と次の昇格条件を確認します。"],["Elite Trainingは昇格手順の一部","1.0記録ではElite Trainingはストーリー進行と並ぶ成長ボードです。Core Coursesは称号昇格資格に関わり、任意経路は捕獲、探索、戦闘、Homeland活動を追跡します。"],["安全な昇格チェック","現在の称号詳細で要求レベルを確認し、Elite Trainingで必要Core Courseを完了・受取し、開いた昇格試験を受けます。古い回答・敵一覧より現行文言を優先します。"],["公式資料の確認範囲","正式イベント告知はStudent I、Student II、Trailblazer Iなどを参加条件に使い、開発者レターは育成上限の段階解放を確認します。称号型進行は公式ですが、永久的な完全レベル表ではありません。"],["Safaris入手先——1.0記録","コミュニティヘルプはストーリー／Log、Elite Training Core Courses、Daily Activity、新規捕獲、研究報告、地域進行をSafari入手先として挙げます。固定合計ではなく現行報酬表示を使います。"],["機能解放は現行画面で確認","コミュニティ記録はHomeland、Resonance、Held Items、Capability Awakening、マルチ機能を称号に関連付けます。公式告知は一部条件を確認しますが完全一覧は公開していません。"],["一回限りと定期課題を分ける","Elite Trainingは進行課題、Institute Guide Daily Activityは定期内容として記録されています。全ボードが毎日更新されると仮定せず、タイマーと受取状態を確認します。"],["根拠の境界","正確な上限、課題総数、試験回答、報酬合計、最速ルートはPawprint Studio確認がない限りバージョン付き第三者観察です。本ページは診断手順で、固定周回表ではありません。"]],
+      "matrix": {"title":"進行停止の診断表","headers":["症状","次に確認","安全な操作"],"rows":[["Pathfinderバーが進まない","現在の称号上限・昇格画面","必要レベルとCore Coursesを満たす"],["アニモがレベルアップできない","Pathfinder Level・育成上限","上限解除後にアニモEXPを使う"],["昇格試験がロック","Elite Training必須目標・受取状態","表示要件を完了・受取"],["機能がロック","現行ツールチップ・ストーリー条件","現在の称号・物語条件に従う"],["Safaris集めが遅い","未受取の物語、課題、研究、日課","反復前に重複目標を受け取る"]],"note":"更新後は現行クライアント表示が攻略より優先されます。"},
+      "faq": [["Safarisとは？","1.0記録ではPathfinder Level用経験値で、個別アニモEXPではありません。"],["Pathfinder Levelが止まる理由は？","現在の称号上限の可能性があります。称号画面とElite Training昇格条件を確認します。"],["アニモがレベルアップできない理由は？","育成上限はPathfinder進行に依存し、個体のバーには別EXPも必要です。両方を確認します。"],["Elite Trainingの用途は？","コミュニティ記録ではCore Coursesが称号昇格資格の一部で、任意進行と報酬もあります。"],["Elite Trainingは毎日更新？","1.0記録では定期Daily Activityと区別されます。現行ボードとタイマーを確認してください。"],["オンラインの試験回答は永久？","いいえ。問題、相手、条件は変更可能です。現行文言を使い、バージョンなし回答表は歴史資料として扱います。"]],
+      "changeLog": "争いのあるXP・報酬表を除外し、根拠付きPathfinder Level、称号上限、Elite Training診断手順を公開。",
+      "sources": [["9月3日公式開発者レターと育成境界","https://aniimo.com/newslist/detail/100064"],["公式Ver.1.1イベント参加条件","https://aniimo.com/newslist/detail/100145"],["コミュニティ正式版1.0レベル・称号・Elite Training記録","https://aniimo.guide/en/guides/level-titles-elite-training"],["検索需要分析に使用した第三者レベル記事","https://www.aniimoverse.com/guides/leveling"],["内容不足分析に使用した第三者Elite Training記事","https://www.aniimoverse.com/guides/elite-training"]]
+    },
     "core-gameplay": {
       "title": "Aniimo育成ガイド：レベル・Potential・Resonance・資源",
       "description": "レベル、Potential、Capability Awakening、Resonance、継承、Held Itemsを、公式変更・正式版コミュニティ検証・編集提案に分けて解説。",

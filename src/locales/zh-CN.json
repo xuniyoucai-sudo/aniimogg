@@ -369,6 +369,16 @@
       "changeLog": "新增有来源分层的 Aniilog Research 流程，覆盖 Field Notes、课题类型、家族边界、进度核验、奖励与本站收藏区别。",
       "sources": [["Aniimo 官方图鉴","https://wiki.aniimo.com/"],["官方上线公告与 Aniilog 饰品奖励","https://aniimo.com/newslist/detail/100115"],["社区正式服 1.0 Aniilog Research 记录","https://aniimo.guide/en/guides/aniilog-research-points"],["用于缺口分析的第三方 Research 专题","https://www.aniimoverse.com/guides/research"]]
     },
+    "level-titles-elite-training": {
+      "title": "Aniimo 伊莫等级、称号与 Elite Training 攻略",
+      "description": "按证据分层说明 Pathfinder Level、Safaris、称号上限、Elite Training 与晋升核对流程，不采用未经确认的经验表。",
+      "h1": "伊莫 Pathfinder 等级、称号与 Elite Training",
+      "body": [["Pathfinder Level 与伊莫等级不同","1.0 帮助记录将 Safaris 描述为 Pathfinder 经验；提高 Pathfinder Level 会解锁能力并提高可用伊莫培养上限，但每只伊莫仍需自己的 EXP 或成长道具。"],["经验条满了为什么会停止","社区正式服记录称当前 Pathfinder 称号会设置等级上限。进度停止时，继续获取 Safaris 未必有效，应先检查角色称号面板及下一次晋升要求。"],["Elite Training 是晋升流程的一部分","1.0 客户端记录将 Elite Training 与剧情成长并列；Core Courses 会影响称号晋升资格，其他可选路线则覆盖捕捉、探索、战斗和 Homeland 活动。"],["稳妥的晋升检查表","打开当前称号详情，确认要求等级；进入 Elite Training，完成并领取所需 Core Course 目标；再参加已开放的晋升考核。不要在未核对正式服文字时照搬旧答案或敌人列表。"],["官方资料确认的范围","Pawprint Studio 正式服活动公告使用 Student I、Student II、Trailblazer I 等称号作为参与条件；上线开发者信也说明培养上限会逐步开放。这确认称号型成长边界，但不是永久完整等级表。"],["Safaris 来源——1.0 记录","社区帮助记录列出剧情／Log、Elite Training Core Courses、Daily Activity、新捕捉、研究上报和地区进度等 Safari 来源。实际奖励以当前预览为准，固定总量可能调整。"],["功能解锁必须现场核对","社区记录把 Homeland、Resonance、Held Items、Capability Awakening 与多人活动等功能关联到不同称号；官方活动公告确认其中部分门槛，但官网没有完整解锁矩阵。"],["区分一次性和循环任务","Elite Training 课程被描述为成长目标，Institute Guide Daily Activity 才是循环内容。应查看客户端的计时和领取状态，不能假定所有面板每天重置。"],["证据边界","精确上限数字、课程总数、考核答案、奖励合计和最速路线若无 Pawprint Studio 确认，都属于带版本第三方观察。本页提供诊断流程，不提供永久刷级表。"]],
+      "matrix": {"title":"进度停止诊断表","headers":["现象","下一步检查","稳妥操作"],"rows":[["Pathfinder 经验条不前进","当前称号上限与晋升面板","满足等级并完成必要 Core Courses"],["伊莫无法继续升级","Pathfinder Level 与培养上限","先解除控制上限，再投入伊莫 EXP"],["晋升考核仍锁定","Elite Training 必要目标及领取状态","完成并领取画面要求"],["功能仍未解锁","正式服功能提示与剧情条件","跟随当前称号或剧情要求"],["Safaris 获取很慢","未领取的剧情、课程、研究与日常奖励","重复刷取前先领取重叠目标"]],"note":"版本更新后，当前客户端文字始终高于任何攻略。"},
+      "faq": [["《伊莫》的 Safaris 是什么？","1.0 帮助记录称它是 Pathfinder Level 经验，不会直接填充某只伊莫的 EXP。"],["Pathfinder Level 为什么停止？","可能达到当前称号上限。检查角色称号面板和 Elite Training 晋升要求。"],["伊莫为什么不能继续升级？","可用培养上限可能受 Pathfinder 进度影响，同时个体仍需自己的 EXP；应核对两个限制。"],["Elite Training 有什么用？","社区客户端记录称 Core Courses 是称号晋升资格的一部分，同时还提供可选成长路线和奖励。"],["Elite Training 每天重置吗？","1.0 记录将其与循环 Daily Activity 区分；是否重置应查看当前面板与计时。"],["网上的晋升答案会永久有效吗？","不会。题目、敌人和要求都可能变化，应使用正式服当前文字，无版本答案表只能作为历史线索。"]],
+      "changeLog": "新增按来源标注的 Pathfinder Level、称号上限与 Elite Training 诊断流程，并排除争议经验及奖励表。",
+      "sources": [["9 月 3 日官方开发者信与培养边界","https://aniimo.com/newslist/detail/100064"],["官方 1.1 活动参与条件","https://aniimo.com/newslist/detail/100145"],["社区正式服 1.0 等级、称号与 Elite Training 记录","https://aniimo.guide/en/guides/level-titles-elite-training"],["用于搜索需求分析的第三方升级专题","https://www.aniimoverse.com/guides/leveling"],["用于内容缺口分析的第三方 Elite Training 专题","https://www.aniimoverse.com/guides/elite-training"]]
+    },
     "core-gameplay": {
       "title": "Aniimo 伊莫培养攻略：等级、潜能、共鸣与资源",
       "description": "分层整理伊莫等级、潜能、能力觉醒、共鸣、继承和 Held Items，并明确区分官方调整、正式服社区实测与本站建议。",
