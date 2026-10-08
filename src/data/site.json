@@ -25,7 +25,7 @@
     "system-requirements":{"published":"2026-08-27","updated":"2026-09-19","version":"Official Steam launch store requirements","status":"official","related":["release-date-platforms","steam-deck","download-preload"]},
     "free-to-play":{"published":"2026-08-27","updated":"2026-10-02","version":"Official launch economy changes / live-client monetization review","status":"verified","related":["pre-registration","getting-started","confirmed-aniimo"]},
     "confirmed-aniimo":{"published":"2026-08-27","updated":"2026-09-23","version":"Official Wiki index / expanded filterable compendium","status":"official","related":["elements-roles","evolution-forms","catching-twine"]},
-    "catching-twine":{"published":"2026-08-27","updated":"2026-10-04","version":"Official launch catching changes / version-labelled Beta mechanics","status":"official","related":["confirmed-aniimo","prismana-rare-forms","evolution-forms"]},
+    "catching-twine":{"published":"2026-08-27","updated":"2026-10-09","version":"Official launch catching changes / community public-build 1.0 weather and distribution workflow","status":"verified","related":["prismana-rare-forms","regions-world","confirmed-aniimo"]},
     "prismana-rare-forms":{"published":"2026-10-03","updated":"2026-10-03","version":"Official launch rare-form changes / versioned public-client terminology","status":"verified","related":["catching-twine","confirmed-aniimo","regions-world"]},
     "multiplayer":{"published":"2026-08-27","updated":"2026-10-01","version":"Official version 1.1 Holo-Battle / Egg Heist / same-server progress","status":"verified","related":["egg-heist","crossplay-cross-save","team-setup"]},
     "regions-world":{"published":"2026-08-27","updated":"2026-10-02","version":"Official Home expansion / community public-build Homeland workflow","status":"verified","related":["core-gameplay","getting-started","confirmed-aniimo"]},
@@ -42,7 +42,7 @@
     "egg-heist":[["Community-reported launch guide — web article, 2026-09-17","https://www.destructoid.com/aniimo-operation-egg-heist-guide/"]],
     "elements-roles":[["Community-reported element-chart reference — web guide, accessed 2026-09-18","https://aniimo.wiki/tier-list/type-chart/"]],
     "evolution-forms":[["Community-reported evolution-menu reference — web guide, updated 2026-09-16","https://aniimo.guide/en/guides/how-to-evolve-aniimo"]],
-    "catching-twine":[["Community-reported catching reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/how-to-catch-an-aniimo"],["Community-reported Twine reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/twine-explained"]]
+    "catching-twine":[["Community-reported catching reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/how-to-catch-an-aniimo"],["Community-reported Twine reference — web guide, updated 2026-09-15","https://aniimo.guide/en/guides/twine-explained"],["Community public-build 1.0 distribution workflow — web guide, updated 2026-09-30","https://aniimo.guide/en/guides/find-any-aniimo"],["Third-party weather overview — used for comparison only, updated 2026-09-19","https://aniimoverse.com/guides/weather"]]
   },
   "regions":["falling-stars","mistwoods","echoback","flowers","blitzwood","nimbus"],
   "platforms":["PlayStation 5","Xbox","Steam","Epic Games","iOS","Android"],
