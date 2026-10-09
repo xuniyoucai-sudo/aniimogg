@@ -379,6 +379,17 @@
       "changeLog": "新增按来源标注的 Pathfinder Level、称号上限与 Elite Training 诊断流程，并排除争议经验及奖励表。",
       "sources": [["9 月 3 日官方开发者信与培养边界","https://aniimo.com/newslist/detail/100064"],["官方 1.1 活动参与条件","https://aniimo.com/newslist/detail/100145"],["社区正式服 1.0 等级、称号与 Elite Training 记录","https://aniimo.guide/en/guides/level-titles-elite-training"],["用于搜索需求分析的第三方升级专题","https://www.aniimoverse.com/guides/leveling"],["用于内容缺口分析的第三方 Elite Training 专题","https://www.aniimoverse.com/guides/elite-training"]]
     },
+    "inherit-training": {
+      "title": "Aniimo 伊莫 Inherit 继承培养指南",
+      "description": "带来源标识的 Aniimo Inherit 继承指南，说明转移方向、同家族资格、培养进度、Capafruit、确认前检查与证据边界。",
+      "h1": "Inherit 继承培养转移指南",
+      "evidence": ["Capafruit 转移已获官方确认","9 月开发者信说明，Capafruit 效果现在会在继承时自动转移，更换培养对象无需重复相同投入。","9 月 3 日开发者信","https://www.aniimo.com/de/newslist/detail/100064"],
+      "body": [["Inherit 适合解决什么问题","Inherit 是培养管理工具，用于把已经投入的培养档案转移给更合适的伊莫，避免完全从零开始。官方已确认 Capafruit 自动转移；下方更完整的操作流程来自带版本标识的公开版本 1.0 界面记录，更新后仍需复核。"],["个体身份与培养档案要分开理解","社区公开版本记录显示，两只伊莫都会留在图鉴中，系统改变的是培养档案，并不会消耗来源个体。种类、形态、性格等身份特征仍属于各自个体；等级和具名培养进度则按预览结果转移。"],["确认前先读清转移方向","现有界面记录把已培养的来源个体放在左侧，目标接收者放在右侧。不要只凭记忆或攻略截图操作；确认前应在当前客户端逐项核对双方名称、等级、Resonance 和 Potential 面板。"],["计划转移前先检查资格","1.0 版本记录通常要求双方属于同一进化家族，处于战斗或探索编队中的伊莫也可能无法选择。基础形态 Irisalis 被记录为来源侧的跨家族例外。这些属于社区观察到的客户端规则，不是永久不变的官方承诺。"],["带版本记录中包含哪些转移内容","公开版本帮助记录把 EXP 与等级、Resonance 阶段与星级、Capability Awakening、Capafruit 效果及其他培养进度列为一个整体，并说明多余培养材料会返还。实际字段、返还方式和资格应以当前预览为准。"],["安全的六步操作流程","先比较准确形态、Innate Potential、性格和技能适配；必要时把双方移出活动编队；把已培养档案放到来源侧；选择预定接收者；逐项阅读前后数值；最后核对界面显示的费用，方向正确后再确认。"],["什么时候值得使用 Inherit","当同家族的新个体明显更适合目标定位，而旧个体已有值得保留的培养投入时再使用。它是升级阵容时的安全网，不代表每得到一个新个体都应立刻继承。"],["本站不会固定成永久结论的内容","当前费用、所有选择限制和 Irisalis 例外都属于客户端版本细节。本站不会把第三方截图、单一账号结果或旧版数值成本写成永久官方规则；当前确认界面优先级最高。"]],
+      "matrix": {"title":"确认前检查表","headers":["检查项","作用","证据边界"],"rows":[["来源与接收者","防止把转移方向弄反","公开版本 1.0 界面记录"],["家族资格","避免规划无效组合","社区观察；Irisalis 例外需实时核对"],["个体身份特征","形态、性格与 Innate Potential 属于个体","以当前对比预览为准"],["培养预览","确认等级、Resonance 与 Capability 变化","带版本客户端帮助"],["Capafruit","效果会自动转移","官方开发者信"],["显示费用与返还","数值可能随版本变化","以实时确认界面为准"]],"note":"官方明确确认的是 Capafruit 改进；其余操作细节均清楚标记为公开版本 1.0 观察。"},
+      "faq": [["Inherit 会删除来源伊莫吗？","带版本公开记录显示，双方都会保留在图鉴中并交换培养档案；确认前仍应检查当前预览。"],["Inherit 会转移哪些内容？","社区客户端记录列出等级与 EXP、Resonance、Capability Awakening、Capafruit 和其他培养进度；官方开发者信明确确认了 Capafruit 自动转移。"],["任意两只伊莫都能继承吗？","公开版本 1.0 记录通常要求同家族，并记录了基础 Irisalis 作为来源侧的例外。应以当前选择器为准。"],["性格或形态会转移吗？","它们属于个体身份，不属于培养档案。请检查准确的前后预览，避免把接收者身份与转入培养混淆。"],["可以相信攻略中的固定继承费用吗？","不建议。费用和限制会随版本变化，应使用实时确认界面显示的金额。"]],
+      "changeLog": "新增带来源标识的 Inherit 流程，区分官方确认的 Capafruit 转移、带版本客户端观察和易变费用。",
+      "sources": [["9 月 3 日官方开发者信","https://www.aniimo.com/de/newslist/detail/100064"],["社区公开版本 1.0 培养记录","https://aniimo.guide/en/guides/aniimo-training-guide"],["第三方图解 Inherit 流程","https://aniimoverse.com/guides/inherit"]]
+    },
     "core-gameplay": {
       "title": "Aniimo 伊莫培养攻略：等级、潜能、共鸣与资源",
       "description": "分层整理伊莫等级、潜能、能力觉醒、共鸣、继承和 Held Items，并明确区分官方调整、正式服社区实测与本站建议。",
