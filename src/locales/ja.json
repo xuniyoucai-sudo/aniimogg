@@ -330,6 +330,8 @@
   },
   "guides": {
     "getting-started": {
+      "extraBody": [["長距離探索の前にPathfindingを設定","コミュニティ公開版1.0ヘルプはAniimo ManagementのPathfindingタブを記録しています。登る・泳ぐ・飛ぶに対応Aniimoを割り当て、表示された能力レベルを確認します。戦闘枠や固有Mobilityスキルとは別に確認し、現在のクライアント表記を優先してください。"],["速さだけでなく次の障害に備える","Aniimo.GGは地上経路、水の横断、高さの変化に分けて計画することを勧めます。長い横断前に安全に戻れる場所で必要動作を試し、現在のスタミナと着地点を確認します。戦闘ロールや翼の見た目だけでは必要な移動能力は分かりません。"],["移動できないときは現在のフォームを確認","引用したヘルプでは地形動作に現在Twine中のAniimo、対応Pathfinding設定、Pathfinderが使われます。現在フォーム、割当、残りスタミナ、地形表示、局所制限を確認してください。属性操作が必要な障害もあります。ゲーム内Courseで練習し、安定した地面から再試行します。"],["再現できる経路記録を残す","クライアント版、正確なフォーム、Pathfinding割当、地形、結果を記録します。Steam公式はTwineの謎解きと環境チャレンジを確認していますが、全移動段階や距離表は示していません。第三者一覧から候補を探し、育成前に現在の能力説明を確認してください。"]],
+      "extraFaq": [["登る・泳ぐ・飛ぶAniimoはどこで設定しますか？","公開版1.0コミュニティヘルプではAniimo ManagementのPathfindingタブです。現在の画面で対象を確認してください。"],["戦闘ロールだけで探索Aniimoを選べますか？","いいえ。現在のPathfinding・Mobility説明を読み、経路に必要な動作を試してください。"],["移動動作が失敗したら何を確認しますか？","現在フォーム、探索割当、スタミナ、地形表示、局所制限を確認します。属性障害には別の操作が必要な場合があります。"]],
       "title": "Aniimo初心者攻略：初日・デイリー・ウィークリー・無料報酬",
       "description": "公式ダウンロード、同一サーバー進行、メール、イベント条件、無料報酬と、出典を分けたデイリー・ウィークリー手順を整理。",
       "h1": "Aniimo 初心者攻略",
@@ -337,7 +339,7 @@
       "matrix": {"title":"初日と定期チェックリスト","headers":["時期","優先事項","根拠の範囲"],"rows":[["初回ログイン","公式クライアント、サーバー選択、導入完了","公式アカウント案内"],["Chasing the Clouds後","メール解放、対象報酬、コード確認","コミュニティ正式版メニュー検証"],["毎日","Daily Activityを確認し、長時間離れる前にPrimegy上限を避ける","1.0ヘルプ記録。数値は変更可能"],["育成素材が必要な時","Challenge分類から進化・Resonance・Held Item・Capability素材を探す","コミュニティ正式版記録"],["木曜〜月曜","Holo-Battle Interlinkの開催と週間目標を確認","公式Ver.1.1日程"],["週間リセット前","Stamp、イベント、報酬上限をゲーム内で再確認","バージョンなし固定表を使わない"]],"note":"04:00サーバー時刻のデイリー更新とPrimegy回復詳細は、公式Webではなくバージョン付き正式版ヘルプ記録に基づきます。ゲーム内で現行値を確認してください。"},
       "faq": [["Aniimoは現在プレイできますか？","はい。PC・コンソール版は2026年9月16日、iOS・Android版は9月23日に配信されました。"],["機種間で進行を共有できますか？","公式案内では同一サーバー内の進行を機種間で共有できます。異なるサーバーのデータは別管理です。"],["ギフトコード報酬を受け取るには？","Chasing the Cloudsを進めてゲーム内メールを解放し、Settings → Account → Gift Code Redemptionで入力後、メールから受け取ります。"],["現在のイベント解放ランクは？","公式1.1告知ではWindchaser’s DepartureがStudent I、Glamour StarとAniimo DiscoveryがStudent II、Holo-Battle InterlinkがTrailblazer I、Chaos ModeがTier IV Elite Egg Seekerです。"],["公式の無料報酬は？","レアPrismana選択、Aniilogアクセサリー、捕獲アイテム、累積ログインのタマゴ、衣装4着、事前登録報酬、機種横断ログイン報酬が告知されています。"]],
       "sources": [["公式リリース告知・無料報酬","https://steamcommunity.com/app/4126040/announcements/"],["PC・コンソール公式アカウントFAQ","https://aniimo.com/newslist/detail/100089"],["バージョン1.1公式更新告知","https://aniimo.com/newslist/detail/100145"],["コミュニティ正式版Institute Guide・日課記録","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["Steam版Aniimo","https://store.steampowered.com/app/4126040/Aniimo/"],["PlayStation 5版Aniimo","https://www.playstation.com/en-us/games/aniimo/"]],
-      "changeLog": "Daily Activity、Primegy、素材別Challenge、公式Holo-Battle日程を含む出典別デイリー・ウィークリー表を追加。"
+      "changeLog": "バージョン付きPathfinding設定、移動確認、経路準備、探索関連リンクを追加。"
     },
     "potential-personality": {
       "title": "Aniimo Potential・Personality攻略：鑑定と安全な育成",

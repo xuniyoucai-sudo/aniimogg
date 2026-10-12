@@ -330,6 +330,8 @@
   },
   "guides": {
     "getting-started": {
+      "extraBody": [["长途探索前先配置 Pathfinding","社区公开版本 1.0 帮助记录了 Aniimo Management 中的 Pathfinding 页签，可分别为攀爬、游泳和飞行指定符合条件的伊莫，并查看显示的能力等级。这些配置应与战斗槽位和个体具名 Mobility 技能分别核对，界面名称以当前客户端为准。"],["按前方障碍准备，而不只看速度","本站建议把路线分为地面通行、水域跨越和高度变化三部分。在可安全返回的位置先测试所需动作，再进入长距离跨越。查看当前体力和落脚点；战斗定位或翅膀外观本身不能证明具备所需移动能力。"],["无法移动时检查当前形态","引用的社区帮助说明，地形动作可能使用当前 Twine 伊莫、符合条件的 Pathfinding 配置或 Pathfinder。请核对当前形态与配置、剩余体力、地形提示和局部限制。有些障碍需要属性互动，而不是反复尝试移动。可先在游戏内对应 Course 练习，再从稳定地面重试。"],["让路线建议可以复现","记录客户端版本、准确伊莫形态、配置的 Pathfinding 能力、地形和实际结果。Steam 官方说明确认 Twine 可用于解谜与环境挑战，但未给出完整移动等级或距离表。第三方能力清单可用于寻找候选，投入资源前应核对当前能力文字。"]],
+      "extraFaq": [["在哪里配置攀爬、游泳和飞行伊莫？","公开版本 1.0 社区帮助记录为 Aniimo Management 的 Pathfinding 页签，请在当前界面核对可选对象。"],["只看战斗定位就能选探索伊莫吗？","不能。应查看当前 Pathfinding 与 Mobility 说明，并测试路线需要的动作。"],["探索动作失败时应检查什么？","检查当前形态、探索配置、体力、地形提示与局部限制；属性障碍可能需要另一种互动。"]],
       "title": "Aniimo 伊莫新手攻略：首日路线、日常周常与免费奖励",
       "description": "正式服伊莫新手路线：官方下载、同服进度、邮箱、活动门槛、免费奖励，以及按来源标注的日常与周常清单。",
       "h1": "Aniimo 伊莫新手攻略",
@@ -337,7 +339,7 @@
       "matrix": {"title":"首日与周期任务清单","headers":["时间","优先事项","证据边界"],"rows":[["首次登录","使用官方客户端、选择服务器并完成教学","官方账号说明"],["完成 Chasing the Clouds 后","解锁邮箱、领取合资格奖励并核对兑换码","社区正式服菜单实测"],["每天","检查 Daily Activity；长时间离线前避免 Primegy 达到上限","1.0 客户端帮助记录；数值可能变化"],["需要培养材料时","按 Challenge 分类寻找进化、Resonance、Held Item 或 Capability 材料","社区正式服记录"],["周四至周一","查看 Holo-Battle Interlink 开放情况和本周目标","1.1 官方日程"],["每周重置前","在客户端核对 Stamp、活动和奖励上限","不使用无版本的固定清单"]],"note":"04:00 服务器时间的日常刷新及 Primegy 恢复细节来自带版本的正式服帮助记录，并非官网公告；请在游戏中复核当前数值。"},
       "faq": [["《伊莫》现在可以玩吗？","可以。PC 与主机版已于 2026 年 9 月 16 日上线，iOS 与 Android 于 9 月 23 日上线。"],["不同平台可以共享进度吗？","官方说明确认同一服务器内跨平台共享进度；不同服务器的数据相互独立。"],["怎样解锁兑换码奖励？","推进 Chasing the Clouds 主线解锁游戏内邮箱，然后在“设置 → 账号 → 礼包码兑换”输入代码，并从邮箱领取成功兑换的奖励。"],["当前活动需要什么等级？","1.1 官方公告列出：追风启程为 Student I，Glamour Star 与 Aniimo Discovery 为 Student II，Holo-Battle Interlink 为 Trailblazer I，混沌模式为 Tier IV Elite Egg Seeker。"],["官方上线免费奖励有哪些？","公告列出稀有 Prismana 自选、Aniilog 饰品、捕捉道具、累计登录蛋、4 套服装、预约奖励与跨平台登录奖励，具体以实时资格规则为准。"]],
       "sources": [["官方上线公告与免费奖励","https://steamcommunity.com/app/4126040/announcements/"],["PC／主机官方账号 FAQ","https://aniimo.com/newslist/detail/100089"],["1.1 版本官方更新公告","https://aniimo.com/newslist/detail/100145"],["社区正式服 Institute Guide 与日常记录","https://aniimo.guide/en/guides/institute-guide-stamp-rush"],["Aniimo Steam 商店","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo PlayStation 5 页面","https://www.playstation.com/en-us/games/aniimo/"]],
-      "changeLog": "新增按来源标注的日常与周常清单，覆盖 Daily Activity、Primegy、定向材料挑战与官方 Holo-Battle 日程。"
+      "changeLog": "补充带版本标识的 Pathfinding 配置、移动排查、路线准备和探索相关内链。"
     },
     "potential-personality": {
       "title": "Aniimo 伊莫潜能与性格攻略：鉴定、能力觉醒和稳妥培养",
