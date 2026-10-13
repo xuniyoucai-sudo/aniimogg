@@ -31,7 +31,7 @@
     "regions-world":{"published":"2026-08-27","updated":"2026-10-11","version":"Official RV egg source / community public-build 1.0 Hatchinator workflow","status":"verified","related":["egg-heist","prismana-rare-forms","getting-started"]},
     "getting-started":{"published":"2026-08-27","updated":"2026-10-13","version":"Official exploration scope / community public-build 1.0 Pathfinding and daily routine","status":"verified","related":["codes","core-gameplay","patch-notes","catching-twine","confirmed-aniimo","level-titles-elite-training"]},
     "level-titles-elite-training":{"published":"2026-10-08","updated":"2026-10-08","version":"Official progression boundaries / community public-build 1.0 title and Elite Training workflow","status":"verified","related":["getting-started","research-aniilog","core-gameplay"]},
-    "beginner-mistakes":{"published":"2026-09-11","updated":"2026-10-04","version":"Official live-service account rules / community public-build beginner workflow","status":"verified","related":["getting-started","catching-twine","regions-world"]},
+    "beginner-mistakes":{"published":"2026-09-11","updated":"2026-10-14","version":"Official account rules / community public-build 1.0 elemental puzzle workflow","status":"verified","related":["getting-started","catching-twine","regions-world"]},
     "team-setup":{"published":"2026-09-10","updated":"2026-09-28","version":"Official Compendium role and element framework","status":"official","related":["elements-roles","confirmed-aniimo","getting-started"]},
     "potential-personality":{"published":"2026-10-06","updated":"2026-10-06","version":"Official launch Potential changes / community public-build 1.0 appraisal and personality workflow","status":"verified","related":["core-gameplay","team-setup","evolution-forms"]},
     "resonance-ascension":{"published":"2026-10-06","updated":"2026-10-06","version":"Official launch training boundaries / community public-build 1.0 Resonance workflow","status":"verified","related":["core-gameplay","potential-personality","inherit-training"]},
@@ -40,6 +40,7 @@
     "editorial-policy":{"published":"2026-08-27","updated":"2026-10-04","version":"Editorial, evidence, versioning and corrections policy","status":"official","related":["authors","contact","privacy"]}
   },
   "communityEvidence":{
+    "beginner-mistakes":[["Community public-build 1.0 exploration and elemental help — updated 2026-09-19","https://aniimo.guide/en/guides/explore-idyll-elemancy-sanctums"],["Third-party mechanism troubleshooting comparison","https://www.aniimoverse.com/guides/puzzles"]],
     "getting-started":[["Community public-build 1.0 Pathfinding help — updated 2026-09-19","https://aniimo.guide/en/guides/explore-idyll-elemancy-sanctums"],["Third-party traversal comparison — updated 2026-09-08","https://aniimoverse.com/guides/traversal"]],
     "regions-world":[["Community public-build 1.0 hatching help — updated 2026-09-29","https://aniimo.guide/en/guides/aniimo-training-guide"],["Third-party illustrated Hatchinator workflow — updated 2026-09-23","https://aniimoverse.com/guides/eggs"]],
     "egg-heist":[["Community-reported launch guide — web article, 2026-09-17","https://www.destructoid.com/aniimo-operation-egg-heist-guide/"]],
