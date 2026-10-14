@@ -6,6 +6,11 @@ document.querySelectorAll('.menu-btn').forEach(button=>button.addEventListener('
 document.addEventListener('click',event=>{
   if(!event.target.closest('.language-switcher')) document.querySelectorAll('.language-switcher[open]').forEach(menu=>menu.removeAttribute('open'));
 });
+document.querySelectorAll('[data-calendar-end]').forEach(label=>{
+  if(Date.now()<Date.parse(label.dataset.calendarEnd)) return;
+  label.textContent=label.dataset.calendarEnded;
+  label.closest('tr')?.classList.add('announced-round-ended');
+});
 document.querySelectorAll('[data-event-end]').forEach(alert=>{
   if(Date.now()<Date.parse(alert.dataset.eventEnd)) return;
   const label=alert.querySelector('span');
