@@ -69,4 +69,11 @@ for(const [prefix,light,lightning,rock] of [['','Light','Lightning','Rock'],['zh
   const guide=fs.readFileSync(path.join(root,prefix,'guides/elements-roles/index.html'),'utf8');
   for(const token of ['2026-10-27','https://wiki.aniimo.com/ja/','<td>holy</td><td>Light</td>','<td>electric</td><td>Lightning</td>','<td>rock</td><td>Rock</td>'])if(!guide.includes(token))errors.push(`${prefix}elements-roles: missing terminology evidence ${token}`);
 }
+for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
+  const guide=fs.readFileSync(path.join(root,prefix,'guides/multiplayer/index.html'),'utf8');
+  for(const token of ['"dateModified":"2026-10-28"','Sound Settings &gt; Voice Settings','2026-09-30','2026-10-10','2026-10-14','newslist/detail/100208','"@type":"FAQPage"',`/${prefix}guides/launch-troubleshooting/`,`/${prefix}guides/research-aniilog/`])if(!guide.includes(token))errors.push(`${prefix}multiplayer: missing scoped session check ${token}`);
+  if((guide.match(/class="support-matrix"/g)||[]).length!==2)errors.push(`${prefix}multiplayer: expected separate session-check and mode tables`);
+  const directory=fs.readFileSync(path.join(root,prefix,'guides/index.html'),'utf8');
+  if(!directory.includes(`/${prefix}guides/multiplayer/`)||!directory.includes('Companion Mode'))errors.push(`${prefix}guides: missing updated multiplayer entry`);
+}
 console.log(`Checked ${html.length} HTML files.`);if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log('All multilingual checks passed.');
