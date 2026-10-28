@@ -8,6 +8,15 @@ const payload=await response.json();
 if(payload.code!==200||!Array.isArray(payload.data)) throw new Error(`Official Wiki returned code ${payload.code}: ${payload.message||'unknown error'}`);
 const normalize=item=>[item.searchKey.entryId,item.id,item.searchKey.name,Number(item.searchKey.currentStage),item.searchKey.position.map(v=>v.replace('position-','')).sort(),item.searchKey.attributes.map(v=>v.replace('attributes-','')).sort()];
 const official=payload.data.filter(item=>item.visible).map(normalize).sort((a,b)=>a[0].localeCompare(b[0]));
+// Backend IDs are not public URL slugs. Recheck the routes actually linked
+// by the official index before a future snapshot refresh can be published.
+const publicResponse=await fetch('https://wiki.aniimo.com/');
+if(!publicResponse.ok)throw new Error(`Official public index failed: HTTP ${publicResponse.status}`);
+const publicHtml=await publicResponse.text();
+const publicNumbers=new Set([...publicHtml.matchAll(/href="\/item\/(\d+)\/basic-form"/g)].map(match=>match[1]));
+const missingPublicRoutes=official.filter(item=>!publicNumbers.has(item[0]));
+if(missingPublicRoutes.length)throw new Error(`Official public routes need review: ${missingPublicRoutes.map(item=>item[0]).join(', ')}`);
+console.log(`Official public number/form routes verified: ${official.length}`);
 const snapshotPath=path.join(process.cwd(),'src/data/aniimo-index.json');
 const local=JSON.parse(fs.readFileSync(snapshotPath,'utf8')).map(item=>[...item.slice(0,4),[...item[4]].sort(),[...item[5]].sort()]).sort((a,b)=>a[0].localeCompare(b[0]));
 const officialMap=new Map(official.map(item=>[item[0],item]));
