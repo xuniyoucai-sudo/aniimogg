@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+// Execute the real gallery handlers against an isolated DOM/storage fixture.
+const element=(value='')=>({value,textContent:'',hidden:false,dataset:{},events:{},classList:{toggle(){}},addEventListener(e,fn){this.events[e]=fn},setAttribute(k,v){this[k]=v},focus(){}});
+const selectors=Object.fromEntries(['.index-search','.index-region','.index-element','.index-role','.index-stage','.index-collection','.index-count','.index-empty','.index-empty-saved','.index-collection-count','.index-clear'].map(k=>[k,element()]));
+selectors['.index-collection'].value='all';selectors['.index-collection-count'].textContent='{count} saved';
+const cards=[{aniimoEntry:'001',region:'300001',search:'001 emberpup breezy plains',elements:'fire',roles:'dps',stage:'1'},{aniimoEntry:'300301:001',region:'300301',search:'001 reefish whisperwake isles',elements:'rock water',roles:'energy',stage:'1'}].map(dataset=>({...element(),dataset}));
+const rows=cards.map(c=>({...element(),dataset:{...c.dataset}}));
+const buttons=cards.map(c=>{const b=element();b.dataset={aniimoSave:c.dataset.aniimoEntry,saveText:'Save',removeText:'Remove'};const children={'.aniimo-save-label':element(),'[aria-hidden="true"]':element()};b.querySelector=s=>children[s];return b;});
+const index={dataset:{showing:'{count} records'},classList:{toggle(){}},querySelector:s=>selectors[s],querySelectorAll:s=>s==='tbody tr'?rows:s==='.aniimo-card'?cards:s==='[data-aniimo-save]'?buttons:[]};
+let saved='["001"]';const storage={getItem:()=>saved,setItem:(key,value)=>{assert.equal(key,'aniimo-guide-collection-v1');saved=value}};
+const app=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8'),start=app.indexOf("document.querySelectorAll('.aniimo-index').forEach"),end=app.indexOf("document.querySelectorAll('.launch-countdown')",start);
+assert.ok(start>=0&&end>start);vm.runInNewContext(app.slice(start,end),{document:{querySelectorAll:()=>[index]},localStorage:storage,Set,JSON,String});
+assert.equal(buttons[0]['aria-pressed'],'true');assert.equal(buttons[1]['aria-pressed'],'false');
+selectors['.index-region'].value='300301';selectors['.index-region'].events.change();assert.equal(cards[0].hidden,true);assert.equal(cards[1].hidden,false);assert.equal(rows[0].hidden,true);
+buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001','300301:001']);
+selectors['.index-clear'].events.click();assert.equal(selectors['.index-region'].value,'');assert.equal(cards[0].hidden,false);
+buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001']);selectors['.index-collection'].value='saved';selectors['.index-collection'].events.change();assert.equal(cards[0].hidden,false);assert.equal(cards[1].hidden,true);
+console.log('PASS regional gallery: legacy bookmarks, independent new bookmarks, region filtering, table parity, clear and saved-only filtering.');

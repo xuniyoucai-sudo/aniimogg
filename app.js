@@ -56,6 +56,7 @@ if(/\/guides\/$/.test(location.pathname)){
 }
 document.querySelectorAll('.aniimo-index').forEach(index=>{
   const search=index.querySelector('.index-search');
+  const region=index.querySelector('.index-region');
   const element=index.querySelector('.index-element');
   const role=index.querySelector('.index-role');
   const stage=index.querySelector('.index-stage');
@@ -84,7 +85,7 @@ document.querySelectorAll('.aniimo-index').forEach(index=>{
   const apply=()=>{
     const query=search.value.trim().toLowerCase();
     let visible=0;
-    const matches=item=>(!query||item.dataset.search.includes(query))&&(!element.value||item.dataset.elements.split(' ').includes(element.value))&&(!role.value||item.dataset.roles.split(' ').includes(role.value))&&(!stage.value||item.dataset.stage===stage.value)&&(!collection.value||collection.value==='all'||saved.has(item.dataset.aniimoEntry));
+    const matches=item=>(!query||item.dataset.search.includes(query))&&(!region.value||item.dataset.region===region.value)&&(!element.value||item.dataset.elements.split(' ').includes(element.value))&&(!role.value||item.dataset.roles.split(' ').includes(role.value))&&(!stage.value||item.dataset.stage===stage.value)&&(!collection.value||collection.value==='all'||saved.has(item.dataset.aniimoEntry));
     cards.forEach(card=>{
       const show=matches(card);
       card.hidden=!show;
@@ -110,8 +111,8 @@ document.querySelectorAll('.aniimo-index').forEach(index=>{
     index.classList.toggle('is-table',view==='table');
     index.querySelectorAll('[data-index-view]').forEach(control=>{const active=control===button;control.classList.toggle('is-active',active);control.setAttribute('aria-pressed',String(active))});
   }));
-  [search,element,role,stage,collection].forEach(control=>control.addEventListener(control===search?'input':'change',apply));
-  index.querySelector('.index-clear').addEventListener('click',()=>{search.value='';element.value='';role.value='';stage.value='';collection.value='all';apply();search.focus()});
+  [search,region,element,role,stage,collection].forEach(control=>control.addEventListener(control===search?'input':'change',apply));
+  index.querySelector('.index-clear').addEventListener('click',()=>{search.value='';region.value='';element.value='';role.value='';stage.value='';collection.value='all';apply();search.focus()});
   setSavedCopy();apply();
 });
 document.querySelectorAll('.launch-countdown').forEach(box=>{

@@ -1,29 +1,23 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {entryKey,normalizeOfficial,sortEntries} from './aniimo-records.mjs';
 
 const endpoint='https://wiki-backend.aniimo.com/entries/getBaseAll';
 const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json','X-Lang':'en-US'},body:'{}'});
 if(!response.ok) throw new Error(`Official Wiki request failed: HTTP ${response.status}`);
 const payload=await response.json();
 if(payload.code!==200||!Array.isArray(payload.data)) throw new Error(`Official Wiki returned code ${payload.code}: ${payload.message||'unknown error'}`);
-const normalize=item=>[item.searchKey.entryId,item.id,item.searchKey.name,Number(item.searchKey.currentStage),item.searchKey.position.map(v=>v.replace('position-','')).sort(),item.searchKey.attributes.map(v=>v.replace('attributes-','')).sort()];
-const official=payload.data.filter(item=>item.visible).map(normalize).sort((a,b)=>a[0].localeCompare(b[0]));
-// Backend IDs are not public URL slugs. Recheck the routes actually linked
-// by the official index before a future snapshot refresh can be published.
 const publicResponse=await fetch('https://wiki.aniimo.com/');
 if(!publicResponse.ok)throw new Error(`Official public index failed: HTTP ${publicResponse.status}`);
-const publicHtml=await publicResponse.text();
-const publicNumbers=new Set([...publicHtml.matchAll(/href="\/item\/(\d+)\/basic-form"/g)].map(match=>match[1]));
-const missingPublicRoutes=official.filter(item=>!publicNumbers.has(item[0]));
-if(missingPublicRoutes.length)throw new Error(`Official public routes need review: ${missingPublicRoutes.map(item=>item[0]).join(', ')}`);
-console.log(`Official public number/form routes verified: ${official.length}`);
+const official=normalizeOfficial(payload.data,await publicResponse.text());
+console.log(`Official region-aware public routes verified: ${official.length}`);
 const snapshotPath=path.join(process.cwd(),'src/data/aniimo-index.json');
-const local=JSON.parse(fs.readFileSync(snapshotPath,'utf8')).map(item=>[...item.slice(0,4),[...item[4]].sort(),[...item[5]].sort()]).sort((a,b)=>a[0].localeCompare(b[0]));
-const officialMap=new Map(official.map(item=>[item[0],item]));
-const localMap=new Map(local.map(item=>[item[0],item]));
-const added=official.filter(item=>!localMap.has(item[0]));
-const removed=local.filter(item=>!officialMap.has(item[0]));
-const changed=official.filter(item=>localMap.has(item[0])&&JSON.stringify(item)!==JSON.stringify(localMap.get(item[0]))).map(item=>({number:item[0],local:localMap.get(item[0]),official:item}));
+const local=sortEntries(JSON.parse(fs.readFileSync(snapshotPath,'utf8')));
+const officialMap=new Map(official.map(item=>[entryKey(item),item]));
+const localMap=new Map(local.map(item=>[entryKey(item),item]));
+const added=official.filter(item=>!localMap.has(entryKey(item)));
+const removed=local.filter(item=>!officialMap.has(entryKey(item)));
+const changed=official.filter(item=>localMap.has(entryKey(item))&&JSON.stringify(item)!==JSON.stringify(localMap.get(entryKey(item)))).map(item=>({number:item[0],local:localMap.get(entryKey(item)),official:item}));
 console.log(`Official visible entries: ${official.length}`);
 console.log(`Local snapshot entries: ${local.length}`);
 if(added.length) console.log('Added:',JSON.stringify(added));
