@@ -7,7 +7,8 @@ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'nume
 const add=(name,ok,detail)=>{checks.push([name,`${ok?'PASS':'FAIL'} — ${detail}`]);if(!ok)failures++};
 // News notices and generated species profiles intentionally remain browseable
 // but noindex, so only primary routes and reviewed guides belong in the sitemap.
-const imageCount=(sitemap.match(/<image:image>/g)||[]).length,urlCount=(sitemap.match(/<url>/g)||[]).length,expectedUrlCount=(data.routes.filter(route=>!data.noindexRoutes.includes(route)).length+data.guideArticles.length)*4,expectedImageCount=data.guideArticles.length*4;
+const indexableGuides=data.guideArticles.filter(id=>!data.noindexGuideArticles?.includes(id));
+const imageCount=(sitemap.match(/<image:image>/g)||[]).length,urlCount=(sitemap.match(/<url>/g)||[]).length,expectedUrlCount=(data.routes.filter(route=>!data.noindexRoutes.includes(route)).length+indexableGuides.length)*4,expectedImageCount=indexableGuides.length*4;
 const latestGuide=Object.values(data.guideMeta).map(x=>x.updated).sort().at(-1),reviewAgeDays=Math.floor((started-new Date(`${latestGuide}T00:00:00+08:00`))/86400000);
 const localAniimo=JSON.parse(fs.readFileSync(path.join(root,'src/data/aniimo-index.json'),'utf8'));
 add('Generated HTML',fs.existsSync(path.join(root,'index.html')),'homepage present');add('Sitemap',urlCount===expectedUrlCount,`${urlCount} localized URLs (expected ${expectedUrlCount})`);add('Guide images',imageCount===expectedImageCount,`${imageCount} entries (expected ${expectedImageCount})`);add('Latest guide review',reviewAgeDays<=14,`${latestGuide} · ${reviewAgeDays} day(s) old`);add('Latest news review',news.length>0,news.map(x=>x.updated).sort().at(-1));add('Local Aniimo snapshot',localAniimo.length>0,`${localAniimo.length} entries`);
