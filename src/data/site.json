@@ -1,7 +1,8 @@
 {
   "domain":"https://aniimogg.com",
   "routes":["","aniimo","tier-list","guides","database","map","launch","server-status","codes","patch-notes","launch-verification","glossary","community-reports","news","faq","about","privacy","contact","authors","advertising","copyright","terms"],
-  "noindexRoutes":["aniimo","database"],
+  "noindexRoutes":["aniimo","database","tier-list","map","server-status","launch-verification"],
+  "noindexGuideArticles":["release-date-platforms","download-preload","server-launch-times","pre-registration","preorder-bundles"],
   "featuredAniimo":["Helion","Lunara","Emberpup","Scorchhowl","Nimbi","Glacy","Panpanta","Hexxin","Magmarex","Fentuft","Fulmintis","Melloblum"],
   "speciesRoutes":{"Hexxin":"witchin"},
   "aniimoAliases":{"021":["Witchin"],"11001":["Little Fire Spirit"]},

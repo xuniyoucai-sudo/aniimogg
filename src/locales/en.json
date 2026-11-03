@@ -63,8 +63,8 @@
     "search": "Search by name or number", "allElements": "All elements", "allRoles": "All roles", "allStages": "All stages", "clear": "Clear filters", "showing": "Showing {count} of 118 Aniimo", "noResults": "No Aniimo match these filters.", "gallery": "Gallery", "table": "Table", "view": "View", "allEntries": "All entries", "savedEntries": "My collection", "save": "Save", "remove": "Remove", "saved": "Saved", "collectionCount": "{count} Aniimo saved on this device", "collectionLocal": "Saved only on this device. No account is required.", "emptySaved": "No Aniimo are saved yet. Use the bookmark on a card to start your collection.", "openOfficial": "Open official Wiki", "overviewTitle": "Compendium at a glance", "overviewLead": "Counts below are calculated from the current 118-entry official-index snapshot. They describe catalogue labels, not availability, power or drop rates.", "recordsLabel": "Official index records", "elementBreakdown": "Entries by element", "roleBreakdown": "Entries by role", "stageBreakdown": "Entries by stage", "fieldGuideTitle": "How to read the fields", "fieldGuide": "Elements and roles are official index filters, while stages are labels returned by the index. Use them to narrow the catalogue, then open the official entry for details. None of these labels is a tier ranking, location, evolution requirement or build recommendation."
   },
   "home": {
-    "title": "Aniimo Guide - Tier List, Database, Map & Wiki",
-    "description": "Complete Aniimo guide featuring tier lists, Aniimo database, locations, builds, interactive maps, beginner guides, news and gameplay tips.",
+    "title": "Aniimo Guide - Compendium, Beginner Guides & Updates",
+    "description": "Source-aware Aniimo guide with a searchable 118-entry compendium, current beginner help, team setup, gameplay systems, patch notes and official-source updates.",
     "h1": "Aniimo Guide",
     "eyebrow": "Unofficial player guide",
     "lead": "Explore Aniimo with versioned, source-aware guides. Official facts, release-tested findings and Beta history are visibly separated so you can act on current information without unverified filler.",
@@ -74,25 +74,25 @@
         "Browse verified creature and world data."
       ],
       [
-        "Aniimo Tier List",
-        "Rankings will be based on release-version testing."
+        "Patch Notes",
+        "Follow a current, source-labelled progression roadmap."
       ],
       [
-        "Aniimo Map",
-        "Explore regions, locations, resources, and discoveries."
+        "Team Setup",
+        "Compare roles, elements and a safe starter structure."
       ],
       [
         "Beginner Guide",
-        "Start with platforms, launch dates, and core systems."
+        "Review dated official updates and practical changes."
       ]
     ],
     "section": "Start playing with reliable information",
     "sectionLead": "Official launch information is available now. We add release-tested builds, controls, locations and rankings only after repeatable public-build checks.",
-    "sections": [["What is Aniimo?","Aniimo is a free-to-play, open-world creature-catching RPG from Pawprint Studio. Players explore the continent of Idyll, catch creatures with Aniipods, and use Twine to become collected Aniimo for combat, puzzles and traversal. Official store information confirms single-player, online co-op, online PvP and cross-platform multiplayer, while detailed launch-version systems will be verified before they are treated as settled facts.","guides/getting-started","Read the beginner guide"],["When does Aniimo release?","Aniimo launches globally on PC and consoles on September 16, 2026, followed by iOS and Android on September 23. PlayStation lists 10:00 UTC+8 for PS5, but exact Steam, Epic Games, Xbox and mobile unlock hours have not been separately confirmed. Our release and server-time guides distinguish official dates from estimates and local store displays.","guides/release-date-platforms","Check release dates and platforms"],["Is Aniimo crossplay?","Yes. Steam officially lists Cross-Platform Multiplayer alongside online co-op and online PvP. Pawprint Studio has not yet published the exact platform pairings or confirmed cross-save, cross-progression and shared-purchase rules. The crossplay guide keeps confirmed multiplayer support separate from account and progress features that still require an official launch FAQ.","guides/crossplay-cross-save","See the crossplay status"],["What is included in this Aniimo Wiki?","This independent Aniimo Wiki and guide database currently includes a searchable snapshot of 118 official Wiki entries, plus guides to elements, roles, forms, catching, multiplayer, regions and launch preparation. Creature confirmation is not a tier ranking: Aniimo builds, locations, matchup values and tier lists will only be marked release-tested after repeatable checks in the public game version.","guides/confirmed-aniimo","Browse all confirmed Aniimo"]],
+    "sections": [["What is Aniimo?","Aniimo is a free-to-play, open-world creature-catching RPG from Pawprint Studio. Players explore the continent of Idyll, catch creatures with Aniipods, and use Twine to become collected Aniimo for combat, puzzles and traversal. Official store information confirms single-player, online co-op, online PvP and cross-platform multiplayer, while detailed launch-version systems will be verified before they are treated as settled facts.","guides/getting-started","Read the beginner guide"],["Is Aniimo live now?","Yes. Aniimo is live on PC, PlayStation 5, Xbox, iOS and Android. Use the Live Center for official store links, current PC requirements, cross-platform progress guidance and dated troubleshooting resources.","launch","Open the Live Center"],["Does Aniimo support cross-platform progress?","Yes, when you use the same account and the same server. Official guidance says progress is shared across platforms on one server, while different servers keep separate progress. Check the guide before linking a console account or claiming platform rewards.","guides/crossplay-cross-save","Check cross-platform progress"],["What is included in this Aniimo Wiki?","This independent Aniimo Wiki and guide database currently includes a searchable snapshot of 118 official Wiki entries, plus guides to elements, roles, forms, catching, multiplayer, regions and launch preparation. Creature confirmation is not a tier ranking: Aniimo builds, locations, matchup values and tier lists will only be marked release-tested after repeatable checks in the public game version.","guides/confirmed-aniimo","Browse all confirmed Aniimo"]],
     "faq": [["Is Aniimo free to play?","Yes. Pawprint Studio and the official platform listings describe the base game as free to play, with optional in-game purchases."],["What platforms is Aniimo on?","The announced platforms are PlayStation 5, Xbox, Steam, Epic Games Store, iOS and Android."],["How many Aniimo are confirmed?","The public official Wiki listed 118 visible index entries when checked on August 30, 2026."],["Is this the official Aniimo website?","No. Aniimo Guide is an independent fan-made guide and is not affiliated with Pawprint Studio, FunPlus or the official Aniimo team."]],
     "sources": [["Official Aniimo website","https://www.aniimo.com/main/"],["Aniimo on Steam","https://store.steampowered.com/app/4126040/Aniimo/"],["Aniimo on PlayStation 5","https://www.playstation.com/games/aniimo/"],["Official Aniimo Wiki","https://wiki.aniimo.com/"]]
   },
-  "guideLibrary": {"popular":"Popular Aniimo Guides","popularLead":"Start with the most searched pre-launch questions: multiplayer, crossplay, release timing and platform support.","launch":"Launch & Platforms","multiplayer":"Multiplayer","database":"Aniimo Database","gameplay":"Gameplay Systems"},
+  "guideLibrary": {"popular":"Popular Aniimo Guides","popularLead":"Start with current multiplayer, progression, mobile, troubleshooting and gameplay guides.","launch":"Launch & Platforms","multiplayer":"Multiplayer","database":"Aniimo Database","gameplay":"Gameplay Systems"},
   "pages": {
     "aniimo": {
       "title": "Aniimo Database & Wiki",
@@ -174,10 +174,10 @@
       "lead": "Use this as a region and exploration hub. It covers six official Idyll regions and links to verified catching, rare-form and compendium guidance; exact coordinates remain unpublished until repeatable public-build evidence exists."
     },
     "tools": {
-      "title": "Aniimo Launch Countdown & Local Release Time",
-      "description": "Live Aniimo launch countdown, local release-time converter, official store links and PC RAM and storage readiness check.",
-      "h1": "Aniimo Launch Countdown",
-      "lead": "Convert the confirmed PS5 launch time to your local clock, open official stores and check the published PC memory and storage minimums."
+      "title": "Aniimo Live Center, Downloads & Support",
+      "description": "Current Aniimo official store links, platform requirements, cross-platform progress guidance and troubleshooting resources.",
+      "h1": "Aniimo Live Center",
+      "lead": "Open official stores, check current PC requirements, confirm same-server progress rules and find dated troubleshooting guidance."
     },
     "news": {
       "title": "Aniimo News & Updates",
