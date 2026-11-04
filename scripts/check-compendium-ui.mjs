@@ -10,7 +10,7 @@ const rows=cards.map(c=>({...element(),dataset:{...c.dataset}}));
 const buttons=cards.map(c=>{const b=element();b.dataset={aniimoSave:c.dataset.aniimoEntry,saveText:'Save',removeText:'Remove'};const children={'.aniimo-save-label':element(),'[aria-hidden="true"]':element()};b.querySelector=s=>children[s];return b;});
 const index={dataset:{showing:'{count} records'},classList:{toggle(){}},querySelector:s=>selectors[s],querySelectorAll:s=>s==='tbody tr'?rows:s==='.aniimo-card'?cards:s==='[data-aniimo-save]'?buttons:[]};
 let saved='["001"]';const storage={getItem:()=>saved,setItem:(key,value)=>{assert.equal(key,'aniimo-guide-collection-v1');saved=value}};
-const app=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8'),start=app.indexOf("document.querySelectorAll('.aniimo-index').forEach"),end=app.indexOf("document.querySelectorAll('.launch-countdown')",start);
+const app=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8'),start=app.indexOf("document.querySelectorAll('.aniimo-index').forEach"),end=app.indexOf("document.querySelectorAll('.readiness-check')",start);
 assert.ok(start>=0&&end>start);vm.runInNewContext(app.slice(start,end),{document:{querySelectorAll:()=>[index]},localStorage:storage,Set,JSON,String});
 assert.equal(buttons[0]['aria-pressed'],'true');assert.equal(buttons[1]['aria-pressed'],'false');
 selectors['.index-region'].value='300301';selectors['.index-region'].events.change();assert.equal(cards[0].hidden,true);assert.equal(cards[1].hidden,false);assert.equal(rows[0].hidden,true);

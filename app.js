@@ -115,22 +115,10 @@ document.querySelectorAll('.aniimo-index').forEach(index=>{
   index.querySelector('.index-clear').addEventListener('click',()=>{search.value='';region.value='';element.value='';role.value='';stage.value='';collection.value='all';apply();search.focus()});
   setSavedCopy();apply();
 });
-document.querySelectorAll('.launch-countdown').forEach(box=>{
-  const target=new Date(box.dataset.launch);
-  const output=box.querySelector('strong');
-  const localTime=box.querySelector('time');
-  if(localTime) localTime.textContent=new Intl.DateTimeFormat(undefined,{dateStyle:'full',timeStyle:'short'}).format(target);
-  const update=()=>{
-    const seconds=Math.max(0,Math.floor((target-Date.now())/1000));
-    const days=Math.floor(seconds/86400),hours=Math.floor(seconds%86400/3600),minutes=Math.floor(seconds%3600/60);
-    output.textContent=seconds?`${days}d ${hours}h ${minutes}m`:'Live now';
-  };
-  update();setInterval(update,60000);
-});
 document.querySelectorAll('.readiness-check').forEach(form=>form.addEventListener('submit',event=>{
   event.preventDefault();
   const result=form.querySelector('.check-result');
-  const ready=Number(form.elements.ram.value)>=12&&Number(form.elements.space.value)>=45;
+  const ready=Number(form.elements.ram.value)>=8&&Number(form.elements.space.value)>=40;
   result.textContent=ready?result.dataset.ready:result.dataset.fail;
   result.className=`check-result ${ready?'is-ready':'is-fail'}`;
 }));
