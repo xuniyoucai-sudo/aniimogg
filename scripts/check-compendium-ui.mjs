@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 const element=(value='')=>({value,textContent:'',hidden:false,dataset:{},events:{},classList:{toggle(){}},addEventListener(e,fn){this.events[e]=fn},setAttribute(k,v){this[k]=v},focus(){}});
 const selectors=Object.fromEntries(['.index-search','.index-region','.index-element','.index-role','.index-stage','.index-collection','.index-count','.index-empty','.index-empty-saved','.index-collection-count','.index-clear'].map(k=>[k,element()]));
 selectors['.index-collection'].value='all';selectors['.index-collection-count'].textContent='{count} saved';
-const cards=[{aniimoEntry:'001',region:'300001',search:'001 emberpup breezy plains',elements:'fire',roles:'dps',stage:'1'},{aniimoEntry:'300301:001',region:'300301',search:'001 reefish whisperwake isles',elements:'rock water',roles:'energy',stage:'1'}].map(dataset=>({...element(),dataset}));
+const cards=[{aniimoEntry:'001',region:'300001',search:'001 emberpup breezy plains',elements:'fire',roles:'dps',stage:'1'},{aniimoEntry:'300301:001',region:'300301',search:'001 reefish whisperwake isles',elements:'rock water',roles:'energy',stage:'1'},{aniimoEntry:'006',region:'300001',search:'006 stellarys breezy plains',elements:'dark',roles:'dps',stage:'3'}].map(dataset=>({...element(),dataset}));
 const rows=cards.map(c=>({...element(),dataset:{...c.dataset}}));
 const buttons=cards.map(c=>{const b=element();b.dataset={aniimoSave:c.dataset.aniimoEntry,saveText:'Save',removeText:'Remove'};const children={'.aniimo-save-label':element(),'[aria-hidden="true"]':element()};b.querySelector=s=>children[s];return b;});
 const index={dataset:{showing:'{count} records'},classList:{toggle(){}},querySelector:s=>selectors[s],querySelectorAll:s=>s==='tbody tr'?rows:s==='.aniimo-card'?cards:s==='[data-aniimo-save]'?buttons:[]};
@@ -17,4 +17,8 @@ selectors['.index-region'].value='300301';selectors['.index-region'].events.chan
 buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001','300301:001']);
 selectors['.index-clear'].events.click();assert.equal(selectors['.index-region'].value,'');assert.equal(cards[0].hidden,false);
 buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001']);selectors['.index-collection'].value='saved';selectors['.index-collection'].events.change();assert.equal(cards[0].hidden,false);assert.equal(cards[1].hidden,true);
-console.log('PASS regional gallery: legacy bookmarks, independent new bookmarks, region filtering, table parity, clear and saved-only filtering.');
+selectors['.index-collection'].value='all';selectors['.index-stage'].value='3';selectors['.index-stage'].events.change();
+assert.equal(cards[0].hidden,true);assert.equal(cards[1].hidden,true);assert.equal(cards[2].hidden,false);assert.equal(rows[2].hidden,false);
+selectors['.index-stage'].value='1';selectors['.index-stage'].events.change();assert.equal(cards[0].hidden,false);assert.equal(cards[1].hidden,false);assert.equal(cards[2].hidden,true);
+selectors['.index-clear'].events.click();assert.equal(cards[2].hidden,false);
+console.log('PASS regional gallery: bookmarks, region/stage filters, Nova-to-Lumin switching, table parity, clear and saved-only filtering.');

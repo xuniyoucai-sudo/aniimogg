@@ -81,7 +81,7 @@ for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
 for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
   const catalogue=fs.readFileSync(path.join(root,prefix,'guides/confirmed-aniimo/index.html'),'utf8');
   for(const item of aniimoIndex)if(!catalogue.includes(`href="${entryUrl(item)}"`))errors.push(`${prefix}compendium: missing public number/form route ${item[0]}`);
-  for(const token of ['"dateModified":"2026-10-30"','data-search="021 hexxin witchin ','data-search="11001 sparkelf little fire spirit ','data-aniimo-save="021"','data-aniimo-save="11001"','<td>021</td><td>Hexxin</td><td>Witchin</td>','<td>11001</td><td>Sparkelf</td><td>Little Fire Spirit</td>',`href="/${prefix}aniimo/witchin/"`])if(!catalogue.includes(token))errors.push(`${prefix}compendium: missing migration protection ${token}`);
+  for(const token of ['"dateModified":"2026-11-05"','data-search="021 hexxin witchin ','data-search="11001 sparkelf little fire spirit ','data-aniimo-save="021"','data-aniimo-save="11001"','<td>021</td><td>Hexxin</td><td>Witchin</td>','<td>11001</td><td>Sparkelf</td><td>Little Fire Spirit</td>',`href="/${prefix}aniimo/witchin/"`])if(!catalogue.includes(token))errors.push(`${prefix}compendium: missing migration protection ${token}`);
   const profile=fs.readFileSync(path.join(root,prefix,'aniimo/witchin/index.html'),'utf8');
   for(const token of ['<h1>Hexxin — Aniimo No.021</h1>','https://wiki.aniimo.com/item/021/basic-form',`rel="canonical" href="https://aniimogg.com/${prefix}aniimo/witchin/"`])if(!profile.includes(token))errors.push(`${prefix}Hexxin: missing stable-profile migration ${token}`);
 }
@@ -115,5 +115,13 @@ for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
   const page=fs.readFileSync(path.join(root,prefix,'guides/level-titles-elite-training/index.html'),'utf8');
   for(const token of ['"dateModified":"2026-11-02"','newslist/detail/100244','Dr. Lewis','Trailblazer II','Trailblazer III','Badge Challenge','Chapter of Whisperwake','60 → 65','65 → 70','Ascension','Evolution Item','Stellar Tier 6','Resonance Star Up','"@type":"FAQPage"',`/${prefix}guides/resonance-ascension/`])if(!page.includes(token))errors.push(`${prefix}level titles: missing official Part 2 gate ${token}`);
   if((page.match(/class="support-matrix"/g)||[]).length!==2)errors.push(`${prefix}level titles: expected separate official gates and community workflow tables`);
+}
+for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
+  const page=fs.readFileSync(path.join(root,prefix,'guides/confirmed-aniimo/index.html'),'utf8');
+  const records=new Map(aniimoIndex.map(row=>[entryKey(row),row]));
+  const tags=[...page.matchAll(/<(?:article|tr)\b[^>]*data-aniimo-entry="([^"]+)"[^>]*>/g)];
+  if(tags.length!==aniimoIndex.length*2)errors.push(`${prefix}compendium: expected one card and table row per entry`);
+  for(const match of tags){const stage=match[0].match(/data-stage="([^"]+)"/)?.[1];if(stage!==String(records.get(match[1])?.[3]))errors.push(`${prefix}compendium: stale card/table stage ${match[1]}`)}
+  for(const token of ['2026-11-05','44','9','65','Stellarys','Irisal','Ekrim','https://wiki.aniimo.com/item/006/basic-form','https://wiki.aniimo.com/item/012/basic-form','https://wiki.aniimo.com/item/029/basic-form/300301','"@type":"FAQPage"'])if(!page.includes(token))errors.push(`${prefix}compendium: missing stage refresh evidence ${token}`);
 }
 console.log(`Checked ${html.length} HTML files.`);if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log('All multilingual checks passed.');
