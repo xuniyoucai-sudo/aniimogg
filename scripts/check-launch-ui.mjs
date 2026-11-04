@@ -2,7 +2,9 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 
+const redirects=fs.readFileSync('_redirects','utf8');
 for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
+  assert.ok(redirects.split('\n').includes(`/${prefix}tools/ /${prefix}launch/ 301`),`${prefix}: legacy tools redirect missing`);
   for(const route of ['', 'launch/', 'tools/']){
     const html=fs.readFileSync(`${prefix}${route}index.html`,'utf8');
     assert.ok(html.includes('class="live-availability'),`${prefix}${route}: static availability missing`);
