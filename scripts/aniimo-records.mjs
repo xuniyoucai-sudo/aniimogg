@@ -1,12 +1,15 @@
 // A visible number can repeat across regions. Preserve legacy bookmark keys
 // only for the unsuffixed public routes; new regional records are namespaced.
-export const entryKey=row=>row[7].endsWith('/basic-form')?row[0]:`${row[6]}:${row[0]}`;
+export const entryForm=row=>row[7].split('/')[3];
+export const entryKey=row=>entryForm(row)==='basic-form'?(row[7].endsWith('/basic-form')?row[0]:`${row[6]}:${row[0]}`):`${row[6]}:${row[0]}:${entryForm(row)}`;
 export const entryUrl=row=>'https://wiki.aniimo.com'+row[7];
 export const sortEntries=rows=>rows.sort((a,b)=>entryKey(a).localeCompare(entryKey(b)));
 export function normalizeOfficial(records,publicHtml){
   const paths=new Set([...publicHtml.matchAll(/href="(\/item\/[^"?#]+)"/g)].map(m=>m[1]));
   const rows=records.filter(x=>x.visible).map(x=>{
-    const s=x.searchKey,country=Number(s.countryId),base=`/item/${s.entryId}/basic-form`,regional=`${base}/${country}`;
+    const s=x.searchKey,country=Number(s.countryId),form={'Basic Form':'basic-form','Prismana Form':'prismana-form'}[s.currentMorphology];
+    if(!form)throw new Error(`Unmapped official form: ${s.currentMorphology} / ${s.name}`);
+    const base=`/item/${s.entryId}/${form}`,regional=`${base}/${country}`;
     const route=paths.has(regional)?regional:paths.has(base)?base:null;
     if(!route)throw new Error(`Public route unavailable: ${s.name} / ${country}`);
     return [s.entryId,x.id,s.name,Number(s.currentStage),s.position.map(v=>v.replace('position-','')).sort(),s.attributes.map(v=>v.replace('attributes-','')).sort(),country,route];
