@@ -1,17 +1,17 @@
 # Aniimo GG
 
-> Independent Aniimo player guide in English, Simplified Chinese, Traditional Chinese and Japanese, with sourced launch information, world data and release-tested guides.
+> Independent Aniimo player guide in English, Simplified Chinese, Traditional Chinese and Japanese, with sourced launch information, a public-index form snapshot and evidence-labelled guides; no independent gameplay testing is claimed.
 
 ## 主要页面
 - [首页](https://aniimogg.com/)
 - [攻略索引](https://aniimogg.com/guides/)
 - [上线中心](https://aniimogg.com/launch/)
-- [服务器状态](https://aniimogg.com/server-status/)
+- [历史上市可用性参考](https://aniimogg.com/server-status/)
 - [兑换码](https://aniimogg.com/codes/)
 - [补丁说明](https://aniimogg.com/patch-notes/)
 - [上线验证清单](https://aniimogg.com/launch-verification/)
 - [术语表](https://aniimogg.com/glossary/)
-- [艾德尔大陆地区](https://aniimogg.com/map/)
+- [地区资料入口（非坐标地图）](https://aniimogg.com/map/)
 - [常见问题](https://aniimogg.com/faq/)
 - [资料政策](https://aniimogg.com/guides/editorial-policy/)
 - [English](https://aniimogg.com/)

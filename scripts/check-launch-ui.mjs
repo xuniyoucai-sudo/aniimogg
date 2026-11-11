@@ -27,10 +27,10 @@ const start=app.indexOf("document.querySelectorAll('.readiness-check')");
 const end=app.indexOf('\n}));',start)+5;
 assert.ok(start>=0&&end>start,'readiness handler not found');
 let handler;
-const result={dataset:{ready:'PASS',fail:'FAIL'}};
+const result={dataset:{ready:'PASS',fail:'FAIL',unknown:'UNKNOWN'}};
 const form={elements:{ram:{value:'8'},space:{value:'40'}},querySelector:()=>result,addEventListener:(event,callback)=>{assert.equal(event,'submit');handler=callback;}};
 vm.runInNewContext(app.slice(start,end),{document:{querySelectorAll:()=>[form]}});
-for(const [ram,space,expected] of [[8,40,'PASS'],[7,40,'FAIL'],[8,39,'FAIL'],[12,45,'PASS']]){
+for(const [ram,space,expected] of [['',40,'UNKNOWN'],[8,'','UNKNOWN'],[4,40,'FAIL'],[8,40,'PASS'],[7,40,'FAIL'],[8,39,'FAIL'],[12,45,'PASS']]){
   form.elements.ram.value=String(ram);form.elements.space.value=String(space);
   handler({preventDefault(){}});
   assert.equal(result.textContent,expected,`readiness ${ram}GB / ${space}GB`);

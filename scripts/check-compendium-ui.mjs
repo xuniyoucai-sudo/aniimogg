@@ -9,9 +9,10 @@ const cards=[{aniimoEntry:'001',region:'300001',search:'001 emberpup breezy plai
 const rows=cards.map(c=>({...element(),dataset:{...c.dataset}}));
 const buttons=cards.map(c=>{const b=element();b.dataset={aniimoSave:c.dataset.aniimoEntry,saveText:'Save',removeText:'Remove'};const children={'.aniimo-save-label':element(),'[aria-hidden="true"]':element()};b.querySelector=s=>children[s];return b;});
 const index={dataset:{showing:'{count} records'},classList:{toggle(){}},querySelector:s=>selectors[s],querySelectorAll:s=>s==='tbody tr'?rows:s==='.aniimo-card'?cards:s==='[data-aniimo-save]'?buttons:[]};
-let saved='["001"]';const storage={getItem:()=>saved,setItem:(key,value)=>{assert.equal(key,'aniimo-guide-collection-v1');saved=value}};
+let saved='["001"]';const values=new Map([['aniimo-guide-collection-v1',saved]]);
+const storage={getItem:key=>values.get(key)??null,setItem:(key,value)=>{values.set(key,value);if(key==='aniimo-guide-collection-v2')saved=JSON.stringify(JSON.parse(value).entityIds);},removeItem:key=>values.delete(key)};
 const app=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8'),start=app.indexOf("document.querySelectorAll('.aniimo-index').forEach"),end=app.indexOf("document.querySelectorAll('.readiness-check')",start);
-assert.ok(start>=0&&end>start);vm.runInNewContext(app.slice(start,end),{document:{querySelectorAll:()=>[index]},localStorage:storage,Set,JSON,String});
+assert.ok(start>=0&&end>start);vm.runInNewContext(app.slice(start,end),{document:{documentElement:{lang:'en'},querySelectorAll:()=>[index]},localStorage:storage,Set,JSON,String});
 assert.equal(buttons[0]['aria-pressed'],'true');assert.equal(buttons[1]['aria-pressed'],'false');
 selectors['.index-region'].value='300301';selectors['.index-region'].events.change();assert.equal(cards[0].hidden,true);assert.equal(cards[1].hidden,false);assert.equal(rows[0].hidden,true);
 buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001','300301:001']);

@@ -7,7 +7,7 @@ const checks=[
   ['shared CSS',size('styles.css')+size('site-content.css')+size('accessibility.css'),50_000],
   ['shared JavaScript',size('app.js'),20_000],
   ['homepage HTML',size('index.html'),75_000],
-  ['compendium HTML',size('guides/confirmed-aniimo/index.html'),250_000],
+  ...['','zh-cn/','zh-tw/','ja/'].map(prefix=>[prefix+'compendium HTML',size(prefix+'guides/confirmed-aniimo/index.html'),250_000]),
   ['long guide HTML',size('guides/beginner-mistakes/index.html'),75_000]
 ];
 const failures=[];

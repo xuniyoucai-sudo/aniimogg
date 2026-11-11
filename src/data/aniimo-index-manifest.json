@@ -1,0 +1,26 @@
+{
+  "snapshotId": "official-public-index-2026-11-06",
+  "snapshotDate": "2026-11-06",
+  "auditedAt": "2026-11-10",
+  "sourceName": "Official Aniimo public Wiki index",
+  "sourceUrl": "https://wiki.aniimo.com/",
+  "totalRecords": 130,
+  "basicRecords": 118,
+  "prismanaRecords": 12,
+  "historicalSnapshots": [
+    {
+      "date": "2026-09-23",
+      "totalRecords": 86
+    },
+    {
+      "date": "2026-10-30",
+      "totalRecords": 118
+    },
+    {
+      "date": "2026-11-06",
+      "totalRecords": 130
+    }
+  ],
+  "verificationMethod": "Official visible index API and public route comparison; not gameplay testing",
+  "notes": "Form records are not species, obtainable-form, or player-owned counts. Unknown family links and stage code 4 remain unknown."
+}

@@ -1,0 +1,253 @@
+{
+  "lastReviewedAt": "2026-11-11",
+  "modifiedAt": "2026-11-11",
+  "news": {
+    "status": "historical",
+    "coverageEndsAt": "2026-09-23",
+    "records": [
+      {
+        "slug": "mobile-launch-live",
+        "publishedAt": "2026-09-23",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-23",
+        "status": "historical"
+      },
+      {
+        "slug": "september-23-version-1-1-update",
+        "publishedAt": "2026-09-21",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-23",
+        "status": "historical"
+      },
+      {
+        "slug": "steam-launch-rewards-and-queues",
+        "publishedAt": "2026-09-16",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-17",
+        "status": "historical"
+      },
+      {
+        "slug": "beta-reward-account-linking",
+        "publishedAt": "2026-09-15",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-16",
+        "status": "historical"
+      },
+      {
+        "slug": "pc-console-launch-faq",
+        "publishedAt": "2026-09-14",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-16",
+        "status": "historical"
+      },
+      {
+        "slug": "intel-cpu-stability-notice",
+        "publishedAt": "2026-09-14",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-16",
+        "status": "historical"
+      },
+      {
+        "slug": "launch-version-dev-letter",
+        "publishedAt": "2026-09-03",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-03",
+        "status": "historical"
+      },
+      {
+        "slug": "global-launch-dates",
+        "publishedAt": "2026-08-26",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-01",
+        "status": "historical"
+      },
+      {
+        "slug": "ps5-preorder-packs",
+        "publishedAt": "2026-09-01",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-01",
+        "status": "historical"
+      },
+      {
+        "slug": "steam-language-support",
+        "publishedAt": "2026-09-01",
+        "sourceCheckedAt": null,
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-09-01",
+        "status": "historical"
+      }
+    ]
+  },
+  "patches": [
+    {
+      "publishedAt": "2026-11-09",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-10-19",
+      "sourceUrl": "https://aniimo.com/newslist/detail/100208",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-10-16",
+      "sourceUrl": "https://aniimo.com/newslist/detail/100198",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-10-16",
+      "sourceUrl": "https://www.aniimo.com/fr/newslist/detail/100229",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-09-25",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100139",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-09-23",
+      "sourceUrl": "https://steamcommunity.com/app/4126040/allnews/",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-09-23",
+      "sourceUrl": "https://aniimo.com/newslist/detail/100145",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    },
+    {
+      "publishedAt": "2026-09-03",
+      "sourceUrl": "https://aniimo.com/newslist/detail/100064",
+      "sourceCheckedAt": null,
+      "lastReviewedAt": "2026-11-11",
+      "modifiedAt": "2026-11-11",
+      "status": "historical"
+    }
+  ],
+  "calendar": {
+    "sourceUrl": "https://aniimo.com/newslist/detail/100145",
+    "sourceCheckedAt": "2026-10-15",
+    "lastReviewedAt": "2026-11-11",
+    "modifiedAt": "2026-11-11",
+    "status": "historical",
+    "records": [
+      {
+        "name": "Windchaser’s Departure / Irisalis",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": "2026-12-10T00:00:00Z",
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "unknown"
+      },
+      {
+        "name": "Glamour Star",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": "2026-10-02T08:00:00Z",
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "ended"
+      },
+      {
+        "name": "Aniimo Discovery",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": "2026-10-09T08:00:00Z",
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "ended"
+      },
+      {
+        "name": "Vein Abundance: Rosetower Woods",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": "2026-10-05T08:00:00Z",
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "ended"
+      },
+      {
+        "name": "Journey Chronicles",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": "2026-10-29T08:00:00Z",
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "ended"
+      },
+      {
+        "name": "Vein Abundance: Berylline Vale",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": "2026-10-12T08:00:00Z",
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "ended"
+      },
+      {
+        "name": "Holo-Battle Interlink",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "unknown"
+      },
+      {
+        "name": "Egg Heist Chaos Mode",
+        "publishedAt": "2026-09-23",
+        "eventStartAt": null,
+        "eventEndAt": null,
+        "serverScope": "APAC calendar summary; regional client remains authoritative",
+        "sourceCheckedAt": "2026-10-15",
+        "lastReviewedAt": "2026-11-11",
+        "modifiedAt": "2026-11-11",
+        "status": "unknown"
+      }
+    ]
+  }
+}
