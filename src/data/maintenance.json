@@ -1,0 +1,52 @@
+{
+  "published":"2026-11-09",
+  "checked":"2026-11-12",
+  "source":"https://www.aniimo.com/newslist/detail/100298",
+  "utcStart":"2026-11-12T06:00:00Z",
+  "utcEnd":"2026-11-12T11:00:00Z",
+  "windows":[["Aniimo-Europe","2026-11-12 06:00–11:00 UTC+0"],["Aniimo-Americas","2026-11-12 02:00–07:00 UTC-4"],["Aniimo-Apac","2026-11-12 14:00–19:00 UTC+8"]],
+  "locales":{
+    "en":{
+      "page":["Aniimo Server Maintenance: November 12 Schedule & Status","Check Aniimo’s announced November 12 maintenance by server, UTC and Beijing time, with source dates, restart guidance and explicit limits on live-status claims.","Server maintenance & status","This page records announced maintenance, not real-time server health. No game login or uptime monitoring has been performed."],
+      "title":"November 12 announced maintenance",
+      "unknown":"Live health not verified",
+      "headers":["Server","Official scheduled time","Evidence status"],
+      "conversion":"All three windows equal November 12, 06:00–11:00 UTC / 14:00–19:00 Beijing time (UTC+8). The Americas conversion follows the notice’s fixed UTC-4, not your local daylight-saving zone.",
+      "note":"The planned five-hour window may change. Neither being outside it nor reaching its end proves that service has resumed. Check official completion or extension notices and the game client. Aniimo.GG’s own HTTP response cannot establish game health.",
+      "checkTitle":"Before and after maintenance — editorial checklist",
+      "checks":["Finish time-sensitive actions before planned downtime and preserve your account/server details.","The official notice says login is unavailable during maintenance. Reinstalling or relinking is not a remedy for planned downtime.","After official completion, restart the game client for the update. If access still fails, report platform, server, build, timestamp and the exact error to official support."],
+      "faq":[["Does 11:00 UTC guarantee service is restored?","No. It is the planned end and may change; check official completion information and your client."],["Are the regional windows simultaneous?","Yes. The stated UTC+0, UTC-4 and UTC+8 windows all convert to 06:00–11:00 UTC."],["Is this a live status monitor?","No. It is a source-linked schedule. No live health API or game login was tested."]],
+      "sourceLabel":"Official update notice",
+      "patchTitle":"November 12 maintenance: regional schedule and status limits",
+      "patchText":"The announced window is 06:00–11:00 UTC. Check regional conversions, restart guidance and evidence limits; the scheduled end is not confirmation of recovery."
+    },
+    "zh-CN":{
+      "page":["Aniimo伊莫服务器维护：11月12日各区时间与状态","核对伊莫11月12日官方维护计划、各区时区、统一UTC及北京时间，查看公告核验日期、重启建议和实时状态证据边界。","服务器维护与状态","本页记录公告维护计划，不是实时健康监测；未进行游戏登录或在线率实测。"],
+      "title":"11月12日公告维护窗口",
+      "unknown":"实时健康状态未核验",
+      "headers":["服务器","官方计划时间","证据状态"],
+      "conversion":"三个窗口均对应11月12日06:00–11:00 UTC／北京时间14:00–19:00（UTC+8）。美洲采用公告固定UTC-4，不自动替换为读者所在地夏令时。",
+      "note":"计划维护五小时，实际可能调整。处于窗口之外或达到预计结束时间，都不证明已经恢复；应核对官方结束／延期公告和客户端。Aniimo.GG网页响应不能证明游戏服务器健康。",
+      "checkTitle":"维护前后——本站核对建议",
+      "checks":["计划停服前结束限时操作，保留账号与服务器信息。","官方说明维护期间无法登录；重装或重新绑定账号不能解决计划维护。","官方确认完成后重启游戏客户端获取更新。仍无法登录时，记录平台、服务器、版本、时间和准确报错，联系官方支持。"],
+      "faq":[["UTC 11:00一定恢复吗？","不是。这是计划结束时间，可能调整，应结合官方结束说明与客户端确认。"],["三个地区同时维护吗？","是。公告UTC+0、UTC-4、UTC+8窗口均换算到06:00–11:00 UTC。"],["本站是实时服务器监测吗？","不是。这是有来源的计划记录，未调用实时健康接口或测试游戏登录。"]],
+      "sourceLabel":"官方更新公告",
+      "patchTitle":"11月12日维护：各区计划与状态边界",
+      "patchText":"公告时段为06:00–11:00 UTC。查看地区换算、重启建议和证据边界，预计结束不等于确认恢复。"
+    },
+    "ja":{
+      "page":["Aniimoサーバーメンテナンス：11月12日の地域別時刻","Aniimoの11月12日メンテナンス予定を地域・UTC・北京時刻で確認。出典確認日、再起動の案内とリアルタイム稼働判断の限界を明記。","サーバーメンテナンスと状況","公式予定の記録で、リアルタイム稼働監視ではありません。ゲームログインや稼働率の実測は行っていません。"],
+      "title":"11月12日に告知されたメンテナンス",
+      "unknown":"リアルタイム稼働は未確認",
+      "headers":["サーバー","公式予定時刻","根拠の状態"],
+      "conversion":"3地域とも11月12日06:00–11:00 UTC／北京14:00–19:00（UTC+8）です。Americasは告知の固定UTC-4で換算し、読者所在地の夏時間に置き換えません。",
+      "note":"予定は5時間で変更され得ます。期間外や終了予定時刻の到来だけでは復旧を証明しません。公式完了・延長告知とクライアントを確認してください。当サイトのHTTP応答からゲーム稼働を判断しません。",
+      "checkTitle":"前後の確認：編集部の提案",
+      "checks":["予定停止前に時間制限のある操作を終え、アカウント・サーバー情報を保管します。","公式はメンテナンス中ログイン不可としています。再インストールや再連携は予定停止の対策ではありません。","公式完了後にゲームを再起動し更新を取得します。続く場合は機種、サーバー、ビルド、時刻、エラーを公式へ報告します。"],
+      "faq":[["11:00 UTCで必ず復帰しますか？","いいえ。終了予定は変更され得ます。公式完了情報とクライアントを確認してください。"],["3地域は同時メンテナンスですか？","はい。告知のUTC+0・UTC-4・UTC+8はすべて06:00–11:00 UTCに換算されます。"],["リアルタイム稼働監視ですか？","いいえ。出典付き予定であり、稼働APIやゲームログインは検証していません。"]],
+      "sourceLabel":"公式更新告知",
+      "patchTitle":"11月12日メンテナンス：地域時刻と確認範囲",
+      "patchText":"公式予定は06:00–11:00 UTC。地域換算、再起動と根拠範囲を確認。終了予定は復旧確認ではありません。"
+    }
+  }
+}
