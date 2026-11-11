@@ -1,0 +1,150 @@
+{
+  "en": {
+    "sourceUrl": "https://wiki.aniimo.com/",
+    "verifiedAt": "2026-11-11",
+    "formSources": [
+      "https://wiki.aniimo.com/item/001/basic-form",
+      "https://wiki.aniimo.com/item/035/prismana-form/1000"
+    ],
+    "labels": {
+      "elementLabels": {
+        "holy": "Light",
+        "fire": "Fire",
+        "ice": "Ice",
+        "dark": "Dark",
+        "electric": "Lightning",
+        "grass": "Grass",
+        "water": "Water",
+        "rock": "Rock",
+        "wind": "Wind"
+      },
+      "roleLabels": {
+        "dps": "DPS",
+        "heal": "Heal",
+        "sup": "Support",
+        "break": "BREAK",
+        "energy": "REGEN"
+      },
+      "stageLabels": {
+        "1": "Lumin Stage",
+        "2": "Gamma Stage",
+        "3": "Nova Stage"
+      },
+      "formLabels": {
+        "basic-form": "Basic Form",
+        "prismana-form": "Prismana Form"
+      }
+    }
+  },
+  "zh-CN": {
+    "sourceUrl": "https://wiki.yimo.com/",
+    "verifiedAt": "2026-11-11",
+    "formSources": [
+      "https://wiki.yimo.com/item/001/basic-form",
+      "https://wiki.yimo.com/item/035/prismana-form/1000"
+    ],
+    "labels": {
+      "elementLabels": {
+        "holy": "光",
+        "fire": "火",
+        "ice": "冰",
+        "dark": "暗",
+        "electric": "电",
+        "grass": "草",
+        "water": "水",
+        "rock": "土",
+        "wind": "风"
+      },
+      "roleLabels": {
+        "dps": "输出",
+        "heal": "治疗",
+        "sup": "辅助",
+        "break": "击破",
+        "energy": "回能"
+      },
+      "stageLabels": {
+        "1": "新生期",
+        "2": "成长期",
+        "3": "成熟期"
+      },
+      "formLabels": {
+        "basic-form": "基础形态",
+        "prismana-form": "虹光形态"
+      }
+    }
+  },
+  "zh-TW": {
+    "sourceUrl": "https://wiki.aniimo.com/tw",
+    "verifiedAt": "2026-11-11",
+    "formSources": [
+      "https://wiki.aniimo.com/tw/item/001/basic-form",
+      "https://wiki.aniimo.com/tw/item/035/prismana-form/1000"
+    ],
+    "labels": {
+      "elementLabels": {
+        "holy": "光",
+        "fire": "火",
+        "ice": "冰",
+        "dark": "暗",
+        "electric": "電",
+        "grass": "草",
+        "water": "水",
+        "rock": "土",
+        "wind": "風"
+      },
+      "roleLabels": {
+        "dps": "輸出",
+        "heal": "治療",
+        "sup": "輔助",
+        "break": "擊破",
+        "energy": "回能"
+      },
+      "stageLabels": {
+        "1": "新生期",
+        "2": "成長期",
+        "3": "成熟期"
+      },
+      "formLabels": {
+        "basic-form": "基礎型態",
+        "prismana-form": "虹彩型態"
+      }
+    }
+  },
+  "ja": {
+    "sourceUrl": "https://wiki.aniimo.com/ja",
+    "verifiedAt": "2026-11-11",
+    "formSources": [
+      "https://wiki.aniimo.com/ja/item/001/basic-form",
+      "https://wiki.aniimo.com/ja/item/035/prismana-form/1000"
+    ],
+    "labels": {
+      "elementLabels": {
+        "holy": "光",
+        "fire": "火",
+        "ice": "氷",
+        "dark": "闇",
+        "electric": "雷",
+        "grass": "草",
+        "water": "水",
+        "rock": "土",
+        "wind": "風"
+      },
+      "roleLabels": {
+        "dps": "出力",
+        "heal": "治療",
+        "sup": "サポート",
+        "break": "ブレイク",
+        "energy": "エナジー回復"
+      },
+      "stageLabels": {
+        "1": "ルミナ期",
+        "2": "ガンマ期",
+        "3": "ノヴァ期"
+      },
+      "formLabels": {
+        "basic-form": "基本フォーム",
+        "prismana-form": "虹色フォーム"
+      }
+    }
+  }
+}

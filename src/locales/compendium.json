@@ -49,7 +49,8 @@
       "Saved data is damaged; it is preserved without overwriting."
     ],
     "allGroups": "All index groups",
-    "clearSearch": "Clear search"
+    "clearSearch": "Clear search",
+    "localizationVerified": "Names verified"
   },
   "zh-CN": {
     "title": "Aniimo 角色图鉴",
@@ -101,7 +102,8 @@
       "收藏数据损坏，已保留原数据，不会覆盖。"
     ],
     "allGroups": "全部目录组",
-    "clearSearch": "清除搜索"
+    "clearSearch": "清除搜索",
+    "localizationVerified": "名称核验日期"
   },
   "zh-TW": {
     "title": "Aniimo 角色圖鑑",
@@ -153,7 +155,8 @@
       "收藏資料損壞，已保留原資料，不會覆寫。"
     ],
     "allGroups": "全部目錄組",
-    "clearSearch": "清除搜尋"
+    "clearSearch": "清除搜尋",
+    "localizationVerified": "名稱核驗日期"
   },
   "ja": {
     "title": "Aniimo図鑑",
@@ -205,6 +208,7 @@
       "保存データが破損しています。元データを上書きしません。"
     ],
     "allGroups": "すべてのインデックスグループ",
-    "clearSearch": "検索をクリア"
+    "clearSearch": "検索をクリア",
+    "localizationVerified": "名称確認日"
   }
 }

@@ -50,3 +50,13 @@ P0/P0.1 的本地及 Preview 限制为历史阶段记录；P0.1 已完成正式�
 收藏沿用同一个v2状态和迁移逻辑；详情、卡片、收藏筛选同步。比较仅在当前页面会话中保存最多3个entityId，不写新存储结构，只展示公开字段。
 
 `check-compendium-2-browser.mjs` 覆盖全部来源ID、四语言搜索、多选、详情/比较/收藏联动、键盘、三个视口和触屏模拟，记录Chromium CPU4倍节流下的过滤耗时，不代表实机认证或CWV。
+
+### P1-A.1 名称与移动端核验
+
+`src/data/aniimo-localizations.json` 单独保存现有130条形态的四语言官方名称和逐条证据，原始索引与2026-11-06快照不变。各语言后台ID不同；按官方公开详情路径、目录组、形态及其他稳定字段复核，保留现有entityId和旧收藏映射。官方术语另存 `aniimo-localized-terms.json`，繁中与简中分别取证。
+
+- `node scripts/check-localizations.mjs`：读取压缩官方SSR证据，验证520条名称映射、身份与术语；也覆盖缺失、歧义、来源变化的拒绝绑定。
+- `node scripts/update-official-localizations.mjs`：只读检查最新官方索引并输出artifacts；`--write`仅更新名称层和本地化证据，不写原始索引。先审查差异再提交。
+- `node scripts/check-localization-mobile-browser.mjs`：四语言、六种视口、Chromium/WebKit、触屏、缩小可视区域、详情滚动、比较与收藏。已纳入 `test:browser`；可用 `PLAYWRIGHT_WEBKIT_EXECUTABLE` 指定已有兼容WebKit，`MOBILE_ENGINES`选择引擎；不会自动下载浏览器。
+
+测试明确区分真实设备与浏览器模拟；缩小可视区域不等于实际手机软键盘验收。

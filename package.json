@@ -4,14 +4,14 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-site.mjs",
-    "test": "node scripts/check-site.mjs && node scripts/check-compendium-ui.mjs && node scripts/check-launch-ui.mjs && node scripts/check-product-quality.mjs && node scripts/check-asset-fingerprints.mjs",
+    "test": "node scripts/check-site.mjs && node scripts/check-compendium-ui.mjs && node scripts/check-launch-ui.mjs && node scripts/check-product-quality.mjs && node scripts/check-asset-fingerprints.mjs && node scripts/check-localizations.mjs",
     "check:performance": "node scripts/check-performance-budget.mjs",
     "audit:local": "npm run build && npm test && npm run check:performance",
     "audit:live": "node scripts/daily-audit.mjs --live",
     "check:aniimo-index": "node scripts/check-official-aniimo-index.mjs",
     "report:daily": "node scripts/daily-audit.mjs",
     "submit:indexnow": "node scripts/submit-indexnow.mjs",
-    "test:browser": "node scripts/check-product-browser.mjs && node scripts/check-browser-seo.mjs && node scripts/check-storage-schema-browser.mjs && node scripts/check-asset-cache-browser.mjs && node scripts/check-compendium-2-browser.mjs",
+    "test:browser": "node scripts/check-product-browser.mjs && node scripts/check-browser-seo.mjs && node scripts/check-storage-schema-browser.mjs && node scripts/check-asset-cache-browser.mjs && node scripts/check-compendium-2-browser.mjs && node scripts/check-localization-mobile-browser.mjs",
     "check:assets": "node scripts/check-asset-fingerprints.mjs"
   }
 }

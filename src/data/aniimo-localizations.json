@@ -1,0 +1,4722 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-11-11",
+  "matching": "English sourceRecordId + exact locale-stripped public detail path + form/country/sortOrder/stage/roles/elements/artwork filename; never entryNo alone",
+  "sources": {
+    "en": "https://wiki.aniimo.com/",
+    "zh-CN": "https://wiki.yimo.com/",
+    "zh-TW": "https://wiki.aniimo.com/tw",
+    "ja": "https://wiki.aniimo.com/ja"
+  },
+  "coverage": {
+    "en": {
+      "target": 130,
+      "matched": 130,
+      "unmatched": 0
+    },
+    "zh-CN": {
+      "target": 130,
+      "matched": 130,
+      "unmatched": 0
+    },
+    "zh-TW": {
+      "target": 130,
+      "matched": 130,
+      "unmatched": 0
+    },
+    "ja": {
+      "target": 130,
+      "matched": 130,
+      "unmatched": 0
+    }
+  },
+  "differences": [],
+  "records": {
+    "10008267": {
+      "entryKey": "005",
+      "officialName": "Celestis",
+      "localizedNames": {
+        "en": "Celestis",
+        "zh-CN": "星乐蒂",
+        "zh-TW": "星樂蒂",
+        "ja": "ホシモモン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/005/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008267"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/005/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008265"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/005/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008266"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/005/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008269"
+        }
+      }
+    },
+    "10008794": {
+      "entryKey": "032",
+      "officialName": "Eklue",
+      "localizedNames": {
+        "en": "Eklue",
+        "zh-CN": "侦探蝠",
+        "zh-TW": "偵探蝠",
+        "ja": "タンテイバット"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/032/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008794"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/032/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10006985"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/032/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008536"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/032/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009310"
+        }
+      }
+    },
+    "10008795": {
+      "entryKey": "018",
+      "officialName": "Turbo",
+      "localizedNames": {
+        "en": "Turbo",
+        "zh-CN": "蓬蓬羊",
+        "zh-TW": "蓬蓬羊",
+        "ja": "モコモッコ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/018/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008795"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/018/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008279"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/018/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008537"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/018/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009311"
+        }
+      }
+    },
+    "10008797": {
+      "entryKey": "041",
+      "officialName": "Ignitis",
+      "localizedNames": {
+        "en": "Ignitis",
+        "zh-CN": "淬刃螳螂",
+        "zh-TW": "淬刃螂",
+        "ja": "ヤイバカマキリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/041/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008797"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/041/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008281"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/041/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008539"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/041/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009313"
+        }
+      }
+    },
+    "10008798": {
+      "entryKey": "045",
+      "officialName": "Bolty",
+      "localizedNames": {
+        "en": "Bolty",
+        "zh-CN": "闪电貂",
+        "zh-TW": "閃電貂",
+        "ja": "イナズマミンク"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/045/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008798"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/045/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008282"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/045/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008540"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/045/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009314"
+        }
+      }
+    },
+    "10008800": {
+      "entryKey": "1000:035:prismana-form",
+      "officialName": "Melloblum",
+      "localizedNames": {
+        "en": "Melloblum",
+        "zh-CN": "魅乐薇",
+        "zh-TW": "魅樂薇",
+        "ja": "メリーメリー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/035/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008800"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/035/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008284"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/035/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008542"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/035/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009316"
+        }
+      }
+    },
+    "10008801": {
+      "entryKey": "99998",
+      "officialName": "Helion",
+      "localizedNames": {
+        "en": "Helion",
+        "zh-CN": "日耀狮",
+        "zh-TW": "日耀獅",
+        "ja": "ヘリオン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/99998/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008801"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/99998/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008285"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/99998/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008543"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/99998/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009317"
+        }
+      }
+    },
+    "10008802": {
+      "entryKey": "035",
+      "officialName": "Melloblum",
+      "localizedNames": {
+        "en": "Melloblum",
+        "zh-CN": "魅乐薇",
+        "zh-TW": "魅樂薇",
+        "ja": "メリーメリー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/035/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008802"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/035/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008286"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/035/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008544"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/035/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009318"
+        }
+      }
+    },
+    "10008803": {
+      "entryKey": "059",
+      "officialName": "Fentuft",
+      "localizedNames": {
+        "en": "Fentuft",
+        "zh-CN": "天使耶",
+        "zh-TW": "天使茸",
+        "ja": "パピッピ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/059/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008803"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/059/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008287"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/059/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008545"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/059/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009319"
+        }
+      }
+    },
+    "10008807": {
+      "entryKey": "075",
+      "officialName": "Cozite",
+      "localizedNames": {
+        "en": "Cozite",
+        "zh-CN": "烟囱蚁",
+        "zh-TW": "蟻煙囪",
+        "ja": "エントツアリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/075/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008807"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/075/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008291"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/075/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008549"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/075/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009323"
+        }
+      }
+    },
+    "10008809": {
+      "entryKey": "1000:10001:prismana-form",
+      "officialName": "Irisalis",
+      "localizedNames": {
+        "en": "Irisalis",
+        "zh-CN": "彩虹鸢尾",
+        "zh-TW": "虹尾鳶",
+        "ja": "イリサリス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/10001/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008809"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/10001/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008293"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/10001/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008551"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/10001/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009325"
+        }
+      }
+    },
+    "10008813": {
+      "entryKey": "300301:017",
+      "officialName": "Scrubbit",
+      "localizedNames": {
+        "en": "Scrubbit",
+        "zh-CN": "澡叶蛙",
+        "zh-TW": "澡葉蛙",
+        "ja": "フロガエル"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/017/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008813"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/017/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008297"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/017/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008555"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/017/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009329"
+        }
+      }
+    },
+    "10008814": {
+      "entryKey": "050",
+      "officialName": "Popota",
+      "localizedNames": {
+        "en": "Popota",
+        "zh-CN": "泡泡獭",
+        "zh-TW": "泡泡獺",
+        "ja": "ポポタ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/050/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008814"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/050/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008298"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/050/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008556"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/050/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009330"
+        }
+      }
+    },
+    "10008815": {
+      "entryKey": "072",
+      "officialName": "Magmarex",
+      "localizedNames": {
+        "en": "Magmarex",
+        "zh-CN": "熔岩暴龙",
+        "zh-TW": "熔暴龍",
+        "ja": "マグマレックス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/072/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008815"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/072/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008299"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/072/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008557"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/072/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009331"
+        }
+      }
+    },
+    "10008819": {
+      "entryKey": "006",
+      "officialName": "Stellarys",
+      "localizedNames": {
+        "en": "Stellarys",
+        "zh-CN": "星魔师",
+        "zh-TW": "星法師",
+        "ja": "ステラメイジ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/006/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008819"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/006/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008303"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/006/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008561"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/006/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009335"
+        }
+      }
+    },
+    "10008821": {
+      "entryKey": "042",
+      "officialName": "Bonesky",
+      "localizedNames": {
+        "en": "Bonesky",
+        "zh-CN": "冰骨崽",
+        "zh-TW": "冰骨狼",
+        "ja": "ボーンスキー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/042/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008821"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/042/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008305"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/042/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008563"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/042/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009337"
+        }
+      }
+    },
+    "10008823": {
+      "entryKey": "068",
+      "officialName": "Cubbo",
+      "localizedNames": {
+        "en": "Cubbo",
+        "zh-CN": "迷梦崽",
+        "zh-TW": "迷夢仔",
+        "ja": "ユメミグマ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/068/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008823"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/068/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008307"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/068/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008565"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/068/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009339"
+        }
+      }
+    },
+    "10008824": {
+      "entryKey": "003",
+      "officialName": "Scorchhowl",
+      "localizedNames": {
+        "en": "Scorchhowl",
+        "zh-CN": "狼斗士",
+        "zh-TW": "狼鬥士",
+        "ja": "ウルファイター"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008824"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008308"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008566"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009340"
+        }
+      }
+    },
+    "10008825": {
+      "entryKey": "300301:004",
+      "officialName": "Mesmerowl",
+      "localizedNames": {
+        "en": "Mesmerowl",
+        "zh-CN": "咕惑枭",
+        "zh-TW": "咕惑梟",
+        "ja": "キキミミズク"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/004/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008825"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/004/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008309"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/004/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008567"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/004/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009341"
+        }
+      }
+    },
+    "10008829": {
+      "entryKey": "047",
+      "officialName": "Squarrel",
+      "localizedNames": {
+        "en": "Squarrel",
+        "zh-CN": "击拳尾",
+        "zh-TW": "火拳尾",
+        "ja": "パンチリス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/047/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008829"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/047/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008313"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/047/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008571"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/047/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009345"
+        }
+      }
+    },
+    "10008830": {
+      "entryKey": "1000:029:prismana-form",
+      "officialName": "Ekrim",
+      "localizedNames": {
+        "en": "Ekrim",
+        "zh-CN": "怪盗蝠",
+        "zh-TW": "怪盜蝠",
+        "ja": "カイトウバット"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/029/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008830"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/029/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008314"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/029/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008572"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/029/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009346"
+        }
+      }
+    },
+    "10008831": {
+      "entryKey": "1000:010:prismana-form",
+      "officialName": "Glameep",
+      "localizedNames": {
+        "en": "Glameep",
+        "zh-CN": "丽芙羊",
+        "zh-TW": "麗芙羊",
+        "ja": "リーフゴート"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/010/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008831"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/010/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008315"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/010/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008573"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/010/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009347"
+        }
+      }
+    },
+    "10008833": {
+      "entryKey": "300301:010",
+      "officialName": "Glameep",
+      "localizedNames": {
+        "en": "Glameep",
+        "zh-CN": "丽芙羊",
+        "zh-TW": "麗芙羊",
+        "ja": "リーフゴート"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/010/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008833"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/010/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008317"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/010/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008575"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/010/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009349"
+        }
+      }
+    },
+    "10008838": {
+      "entryKey": "080",
+      "officialName": "Fahloo",
+      "localizedNames": {
+        "en": "Fahloo",
+        "zh-CN": "浴球鸟",
+        "zh-TW": "浴球鳥",
+        "ja": "アワアワドリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/080/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008838"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/080/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008322"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/080/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008580"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/080/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009354"
+        }
+      }
+    },
+    "10008839": {
+      "entryKey": "019",
+      "officialName": "Dreaple",
+      "localizedNames": {
+        "en": "Dreaple",
+        "zh-CN": "眠眠羊",
+        "zh-TW": "眠眠羊",
+        "ja": "ネムネーム"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/019/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008839"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/019/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008323"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/019/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008581"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/019/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009355"
+        }
+      }
+    },
+    "10008840": {
+      "entryKey": "016",
+      "officialName": "Leafy",
+      "localizedNames": {
+        "en": "Leafy",
+        "zh-CN": "莲冠龙",
+        "zh-TW": "蓮冠龍",
+        "ja": "ロータスドラゴン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/016/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008840"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/016/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008324"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/016/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008582"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/016/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009356"
+        }
+      }
+    },
+    "10008842": {
+      "entryKey": "300301:014",
+      "officialName": "Sugarslime",
+      "localizedNames": {
+        "en": "Sugarslime",
+        "zh-CN": "甜泥泥",
+        "zh-TW": "甜泥泥",
+        "ja": "ジュレジュレ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/014/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008842"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/014/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008326"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/014/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008584"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/014/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009358"
+        }
+      }
+    },
+    "10008844": {
+      "entryKey": "300301:026",
+      "officialName": "Jabster",
+      "localizedNames": {
+        "en": "Jabster",
+        "zh-CN": "拳簧虾",
+        "zh-TW": "拳簧蝦",
+        "ja": "ジャブスター"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/026/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008844"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/026/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008328"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/026/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008586"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/026/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009360"
+        }
+      }
+    },
+    "10008845": {
+      "entryKey": "009",
+      "officialName": "Cornet",
+      "localizedNames": {
+        "en": "Cornet",
+        "zh-CN": "小号鸥",
+        "zh-TW": "小號鷗",
+        "ja": "トランペカモメ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/009/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008845"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/009/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008329"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/009/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008587"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/009/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009361"
+        }
+      }
+    },
+    "10008846": {
+      "entryKey": "046",
+      "officialName": "Blazen",
+      "localizedNames": {
+        "en": "Blazen",
+        "zh-CN": "雷光貂",
+        "zh-TW": "雷光貂",
+        "ja": "ボルトミンク"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/046/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008846"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/046/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008330"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/046/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008588"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/046/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009362"
+        }
+      }
+    },
+    "10008847": {
+      "entryKey": "013",
+      "officialName": "Skippy",
+      "localizedNames": {
+        "en": "Skippy",
+        "zh-CN": "莲顶鱼",
+        "zh-TW": "蓮頂魚",
+        "ja": "ハスイモリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/013/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008847"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/013/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008331"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/013/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008589"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/013/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009363"
+        }
+      }
+    },
+    "10008850": {
+      "entryKey": "300301:019",
+      "officialName": "Crocobask",
+      "localizedNames": {
+        "en": "Crocobask",
+        "zh-CN": "枯木鳄",
+        "zh-TW": "枯木鱷",
+        "ja": "カレキワニ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/019/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008850"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/019/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008334"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/019/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008592"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/019/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009366"
+        }
+      }
+    },
+    "10008852": {
+      "entryKey": "007",
+      "officialName": "Chirpi",
+      "localizedNames": {
+        "en": "Chirpi",
+        "zh-CN": "口哨鸥",
+        "zh-TW": "口哨鷗",
+        "ja": "フエカモメ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/007/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008852"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/007/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008336"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/007/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008594"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/007/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009368"
+        }
+      }
+    },
+    "10008854": {
+      "entryKey": "300301:016",
+      "officialName": "Lilipole",
+      "localizedNames": {
+        "en": "Lilipole",
+        "zh-CN": "莲子蝌蚪",
+        "zh-TW": "蓮子蝌蚪",
+        "ja": "ハスタマジャクシ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/016/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008854"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/016/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008338"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/016/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008596"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/016/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009370"
+        }
+      }
+    },
+    "10008855": {
+      "entryKey": "1000:067:prismana-form",
+      "officialName": "Infergon",
+      "localizedNames": {
+        "en": "Infergon",
+        "zh-CN": "炎铠龙",
+        "zh-TW": "炎鎧龍",
+        "ja": "インフェルゴン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/067/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008855"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/067/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008339"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/067/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008597"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/067/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009371"
+        }
+      }
+    },
+    "10008856": {
+      "entryKey": "300301:021",
+      "officialName": "Buffby",
+      "localizedNames": {
+        "en": "Buffby",
+        "zh-CN": "力壮蜂",
+        "zh-TW": "力士蜂",
+        "ja": "バフビー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/021/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008856"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/021/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008340"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/021/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008598"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/021/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009372"
+        }
+      }
+    },
+    "10008857": {
+      "entryKey": "10003",
+      "officialName": "Fulmintis",
+      "localizedNames": {
+        "en": "Fulmintis",
+        "zh-CN": "电刺螳螂",
+        "zh-TW": "電刺螂",
+        "ja": "デンキカマキリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/10003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008857"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/10003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008341"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/10003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008599"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/10003/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009373"
+        }
+      }
+    },
+    "10008859": {
+      "entryKey": "300301:012",
+      "officialName": "Gachapus",
+      "localizedNames": {
+        "en": "Gachapus",
+        "zh-CN": "扭蛋章鱼",
+        "zh-TW": "扭蛋章魚",
+        "ja": "ガチャダコ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/012/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008859"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/012/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008343"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/012/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008601"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/012/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009375"
+        }
+      }
+    },
+    "10008860": {
+      "entryKey": "043",
+      "officialName": "Fenrier",
+      "localizedNames": {
+        "en": "Fenrier",
+        "zh-CN": "冰刃狼",
+        "zh-TW": "冰刃狼",
+        "ja": "フェンリル"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/043/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008860"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/043/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008344"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/043/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008602"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/043/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009376"
+        }
+      }
+    },
+    "10008861": {
+      "entryKey": "033",
+      "officialName": "Budsquire",
+      "localizedNames": {
+        "en": "Budsquire",
+        "zh-CN": "小哭苞",
+        "zh-TW": "小哭苞",
+        "ja": "ナキツボミン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/033/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008861"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/033/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008345"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/033/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008603"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/033/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009377"
+        }
+      }
+    },
+    "10008862": {
+      "entryKey": "051",
+      "officialName": "Piopiota",
+      "localizedNames": {
+        "en": "Piopiota",
+        "zh-CN": "漂漂獭",
+        "zh-TW": "漂漂獺",
+        "ja": "ピョピョタ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/051/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008862"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/051/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008346"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/051/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008604"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/051/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009378"
+        }
+      }
+    },
+    "10008864": {
+      "entryKey": "073",
+      "officialName": "Geodeback",
+      "localizedNames": {
+        "en": "Geodeback",
+        "zh-CN": "晶背龙",
+        "zh-TW": "晶背龍",
+        "ja": "ジオードン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/073/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008864"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/073/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008348"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/073/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008606"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/073/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009380"
+        }
+      }
+    },
+    "10008866": {
+      "entryKey": "300301:008",
+      "officialName": "Pouchwisp",
+      "localizedNames": {
+        "en": "Pouchwisp",
+        "zh-CN": "钱兜兜",
+        "zh-TW": "錢兜兜",
+        "ja": "ゼニマクラ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/008/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008866"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/008/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008350"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/008/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008608"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/008/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009382"
+        }
+      }
+    },
+    "10008867": {
+      "entryKey": "1000:008:prismana-form",
+      "officialName": "Pouchwisp",
+      "localizedNames": {
+        "en": "Pouchwisp",
+        "zh-CN": "钱兜兜",
+        "zh-TW": "錢兜兜",
+        "ja": "ゼニマクラ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/008/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008867"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/008/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008351"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/008/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008609"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/008/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009383"
+        }
+      }
+    },
+    "10008868": {
+      "entryKey": "067",
+      "officialName": "Infergon",
+      "localizedNames": {
+        "en": "Infergon",
+        "zh-CN": "炎铠龙",
+        "zh-TW": "炎鎧龍",
+        "ja": "インフェルゴン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/067/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008868"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/067/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008352"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/067/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008610"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/067/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009384"
+        }
+      }
+    },
+    "10008869": {
+      "entryKey": "300301:003",
+      "officialName": "Hypnowl",
+      "localizedNames": {
+        "en": "Hypnowl",
+        "zh-CN": "咕波",
+        "zh-TW": "咕波",
+        "ja": "ホッホー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/003/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008869"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/003/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008353"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/003/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008611"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/003/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009385"
+        }
+      }
+    },
+    "10008872": {
+      "entryKey": "300301:002",
+      "officialName": "Coraliz",
+      "localizedNames": {
+        "en": "Coraliz",
+        "zh-CN": "珊瑚龙",
+        "zh-TW": "珊瑚龍",
+        "ja": "サンゴリュウ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/002/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008872"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/002/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008356"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/002/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008614"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/002/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009388"
+        }
+      }
+    },
+    "10008875": {
+      "entryKey": "300301:009",
+      "officialName": "Bubbeep",
+      "localizedNames": {
+        "en": "Bubbeep",
+        "zh-CN": "觅叶羊",
+        "zh-TW": "覓葉羊",
+        "ja": "ハッパウミヒツジ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/009/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008875"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/009/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008359"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/009/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008617"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/009/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009391"
+        }
+      }
+    },
+    "10008877": {
+      "entryKey": "300301:006",
+      "officialName": "Dewple",
+      "localizedNames": {
+        "en": "Dewple",
+        "zh-CN": "水涟涟",
+        "zh-TW": "水漣漣",
+        "ja": "リップル"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/006/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008877"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/006/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008361"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/006/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008619"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/006/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009393"
+        }
+      }
+    },
+    "10008879": {
+      "entryKey": "057",
+      "officialName": "Waleetle",
+      "localizedNames": {
+        "en": "Waleetle",
+        "zh-CN": "摩托郎",
+        "zh-TW": "機車郎",
+        "ja": "タマローラー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/057/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008879"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/057/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008363"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/057/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008621"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/057/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009395"
+        }
+      }
+    },
+    "10008881": {
+      "entryKey": "300301:013",
+      "officialName": "Sugarfish",
+      "localizedNames": {
+        "en": "Sugarfish",
+        "zh-CN": "甜甜鱼",
+        "zh-TW": "甜甜魚",
+        "ja": "ジェリーギョ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/013/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008881"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/013/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008365"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/013/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008623"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/013/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009397"
+        }
+      }
+    },
+    "10008882": {
+      "entryKey": "014",
+      "officialName": "Pranky",
+      "localizedNames": {
+        "en": "Pranky",
+        "zh-CN": "顽皮鱼",
+        "zh-TW": "搗蛋魚",
+        "ja": "ワンパクイモリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/014/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008882"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/014/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008366"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/014/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008624"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/014/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009398"
+        }
+      }
+    },
+    "10008883": {
+      "entryKey": "028",
+      "officialName": "Flutternym",
+      "localizedNames": {
+        "en": "Flutternym",
+        "zh-CN": "荧粉蝶",
+        "zh-TW": "螢粉蝶",
+        "ja": "ウスバチョウ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/028/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008883"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/028/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008367"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/028/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008625"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/028/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009399"
+        }
+      }
+    },
+    "10008886": {
+      "entryKey": "300301:018",
+      "officialName": "Salabask",
+      "localizedNames": {
+        "en": "Salabask",
+        "zh-CN": "板板鳄",
+        "zh-TW": "苔木鱷",
+        "ja": "イタワニ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/018/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008886"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/018/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008370"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/018/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008628"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/018/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009402"
+        }
+      }
+    },
+    "10008887": {
+      "entryKey": "99996",
+      "officialName": "Lunara",
+      "localizedNames": {
+        "en": "Lunara",
+        "zh-CN": "月辉狐",
+        "zh-TW": "輝月狐",
+        "ja": "ルナーラ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/99996/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008887"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/99996/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008371"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/99996/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008629"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/99996/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009403"
+        }
+      }
+    },
+    "10008889": {
+      "entryKey": "300301:020",
+      "officialName": "Puffby",
+      "localizedNames": {
+        "en": "Puffby",
+        "zh-CN": "粉团蜂",
+        "zh-TW": "粉團蜂",
+        "ja": "パフビー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/020/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008889"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/020/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008373"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/020/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008631"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/020/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009405"
+        }
+      }
+    },
+    "10008890": {
+      "entryKey": "031",
+      "officialName": "Eko",
+      "localizedNames": {
+        "en": "Eko",
+        "zh-CN": "大耳蝠",
+        "zh-TW": "大耳蝠",
+        "ja": "ウサバット"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/031/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008890"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/031/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008374"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/031/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008632"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/031/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009406"
+        }
+      }
+    },
+    "10008891": {
+      "entryKey": "1000:10004",
+      "officialName": "Hoptail",
+      "localizedNames": {
+        "en": "Hoptail",
+        "zh-CN": "蹦蹦貂",
+        "zh-TW": "蹦蹦貂",
+        "ja": "ジャンプミンク"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/10004/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008891"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/10004/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008375"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/10004/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008633"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/10004/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009407"
+        }
+      }
+    },
+    "10008893": {
+      "entryKey": "300301:011",
+      "officialName": "Popapus",
+      "localizedNames": {
+        "en": "Popapus",
+        "zh-CN": "浮泡章鱼",
+        "zh-TW": "吐泡章魚",
+        "ja": "アワダコ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/011/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008893"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/011/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008377"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/011/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008635"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/011/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009409"
+        }
+      }
+    },
+    "10008895": {
+      "entryKey": "10002",
+      "officialName": "Dazmand",
+      "localizedNames": {
+        "en": "Dazmand",
+        "zh-CN": "霹雳蜥",
+        "zh-TW": "霹靂蜥",
+        "ja": "ブレイクトカゲ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/10002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008895"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/10002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008379"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/10002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008637"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/10002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009411"
+        }
+      }
+    },
+    "10008896": {
+      "entryKey": "060",
+      "officialName": "Fenmane",
+      "localizedNames": {
+        "en": "Fenmane",
+        "zh-CN": "疾雷耶",
+        "zh-TW": "疾電茸",
+        "ja": "パビリビリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/060/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008896"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/060/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008380"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/060/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008638"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/060/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009412"
+        }
+      }
+    },
+    "10008897": {
+      "entryKey": "1000:028:prismana-form",
+      "officialName": "Jeburst",
+      "localizedNames": {
+        "en": "Jeburst",
+        "zh-CN": "飞流翼",
+        "zh-TW": "飛流翼",
+        "ja": "プテロン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/028/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008897"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/028/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008381"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/028/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008639"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/028/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009413"
+        }
+      }
+    },
+    "10008900": {
+      "entryKey": "300301:007",
+      "officialName": "Coinwisp",
+      "localizedNames": {
+        "en": "Coinwisp",
+        "zh-CN": "钱灵灵",
+        "zh-TW": "錢靈靈",
+        "ja": "カネカムリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/007/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008900"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/007/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008384"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/007/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008642"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/007/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009416"
+        }
+      }
+    },
+    "10008901": {
+      "entryKey": "076",
+      "officialName": "Bailite",
+      "localizedNames": {
+        "en": "Bailite",
+        "zh-CN": "土堡蚁",
+        "zh-TW": "蟻地堡",
+        "ja": "オシロアリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/076/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008901"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/076/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008385"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/076/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008643"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/076/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009417"
+        }
+      }
+    },
+    "10008905": {
+      "entryKey": "065",
+      "officialName": "Helmwhelp",
+      "localizedNames": {
+        "en": "Helmwhelp",
+        "zh-CN": "盔面龙",
+        "zh-TW": "盔面龍",
+        "ja": "メットゴン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/065/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008905"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/065/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008389"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/065/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008647"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/065/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009421"
+        }
+      }
+    },
+    "10008907": {
+      "entryKey": "011",
+      "officialName": "Iris",
+      "localizedNames": {
+        "en": "Iris",
+        "zh-CN": "飘飘花",
+        "zh-TW": "飄飄花",
+        "ja": "ヒラヒラン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/011/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008907"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/011/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008391"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/011/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008649"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/011/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009423"
+        }
+      }
+    },
+    "10008908": {
+      "entryKey": "074",
+      "officialName": "Minespine",
+      "localizedNames": {
+        "en": "Minespine",
+        "zh-CN": "簇晶脊龙",
+        "zh-TW": "晶簇龍",
+        "ja": "スパインサウルス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/074/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008908"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/074/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008392"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/074/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008650"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/074/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009424"
+        }
+      }
+    },
+    "10008912": {
+      "entryKey": "1000:004:prismana-form",
+      "officialName": "Inferlupa",
+      "localizedNames": {
+        "en": "Inferlupa",
+        "zh-CN": "狱魂狼",
+        "zh-TW": "獄魂狼",
+        "ja": "ウルファントム"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/004/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008912"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/004/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008396"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/004/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008654"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/004/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009428"
+        }
+      }
+    },
+    "10008914": {
+      "entryKey": "038",
+      "officialName": "Dewy",
+      "localizedNames": {
+        "en": "Dewy",
+        "zh-CN": "采蜜鸟",
+        "zh-TW": "採蜜鳥",
+        "ja": "ミツドリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/038/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008914"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/038/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008398"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/038/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008656"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/038/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009430"
+        }
+      }
+    },
+    "10008915": {
+      "entryKey": "300301:005",
+      "officialName": "Dewlop",
+      "localizedNames": {
+        "en": "Dewlop",
+        "zh-CN": "水露露",
+        "zh-TW": "水露露",
+        "ja": "ドリッピー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/005/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008915"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/005/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008399"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/005/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008657"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/005/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009431"
+        }
+      }
+    },
+    "10008917": {
+      "entryKey": "070",
+      "officialName": "Pebbling",
+      "localizedNames": {
+        "en": "Pebbling",
+        "zh-CN": "碎岩仔",
+        "zh-TW": "碎岩仔",
+        "ja": "イワノコ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/070/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008917"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/070/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008401"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/070/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008659"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/070/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009433"
+        }
+      }
+    },
+    "10008920": {
+      "entryKey": "1000:044:prismana-form",
+      "officialName": "Glynsera",
+      "localizedNames": {
+        "en": "Glynsera",
+        "zh-CN": "霜锋狼",
+        "zh-TW": "霜鋒狼",
+        "ja": "グレイシャー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/044/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008920"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/044/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008404"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/044/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008662"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/044/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009436"
+        }
+      }
+    },
+    "10008921": {
+      "entryKey": "021",
+      "officialName": "Hexxin",
+      "localizedNames": {
+        "en": "Hexxin",
+        "zh-CN": "巫帽草",
+        "zh-TW": "巫靈草",
+        "ja": "マジョボウソウ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/021/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008921"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/021/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008405"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/021/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008663"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/021/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009437"
+        }
+      }
+    },
+    "10008922": {
+      "entryKey": "044",
+      "officialName": "Glynsera",
+      "localizedNames": {
+        "en": "Glynsera",
+        "zh-CN": "霜锋狼",
+        "zh-TW": "霜鋒狼",
+        "ja": "グレイシャー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/044/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008922"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/044/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008406"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/044/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008664"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/044/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009438"
+        }
+      }
+    },
+    "10008923": {
+      "entryKey": "300301:015",
+      "officialName": "Sugartini",
+      "localizedNames": {
+        "en": "Sugartini",
+        "zh-CN": "甜妮妮",
+        "zh-TW": "甜妮妮",
+        "ja": "ジュレリーナ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/015/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008923"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/015/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008407"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/015/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008665"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/015/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009439"
+        }
+      }
+    },
+    "10008927": {
+      "entryKey": "11001",
+      "officialName": "Sparkelf",
+      "localizedNames": {
+        "en": "Sparkelf",
+        "zh-CN": "小火人",
+        "zh-TW": "小火人",
+        "ja": "スパークエルフ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/11001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008927"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/11001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008411"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/11001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008669"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/11001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009443"
+        }
+      }
+    },
+    "10008928": {
+      "entryKey": "004",
+      "officialName": "Inferlupa",
+      "localizedNames": {
+        "en": "Inferlupa",
+        "zh-CN": "狱魂狼",
+        "zh-TW": "獄魂狼",
+        "ja": "ウルファントム"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/004/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008928"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/004/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008412"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/004/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008670"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/004/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009444"
+        }
+      }
+    },
+    "10008932": {
+      "entryKey": "029",
+      "officialName": "Gracewing",
+      "localizedNames": {
+        "en": "Gracewing",
+        "zh-CN": "幻翼蝶",
+        "zh-TW": "幻翼蝶",
+        "ja": "マボロシアゲハ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/029/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008932"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/029/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008416"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/029/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008674"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/029/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009448"
+        }
+      }
+    },
+    "10008933": {
+      "entryKey": "001",
+      "officialName": "Emberpup",
+      "localizedNames": {
+        "en": "Emberpup",
+        "zh-CN": "小炭犬",
+        "zh-TW": "小炭狗",
+        "ja": "ワンタ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008933"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008417"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008675"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/001/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009449"
+        }
+      }
+    },
+    "10008935": {
+      "entryKey": "300301:022",
+      "officialName": "Royalby",
+      "localizedNames": {
+        "en": "Royalby",
+        "zh-CN": "蜜冠蜂",
+        "zh-TW": "蜜冠蜂",
+        "ja": "ローヤルビー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/022/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008935"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/022/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008419"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/022/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008677"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/022/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009451"
+        }
+      }
+    },
+    "10008936": {
+      "entryKey": "1000:022:prismana-form",
+      "officialName": "Royalby",
+      "localizedNames": {
+        "en": "Royalby",
+        "zh-CN": "蜜冠蜂",
+        "zh-TW": "蜜冠蜂",
+        "ja": "ローヤルビー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/022/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008936"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/022/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008420"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/022/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008678"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/022/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009452"
+        }
+      }
+    },
+    "10008938": {
+      "entryKey": "081",
+      "officialName": "Erlath",
+      "localizedNames": {
+        "en": "Erlath",
+        "zh-CN": "沐羽鸟",
+        "zh-TW": "沐羽鳥",
+        "ja": "モクヨクドリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/081/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008938"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/081/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008422"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/081/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008680"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/081/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009454"
+        }
+      }
+    },
+    "10008939": {
+      "entryKey": "300301:027",
+      "officialName": "Jeglid",
+      "localizedNames": {
+        "en": "Jeglid",
+        "zh-CN": "跃浪鱼",
+        "zh-TW": "躍浪魚",
+        "ja": "ナミトビ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/027/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008939"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/027/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008423"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/027/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008681"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/027/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009455"
+        }
+      }
+    },
+    "10008943": {
+      "entryKey": "010",
+      "officialName": "Tubster",
+      "localizedNames": {
+        "en": "Tubster",
+        "zh-CN": "大号鸥",
+        "zh-TW": "大號鷗",
+        "ja": "チューバカモメ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/010/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008943"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/010/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008427"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/010/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008685"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/010/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009459"
+        }
+      }
+    },
+    "10008944": {
+      "entryKey": "026",
+      "officialName": "Sparki",
+      "localizedNames": {
+        "en": "Sparki",
+        "zh-CN": "幽幽焰",
+        "zh-TW": "幽幽焰",
+        "ja": "オニビィ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/026/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008944"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/026/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008428"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/026/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008686"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/026/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009460"
+        }
+      }
+    },
+    "10008946": {
+      "entryKey": "015",
+      "officialName": "Glacy",
+      "localizedNames": {
+        "en": "Glacy",
+        "zh-CN": "莹冰龙",
+        "zh-TW": "熒冰龍",
+        "ja": "ロータウス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/015/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008946"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/015/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008430"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/015/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008688"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/015/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009462"
+        }
+      }
+    },
+    "10008952": {
+      "entryKey": "078",
+      "officialName": "Veilfloat",
+      "localizedNames": {
+        "en": "Veilfloat",
+        "zh-CN": "灯纱水母",
+        "zh-TW": "燈紗水母",
+        "ja": "アカリクラゲ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/078/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008952"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/078/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008436"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/078/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008694"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/078/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009468"
+        }
+      }
+    },
+    "10008953": {
+      "entryKey": "300301:025",
+      "officialName": "Prawnch",
+      "localizedNames": {
+        "en": "Prawnch",
+        "zh-CN": "小拳虾",
+        "zh-TW": "小拳蝦",
+        "ja": "パンチザリガニ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/025/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008953"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/025/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008437"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/025/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008695"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/025/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009469"
+        }
+      }
+    },
+    "10008954": {
+      "entryKey": "037",
+      "officialName": "Pomawk",
+      "localizedNames": {
+        "en": "Pomawk",
+        "zh-CN": "吼尾蜥",
+        "zh-TW": "咆尾蜥",
+        "ja": "シャウトカゲ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/037/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008954"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/037/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008438"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/037/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008696"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/037/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009470"
+        }
+      }
+    },
+    "10008961": {
+      "entryKey": "036",
+      "officialName": "Pomegg",
+      "localizedNames": {
+        "en": "Pomegg",
+        "zh-CN": "拉拉蛋",
+        "zh-TW": "啦啦蛋",
+        "ja": "チアトカゲ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/036/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008961"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/036/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008445"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/036/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008703"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/036/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009477"
+        }
+      }
+    },
+    "10008962": {
+      "entryKey": "034",
+      "officialName": "Thornblade",
+      "localizedNames": {
+        "en": "Thornblade",
+        "zh-CN": "刺剑玫",
+        "zh-TW": "刺劍玫",
+        "ja": "トゲイバラ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/034/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008962"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/034/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008446"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/034/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008704"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/034/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009478"
+        }
+      }
+    },
+    "10008966": {
+      "entryKey": "1000:10007",
+      "officialName": "Jaguaraun",
+      "localizedNames": {
+        "en": "Jaguaraun",
+        "zh-CN": "奔雷豹",
+        "zh-TW": "奔雷豹",
+        "ja": "カミナリヒョウ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/10007/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008966"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/10007/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008450"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/10007/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008708"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/10007/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009482"
+        }
+      }
+    },
+    "10008968": {
+      "entryKey": "300301:028",
+      "officialName": "Jeburst",
+      "localizedNames": {
+        "en": "Jeburst",
+        "zh-CN": "飞流翼",
+        "zh-TW": "飛流翼",
+        "ja": "プテロン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/028/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008968"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/028/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008452"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/028/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008710"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/028/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009484"
+        }
+      }
+    },
+    "10008972": {
+      "entryKey": "022",
+      "officialName": "Tuckin",
+      "localizedNames": {
+        "en": "Tuckin",
+        "zh-CN": "埋埋",
+        "zh-TW": "埋埋草",
+        "ja": "ウドー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/022/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008972"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/022/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008456"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/022/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008714"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/022/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009488"
+        }
+      }
+    },
+    "10008973": {
+      "entryKey": "300301:024",
+      "officialName": "Whirlbite",
+      "localizedNames": {
+        "en": "Whirlbite",
+        "zh-CN": "卷齿鲨",
+        "zh-TW": "卷齒鯊",
+        "ja": "マキバザメ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/024/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008973"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/024/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008457"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/024/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008715"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/024/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009489"
+        }
+      }
+    },
+    "10008974": {
+      "entryKey": "040",
+      "officialName": "Wisptis",
+      "localizedNames": {
+        "en": "Wisptis",
+        "zh-CN": "幽爪镰",
+        "zh-TW": "幽爪鐮",
+        "ja": "ツメカマキリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/040/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008974"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/040/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008458"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/040/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008716"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/040/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009490"
+        }
+      }
+    },
+    "10008976": {
+      "entryKey": "012",
+      "officialName": "Irisal",
+      "localizedNames": {
+        "en": "Irisal",
+        "zh-CN": "花舞兰",
+        "zh-TW": "花舞蘭",
+        "ja": "フラフラワー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/012/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008976"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/012/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008460"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/012/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008718"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/012/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009492"
+        }
+      }
+    },
+    "10008982": {
+      "entryKey": "079",
+      "officialName": "Luminelle",
+      "localizedNames": {
+        "en": "Luminelle",
+        "zh-CN": "吊灯水母",
+        "zh-TW": "吊燈水母",
+        "ja": "シャンデリアクラゲ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/079/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008982"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/079/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008466"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/079/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008724"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/079/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009498"
+        }
+      }
+    },
+    "10008983": {
+      "entryKey": "020",
+      "officialName": "Hummin",
+      "localizedNames": {
+        "en": "Hummin",
+        "zh-CN": "走调草",
+        "zh-TW": "跑調草",
+        "ja": "オンチソウ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/020/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008983"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/020/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008467"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/020/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008725"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/020/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009499"
+        }
+      }
+    },
+    "10008984": {
+      "entryKey": "300301:029",
+      "officialName": "Ekrim",
+      "localizedNames": {
+        "en": "Ekrim",
+        "zh-CN": "怪盗蝠",
+        "zh-TW": "怪盜蝠",
+        "ja": "カイトウバット"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/029/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008984"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/029/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008468"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/029/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008726"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/029/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009500"
+        }
+      }
+    },
+    "10008987": {
+      "entryKey": "039",
+      "officialName": "Fragrancier",
+      "localizedNames": {
+        "en": "Fragrancier",
+        "zh-CN": "香氛鸟",
+        "zh-TW": "香氛鳥",
+        "ja": "アロマドリ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/039/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008987"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/039/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008471"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/039/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008729"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/039/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009503"
+        }
+      }
+    },
+    "10008988": {
+      "entryKey": "063",
+      "officialName": "Rookey",
+      "localizedNames": {
+        "en": "Rookey",
+        "zh-CN": "盔卫士",
+        "zh-TW": "盔衛士",
+        "ja": "メットガード"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/063/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008988"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/063/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008472"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/063/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008730"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/063/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009504"
+        }
+      }
+    },
+    "10008990": {
+      "entryKey": "071",
+      "officialName": "Lavazar",
+      "localizedNames": {
+        "en": "Lavazar",
+        "zh-CN": "炽岩龙",
+        "zh-TW": "熾岩龍",
+        "ja": "ラヴァサウルス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/071/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008990"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/071/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008474"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/071/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008732"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/071/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009506"
+        }
+      }
+    },
+    "10008995": {
+      "entryKey": "055",
+      "officialName": "Sherro",
+      "localizedNames": {
+        "en": "Sherro",
+        "zh-CN": "星骑士",
+        "zh-TW": "星騎士",
+        "ja": "ステラナイト"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/055/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008995"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/055/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008479"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/055/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008737"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/055/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009511"
+        }
+      }
+    },
+    "10008996": {
+      "entryKey": "052",
+      "officialName": "Panpanta",
+      "localizedNames": {
+        "en": "Panpanta",
+        "zh-CN": "胖胖獭",
+        "zh-TW": "胖胖獺",
+        "ja": "パンパンタ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/052/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008996"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/052/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008480"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/052/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008738"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/052/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009512"
+        }
+      }
+    },
+    "10008997": {
+      "entryKey": "024",
+      "officialName": "Shrubclaw",
+      "localizedNames": {
+        "en": "Shrubclaw",
+        "zh-CN": "蟹葱葱",
+        "zh-TW": "蔥蔥蟹",
+        "ja": "アオクサガニ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/024/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008997"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/024/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008481"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/024/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008739"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/024/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009513"
+        }
+      }
+    },
+    "10008999": {
+      "entryKey": "002",
+      "officialName": "Flameruff",
+      "localizedNames": {
+        "en": "Flameruff",
+        "zh-CN": "焚火狼",
+        "zh-TW": "焚火狼",
+        "ja": "ウルフィ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008999"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008483"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008741"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/002/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009515"
+        }
+      }
+    },
+    "10009000": {
+      "entryKey": "027",
+      "officialName": "Flamerion",
+      "localizedNames": {
+        "en": "Flamerion",
+        "zh-CN": "幻焰灵",
+        "zh-TW": "幻焰靈",
+        "ja": "ホムラン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/027/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009000"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/027/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008484"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/027/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008742"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/027/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009516"
+        }
+      }
+    },
+    "10009001": {
+      "entryKey": "066",
+      "officialName": "Helgon",
+      "localizedNames": {
+        "en": "Helgon",
+        "zh-CN": "银盔龙",
+        "zh-TW": "銀盔龍",
+        "ja": "ヘルゴン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/066/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009001"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/066/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008485"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/066/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008743"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/066/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009517"
+        }
+      }
+    },
+    "10009002": {
+      "entryKey": "300301:023",
+      "officialName": "Saws",
+      "localizedNames": {
+        "en": "Saws",
+        "zh-CN": "锯锯鲨",
+        "zh-TW": "鋸背鯊",
+        "ja": "ノコノコザメ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/023/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009002"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/023/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008486"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/023/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008744"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/023/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009518"
+        }
+      }
+    },
+    "10009004": {
+      "entryKey": "062",
+      "officialName": "Pawney",
+      "localizedNames": {
+        "en": "Pawney",
+        "zh-CN": "盔勇士",
+        "zh-TW": "盔勇士",
+        "ja": "メットユウシ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/062/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009004"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/062/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008488"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/062/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008746"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/062/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009520"
+        }
+      }
+    },
+    "10009007": {
+      "entryKey": "023",
+      "officialName": "Budclaw",
+      "localizedNames": {
+        "en": "Budclaw",
+        "zh-CN": "花芽蟹",
+        "zh-TW": "花芽蟹",
+        "ja": "ハナメガニ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/023/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009007"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/023/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008491"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/023/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008749"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/023/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009523"
+        }
+      }
+    },
+    "10009008": {
+      "entryKey": "008",
+      "officialName": "Tromber",
+      "localizedNames": {
+        "en": "Tromber",
+        "zh-CN": "长号鸥",
+        "zh-TW": "長號鷗",
+        "ja": "トロンボカモメ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/008/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009008"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/008/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008492"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/008/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008750"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/008/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009524"
+        }
+      }
+    },
+    "10009010": {
+      "entryKey": "061",
+      "officialName": "Helmut",
+      "localizedNames": {
+        "en": "Helmut",
+        "zh-CN": "大眼盔",
+        "zh-TW": "大眼盔",
+        "ja": "モノアイメット"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/061/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009010"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/061/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008494"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/061/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008752"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/061/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009526"
+        }
+      }
+    },
+    "10009014": {
+      "entryKey": "082",
+      "officialName": "Besauce",
+      "localizedNames": {
+        "en": "Besauce",
+        "zh-CN": "贝瑟斯",
+        "zh-TW": "貝瑟斯",
+        "ja": "ベーシス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/082/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009014"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/082/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008498"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/082/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008756"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/082/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009530"
+        }
+      }
+    },
+    "10009015": {
+      "entryKey": "300301:001",
+      "officialName": "Reefish",
+      "localizedNames": {
+        "en": "Reefish",
+        "zh-CN": "珊壳鱼",
+        "zh-TW": "珊殼魚",
+        "ja": "サンゴウオ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/001/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009015"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/001/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008499"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/001/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008757"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/001/basic-form/300301",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009531"
+        }
+      }
+    },
+    "10009016": {
+      "entryKey": "025",
+      "officialName": "Geoclaw",
+      "localizedNames": {
+        "en": "Geoclaw",
+        "zh-CN": "晶壳蟹",
+        "zh-TW": "晶殼蟹",
+        "ja": "コウラガニ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/025/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009016"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/025/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008500"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/025/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008758"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/025/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009532"
+        }
+      }
+    },
+    "10009017": {
+      "entryKey": "064",
+      "officialName": "Jawling",
+      "localizedNames": {
+        "en": "Jawling",
+        "zh-CN": "钢颚仔",
+        "zh-TW": "鋼顎仔",
+        "ja": "メタルジョー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/064/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009017"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/064/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008501"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/064/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008759"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/064/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009533"
+        }
+      }
+    },
+    "10009023": {
+      "entryKey": "049",
+      "officialName": "Susuta",
+      "localizedNames": {
+        "en": "Susuta",
+        "zh-CN": "羞羞獭",
+        "zh-TW": "羞羞獺",
+        "ja": "シュシュタ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/049/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009023"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/049/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008507"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/049/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008765"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/049/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009539"
+        }
+      }
+    },
+    "10009025": {
+      "entryKey": "077",
+      "officialName": "Bulbly",
+      "localizedNames": {
+        "en": "Bulbly",
+        "zh-CN": "灯泡水母",
+        "zh-TW": "燈泡水母",
+        "ja": "ランプクラゲ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/077/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009025"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/077/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008509"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/077/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008767"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/077/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009541"
+        }
+      }
+    },
+    "10009028": {
+      "entryKey": "300001:030:prismana-form",
+      "officialName": "Somniwing",
+      "localizedNames": {
+        "en": "Somniwing",
+        "zh-CN": "美梦蝶",
+        "zh-TW": "幻夢蝶",
+        "ja": "ユメアゲハ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/030/prismana-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009028"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/030/prismana-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008512"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/030/prismana-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008770"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/030/prismana-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009544"
+        }
+      }
+    },
+    "10009030": {
+      "entryKey": "056",
+      "officialName": "Baleetle",
+      "localizedNames": {
+        "en": "Baleetle",
+        "zh-CN": "滚滚郎",
+        "zh-TW": "滾滾郎",
+        "ja": "タマコロン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/056/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009030"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/056/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008514"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/056/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008772"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/056/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009546"
+        }
+      }
+    },
+    "10009034": {
+      "entryKey": "017",
+      "officialName": "Nimbi",
+      "localizedNames": {
+        "en": "Nimbi",
+        "zh-CN": "云朵羊",
+        "zh-TW": "雲朵羊",
+        "ja": "モクモック"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/017/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009034"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/017/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008518"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/017/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008776"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/017/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009550"
+        }
+      }
+    },
+    "10009036": {
+      "entryKey": "1000:057:prismana-form",
+      "officialName": "Waleetle",
+      "localizedNames": {
+        "en": "Waleetle",
+        "zh-CN": "摩托郎",
+        "zh-TW": "機車郎",
+        "ja": "タマローラー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/057/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009036"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/057/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008520"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/057/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008778"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/057/prismana-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009552"
+        }
+      }
+    },
+    "10009038": {
+      "entryKey": "058",
+      "officialName": "Bouldus",
+      "localizedNames": {
+        "en": "Bouldus",
+        "zh-CN": "岩球郎",
+        "zh-TW": "巖球郎",
+        "ja": "ロックン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/058/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009038"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/058/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008522"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/058/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008780"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/058/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009554"
+        }
+      }
+    },
+    "10009039": {
+      "entryKey": "053",
+      "officialName": "Shelly",
+      "localizedNames": {
+        "en": "Shelly",
+        "zh-CN": "贝壳星",
+        "zh-TW": "貝殼星",
+        "ja": "シェリー"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/053/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009039"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/053/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008523"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/053/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008781"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/053/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009555"
+        }
+      }
+    },
+    "10009042": {
+      "entryKey": "054",
+      "officialName": "Sheldon",
+      "localizedNames": {
+        "en": "Sheldon",
+        "zh-CN": "智多星",
+        "zh-TW": "智多星",
+        "ja": "シェルドン"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/054/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009042"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/054/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008526"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/054/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008784"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/054/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009558"
+        }
+      }
+    },
+    "10009045": {
+      "entryKey": "069",
+      "officialName": "Grizbo",
+      "localizedNames": {
+        "en": "Grizbo",
+        "zh-CN": "暴睡熊",
+        "zh-TW": "暴睡熊",
+        "ja": "ヒスクマ"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/069/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009045"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/069/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008529"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/069/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008787"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/069/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009561"
+        }
+      }
+    },
+    "10009049": {
+      "entryKey": "1000:10006",
+      "officialName": "Hypnyto",
+      "localizedNames": {
+        "en": "Hypnyto",
+        "zh-CN": "迷瞳翼",
+        "zh-TW": "迷瞳翼",
+        "ja": "ネコミミズク"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/10006/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009049"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/10006/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008533"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/10006/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008791"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/10006/basic-form/1000",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009565"
+        }
+      }
+    },
+    "10009050": {
+      "entryKey": "048",
+      "officialName": "Squashel",
+      "localizedNames": {
+        "en": "Squashel",
+        "zh-CN": "烈拳尾",
+        "zh-TW": "烈拳尾",
+        "ja": "ダブルパンチリス"
+      },
+      "localizationEvidence": {
+        "en": {
+          "sourceUrl": "https://wiki.aniimo.com/item/048/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009050"
+        },
+        "zh-CN": {
+          "sourceUrl": "https://wiki.yimo.com/item/048/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008534"
+        },
+        "zh-TW": {
+          "sourceUrl": "https://wiki.aniimo.com/tw/item/048/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10008792"
+        },
+        "ja": {
+          "sourceUrl": "https://wiki.aniimo.com/ja/item/048/basic-form",
+          "status": "official",
+          "verifiedAt": "2026-11-11",
+          "sourceRecordId": "10009566"
+        }
+      }
+    }
+  },
+  "sourceHtmlSha256": {
+    "en": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+    "zh-CN": "9193ac55ad84e85be250e1ef7a75fd3995c76dc315de43432e1a1358d4890d6a",
+    "zh-TW": "85db31fb092bcc5e93ed55e486def9005be3144ceb208881acce70541b463e36",
+    "ja": "2dafefe7cad775b4682f7ffcab21e0b0f5d2ba8e8820bfcdeb84576381675cad"
+  }
+}

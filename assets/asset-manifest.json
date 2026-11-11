@@ -24,13 +24,13 @@
       "mime": "text/css"
     },
     "compendium": {
-      "file": "/assets/compendium.3c51da2b9688d602.js",
-      "sha256": "3c51da2b9688d6021a022863f08c4854658f52b9476b5da9c05f10bc06cb52f7",
+      "file": "/assets/compendium.62156dcd5e89ba90.js",
+      "sha256": "62156dcd5e89ba90ae9400fca6e264e46806bdfe5a9e1abd223c5be99d8bd35e",
       "mime": "text/javascript"
     },
     "compendiumStyle": {
-      "file": "/assets/compendium.afaea6ab66d92843.css",
-      "sha256": "afaea6ab66d9284341da796edc962a97fad51471378103efaf05d78ecf280d5d",
+      "file": "/assets/compendium.2150cc3a6675131a.css",
+      "sha256": "2150cc3a6675131a4ac765825537275d29b8c133f321612f80f327d03af504a8",
       "mime": "text/css"
     }
   }
