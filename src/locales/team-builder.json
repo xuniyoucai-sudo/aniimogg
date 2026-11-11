@@ -56,7 +56,10 @@
     "differences": "Member differences",
     "revision": "Data revision",
     "importHint": "Default: append every list with new IDs. Duplicate names allowed; unknown member IDs preserved. Nothing is overwritten.",
-    "imported": "Added {count} list(s)"
+    "imported": "Added {count} list(s)",
+    "planName": "List name",
+    "nameConflict": "Name collision",
+    "idConflict": "UUID collision"
   },
   "zh-CN": {
     "title": "队伍规划工具",
@@ -115,7 +118,10 @@
     "differences": "成员差异",
     "revision": "资料版本",
     "importHint": "默认追加所有清单并分配新ID。允许重名，保留未知成员ID，不覆盖原有内容。",
-    "imported": "已追加 {count} 个清单"
+    "imported": "已追加 {count} 个清单",
+    "planName": "清单名称",
+    "nameConflict": "名称重复",
+    "idConflict": "UUID 冲突"
   },
   "zh-TW": {
     "title": "隊伍規劃工具",
@@ -174,7 +180,10 @@
     "differences": "成員差異",
     "revision": "資料版本",
     "importHint": "預設附加所有清單並指派新ID。允許同名，保留未知成員ID，不覆寫原有內容。",
-    "imported": "已新增 {count} 份清單"
+    "imported": "已新增 {count} 份清單",
+    "planName": "清單名稱",
+    "nameConflict": "名稱重複",
+    "idConflict": "UUID 衝突"
   },
   "ja": {
     "title": "チームプランナー",
@@ -233,6 +242,9 @@
     "differences": "メンバーの違い",
     "revision": "資料バージョン",
     "importHint": "すべて新しいIDで追加します。同名を許可し、不明なメンバーIDも保持します。既存の内容は上書きしません。",
-    "imported": "{count}件のリストを追加しました"
+    "imported": "{count}件のリストを追加しました",
+    "planName": "リスト名",
+    "nameConflict": "同じ名前",
+    "idConflict": "UUIDの重複"
   }
 }
