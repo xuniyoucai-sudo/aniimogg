@@ -11,7 +11,7 @@ npm run check:aniimo-index
 npm run test:browser
 ```
 
-`test:browser` 使用已有的 `playwright` 安装，缺少时明确失败，不自动下载浏览器。非项目安装可通过 `PLAYWRIGHT_MODULE` 指定模块入口，通过 `PLAYWRIGHT_CHROMIUM_EXECUTABLE` 指定已有 Chromium 可执行文件；本地服务器地址可由 `TEST_BASE_URL` 指定。测试仅允许 localhost/127.0.0.1，不操作生产站或真实用户存储。浏览器回归阻止第三方请求以隔离应用行为，不构成广告/CMP验证。
+`test:browser` 使用已有的 `playwright` 安装，缺少时明确失败，不自动下载浏览器。非项目安装可通过 `PLAYWRIGHT_MODULE` 指定模块入口，通过 `PLAYWRIGHT_CHROMIUM_EXECUTABLE` 指定已有 Chromium 可执行文件；本地服务器地址可由 `TEST_BASE_URL` 指定。测试仅允许 localhost/127.0.0.1，或由 TEST_PREVIEW_URL 明确提供的非生产 *.aniimogg.pages.dev 地址，不操作生产站或真实用户存储。浏览器缓存正常启用，不拦截第三方请求；不构成广告/CMP验证。
 
 ## 数据与四语言
 
@@ -29,3 +29,14 @@ npm run test:browser
 `npm run build` 生成四语言静态页面。canonical/hreflang与既有noindex/sitemap URL策略保持一致。构建不会重新核验游戏事实；页面编辑日、来源检查日和历史公告日分别记录。
 
 本轮 P0 仅本地实施，不执行 commit、push、PR、部署、IndexNow 或生产配置修改。未来发布需按当次用户授权与项目约定运行检查；不要默认重复提交全站 URL。
+
+
+## 内容哈希资源（P0.1）
+
+可编辑 JS/CSS 源码在 `src/assets/`。构建读取最终字节，以 SHA-256 前16位生成 `/assets/<name>.<hash>.<ext>`，完整摘要保存在 `assets/asset-manifest.json`；所有新页面从同一 manifest 读取资源URL。CSS原来的根目录相对依赖转为根相对路径后计算哈希。重复构建不改变URL，构建不删除历史哈希文件。
+
+网站根目录 `app.js`、`styles.css`、`site-content.css`、`accessibility.css` 是 a6b23bad 生产HTML的兼容文件，不是新版源码，不得覆盖或删除。其旧版图鉴缺陷仍存在。真实历史HTML以 gzip fixture 保存于 `src/fixtures/asset-cache/`，带commit、源路径和字节哈希；共存测试把已知旧版异常与新版验收分开。
+
+`npm run check:assets` 验证全站HTML、资源字节与文件名、MIME声明、本地依赖、完整重建幂等性、JS/CSS独立变动和旧文件保留；已纳入 `npm test`。`test:browser` 额外验证新旧HTML同源共存和实际资源字节。`check:performance` 针对manifest输出字节执行原预算。
+
+P0.1仅允许独立 Preview 分支，不推送main、不部署生产、不清理或修改缓存规则。原P0“仅本地”段落为当时阶段记录，实际发布与回滚见质量报告。

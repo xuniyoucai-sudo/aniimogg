@@ -22,7 +22,7 @@ for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
 }
 
 // Exercise the actual readiness handler, including the official minimum boundary.
-const app=fs.readFileSync('app.js','utf8');
+const app=fs.readFileSync('src/assets/app.js','utf8');
 const start=app.indexOf("document.querySelectorAll('.readiness-check')");
 const end=app.indexOf('\n}));',start)+5;
 assert.ok(start>=0&&end>start,'readiness handler not found');

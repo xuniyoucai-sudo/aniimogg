@@ -1,0 +1,49 @@
+{
+  "commit": "a6b23bad014fc9270ad810f61809a4aa6ba35423",
+  "fixtures": [
+    {
+      "file": "en-catalogue.html.gz",
+      "sourcePath": "guides/confirmed-aniimo/index.html",
+      "sha256": "07260bfde12973a53e8331b7b6bff778e61d55a3e38f2019dfae5cd261e9f838",
+      "knownError": null
+    },
+    {
+      "file": "zh-cn-catalogue.html.gz",
+      "sourcePath": "zh-cn/guides/confirmed-aniimo/index.html",
+      "sha256": "0a08ec7a728921f62c4cc5cc5fc66448dddfeceacfe93e8e67f30a3495e428f4",
+      "knownError": "Cannot read properties of null (reading 'dataset')"
+    },
+    {
+      "file": "zh-tw-catalogue.html.gz",
+      "sourcePath": "zh-tw/guides/confirmed-aniimo/index.html",
+      "sha256": "0ff76defbb84000eb2a4b8110069afd1cebaf337d4570a1009c8e81b3fefc6d4",
+      "knownError": "Cannot read properties of null (reading 'dataset')"
+    },
+    {
+      "file": "ja-catalogue.html.gz",
+      "sourcePath": "ja/guides/confirmed-aniimo/index.html",
+      "sha256": "a83fb6a21666299b2ce91e7f577502b08b099ce09a71740807c6c6055253a324",
+      "knownError": "Cannot read properties of null (reading 'dataset')"
+    },
+    {
+      "file": "en-home.html.gz",
+      "sourcePath": "index.html",
+      "sha256": "f40e1eb968ae70d2d7d9f5ad4308fbb06e2cc6db52f902a789d6db1cceec97b2",
+      "knownError": null
+    },
+    {
+      "file": "p0-mixed-en.html.gz",
+      "sourcePath": "guides/confirmed-aniimo/index.html",
+      "commit": "cb3651aa1c75aa581c193773ecaea3917d2789a2",
+      "sha256": "d536d8a19d6875d6269e9f11575a7dc2c946da3f88ee949f2a62bdc1e2c5b165",
+      "mixedContract": true,
+      "knownError": "Cannot read properties of undefined (reading 'includes')"
+    }
+  ],
+  "legacyAssets": {
+    "app.js": "fe99d50a237a67cff5e9ae28442fd104921062a06753974de26cced3de8c2e52",
+    "styles.css": "562ff2418ef31db877ebf174f945dbb6c4e00b21b481e445b30c2de02ec7c382",
+    "site-content.css": "9349f2a9806451e481134aa392ea8780b42effca0af0e534e264d5f7e9f8e09b",
+    "accessibility.css": "a871e57e6a0e32fdf0dcd90e1c860e1176323e3c384c5dbe4c32f50054533370"
+  }
+}

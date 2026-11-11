@@ -2,10 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const root=process.cwd();
+const assets=JSON.parse(fs.readFileSync('assets/asset-manifest.json','utf8')).assets;
 const size=file=>fs.statSync(path.join(root,file)).size;
 const checks=[
-  ['shared CSS',size('styles.css')+size('site-content.css')+size('accessibility.css'),50_000],
-  ['shared JavaScript',size('app.js'),20_000],
+  ['shared CSS',size(assets.styles.file.slice(1))+size(assets.siteContent.file.slice(1))+size(assets.accessibility.file.slice(1)),50_000],
+  ['shared JavaScript',size(assets.app.file.slice(1)),20_000],
   ['homepage HTML',size('index.html'),75_000],
   ...['','zh-cn/','zh-tw/','ja/'].map(prefix=>[prefix+'compendium HTML',size(prefix+'guides/confirmed-aniimo/index.html'),250_000]),
   ['long guide HTML',size('guides/beginner-mistakes/index.html'),75_000]
