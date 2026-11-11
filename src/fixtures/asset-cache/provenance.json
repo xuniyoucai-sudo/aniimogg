@@ -38,6 +38,14 @@
       "sha256": "d536d8a19d6875d6269e9f11575a7dc2c946da3f88ee949f2a62bdc1e2c5b165",
       "mixedContract": true,
       "knownError": "Cannot read properties of undefined (reading 'includes')"
+    },
+    {
+      "file": "p01-en-catalogue.html.gz",
+      "sourcePath": "guides/confirmed-aniimo/index.html",
+      "commit": "25e170edafbe96ebb71e078927600afffd65d2c9",
+      "sha256": "8eb916dc6d31e516ab2cb82abe1c4b1c16d654546747a2b2a1be300481dcfd52",
+      "knownError": null,
+      "hashed": true
     }
   ],
   "legacyAssets": {
@@ -45,5 +53,11 @@
     "styles.css": "562ff2418ef31db877ebf174f945dbb6c4e00b21b481e445b30c2de02ec7c382",
     "site-content.css": "9349f2a9806451e481134aa392ea8780b42effca0af0e534e264d5f7e9f8e09b",
     "accessibility.css": "a871e57e6a0e32fdf0dcd90e1c860e1176323e3c384c5dbe4c32f50054533370"
+  },
+  "retainedHashedAssets": {
+    "/assets/app.503603445af1234f.js": "503603445af1234fdd8e42e571a2dda5d11bfba3c396cc0a18759662086e24c7",
+    "/assets/styles.288009fffafd2cd8.css": "288009fffafd2cd8f9b555ddeb1ee8c60d68316dadb03305c6931aeb87e2a85c",
+    "/assets/site-content.158791c3936aab15.css": "158791c3936aab15194941f6542d0a3a4205bf7d502e3bac6cd25bb15fda9ca7",
+    "/assets/accessibility.a871e57e6a0e32fd.css": "a871e57e6a0e32fdf0dcd90e1c860e1176323e3c384c5dbe4c32f50054533370"
   }
 }

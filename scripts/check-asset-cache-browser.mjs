@@ -30,7 +30,8 @@ try{
  for(const [url,f] of fixtures){
   const observed=[];const handler=e=>observed.push(e.message);old.on('pageerror',handler);
   await old.goto(base+url,{waitUntil:'domcontentloaded'});
-  assert.equal(await old.locator('script[src^="/app.js"]').getAttribute('src'),'/app.js?v=20260917-3');
+  if(f.hashed){for(const [url,hash] of Object.entries(provenance.retainedHashedAssets)){const r=await context.request.get(base+url);assert.equal(sha256(await r.body()),hash);}await old.locator('.index-search').fill('Emberpup');assert.equal(await old.locator('.aniimo-card:visible').count(),1);}
+  else assert.equal(await old.locator('script[src^="/app.js"]').getAttribute('src'),'/app.js?v=20260917-3');
   const response=await context.request.get(base+'/app.js?v=20260917-3');assert.equal(sha256(await response.body()),provenance.legacyAssets['app.js']);
   if(f.mixedContract){const error=old.waitForEvent('pageerror',{predicate:e=>e.message===f.knownError});await old.locator('.index-search').fill('Emberpup');await error;assert.equal(await old.locator('.aniimo-card:visible').count(),130);}
   old.off('pageerror',handler);

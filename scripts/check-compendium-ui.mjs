@@ -1,29 +1,20 @@
-import fs from 'node:fs';
-import vm from 'node:vm';
-import assert from 'node:assert/strict';
-// Execute the real gallery handlers against an isolated DOM/storage fixture.
-const element=(value='')=>({value,textContent:'',hidden:false,dataset:{},events:{},classList:{toggle(){}},addEventListener(e,fn){this.events[e]=fn},setAttribute(k,v){this[k]=v},focus(){}});
-const selectors=Object.fromEntries(['.index-search','.index-region','.index-element','.index-role','.index-stage','.index-collection','.index-count','.index-empty','.index-empty-saved','.index-collection-count','.index-clear'].map(k=>[k,element()]));
-selectors['.index-collection'].value='all';selectors['.index-collection-count'].textContent='{count} saved';
-const cards=[{aniimoEntry:'001',region:'300001',search:'001 emberpup breezy plains',elements:'fire',roles:'dps',stage:'1'},{aniimoEntry:'300301:001',region:'300301',search:'001 reefish whisperwake isles',elements:'rock water',roles:'energy',stage:'1'},{aniimoEntry:'006',region:'300001',search:'006 stellarys breezy plains',elements:'dark',roles:'dps',stage:'3'},{aniimoEntry:'004',region:'300001',search:'004 inferlupa basic form',elements:'dark fire',roles:'break',stage:'3'},{aniimoEntry:'1000:004:prismana-form',region:'1000',search:'004 inferlupa prismana form',elements:'dark fire',roles:'break',stage:'3'},{aniimoEntry:'300001:030:prismana-form',region:'300001',search:'030 somniwing prismana form',elements:'grass wind',roles:'energy',stage:'4'}].map(dataset=>({...element(),dataset}));
-const rows=cards.map(c=>({...element(),dataset:{...c.dataset}}));
-const buttons=cards.map(c=>{const b=element();b.dataset={aniimoSave:c.dataset.aniimoEntry,saveText:'Save',removeText:'Remove'};const children={'.aniimo-save-label':element(),'[aria-hidden="true"]':element()};b.querySelector=s=>children[s];return b;});
-const index={dataset:{showing:'{count} records'},classList:{toggle(){}},querySelector:s=>selectors[s],querySelectorAll:s=>s==='tbody tr'?rows:s==='.aniimo-card'?cards:s==='[data-aniimo-save]'?buttons:[]};
-let saved='["001"]';const values=new Map([['aniimo-guide-collection-v1',saved]]);
-const storage={getItem:key=>values.get(key)??null,setItem:(key,value)=>{values.set(key,value);if(key==='aniimo-guide-collection-v2')saved=JSON.stringify(JSON.parse(value).entityIds);},removeItem:key=>values.delete(key)};
-const app=fs.readFileSync(new URL('../src/assets/app.js',import.meta.url),'utf8'),start=app.indexOf("document.querySelectorAll('.aniimo-index').forEach"),end=app.indexOf("document.querySelectorAll('.readiness-check')",start);
-assert.ok(start>=0&&end>start);vm.runInNewContext(app.slice(start,end),{document:{documentElement:{lang:'en'},querySelectorAll:()=>[index]},localStorage:storage,Set,JSON,String});
-assert.equal(buttons[0]['aria-pressed'],'true');assert.equal(buttons[1]['aria-pressed'],'false');
-selectors['.index-region'].value='300301';selectors['.index-region'].events.change();assert.equal(cards[0].hidden,true);assert.equal(cards[1].hidden,false);assert.equal(rows[0].hidden,true);
-buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001','300301:001']);
-selectors['.index-clear'].events.click();assert.equal(selectors['.index-region'].value,'');assert.equal(cards[0].hidden,false);
-buttons[1].events.click();assert.deepEqual(JSON.parse(saved),['001']);selectors['.index-collection'].value='saved';selectors['.index-collection'].events.change();assert.equal(cards[0].hidden,false);assert.equal(cards[1].hidden,true);
-selectors['.index-collection'].value='all';selectors['.index-stage'].value='3';selectors['.index-stage'].events.change();
-assert.equal(cards[0].hidden,true);assert.equal(cards[1].hidden,true);assert.equal(cards[2].hidden,false);assert.equal(rows[2].hidden,false);
-selectors['.index-stage'].value='1';selectors['.index-stage'].events.change();assert.equal(cards[0].hidden,false);assert.equal(cards[1].hidden,false);assert.equal(cards[2].hidden,true);
-selectors['.index-clear'].events.click();assert.equal(cards[2].hidden,false);
-buttons[4].events.click();assert.ok(JSON.parse(saved).includes('1000:004:prismana-form'));assert.ok(!JSON.parse(saved).includes('004'));
-selectors['.index-search'].value='prismana';selectors['.index-search'].events.input();assert.equal(cards[3].hidden,true);assert.equal(cards[4].hidden,false);assert.equal(rows[4].hidden,false);
-selectors['.index-stage'].value='4';selectors['.index-stage'].events.change();assert.equal(cards[4].hidden,true);assert.equal(cards[5].hidden,false);assert.equal(rows[5].hidden,false);
-selectors['.index-clear'].events.click();selectors['.index-collection'].value='saved';selectors['.index-collection'].events.change();assert.equal(cards[3].hidden,true);assert.equal(cards[4].hidden,false);
-console.log('PASS regional/form gallery: legacy and independent form bookmarks, region/stage/code-4 filters, form search, table parity, clear and saved-only views.');
+import fs from 'node:fs';import assert from 'node:assert/strict';
+import {normalizeSnapshot} from './aniimo-snapshot.mjs';
+import {normalizeQuery,matchesForm,createCollection} from '../src/assets/compendium.js';
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));const site=read('src/data/site.json');const {entities}=normalizeSnapshot(read('src/data/aniimo-index.json'),read('src/data/aniimo-index-manifest.json'),site.aniimoAliases);
+const records=entities.map(r=>({...r,sourceRecordId:String(r.sourceRecordId),search:normalizeQuery([r.officialName,...Object.values(r.localizedNames),...r.aliases,r.entryNo,r.entryKey,r.formType].join(' '))}));
+const all={query:'',elements:[],roles:[],group:'',stage:'',form:'',savedOnly:false,saved:new Set()};const filter=f=>records.filter(r=>matchesForm(r,{...all,...f}));
+for(const [query,n] of [['Emberpup',1],['Witchin',1],['001',4],['no-such-record',0],['  ＥＭＢＥＲＰＵＰ  ',1],['ember pup',1],['Prismana',12]])assert.equal(filter({query}).length,n,query);
+for(const r of records)assert.equal(filter({query:r.sourceRecordId})[0]?.entityId,r.entityId);
+assert.equal(filter({form:'basic-form'}).length,118);assert.equal(filter({stage:'4'}).length,2);assert.equal(filter({form:'prismana-form'}).length,12);
+assert.deepEqual(new Set(filter({elements:['fire','water']}).map(r=>r.entityId)),new Set([...filter({elements:['fire']}),...filter({elements:['water']})].map(r=>r.entityId)));
+assert.ok(filter({elements:['fire','water'],roles:['dps','sup']}).every(r=>r.elements.some(v=>['fire','water'].includes(v))&&r.roles.some(v=>['dps','sup'].includes(v))));
+const messages=['blocked','unknown','damaged'];
+for(const seed of ['["001","300301:001","unknown-old-id"]','{broken','{}']){
+ const data=new Map([['aniimo-guide-collection-v1',seed]]),warnings=[];const storage={getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};
+ const c=createCollection(records,()=>storage,m=>warnings.push(m),messages);assert.equal(data.get('aniimo-guide-collection-v1'),seed);
+ if(seed.startsWith('[')){assert.equal(c.saved.size,2);c.toggle('003');const state=JSON.parse(data.get('aniimo-guide-collection-v2'));assert.equal(state.entityIds.length,3);assert.deepEqual(state.unrecognizedIds,['unknown-old-id']);const before=data.get('aniimo-guide-collection-v2');createCollection(records,()=>storage,()=>{},messages);assert.equal(data.get('aniimo-guide-collection-v2'),before);}
+ else{assert.ok(warnings.includes('damaged'));c.toggle('001');assert.ok(!data.has('aniimo-guide-collection-v2'));assert.equal(c.saved.size,1);}
+}
+const warnings=[];const blocked=createCollection(records,()=>{throw Error('blocked');},m=>warnings.push(m),messages);blocked.toggle('001');assert.equal(blocked.saved.size,1);assert.ok(warnings.includes('blocked'));
+console.log('PASS 130 real records: Unicode/alias/ID search, OR/AND filters, 118+12, unknown stages; unchanged v2 migration/idempotence, unknown IDs, corrupt and blocked storage.');

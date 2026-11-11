@@ -17,7 +17,7 @@ try{
  for(const prefix of ['','zh-cn/','zh-tw/','ja/'])for(const route of ['','guides/confirmed-aniimo/']){
   const path='/'+prefix+route;const r=await page.goto(base+path,{waitUntil:'domcontentloaded'});assert.equal(r.status(),200);
   const refs=await page.locator('script[src],link[rel=stylesheet]').evaluateAll(xs=>xs.map(x=>x.getAttribute('src')||x.getAttribute('href')).filter(x=>!x.startsWith('https:')));
-  assert.deepEqual(refs.sort(),Object.values(manifest.assets).map(a=>a.file).sort());
+  assert.deepEqual(refs.sort(),Object.entries(manifest.assets).filter(([key])=>route||!key.startsWith('compendium')).map(([,a])=>a.file).sort());
   assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://aniimogg.com'+path);
   if(route){await page.locator('.index-search').fill('Emberpup');assert.equal(await page.locator('.aniimo-card:visible').count(),1);}
   results.push({path,status:200,refs,canonical:'production URL'});

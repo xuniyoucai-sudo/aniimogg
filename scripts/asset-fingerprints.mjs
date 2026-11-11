@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 
-export const assetInputs={app:'app.js',styles:'styles.css',siteContent:'site-content.css',accessibility:'accessibility.css'};
+export const assetInputs={app:'app.js',styles:'styles.css',siteContent:'site-content.css',accessibility:'accessibility.css',compendium:'compendium.js',compendiumStyle:'compendium.css'};
 export const sha256=bytes=>createHash('sha256').update(bytes).digest('hex');
 export function fingerprintAssets(root){
   const assets={};

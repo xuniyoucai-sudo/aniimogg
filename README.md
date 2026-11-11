@@ -39,4 +39,14 @@ npm run test:browser
 
 `npm run check:assets` 验证全站HTML、资源字节与文件名、MIME声明、本地依赖、完整重建幂等性、JS/CSS独立变动和旧文件保留；已纳入 `npm test`。`test:browser` 额外验证新旧HTML同源共存和实际资源字节。`check:performance` 针对manifest输出字节执行原预算。
 
-P0.1仅允许独立 Preview 分支，不推送main、不部署生产、不清理或修改缓存规则。原P0“仅本地”段落为当时阶段记录，实际发布与回滚见质量报告。
+P0/P0.1 的本地及 Preview 限制为历史阶段记录；P0.1 已完成正式生产验收。后续发布遵循 AGENTS.md 和当次用户授权，不清理或修改缓存规则。
+
+## Compendium 2.0（P1-A）
+
+唯一入口仍为 `/guides/confirmed-aniimo/`（四语言）。图鉴专属 `src/assets/compendium.js`、`compendium.css` 按内容哈希加载，公共 app 保留全站行为。构建输出一次规范化记录和130张SSR卡片，表格初始化一次；筛选、详情、比较与收藏使用同一模型。
+
+同一维度多选取OR，不同维度取AND。目录组仅显示来源ID；stage 4为未知。详情沿用真实来源和快照日期，不推断物种或进化关系。缺少已核验本地化名称时显示官方英文名，详情标记未核实，不编造译名。
+
+收藏沿用同一个v2状态和迁移逻辑；详情、卡片、收藏筛选同步。比较仅在当前页面会话中保存最多3个entityId，不写新存储结构，只展示公开字段。
+
+`check-compendium-2-browser.mjs` 覆盖全部来源ID、四语言搜索、多选、详情/比较/收藏联动、键盘、三个视口和触屏模拟，记录Chromium CPU4倍节流下的过滤耗时，不代表实机认证或CWV。

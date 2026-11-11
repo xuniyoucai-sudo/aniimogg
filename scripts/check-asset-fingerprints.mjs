@@ -21,6 +21,7 @@ for(const [key,name] of Object.entries(assetInputs)){
 }
 const html=[];const walk=dir=>{for(const e of fs.readdirSync(dir,{withFileTypes:true})){if(['.git','node_modules','src','artifacts'].includes(e.name))continue;const p=path.join(dir,e.name);if(e.isDirectory())walk(p);else if(e.name.endsWith('.html'))html.push(p);}};walk('.');
 const expected=Object.values(manifest.assets).map(a=>a.file).sort();
+const shared=Object.entries(manifest.assets).filter(([k])=>!k.startsWith('compendium')).map(([,a])=>a.file).sort();
 for(const file of html){
   const text=fs.readFileSync(file,'utf8');
   for(const m of text.matchAll(/<(?:script|link)\b[^>]*(?:src|href)="([^"]+)"[^>]*>/g)){
@@ -29,7 +30,7 @@ for(const file of html){
   const refs=[...text.matchAll(/<(?:script|link)\b[^>]*(?:src|href)="([^"]+)"[^>]*>/g)].map(m=>m[1]).filter(s=>/\.(?:js|css)(?:\?|$)/.test(s)&&!s.startsWith('https:'));
   assert.equal(new Set(refs).size,refs.length,file+' duplicate asset');
   for(const ref of refs)assert.ok(expected.includes(ref),file+' must use manifest asset');
-  if(file.endsWith('index.html')||file==='404.html')assert.deepEqual(refs.sort(),expected,file+' shared bundle');
+  if(file.endsWith('index.html')||file==='404.html')assert.deepEqual(refs.sort(),file.includes('guides/confirmed-aniimo/')?expected:shared,file+' page-specific bundle');
   for(const ref of refs){assert.ok(ref.startsWith('/assets/'));assert.ok(!ref.includes('?'));assert.ok(fs.existsSync('.'+ref));}
   assert.ok(!/\/(?:app\.js|[^"\s]+\.css)\?v=/.test(text),file+' fixed query');
   assert.ok(!/file:\/\/|localhost:\d|127\.0\.0\.1:\d|\/Users\//.test(text),file+' machine-specific URL');
@@ -54,4 +55,5 @@ execFileSync(process.execPath,['scripts/build-site.mjs'],{stdio:'pipe'});
 assert.deepEqual(readManifest(),manifest);assert.deepEqual(html.map(f=>[f,sha256(fs.readFileSync(f))]),originalHtml);
 const compat=JSON.parse(fs.readFileSync('src/fixtures/asset-cache/provenance.json','utf8'));
 for(const [file,hash] of Object.entries(compat.legacyAssets))assert.equal(sha256(fs.readFileSync(file)),hash,'Legacy bytes must not be overwritten: '+file);
+for(const [file,hash] of Object.entries(compat.retainedHashedAssets))assert.equal(sha256(fs.readFileSync('.'+file)),hash,'Published P0.1 hash must be retained');
 console.log(`PASS ${html.length} HTML files: manifest/SHA-256/MIME/local dependencies, no fixed query or duplicate versions; deterministic rebuild, JS/CSS mutation isolation, retained legacy bytes.`);
