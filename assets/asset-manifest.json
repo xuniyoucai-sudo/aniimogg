@@ -23,15 +23,40 @@
       "sha256": "a871e57e6a0e32fdf0dcd90e1c860e1176323e3c384c5dbe4c32f50054533370",
       "mime": "text/css"
     },
+    "aniimoModel": {
+      "file": "/assets/aniimo-model.f4a49d2696e16024.js",
+      "sha256": "f4a49d2696e1602484fc8e80c3f33cabff041c444edc09c499449bb96e7e4374",
+      "mime": "text/javascript"
+    },
+    "teamModel": {
+      "file": "/assets/team-model.236e085dbfd8cffc.js",
+      "sha256": "236e085dbfd8cffcd46fc27b7a6ad1a648829399ac331ab8ed7f9e4ce913f4a3",
+      "mime": "text/javascript"
+    },
+    "team": {
+      "file": "/assets/team-builder.4aa7f55c96d59e10.js",
+      "sha256": "4aa7f55c96d59e100dab5d50133ba93dbeecf1848a756e34ec62c687e3074f63",
+      "mime": "text/javascript"
+    },
+    "teamStyle": {
+      "file": "/assets/team-builder.a311168c4168b525.css",
+      "sha256": "a311168c4168b525893653804de53ffb63857eb71878790d9bb057841700e29a",
+      "mime": "text/css"
+    },
     "compendium": {
-      "file": "/assets/compendium.62156dcd5e89ba90.js",
-      "sha256": "62156dcd5e89ba90ae9400fca6e264e46806bdfe5a9e1abd223c5be99d8bd35e",
+      "file": "/assets/compendium.68687fe77ce25e68.js",
+      "sha256": "68687fe77ce25e686a965828d585cd6d0a85e997feef363fc408e8a9cfc68576",
       "mime": "text/javascript"
     },
     "compendiumStyle": {
       "file": "/assets/compendium.2150cc3a6675131a.css",
       "sha256": "2150cc3a6675131a4ac765825537275d29b8c133f321612f80f327d03af504a8",
       "mime": "text/css"
+    },
+    "teamData": {
+      "file": "/assets/team-data.9e4a44a29af74a00.json",
+      "sha256": "9e4a44a29af74a008f7b3b22e25565fa441e114e507156aca6510de6e171f8d4",
+      "mime": "application/json"
     }
   }
 }

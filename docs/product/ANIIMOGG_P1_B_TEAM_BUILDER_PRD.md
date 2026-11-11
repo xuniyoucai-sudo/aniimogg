@@ -1,5 +1,7 @@
 # ANIIMOGG P1-B — Team Builder PRD
 
+> 实施状态：Team Builder 已实现。本文保留实施前的设计与验收基线；实际测试、发布与限制见[实施报告](../quality/ANIIMOGG_P1_B_TEAM_BUILDER_REPORT.md)。
+
 版本：1.0 · 日期：2026-11-11 · 状态：PLANNED_NOT_IMPLEMENTED。
 
 本文是下一阶段开发基线。本轮仅交付规划文档，没有Team Builder页面、功能代码或新路由上线。基线为P1-A.1：130条形态、118 Basic + 12 Prismana、稳定entityId、四语言官方名称、原收藏v2协议。

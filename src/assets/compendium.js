@@ -1,10 +1,5 @@
-// One normalized record model drives cards, table, details, comparison and saved views.
-export const normalizeQuery=value=>String(value??'').normalize('NFKC').toLowerCase().replace(/\s+/gu,' ').trim();
-export function matchesForm(r,f){
- const q=normalizeQuery(f.query);
- const search=!q||(/^\d+$/.test(q)?(r.entryNo.includes(q)||r.sourceRecordId===q):q.includes(':')?normalizeQuery(r.entryKey)===q:r.search.includes(q)||r.search.replace(/\s/g,'').includes(q.replace(/\s/g,'')));
- return search&&(!f.elements.length||f.elements.some(v=>r.elements.includes(v)))&&(!f.roles.length||f.roles.some(v=>r.roles.includes(v)))&&(!f.group||String(r.indexGroupId)===f.group)&&(!f.stage||String(r.stageCode)===f.stage)&&(!f.form||r.formType===f.form)&&(!f.savedOnly||f.saved.has(r.entryKey));
-}
+import {normalizeQuery,matchesForm,displayName} from './aniimo-model.js';
+export {normalizeQuery,matchesForm};
 export function createCollection(records,getStorage,warn,copy){
  const legacyToEntity=new Map(records.map(r=>[r.entryKey,r.entityId])),entityToLegacy=new Map(records.map(r=>[r.entityId,r.entryKey]));
  const saveKey='aniimo-guide-collection-v1',schemaKey='aniimo-guide-collection-v2';
@@ -23,7 +18,7 @@ if(typeof document!=='undefined')document.querySelectorAll('.aniimo-index[data-c
  const config=JSON.parse(index.querySelector('.compendium-data').textContent),{q,x,date,localizationDate}=config;
  const records=config.rows.map(a=>{const [entityId,entryKey,sourceRecordId,entryNo,officialName,localizedNames,aliases,elements,roles,indexGroupId,formType,stageCode,sourceUrl]=a;return {entityId,entryKey,sourceRecordId,entryNo,officialName,localizedNames,aliases,elements,roles,indexGroupId,formType,stageCode,sourceUrl,localizedSourceUrl:config.localizedSourcePrefix+new URL(sourceUrl).pathname,stageLabel:stageCode===4?null:x.stageLabels[stageCode]||null,speciesId:null,familyId:null,parentFormId:null};});
  const byId=new Map(records.map(r=>[r.entityId,r])),byKey=new Map(records.map(r=>[r.entryKey,r]));
- records.forEach(r=>{r.name=r.localizedNames[document.documentElement.lang]||r.officialName;r.search=normalizeQuery([r.officialName,...Object.values(r.localizedNames),...r.aliases,r.entryNo,r.sourceRecordId,r.entryKey,r.entityId,r.formType,x.formLabels[r.formType]].join(' '));});
+ records.forEach(r=>{r.name=displayName(r,document.documentElement.lang,q.unknown);r.search=normalizeQuery([r.officialName,...Object.values(r.localizedNames),...r.aliases,r.entryNo,r.sourceRecordId,r.entryKey,r.entityId,r.formType,x.formLabels[r.formType]].join(' '));});
  const find=s=>index.querySelector(s),search=find('.index-search'),element=find('.index-element'),role=find('.index-role'),group=find('.index-region'),stage=find('.index-stage'),form=find('.index-form'),collection=find('.index-collection');
  const warning=find('.collection-warning'),announce=find('.compendium-feedback');
  const collectionState=createCollection(records,()=>localStorage,message=>{warning.hidden=false;warning.textContent=message;},config.storageMessages);

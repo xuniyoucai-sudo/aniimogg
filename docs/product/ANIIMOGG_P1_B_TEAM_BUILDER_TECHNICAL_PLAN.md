@@ -1,5 +1,7 @@
 # ANIIMOGG P1-B — Team Builder 技术实施方案
 
+> 实施状态：Team Builder 已实现。本文保留实施前的设计与验收基线；实际测试、发布与限制见[实施报告](../quality/ANIIMOGG_P1_B_TEAM_BUILDER_REPORT.md)。
+
 版本：1.0 · 日期：2026-11-11 · 状态：设计基线，未实施。
 
 对应[PRD](ANIIMOGG_P1_B_TEAM_BUILDER_PRD.md)与[验收标准](ANIIMOGG_P1_B_TEAM_BUILDER_ACCEPTANCE.md)。本文路径和接口是下一阶段拟定设计，不表示文件或功能已经存在。

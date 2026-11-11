@@ -46,7 +46,7 @@ try{
  for(const prefix of ['','zh-cn/','zh-tw/','ja/']){
   await page.goto(base+'/'+prefix+'guides/confirmed-aniimo/',{waitUntil:'domcontentloaded'});
   const refs=await page.locator('script[src],link[rel=stylesheet]').evaluateAll(xs=>xs.map(x=>x.getAttribute('src')||x.getAttribute('href')).filter(x=>x.startsWith('/')));
-  assert.deepEqual(refs.sort(),Object.values(manifest.assets).map(x=>x.file).sort());
+  assert.deepEqual(refs.sort(),['app','styles','siteContent','accessibility','compendium','compendiumStyle'].map(k=>manifest.assets[k].file).sort());
   const hashes={};for(const a of Object.values(manifest.assets)){const r=await context.request.get(base+a.file);assert.equal(r.status(),200);assert.equal(r.headers()['content-type'],a.mime);hashes[a.file]=sha256(await r.body());assert.equal(hashes[a.file],a.sha256);}
   await page.locator('.index-search').fill('Emberpup');assert.equal(await page.locator('.aniimo-card:visible').count(),1);
   await page.locator('[data-aniimo-save="001"]').click();await page.reload({waitUntil:'domcontentloaded'});assert.equal(await page.locator('[data-aniimo-save="001"]').getAttribute('aria-pressed'),'true');
