@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {operationReviews} from './official-event-review.mjs';
+const now=Date.parse('2026-11-12T11:15:00Z');
+const event={eventId:'pending',verifiedAt:'2026-11-10',serverSchedules:{apac:{scheduledStartAt:'2026-11-12T12:00:00Z',scheduledEndAt:'2026-11-13T12:00:00Z',actualStartAt:null}}};
+const input={events:[event],rewards:[{rewardId:'unknown',claimEndAt:null},{rewardId:'due',claimEndAt:'2026-11-13T10:00:00Z',verifiedAt:'2026-11-10'}],codes:[{code:'old',sourceCheckedAt:'2026-09-28'},{code:'fresh',sourceCheckedAt:'2026-11-12'}]};
+const queues=operationReviews(input,now);
+assert.deepEqual(queues.beforeStart,['pending']);assert.deepEqual(queues.afterEnd,[]);assert.deepEqual(queues.claimDeadlines,['due']);assert.deepEqual(queues.codesSevenDays,['old']);assert.deepEqual(queues.unknownClaims,['unknown','due']);assert.deepEqual(queues.unknownEvents,['pending']);
+assert.equal(input.events[0].serverSchedules.apac.actualStartAt,null);
+assert.deepEqual(operationReviews({events:[{...event,verifiedAt:'2026-11-12T11:00:00Z'}]},now).beforeStart,[]);
+assert.deepEqual(operationReviews({events:[{...event,verifiedAt:'2027-01-01'}]},now).beforeStart,['pending']);
+console.log('Operational review queues passed; unknown claim deadlines never inherit event end.');
+const ended={eventId:'ended',verifiedAt:'2026-11-10',serverSchedules:{apac:{scheduledEndAt:'2026-11-12T10:59:00Z'}}};
+assert.deepEqual(operationReviews({events:[ended]},now).afterEnd,['ended']);
+assert.deepEqual(operationReviews({events:[{...ended,verifiedAt:'2026-11-12T11:10:00Z'}]},now).afterEnd,[]);
+assert.deepEqual(operationReviews({rewards:[{rewardId:'start',claimStartAt:'2026-11-13T10:00:00Z',verifiedAt:'2026-11-10'}]},now).claimStarts,['start']);
+assert.deepEqual(operationReviews({rewards:[{rewardId:'bad',claimEndAt:'invalid'}]},now).claimDeadlines,[]);
+assert.deepEqual(operationReviews({codes:[{code:'unknown',sourceCheckedAt:null}]},now).codesSevenDays,['unknown']);

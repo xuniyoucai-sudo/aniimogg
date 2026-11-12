@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Verify operational review logic
+        run: node scripts/check-operation-reviews.mjs
       - name: Check official notices without changing site data
         id: sources
         run: node scripts/check-official-events.mjs
