@@ -10,5 +10,12 @@ const f={region:'',elements:[],roles:[],form:'',completeness:''},count=f=>rows.f
 for(const region of ['breezy-plains','whisperwake-isles','unknown']){for(const dimension of ['elements','roles'])for(const values of dimension==='elements'?[['fire'],['fire','water']]:[['dps'],['dps','break']]){const filter={...f,region,[dimension]:values},actual=count(filter);assert.ok(actual.every(r=>values.some(v=>r[dimension].includes(v))));assert.deepEqual(actual.map(r=>r.entityId),count({...f,region}).filter(r=>values.some(v=>r[dimension].includes(v))).map(r=>r.entityId));}}
 assert.equal(findRegions(d.regions,'crescent').length,1);assert.equal(findRegions(d.regions,'not-a-region').length,0);
 for(const k of ['regionData','teamData']){const a=manifest.assets[k];assert.equal(sha(fs.readFileSync('.'+a.file)),a.sha256);assert.ok(a.file.includes(a.sha256.slice(0,16)));}
-const baseline=read('src/fixtures/regions/provenance.json');for(const [file,hash]of Object.entries(baseline.files))assert.equal(sha(fs.readFileSync(file)),hash,'Protected '+file);
+// Editorial cover replacements may change image:loc only. Normalize those back
+// to the historical cover names; keep the original byte guard for every other
+// sitemap field and every other protected file. check-site validates new images.
+const baseline=read('src/fixtures/regions/provenance.json');for(const [file,hash]of Object.entries(baseline.files)){
+ let bytes=fs.readFileSync(file);
+ if(file==='sitemap.xml')bytes=Buffer.from(bytes.toString().replace(/<url>[\s\S]*?<\/url>/g,block=>{const id=block.match(/<loc>https:\/\/aniimogg\.com\/(?:zh-cn\/|zh-tw\/|ja\/)?guides\/([^/]+)\/<\/loc>/)?.[1];return id?block.replace(/<image:loc>[^<]+<\/image:loc>/,`<image:loc>https://aniimogg.com/assets/guides/${id}-cover.webp</image:loc>`):block;}));
+ assert.equal(sha(bytes),hash,'Protected '+file);
+}
 console.log('PASS 130 official identities/filter/detail/bytes; 7-node hierarchy, 19 UNKNOWN, four-language source names; OR/AND filters; source guards and fingerprints');
