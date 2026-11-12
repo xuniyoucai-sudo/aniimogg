@@ -1,0 +1,672 @@
+{
+  "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+  "events": [
+    {
+      "eventId": "snapshots-1",
+      "officialTitle": "Prismana Snapshots · 1",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-16T03:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-16T03:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-16T03:59:00+08:00"
+        }
+      },
+      "participation": "Student II",
+      "rewards": [
+        "snapshots-1-reward"
+      ],
+      "targetAniimo": null,
+      "phase": 1,
+      "detailKey": "snapshots"
+    },
+    {
+      "eventId": "snapshots-2",
+      "officialTitle": "Prismana Snapshots · 2",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "2026-11-16T04:00:00",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": "2026-11-16T04:00:00+00:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-23T03:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": "2026-11-16T04:00:00-04:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-23T03:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": "2026-11-16T04:00:00+08:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-23T03:59:00+08:00"
+        }
+      },
+      "participation": "Student II",
+      "rewards": [
+        "snapshots-2-reward"
+      ],
+      "targetAniimo": null,
+      "phase": 2,
+      "detailKey": "snapshots"
+    },
+    {
+      "eventId": "snapshots-3",
+      "officialTitle": "Prismana Snapshots · 3",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "2026-11-23T04:00:00",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": "2026-11-23T04:00:00+00:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-30T03:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": "2026-11-23T04:00:00-04:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-30T03:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": "2026-11-23T04:00:00+08:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-30T03:59:00+08:00"
+        }
+      },
+      "participation": "Student II",
+      "rewards": [
+        "snapshots-3-reward"
+      ],
+      "targetAniimo": null,
+      "phase": 3,
+      "detailKey": "snapshots"
+    },
+    {
+      "eventId": "dash-1",
+      "officialTitle": "Aniimo Dash · Greenfield Shallows",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T23:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T19:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00+08:00"
+        }
+      },
+      "participation": "Level 40",
+      "rewards": [
+        "dash-1Designation",
+        "dash-1Profile",
+        "dash-1Avatar Frame",
+        "dash-1Growth Resources"
+      ],
+      "detailKey": "dash",
+      "dailyWindow": {
+        "solo": "00:00–24:00",
+        "multiplayer": "18:00–24:00"
+      },
+      "maxPathfinders": 8
+    },
+    {
+      "eventId": "dash-2",
+      "officialTitle": "Aniimo Dash · Gullcove Cliffs",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "2026-11-19T10:00:00",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": "2026-11-19T10:00:00+00:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T23:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": "2026-11-19T10:00:00-04:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T19:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": "2026-11-19T10:00:00+08:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00+08:00"
+        }
+      },
+      "participation": "Level 40",
+      "rewards": [
+        "dash-2Designation",
+        "dash-2Profile",
+        "dash-2Avatar Frame",
+        "dash-2Growth Resources"
+      ],
+      "detailKey": "dash",
+      "dailyWindow": {
+        "solo": "00:00–24:00",
+        "multiplayer": "18:00–24:00"
+      },
+      "maxPathfinders": 8
+    },
+    {
+      "eventId": "dash-3",
+      "officialTitle": "Aniimo Dash · Redrock Trail",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov26-update",
+      "activationEvidence": null,
+      "rawStart": "After the November 26 version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T23:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T19:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00+08:00"
+        }
+      },
+      "participation": "Level 40",
+      "rewards": [
+        "dash-3Designation",
+        "dash-3Profile",
+        "dash-3Avatar Frame",
+        "dash-3Growth Resources"
+      ],
+      "detailKey": "dash",
+      "dailyWindow": {
+        "solo": "00:00–24:00",
+        "multiplayer": "18:00–24:00"
+      },
+      "maxPathfinders": 8
+    },
+    {
+      "eventId": "whirlbite-reset",
+      "officialTitle": "Whirlbite · Limited-Time Reset",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "2026-11-12T04:00:00",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": "2026-11-12T04:00:00+00:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-27T04:00:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": "2026-11-12T04:00:00-04:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-27T04:00:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": "2026-11-12T04:00:00+08:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-11-27T04:00:00+08:00"
+        }
+      },
+      "participation": "Whirlbite Basic / Prismana obtained before adjustment",
+      "rewards": [],
+      "detailKey": "reset"
+    },
+    {
+      "eventId": "homeland-adjustment",
+      "officialTitle": "Homeland · Phase 2 / 3",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "publishedAt": "2026-11-09",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "nov12-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        }
+      },
+      "participation": "UNKNOWN",
+      "rewards": [
+        "homeland-adjustmentFurniture"
+      ],
+      "detailKey": "homeland"
+    },
+    {
+      "eventId": "season-part2",
+      "officialTitle": "S1 Departure with the Wind: Part 2",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T23:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-09T19:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00+08:00"
+        }
+      },
+      "participation": "Student I",
+      "rewards": [],
+      "detailKey": "season"
+    },
+    {
+      "eventId": "aniimo-go",
+      "officialTitle": "Aniimo Go!",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "2026-11-12T10:00:00",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": "2026-11-12T10:00:00+00:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": "2026-11-12T10:00:00-04:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": "2026-11-12T10:00:00+08:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T07:59:00+08:00"
+        }
+      },
+      "participation": "Level 40",
+      "rewards": [
+        "aniimo-goAvatar Frame",
+        "aniimo-goGrowth Resources"
+      ],
+      "detailKey": "go"
+    },
+    {
+      "eventId": "night-parade",
+      "officialTitle": "Night Parade",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00+08:00"
+        }
+      },
+      "participation": "Student I",
+      "rewards": [
+        "night-paradeAvatar Frame",
+        "night-paradeSparkling Crystal"
+      ],
+      "detailKey": "night"
+    },
+    {
+      "eventId": "fantasy-resonance",
+      "officialTitle": "Fantasy Resonance",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "2026-11-20T04:00:00",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": "2026-11-20T04:00:00+00:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": "2026-11-20T04:00:00-04:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": "2026-11-20T04:00:00+08:00",
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00+08:00"
+        }
+      },
+      "participation": "Student I",
+      "rewards": [
+        "fantasy-resonanceOffering recipe"
+      ],
+      "detailKey": "fantasy"
+    },
+    {
+      "eventId": "egg-heist",
+      "officialTitle": "Operation: Egg Heist",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        }
+      },
+      "participation": "Level 50 · Rising Egg Scout",
+      "rewards": [],
+      "detailKey": "egg",
+      "dailyWindow": {
+        "multiplayer": "18:00–24:00"
+      },
+      "competingTeams": 3
+    },
+    {
+      "eventId": "holo-sim",
+      "officialTitle": "Holo-Battle Sim",
+      "category": "permanent-feature",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        }
+      },
+      "participation": "Trailblazer I",
+      "rewards": [],
+      "detailKey": "sim"
+    },
+    {
+      "eventId": "holo-interlink",
+      "officialTitle": "Holo-Battle Interlink",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": null
+        }
+      },
+      "participation": "Trailblazer I",
+      "rewards": [],
+      "detailKey": "interlink",
+      "recurrence": "Thursday 04:00–Monday 03:59"
+    },
+    {
+      "eventId": "homeland-night",
+      "officialTitle": "Homeland · Magical Wonder Night",
+      "category": "event",
+      "sourceStatus": "official",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "sourceCheckedAt": "2026-11-12T03:38:48.570656+00:00",
+      "verifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "modifiedAt": "2026-11-12T03:38:48.570656+00:00",
+      "status": "ANNOUNCED",
+      "activationGate": "oct29-update",
+      "activationEvidence": null,
+      "rawStart": "After the version update",
+      "serverSchedules": {
+        "europe": {
+          "timezoneOffset": "+00:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00+00:00"
+        },
+        "americas": {
+          "timezoneOffset": "-04:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00-04:00"
+        },
+        "apac": {
+          "timezoneOffset": "+08:00",
+          "scheduledStartAt": null,
+          "actualStartAt": null,
+          "scheduledEndAt": "2026-12-10T03:59:00+08:00"
+        }
+      },
+      "participation": "RV Level 10 · Act Seven: Festivals of Astra",
+      "rewards": [
+        "homeland-nightFurniture"
+      ],
+      "detailKey": "home"
+    }
+  ]
+}

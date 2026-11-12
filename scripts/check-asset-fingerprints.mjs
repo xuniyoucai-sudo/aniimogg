@@ -23,6 +23,7 @@ const html=[];const walk=dir=>{for(const e of fs.readdirSync(dir,{withFileTypes:
 const expected=Object.values(manifest.assets).map(a=>a.file).sort();
 const refsFor=keys=>keys.map(k=>manifest.assets[k].file).sort();
 const region=refsFor(['app','styles','siteContent','accessibility','region','regionStyle']);
+const event=refsFor(['app','styles','siteContent','accessibility','events','eventStyle']);
 const shared=refsFor(['app','styles','siteContent','accessibility']),catalogue=refsFor(['app','styles','siteContent','accessibility','compendium','compendiumStyle']),team=refsFor(['styles','siteContent','accessibility','team','teamStyle']);
 for(const file of html){
   const text=fs.readFileSync(file,'utf8');
@@ -34,7 +35,7 @@ for(const file of html){
   const refs=[...text.matchAll(/<(?:script|link)\b[^>]*(?:src|href)="([^"]+)"[^>]*>/g)].map(m=>m[1]).filter(s=>/\.(?:js|css)(?:\?|$)/.test(s)&&!s.startsWith('https:'));
   assert.equal(new Set(refs).size,refs.length,file+' duplicate asset');
   for(const ref of refs)assert.ok(expected.includes(ref),file+' must use manifest asset');
-  if(file.endsWith('index.html')||file==='404.html')assert.deepEqual(refs.sort(),file.includes('guides/confirmed-aniimo/')?catalogue:file.includes('team-builder/')?team:/^(?:zh-cn\/|zh-tw\/|ja\/)?map\//.test(file)?region:shared,file+' page-specific bundle');
+  if(file.endsWith('index.html')||file==='404.html')assert.deepEqual(refs.sort(),file.includes('guides/confirmed-aniimo/')?catalogue:file.includes('team-builder/')?team:/^(?:zh-cn\/|zh-tw\/|ja\/)?map\//.test(file)?region:/^(?:zh-cn\/|zh-tw\/|ja\/)?(?:events|codes|patch-notes)\//.test(file)?event:shared,file+' page-specific bundle');
   for(const ref of refs){assert.ok(ref.startsWith('/assets/'));assert.ok(!ref.includes('?'));assert.ok(fs.existsSync('.'+ref));}
   assert.ok(!/\/(?:app\.js|[^"\s]+\.css)\?v=/.test(text),file+' fixed query');
   assert.ok(!/file:\/\/|localhost:\d|127\.0\.0\.1:\d|\/Users\//.test(text),file+' machine-specific URL');
@@ -56,7 +57,7 @@ try{
   assert.ok(fs.existsSync(path.join(tmp,before.assets.app.file.slice(1))),'Earlier hash output must survive');
 }finally{fs.rmSync(tmp,{recursive:true,force:true});}
 // Explicit static module imports form a fingerprint dependency graph.
-for(const key of ['compendium','team','region','regionModel'])for(const m of fs.readFileSync('.'+manifest.assets[key].file,'utf8').matchAll(/from '([^']+)'/g))assert.ok(expected.includes(m[1]),'Missing module '+m[1]);
+for(const key of ['compendium','team','region','regionModel','events'])for(const m of fs.readFileSync('.'+manifest.assets[key].file,'utf8').matchAll(/from '([^']+)'/g))assert.ok(expected.includes(m[1]),'Missing module '+m[1]);
 const data=manifest.assets.teamData;assert.equal(sha256(fs.readFileSync('.'+data.file)),data.sha256);assert.equal(data.mime,'application/json');assert.ok(data.file.endsWith('.'+data.sha256.slice(0,16)+'.json'));assert.equal(JSON.parse(fs.readFileSync('.'+data.file)).length,130);
 const originalHtml=html.map(f=>[f,sha256(fs.readFileSync(f))]);
 execFileSync(process.execPath,['scripts/build-site.mjs'],{stdio:'pipe'});

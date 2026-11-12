@@ -68,6 +68,21 @@
       "sha256": "701117ae199d7c664857f18ef342150baf887638e5ec0b9bee393bf0075b9441",
       "mime": "text/css"
     },
+    "eventModel": {
+      "file": "/assets/event-model.487096e51d1d6f33.js",
+      "sha256": "487096e51d1d6f33a46c497afe92ef56dbcfe5b3fc4d8f086f7f6a35f024c8af",
+      "mime": "text/javascript"
+    },
+    "events": {
+      "file": "/assets/events-center.eb21113a3a5560ef.js",
+      "sha256": "eb21113a3a5560ef1310ceed8b043db28b2b8c297adb66605db3af0ffcb525f2",
+      "mime": "text/javascript"
+    },
+    "eventStyle": {
+      "file": "/assets/events-center.87d77a870f0f340e.css",
+      "sha256": "87d77a870f0f340e07e497d64793f33f85606981a4a63ff7c74e16af3bc2f022",
+      "mime": "text/css"
+    },
     "teamData": {
       "file": "/assets/team-data.9e4a44a29af74a00.json",
       "sha256": "9e4a44a29af74a008f7b3b22e25565fa441e114e507156aca6510de6e171f8d4",
@@ -76,6 +91,11 @@
     "regionData": {
       "file": "/assets/region-data.28416010e702fc06.json",
       "sha256": "28416010e702fc06ac3bf26c5ee33c0419dc8c8f23cc2be532a4a3ff621f2e5d",
+      "mime": "application/json"
+    },
+    "eventData": {
+      "file": "/assets/event-data.7d43a6e7ef525ba0.json",
+      "sha256": "7d43a6e7ef525ba0a9ea69a0a73e191a5aca7e6655225a8bc8cdf685958ebe02",
       "mime": "application/json"
     }
   }

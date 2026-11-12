@@ -5,7 +5,7 @@ import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
 import {sha256} from './asset-fingerprints.mjs';
 const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
-const dir='artifacts/aniimogg-p0-1/local-preview';fs.mkdirSync(dir,{recursive:true});
+const dir=process.env.BROWSER_ARTIFACTS||'artifacts/aniimogg-p0-1/local-preview';fs.mkdirSync(dir,{recursive:true});
 const provenance=JSON.parse(fs.readFileSync('src/fixtures/asset-cache/provenance.json','utf8'));
 const manifest=JSON.parse(fs.readFileSync('assets/asset-manifest.json','utf8'));
 const fixtures=new Map(provenance.fixtures.map(f=>{

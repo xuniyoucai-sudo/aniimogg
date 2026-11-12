@@ -1,0 +1,43 @@
+name: Review official event sources
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: official-event-source-review
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check official notices without changing site data
+        id: sources
+        run: node scripts/check-official-events.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: official-event-source-review
+          path: artifacts/aniimogg-p1-d/monitor/
+      - name: Maintain one editorial follow-up issue
+        if: steps.sources.outputs.review == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const {owner, repo} = context.repo;
+            const repository = await github.rest.repos.get({owner, repo});
+            if (!repository.data.has_issues) { core.summary.addRaw('Issues disabled; see artifact.').write(); return; }
+            const title = 'Official events: source review required';
+            const body = fs.readFileSync('artifacts/aniimogg-p1-d/monitor/summary.md','utf8') + '\nRun: ' + context.serverUrl + '/' + owner + '/' + repo + '/actions/runs/' + context.runId;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {owner, repo, state:'all', creator:'github-actions[bot]', per_page:100});
+            const item = issues.find(i => !i.pull_request && i.title === title);
+            if (item) await github.rest.issues.update({owner,repo,issue_number:item.number,body,state:'open'});
+            else await github.rest.issues.create({owner,repo,title,body});
