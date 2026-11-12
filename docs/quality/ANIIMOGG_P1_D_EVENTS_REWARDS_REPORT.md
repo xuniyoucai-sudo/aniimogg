@@ -1,107 +1,151 @@
 # ANIIMOGG P1-D — Events & Rewards Center
 
-验收日期：2026-11-12。最终状态：**DEPLOYED_WITH_WARNINGS**。五模块已正式发布，未发生回滚。
+最终状态：**DEPLOYED_WITH_WARNINGS**。验收日期：2026-11-12。五模块已正式上线，未发生回滚。
 
-## 产品与来源
+功能验收提交：`e99654e7caf59f00c64d5c9d2ef9dd37ab115766`。Production：`7a1f41f1-f463-4efd-a5d6-9057edbddfcd`，https://7a1f41f1.aniimogg.pages.dev。正式入口：https://aniimogg.com/events/ 。四语言均已完成真实浏览器验收。
 
-新增四语言 `/events/`，升级原 Codes、Patch Notes URL，导航加入活动中心。五模块包括活动日历、奖励筛选、来源分级兑换码、更新记录、浏览器本地 Checklist。保留已有公告作为折叠历史资料，不创建重复活动详情 URL。
+## 1. 交付模块与路由
 
-来源于本轮重新读取的官方 [100298（11月9日）](https://www.aniimo.com/newslist/detail/100298)、[100244（10月27日）](https://www.aniimo.com/newslist/detail/100244)、[官网最新列表](https://www.aniimo.com/main)、[News Center](https://www.aniimo.com/newslist)、[官方 Steam 公告](https://steamcommunity.com/app/4126040/announcements/) 和 [100275已知问题](https://www.aniimo.com/newslist/detail/100275)。四语言官方 Wiki 也已读取。记录时间在 `artifacts/aniimogg-p1-d/sources/index.json`，实际响应与 SHA-256 保存在本轮证据目录。
+|模块|交付|
+|---|---|
+|Events Calendar|16条活动／玩法记录；三服日程、状态、搜索、筛选、零结果、详情、阶段任务和历史分批展示|
+|Rewards Center|27条有来源的奖励记录；类型、活动、服务器、状态、明确领取截止时间筛选及用户领取记录|
+|Redemption Codes|原12条逐条复查；官方／第三方分组、日期分离、7天复核规则、原大小写复制及失败提示|
+|Updates & Patch Notes|更新预告、计划维护、历史记录及旧公告归档；不把预告当作发布完成|
+|My Checklist|任务新增、勾选／取消、刷新恢复、事件／日期／完成状态筛选、单项移除、JSON导出和异常保护|
 
-当前没有找到11月12日维护完成的正式证明。100298仍是更新预告。计划维护：Europe 06:00–11:00 UTC+0、Americas 02:00–07:00 UTC-4、APAC 14:00–19:00 UTC+8。时间经过后仅显示计划窗口已过、完成待确认，不自动改成已发布。
+新增 `/events/`、`/zh-cn/events/`、`/zh-tw/events/`、`/ja/events/`，四语言导航同步。原Codes、Patch Notes URL保留；活动详情采用面板，不新增重复活动详情索引页。
 
-16条活动／玩法记录覆盖 Snapshots三阶段、Dash三赛道、Whirlbite重置、Homeland调整、S1 Part2、Aniimo Go!、Night Parade、Fantasy Resonance、Egg Heist、Holo Sim／Interlink、Homeland Magical Wonder Night。Affinity作为永久版本功能留在更新记录，服装明确有偿购买、上架日期未知。新故事链接现有 Region Explorer，不提供虚构坐标。
+## 2. 官方来源与当前确认边界
 
-## 时间和状态
+本轮读取并保存：[官网](https://www.aniimo.com/main)、[News Center](https://www.aniimo.com/newslist)、[100298](https://www.aniimo.com/newslist/detail/100298)、[100244](https://www.aniimo.com/newslist/detail/100244)、[100275](https://www.aniimo.com/newslist/detail/100275)、[官方Steam公告](https://steamcommunity.com/app/4126040/announcements/)及四语言官方Wiki。来源响应、原始字节SHA-256和时间在 `artifacts/aniimogg-p1-d/sources/`。
 
-三服默认全部展示、手动选择并本地保存，不根据语言或位置推测。保留UTC+0／-4／+8，不应用夏令时。Dash结束时间分别为12月9日23:59、12月9日19:59、12月10日07:59。Aniimo Go!仍按100244原文保留各服11月12日10:00至12月10日07:59，不擅自合并为同一瞬间。
+发布前再次检查时间：`2026-11-12T04:52:15.744Z`，未发现新公告或跟踪正文变化。该次结果保存在 `monitor-release-final/`；实际来源核查时间写入数据，人工核验与编辑时间独立保存，构建过程不生成“官方核验日期”。
 
-`event-model.js` 独立处理公告、未来、官方开放确认、即将结束、按日程结束、延期、取消、待确认、待复核和未知。`activationGate`保留更新后表达式；计划开始、实际开始、公告日期、核验日期分别存储。24:00换算到次日00:00，界面保留原表达。结束边界区分03:59等整分钟和04:00等瞬时窗口。没有官方开放证据的记录不会得到 ACTIVE_CONFIRMED。
+100298发表于11月9日，仍是11月12日更新预告。未找到维护完成或各活动正式开放的独立官方证明。相关记录保持等待更新确认；计划窗口经过仅显示 `MAINTENANCE_WINDOW_ELAPSED_NEEDS_CONFIRMATION`，不据此宣称游戏已更新或补偿可领取。100244发表于10月27日，旧预告也没有因日历经过而自动升级成正式发布证明。
 
-## 奖励和兑换码
+## 3. 时间、状态与首批活动
 
-23条奖励记录，包含维护 Glimmer ×500；资格是Season2更新前已注册，领取开始／截止／实际可领取证据未知。其余数量未公布时不显示数字。支持类型、活动、服务器、状态和即将到期筛选。勾选领取是用户记录，不代表读取游戏账号。没有将付费服装列为免费奖励。
+|服务器|11月12日计划维护|固定UTC偏移|
+|---|---|---|
+|Europe|06:00–11:00|UTC+0|
+|Americas|02:00–07:00|UTC-4|
+|APAC|14:00–19:00|UTC+8|
 
-沿用 `src/data/gift-codes.json` 的12条，逐条检查PC Gamer及原社区线索。来源文章仍为9月24日更新，旧列表不能证明11月仍有效。保留原报告及9月28日历史核验日期，新增真实复查尝试时间、逐码是否仍列出、待复核结论；不把打开旧文章当作更新有效性证据。12条当前均为 NEEDS_RECHECK；历史上11条报告有效、1条报告过期仍在原数据中保留。无官方确认公开兑换码、无本站实兑验证、服务器范围及真实有效期未知。7天仅为编辑复核规则，不自动确认为过期。复制仅复制原字符串，保留大小写。
+默认显示三服，用户手动选择并本地保存；不依据语言、地理位置或夏令时推断。保留原始“After the version update”和activationGate，实际开始时间未知时为null。24:00按次日00:00计算，界面保留24:00。03:59等截止分钟与04:00瞬时截止分别处理。
 
-## Checklist 与隐私
+- Prismana Snapshots三阶段和Student II资格；相机、普通5种与额外奖励、Dazzling／Shadow特殊类型、每阶段特殊加奖一次及重复不计进度。各阶段目标Aniimo仍UNKNOWN。
+- Aniimo Dash三赛道、Level40、Full Throttle全天／Speed Showdown每日18:00–24:00、最多8名Pathfinders；不写成角色编队上限。Redrock多人特殊赛道事件不可用。结束分别为Europe12月9日23:59、Americas12月9日19:59、APAC12月10日07:59。
+- Whirlbite重置只针对调整前取得的Basic／Prismana；EXP道具与对应经验、升星／觉醒材料和Capafruit效果分别说明。资格须在游戏内核实，不当作签到奖励。
+- S1 Part2、Aniimo Go!、Night Parade、Fantasy Resonance、Egg Heist、Holo Sim／Interlink、Homeland及其调整均保留对应官方来源和参与条件。Aniimo Go!仍按各服本地11月12日10:00至12月10日07:59展示；不擅自合并成同一全球时刻。
+- Affinity作为常驻版本功能；Crescent Bay两项故事链接既有Region Explorer。服装明确Shop → Recommended购买、分批日期未知。未增加未经证实的坐标、任务奖励或数值上限。
 
-唯一读写键：`aniimogg-event-checklist-v1`，格式只含server及records，记录只有eventId/taskId/checked/checkedAt。支持查看、普通、每日、阶段、奖励、代码任务；勾选、取消、刷新、事件／日期／完成状态筛选、单项移除和JSON导出。
+状态模型覆盖公告、即将开始、官方确认开放、即将结束、按日程结束、延期、取消、等待确认、待复核和未知。ACTIVE_CONFIRMED要求官方开放证据；ENDED_BY_SCHEDULE只是公告时间经过。
 
-严格结构校验与读前比较：损坏、非数组、禁用、额度和多标签页冲突时保留原始字节，切到会话模式并提示导出，不谎称持久保存。不访问收藏v1／v2、队伍及备份键，不新增账号、后端、同步或游戏凭证。测试用独立上下文种入保护值，确认其他工具数据不变。
+## 4. 奖励完整性与领取记录
 
-## 四语言、布局、SEO和性能
+明确数量只有维护补偿Glimmer×500及100244中获胜队伍每位成员Giga-Egg×1；其他未公布数量不显示数字。500资格保留原文“Season 2更新前已注册”，不假定所有访问者符合条件。
 
-新增文案使用独立EN／简中／繁中／日文词条。保留官方英文活动名；说明是本站编辑整理，不冒充官方译名。无合法活动图使用明确标识的插图占位，不抓取第三方图像。
+奖励覆盖拍照、竞速称号／Profile／头像框／培养资源、Aniimo Go!、Night Parade、配方、Giga-Egg／激活宝箱及Holo首通／每周／星级奖励。家具套装收集奖励不代表奖品本身是家具，奖品类型保持other／未知；只介绍的赛季家具不冒充免费可领取奖励。
 
-Events四语言暂为 `noindex,follow`：当前使用按需数据、仍有关键开放和奖励信息未确认，暂不申请独立索引。canonical／hreflang／x-default／OG／JSON-LD按现有规范生成；Checklist不进metadata或JSON-LD。原168个Sitemap URL集合不变，新增4个Events单独核查且不进Sitemap，既有noindex策略不变。物理手机、系统软键盘和真实CWV未作通过声明。
+领取开始、领取截止及领取开放证据缺失时保持未知。活动结束时间不能替代奖励领取截止时间：未知claimEndAt不产生EXPIRED_BY_SCHEDULE，也不进入“即将到期奖励”。对应边界已加入单元门禁。
 
-专用JS模型＋控制器上限20,000B，页面CSS合计50,000B；不放宽原共享、图鉴、队伍、地区、首页和长文预算。所有新JS／CSS／JSON使用原SHA-256前16位文件名和完整manifest散列；不删除旧哈希，不改缓存规则、不清缓存、不禁用浏览器缓存。历史列表折叠，历史事件每次最多4条。
+CLAIMED_BY_USER仅由用户自行勾选；不读取游戏账号或验证实际领取。已测试奖励状态随勾选、刷新恢复同步，任务显示具体奖励名。不存在于新目录的旧reward ID仍保留并显示未知ID。
 
-## 官方公告监控
+## 5. 兑换码复核
 
-`scripts/check-official-events.mjs` 同时最多3个请求，每请求20秒超时；读取官网列表、官方Steam及跟踪公告，去脚本／样式后归一化正文计算SHA-256，保存标题、日期、URL、新增链接、内容变化及日程过期复核清单。本轮初次运行未检测到内容变化。每日北京时间10点（UTC `0 2 * * *`）执行；5分钟job限制。只读生产数据，不提交抓取内容、不推送、不部署。GitHub Summary和Artifact保存结果。仓库Issues已启用；发现需复核时用内置token维护一条同名编辑事项，不新增长期密钥或付费API。
+沿用 `src/data/gift-codes.json`，没有导入第三方15码并一律宣布有效。12条原记录历史上11条报告有效、1条报告过期；现在均为NEEDS_RECHECK，无本站实兑验证，无官方确认代码。官方区明确显示“No officially confirmed redemption codes currently listed.”，第三方报告单独展示。
 
-## 验证、Git与部署
+[PC Gamer](https://www.pcgamer.com/games/rpg/aniimo-codes/)与原社区线索已逐条比对，证据在 `code-rechecks.json`。文章JSON-LD首次发布9月16日、更新9月24日；原字段把更新日期混作首次发布，已订正。代码本身发布日期、服务器范围和真实到期时间未知，未从文章日期推断。
 
-本地 `check:aniimo-index` 核对官方130条无差异；`audit:local`、`git diff --check`通过。324个HTML资源引用／SHA-256／MIME／重复／幂等／变更隔离／旧哈希兼容检查通过；全部原性能预算通过。专用JS约15.8KiB，页面CSS合计约40.1KiB。
+保留9月28日的历史来源核验信息，另记11月12日实际复查尝试；打开未更新的旧文章不等于重新确认代码当前有效。7天只是编辑复核期限，不是游戏有效期，不自动升级为EXPIRED_CONFIRMED。测试小写、大写、混合大小写复制以及剪贴板权限拒绝；只复制代码，不表示兑换。
 
-五模块：40组（2引擎×4语言×5视口）通过；10组损坏／非数组／禁用／额度／多标签冲突通过。四语言原图鉴100项、52页实际加载、84项Compendium2.0、旧资源兼容及收藏异常检查通过。原移动端全48组复测通过；初次组合运行出现一次触控比较按钮被已重开的详情弹窗拦截，保留原失败日志，未修改图鉴源码或禁用触控，完整独立复测48组通过。该偶发触控现象的根因未确认，列为警告。
+## 6. Checklist、存储和隐私
 
-Team：8组交互／128资源响应，56组存储导入，CPU4×四语言240样本及隐私检查通过。Region：24组四语言三视口双引擎及8组收藏／队伍保护测试通过。已有第三方提供商告警按现有诊断规则独立记录，没有屏蔽未知异常。
+唯一应用存储键：`aniimogg-event-checklist-v1`。仅server和records；每项仅eventId、taskId、checked、checkedAt。不读取／写入收藏v1／v2、Team清单及备份或其他用户数据，不增加账号、密码、角色所有权、后台或云同步。
 
-受保护的CSP配置、ads.txt、robots、Sitemap XML、19条重定向、原始130条数据、Region数据、队伍模型和图鉴源文件与基线SHA-256完全相同。未改DNS、域名、Cloudflare缓存配置或广告加载。
+严格校验、读前原始字节比较和storage事件检测保护损坏JSON、非数组、禁用、额度及多标签页冲突。失败后保留旧原文、提示会话模式、允许导出，不显示保存成功。不用空集合覆盖旧数据。未知／退役ID可继续保存和导出，140字符未知奖励ID在390px窄屏无横向溢出。
 
-Git功能提交：`cf28e35b3069f37fb32eccbb3d17864170bc760b`。独立Preview分支已正常push，未强推。GitHub验证run `43151464709`成功。Preview：`9aadf3be-38cd-47cf-8850-b091f059dbf8`，https://9aadf3be.aniimogg.pages.dev；控制台明确Preview、独立分支、完整提交与success，资源验收28页／223响应／19个manifest资源通过；双引擎40组交互及10组存储异常全部通过，异常和第一方资源失败均为0。
+测试使用独立浏览器上下文和模拟保护值，没有修改真实用户收藏或游戏账号。导出只包含本工具字段，用户状态不进入metadata、JSON-LD、URL或服务器请求。
 
-证据全部位于 `artifacts/aniimogg-p1-d/`，保留历史产物。
+## 7. 四语言、SEO与性能
 
-生产回滚基线：ca0219cf6cc0dc91f5d9cb9587430d780485b615，Cloudflare a5fd7c80-4e58-4c02-add5-4ac625a03a0a。独立分支：codex/aniimogg-p1-d-events-rewards。本轮只读确认Pages生产main、自动部署开启、所有非生产分支为Preview；查看后Cancel，未改设置。
+新模块的EN／简中／繁中／日文为独立文案；保留经核验的英文专名，并注明译文为编辑整理，不机械简繁转换或冒充官方译名。无合法图片时使用明确标注的占位。
 
-## 尚未核实
+Events四语言暂为noindex,follow：开放与领取信息仍有关键未知，主要数据按需加载，不申报成独立索引文章。canonical、hreflang、x-default、title／description／OG与JSON-LD正确。原168个Sitemap URL集合与XML字节不变；新增4页单独验收、未进Sitemap；既有noindex／robots政策不变。
 
-- 11月12日维护实际完成、活动实际开放及500补偿可领取情况。
-- Snapshots每阶段目标伊莫、未公布奖励数量、Homeland调整后准确时间、服装准确上架日期、Affinity每日每周上限。
-- 12个第三方兑换码的当前游戏内有效性、服务器范围和到期时间。
-- 没有真实手机／原生软键盘或真实Core Web Vitals证据。
+未压缩专用JS（模型＋控制器）16837B／20,000B；全页CSS 41073B／50,000B；按需JSON 37577B。公共、首页、长文、图鉴、Team、Region预算均通过，未提高上限、增加依赖或修改锁文件。不把实验室或视口模拟称为真实设备／Core Web Vitals通过。
 
-以上均保留未知／待确认，不计作事实核验PASS。
+## 8. 资源版本机制
 
-## 本轮哈希资源
+使用原SHA-256 manifest、前16位文件名及完整SHA-256。所有生成页面按manifest引用；静态模块依赖也参与指纹。重复构建幂等，JS／CSS变更隔离，保留旧固定路径与已发布哈希供旧HTML兼容。没有清Cloudflare缓存、改缓存规则、加宽泛短TTL／no-store或禁用浏览器缓存。
 
-|资源|URL|完整SHA-256|未压缩字节|
+|资源|URL|SHA-256|字节|
 |---|---|---|---|
-|eventModel|`/assets/event-model.487096e51d1d6f33.js`|`487096e51d1d6f33a46c497afe92ef56dbcfe5b3fc4d8f086f7f6a35f024c8af`|3921|
-|events|`/assets/events-center.eb21113a3a5560ef.js`|`eb21113a3a5560ef1310ceed8b043db28b2b8c297adb66605db3af0ffcb525f2`|12257|
-|eventStyle|`/assets/events-center.87d77a870f0f340e.css`|`87d77a870f0f340e07e497d64793f33f85606981a4a63ff7c74e16af3bc2f022`|3496|
-|eventData|`/assets/event-data.7d43a6e7ef525ba0.json`|`7d43a6e7ef525ba0a9ea69a0a73e191a5aca7e6655225a8bc8cdf685958ebe02`|31859|
+|eventModel|`/assets/event-model.27d6394853d0fbbc.js`|`27d6394853d0fbbcabd40db0c190c0656c970f3c2542a2423cee6736e490ea34`|3836|
+|events|`/assets/events-center.015865f68ef45dfa.js`|`015865f68ef45dfae15ed8754fc714e64a249eab654e0a80b903fe6c1bc7faba`|13001|
+|eventStyle|`/assets/events-center.7e354ec36e96fd37.css`|`7e354ec36e96fd3792064d593da2605947a7a6d9e80b08253a6ef71131907cb4`|3519|
+|eventData|`/assets/event-data.a24f562f8f7ae08f.json`|`a24f562f8f7ae08f1552b3957ebd10afaca71657ce33502af8ca5e9ea11fd852`|37577|
 
-测试运行时：Chromium 156.0.8078.4、WebKit 26.5。五个目标视口360×800、390×844、430×932、768×1024、1265×712；旧图鉴额外包含844×390。浏览器缓存保持默认启用。
 
-## Production与监控实跑
+manifest：`assets/asset-manifest.json`。规范源文件在 `src/assets/event-model.js`、`events-center.js`、`events-center.css`，事实数据在 `src/data/aniimo-events.json`、`aniimo-rewards.json`、`aniimo-update-history.json`及原gift-codes.json；新四语言文案在 `src/locales/events.json`。27条奖励均有可回溯官方来源及独立发布时间、实际核查／核验和编辑时间。
 
-经fast-forward将同一已验收提交合入main，重新执行audit:local和diff门禁通过，正常push，无强推或历史改写。Production部署 `0f64b14f-8088-402f-b80d-b2206795e4bb`，部署URL https://0f64b14f.aniimogg.pages.dev，正式入口 https://aniimogg.com/events/。控制台确认Production、main、完整cf28e35提交、success及aniimogg.com／www绑定；不是Preview。main GitHub run `43151986379`成功。
+## 9. 官方公告自动检查
 
-正式域名资源验收28页、所有19个manifest资源已通过。生产交互与全量URL检查结果见最终验收记录。未发生回滚。
+`check-official-events.mjs`读取官网、News Center、官方Steam及跟踪公告，输出标题、日期、URL、归一化正文SHA-256、新增链接、变更和过期复核。最多3并发、每请求20秒超时、发现队列上限20；job上限5分钟。跳过已在截止后人工核验的旧日程，避免已处理历史记录每天重复重开；这不代表确认游戏内关闭。
 
-每日官方公告工作流已使用workflow_dispatch实跑：run `43152068229`，success，commit为cf28e35。已下载Actions Artifact；正文哈希未变、未发现新公告，无需创建复核Issue。未来发生变化时的Issue创建分支已配置，因本轮无变化未人为创建测试Issue。该工作流没有commit或部署步骤，实跑未产生Production部署。
+工作流每日UTC `0 2 * * *`（北京时间10点），只读生产事实，不提交、push或部署。Summary与Artifact保留结果；Issues已启用，使用内置GITHUB_TOKEN维护一条编辑复核事项。实跑run `43152068229`成功，本轮无新内容，未人为制造测试Issue；已配置的Issue写入分支没有因无变化而执行。
 
-本轮前置HTTP快照使用Python默认User-Agent遭遇403，未取得完整快照；不伪称成功。本轮线上保护项对照保留的P1-C生产HTTP基线和本轮发布前Git散列，正常Mozilla User-Agent的有限并发线上检查独立记录。没有清缓存、关闭缓存、修改规则或绕过浏览器安全挑战。
+仓库实际为PUBLIC，使用标准ubuntu-latest runner；[GitHub文档](https://docs.github.com/en/billing/concepts/product-billing/github-actions)确认公开仓库标准runner计算免费。Artifact沿用现有配额，不开启付费runner、套餐、预算或新增长期密钥。最终监控补充的实跑与归档部署证明见 `final-archive-deployment.json`。
 
-## 最终线上验收
+## 10. 实际验证结果
 
-- 168个原始Sitemap URL集合保持不变；逐一200、最终URL正确、canonical正确、hreflang与已验收提交一致、metadata一致、JSON-LD可解析、实际正文与已验收产物一致。
-- 另查4个Events、4个Team和4个Map，共180页。新增Events四语言保留noindex,follow，不加入Sitemap。19条旧路径重定向正确，随机不存在路径真实404，robots／ads／4个RSS正常。
-- 正式域名28页资源专项通过；实际浏览器下载覆盖全部19个manifest资源，与完整SHA-256及合法JS／CSS／JSON MIME一致，无固定query旧版本。生产实际HTTP资源字节散列也一致。
-- 生产双引擎最终复测：40组五模块场景＋10组存储异常全部通过。移动的360／390／430视口使用Playwright原生tap（24组触控模拟），桌面使用点击与键盘，导出与大小写复制、勾选／取消／刷新、其他工具数据保护均通过。第一方／未知运行时错误0、第一方应用资源失败0。
-- 原始生产首次异常门禁捕获13条WebKit RUM访问控制异常及2条RUM请求失败，保留在production目录，不改写原记录。补齐堆栈后，明确来自 `https://static.cloudflareinsights.com/beacon.min.js/...` 的XMLHttpRequest调用。diagnosed复测12条提供商告警；最终真实tap复测5条提供商告警，均独立保留。没有preventDefault、吞Promise拒绝或放行未知／第一方堆栈，原有诊断单元测试继续阻断伪造来源与应用堆栈。
-- CSP等安全响应头与保留的先前生产证据相同；ads.txt和robots内容相同；本轮发布前后的受保护本地文件、130条原始数据及Region数据散列相同；AdSense publisher与脚本引用未改。仅只读核查域名绑定，未执行DNS或Cloudflare设置变更。
-- 无生产回滚。无IndexNow／Search Console／Bing提交，无缓存清理、no-store改造或浏览器禁用缓存。
+|门禁|结果|
+|---|---|
+|check:aniimo-index|官方130与本地130无差异|
+|audit:local、diff --check|通过；324个HTML指纹／依赖／幂等／保留兼容检查通过，性能预算全通过|
+|P1-D本地|40组五模块＋40组四语言存储异常＋8组退役ID窄屏保护通过|
+|P1-D Preview|同样88组通过；28页、全部19个manifest资源实际字节／MIME通过|
+|P1-D Production|同样88组通过；第一方／未知运行时错误0，应用资源失败0|
+|原图鉴／SEO|100项交互、52页加载、84项Compendium2.0、旧资源兼容／收藏异常及48组本地化移动复测通过|
+|Team|8组交互／128资源响应、8组启动、56存储导入、CPU4×四语言240样本及隐私检查通过|
+|Region|24组交互＋8组收藏／Team保护通过|
+|线上URL|原168＋4 Events＋4 Team＋4 Map=180页逐一200；最终URL、正文、canonical、hreflang、metadata、JSON-LD、manifest正确|
+|其他线上|19条旧路径重定向、真实404、robots、ads及四语言RSS正常|
 
-## 归档及限制
+浏览器：Chromium156.0.8078.4、WebKit26.5；360×800、390×844、430×932、768×1024、1265×712。24组移动功能组合实际使用tap，桌面含键盘操作。复制、拒绝权限、用户领取、刷新、导出、筛选零结果、未知期限和长ID均有实际断言。旧图鉴另包含844×390。
 
-功能上线提交和验收部署分别是cf28e35及0f64b14f。最终只补充测试脚本的提供商来源诊断、移动原生tap和本报告；不改变HTML、manifest或任何应用资源。归档提交继续经独立分支Preview、main正常推送、当前提交CI及Production核查；最后的提交与部署证明保存在 `artifacts/aniimogg-p1-d/final-archive-deployment.json`，避免报告嵌入自身提交造成循环。
+最终Production有17条来源可归因的Cloudflare RUM／广告提供商告警，另行保存完整堆栈。包括同源 `/cdn-cgi/rum` 的提供商请求问题，不能将所有同源网络宣称为零错误。第一方应用与未知来源仍阻断；没有preventDefault、吞Promise拒绝或隐藏未知异常。
 
-保留所有用户原有未跟踪日报、历史质量报告、artifacts和试验哈希资源。未把它们混入本轮提交。
+原始首轮Production门禁的13条RUM异常和2条RUM请求失败日志保留。首次原图鉴移动组合出现一次触控被详情弹窗拦截；未改图鉴源码，独立完整48组复测通过。偶发现象根因未确认，作为警告保留，不声称缺陷凭复测消失。
 
-最终状态 **DEPLOYED_WITH_WARNINGS**：提供商RUM异常、首次旧图鉴触控偶发现象及未确认的官方开放／奖励／兑换码事实均已明确列出；不把这些写作全部事实PASS。核心功能、资源一致性、存储保护及线上URL验收通过。
+## 11. Git、部署与保护
+
+|项目|实际记录|
+|---|---|
+|开始main／回滚基线|ca0219cf6cc0dc91f5d9cb9587430d780485b615；a5fd7c80-4e58-4c02-add5-4ac625a03a0a|
+|独立分支|codex/aniimogg-p1-d-events-rewards；保留，正常push|
+|最终功能提交|e99654e7caf59f00c64d5c9d2ef9dd37ab115766|
+|最终Preview|931352bd-4532-4cdb-b757-1d1bed38f923；https://931352bd.aniimogg.pages.dev|
+|Preview CI|43158440626成功；控制台明确Preview／独立分支／同一完整SHA／success|
+|Production|7a1f41f1-f463-4efd-a5d6-9057edbddfcd；https://7a1f41f1.aniimogg.pages.dev|
+|Production CI|43160066103成功；控制台明确Production／main／同一完整SHA／success|
+
+main经正常fast-forward合入已验收分支后push，未强推、改写历史或混入历史文件。仅后续报告与监控复核单元补充归档，不再改变应用HTML、manifest、JS／CSS／JSON；归档提交和当前最终部署ID另保存在 `artifacts/aniimogg-p1-d/final-archive-deployment.json`，避免报告引用自身提交形成循环。
+
+_headers、ads、robots、Sitemap、19重定向、原130条数据、Region数据、Team模型及图鉴源码与本轮基线散列一致。CSP等安全响应头与保留的生产HTTP证据一致，publisher ID与广告脚本未变。仅只读检查Pages和绑定；未执行DNS、域名、Pages、缓存或广告设置写操作。未提交IndexNow／Search Console／Bing。
+
+本轮前置HTTP快照的Python默认User-Agent曾遭403，未伪称获取成功；线上保护对照保留的P1-C生产HTTP证据、本轮发布前文件散列及正常浏览器／Mozilla UA实测。没有绕过浏览器挑战。用户原有未跟踪日报、历史报告、artifacts及试验哈希资源均保留；不混入提交。
+
+## 12. 未解决与不作通过的事实
+
+- 未独立确认11月12日维护完成、活动实际开放、补偿真实可领取和用户资格。
+- 三阶段目标Aniimo、未公布奖励数量／具体奖品、Homeland准确调整时间、服装上架日期、Affinity数值上限仍未知。
+- 12个第三方代码当前有效性、真实过期时间和服务器范围未知，未做游戏内兑换。
+- RUM／广告提供商告警、一次旧图鉴触控偶发现象保留警告；没有真实手机、原生软键盘或真实CWV证据。
+
+这些不是“已确认事实PASS”。最终状态保持 **DEPLOYED_WITH_WARNINGS**，核心功能和部署验收通过，未发生回滚。
+
+## 13. 证据位置
+
+本轮统一目录：`artifacts/aniimogg-p1-d/`。最终以 `local-final-88/`、`preview-final-88/`、`production-final-88/`、`preview-final-assets/`、`production-final-assets/`和`final-archive-deployment.json`为准。HTTP结果在 `production-final-88/http-results.json`；来源核验、源日期订正、保护散列、原失败和后续诊断日志分开保留。
