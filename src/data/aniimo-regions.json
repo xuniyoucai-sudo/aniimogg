@@ -161,7 +161,14 @@
       "representativeFamilies": [
         "Sugarfish"
       ],
-      "stories": [],
+      "stories": [
+        {
+          "name": "Tale of Salabask Forest",
+          "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+          "publishedAt": "2026-10-27",
+          "updateDate": "2026-10-29"
+        }
+      ],
       "guides": [
         "regions-world",
         "prismana-rare-forms"
