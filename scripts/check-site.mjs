@@ -84,8 +84,8 @@ for(const [prefix,light,lightning,rock] of [['','Light','Lightning','Rock'],['zh
 }
 for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
   const guide=fs.readFileSync(path.join(root,prefix,'guides/multiplayer/index.html'),'utf8');
-  for(const token of ['"dateModified":"2026-11-11"','Sound Settings &gt; Voice Settings','2026-09-30','2026-10-10','2026-10-14','newslist/detail/100208','"@type":"FAQPage"',`/${prefix}guides/launch-troubleshooting/`,`/${prefix}guides/research-aniilog/`])if(!guide.includes(token))errors.push(`${prefix}multiplayer: missing scoped session check ${token}`);
-  if((guide.match(/class="support-matrix"/g)||[]).length!==2)errors.push(`${prefix}multiplayer: expected separate session-check and mode tables`);
+  for(const token of ['"dateModified":"2026-11-13"','Aniimo Affinity','Heal','Swoleshroom','newslist/detail/100298','Sound Settings &gt; Voice Settings','2026-09-30','2026-10-10','2026-10-14','newslist/detail/100208','"@type":"FAQPage"',`/${prefix}guides/launch-troubleshooting/`,`/${prefix}guides/research-aniilog/`])if(!guide.includes(token))errors.push(`${prefix}multiplayer: missing scoped session check ${token}`);
+  if((guide.match(/class="support-matrix"/g)||[]).length!==3)errors.push(`${prefix}multiplayer: expected distinct Affinity, session-check and mode tables`);
   const directory=fs.readFileSync(path.join(root,prefix,'guides/index.html'),'utf8');
   if(!directory.includes(`/${prefix}guides/multiplayer/`)||!directory.includes('Companion Mode'))errors.push(`${prefix}guides: missing updated multiplayer entry`);
 }

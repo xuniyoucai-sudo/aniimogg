@@ -52,7 +52,7 @@ export function applyProductQuality({locales,utilityCopy,launchCopy,copy,manifes
  for(const [id,m] of Object.entries(data.guideMeta)){
   m.sourceStatus=m.status;
   m.status=id==='editorial-policy'||id==='team-setup'?'editorial':m.status==='verified'?'mixed':m.status==='official'?(id==='confirmed-aniimo'?'official':'mixed'):'unverified';
-  m.lastReviewedAt=m.updated;m.modifiedAt=qualityReviewDate;
+  m.lastReviewedAt=m.updated;m.modifiedAt=m.modifiedAt||qualityReviewDate;
  }
 }
 export function blockEvidence({id,heading,text,q}){

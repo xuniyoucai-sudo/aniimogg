@@ -15,7 +15,10 @@ for(const k of ['regionData','teamData']){const a=manifest.assets[k];assert.equa
 // sitemap field and every other protected file. check-site validates new images.
 const baseline=read('src/fixtures/regions/provenance.json');for(const [file,hash]of Object.entries(baseline.files)){
  let bytes=fs.readFileSync(file);
- if(file==='sitemap.xml')bytes=Buffer.from(bytes.toString().replace(/<url>[\s\S]*?<\/url>/g,block=>{const id=block.match(/<loc>https:\/\/aniimogg\.com\/(?:zh-cn\/|zh-tw\/|ja\/)?guides\/([^/]+)\/<\/loc>/)?.[1];return id?block.replace(/<image:loc>[^<]+<\/image:loc>/,`<image:loc>https://aniimogg.com/assets/guides/${id}-cover.webp</image:loc>`):block;}));
+// Explicit guide modification dates may advance after the region snapshot.
+// Validate against editorial metadata, then normalize to the captured date.
+// URL membership, hreflang and all other protected bytes still use the hash guard.
+ if(file==='sitemap.xml')bytes=Buffer.from(bytes.toString().replace(/<url>[\s\S]*?<\/url>/g,block=>{const id=block.match(/<loc>https:\/\/aniimogg\.com\/(?:zh-cn\/|zh-tw\/|ja\/)?guides\/([^/]+)\/<\/loc>/)?.[1];const modified=id&&read('src/data/site.json').guideMeta[id]?.modifiedAt;if(modified){assert.match(modified,/^\d{4}-\d{2}-\d{2}$/);assert.ok(block.includes(`<lastmod>${modified}</lastmod>`),'Guide lastmod must match explicit editorial metadata');block=block.replace(/<lastmod>[^<]+<\/lastmod>/,'<lastmod>2026-11-11</lastmod>');}return id?block.replace(/<image:loc>[^<]+<\/image:loc>/,`<image:loc>https://aniimogg.com/assets/guides/${id}-cover.webp</image:loc>`):block;}));
  assert.equal(sha(bytes),hash,'Protected '+file);
 }
 console.log('PASS 130 official identities/filter/detail/bytes; 7-node hierarchy, 19 UNKNOWN, four-language source names; OR/AND filters; source guards and fingerprints');

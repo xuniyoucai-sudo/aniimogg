@@ -24,6 +24,6 @@ for(const [lang,prefix] of [['en',''],['zh-CN','zh-cn/'],['zh-TW','zh-tw/'],['ja
  assert.ok(html('guides/editorial-policy').includes(copy[lang].editorial));assert.ok(html('guides/team-setup').includes(copy[lang].editorial));
  assert.ok(html('privacy').includes(copy[lang].privacyAds));assert.ok(html('advertising').includes(copy[lang].privacyAds));assert.ok(html('contact').includes(copy[lang].contactLimit));
  assert.ok(html('news').includes(copy[lang].newsArchive));assert.ok(html('launch-verification').includes(copy[lang].verification));
- for(const r of site.guideArticles){const page=html('guides/'+r);assert.ok(page.includes(site.guideMeta[r].updated),r+' original fact review date missing');assert.ok(page.includes('"dateModified":"2026-11-11"'));}
+ for(const r of site.guideArticles){const page=html('guides/'+r);assert.ok(page.includes(site.guideMeta[r].updated),r+' original fact review date missing');assert.ok(page.includes('"dateModified":"'+(site.guideMeta[r].modifiedAt||'2026-11-11')+'"')); }
 }
 console.log('PASS quality: 130/118/12 manifest, opaque identity map, null unknowns, freshness boundary, four-language evidence/copy, original fact dates and unchanged 168-URL indexing policy.');
