@@ -57,7 +57,11 @@ aniimoparty 的历史第三方过期报告继续保留，不改写为官方到�
 
 未修改生产活动/奖励/兑换码数据、四语言HTML、manifest及应用资源。原130角色、收藏、Team Builder、Region Explorer、168 Sitemap URL、DNS/CSP/广告/ads.txt/缓存规则均未修改。
 
-基线提交：4ef1b589f2849e38dfbf250a1d285432a48f5494。本次代码范围仅运营检查逻辑、单元测试、现有workflow门禁及本报告。npm run audit:local 已通过；运营队列测试通过；git diff --check通过。提交与部署结果待发布后补充，不预写成功。
+基线提交：4ef1b589f2849e38dfbf250a1d285432a48f5494。本次代码范围仅运营检查逻辑、单元测试、现有workflow门禁及本报告。npm run audit:local 已通过；运营队列测试通过；git diff --check通过。实施提交：`849eae9545361eead3539cc8d876d109c926f276`，已正常推送main（无force）。[GitHub验证43167363588](https://github.com/xuniyoucai-sudo/aniimogg/actions/runs/43167363588)成功；[新检查器运行43167372849](https://github.com/xuniyoucai-sudo/aniimogg/actions/runs/43167372849)成功，5个来源无网络错误，Summary与Artifact归档成功，检测新公告0、待复核代码12、未知活动16、未知领取27。
+
+Cloudflare部署 `18c83ae5-4dcb-470f-8eed-bf9a2dcf90fc` 成功；控制台实际确认类型Production、来源main、完整提交对应849eae9，域名仍aniimogg.com/www。部署地址 https://18c83ae5.aniimogg.pages.dev 。本次是检查代码发布触发的既有Git Integration；日常纯只读检查无push路径，不触发生产发布。
+
+正式域名四语言Events/Codes/Patch Notes共12页HTTP200，canonical正确、JSON-LD可解析，无旧固定query资源。Sitemap及ads.txt与仓库字节一致；robots线上含既有Cloudflare托管前缀，完整响应SHA-256与上一生产证据一致（不是强行与仓库裸文件比较）。共15项线上检查通过，证据online-checks.json。应用数据及保护文件相对基线diff为空。没有回滚。本报告补充归档提交会再次执行既有发布门禁，最终归档提交及部署记录保存在本轮artifacts与交付回复，避免报告自引用提交循环。
 
 ## 尚未完成
 
