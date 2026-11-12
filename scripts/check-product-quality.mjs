@@ -20,7 +20,7 @@ for(const [lang,prefix] of [['en',''],['zh-CN','zh-cn/'],['zh-TW','zh-tw/'],['ja
  assert.ok(home.includes(copy[lang].searchScope));assert.equal((catalogue.match(/id="aniimo-catalogue"/g)||[]).length,1);assert.ok(catalogue.includes('<section id="aniimo-catalogue"'));assert.ok(!catalogue.includes('<fig<section'));assert.ok(catalogue.includes('data-template='));assert.ok(catalogue.includes('"numberOfItems":130'));
  assert.equal((catalogue.match(/data-entity-id=/g)||[]).length,130);
  for(const route of ['map','tier-list'])assert.ok(html(route).includes('noindex,follow'));
- assert.ok(html('codes').includes(copy[lang].needsRecheck));assert.ok(!html('codes').includes('Confirmed Redemption Codes'));
+ assert.ok(html('codes').includes('data-mode="codes"'));assert.ok(!html('codes').includes('reported-codes'));assert.ok(!html('codes').includes('event-archive'));assert.ok(!html('codes').includes('Confirmed Redemption Codes'));
  assert.ok(html('guides/editorial-policy').includes(copy[lang].editorial));assert.ok(html('guides/team-setup').includes(copy[lang].editorial));
  assert.ok(html('privacy').includes(copy[lang].privacyAds));assert.ok(html('advertising').includes(copy[lang].privacyAds));assert.ok(html('contact').includes(copy[lang].contactLimit));
  assert.ok(html('news').includes(copy[lang].newsArchive));assert.ok(html('launch-verification').includes(copy[lang].verification));

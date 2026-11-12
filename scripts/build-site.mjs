@@ -9,7 +9,6 @@ import {fingerprintAssets} from './asset-fingerprints.mjs';
 import {entryKey,entryUrl,entryForm} from './aniimo-records.mjs';
 import {normalizeSnapshot} from './aniimo-snapshot.mjs';
 import {applyProductQuality,blockEvidence,sourceType,qualityReviewDate} from './product-quality.mjs';
-import {giftCodeStatus} from './gift-code-status.mjs';
 
 const root=process.cwd();
 const assetManifest=fingerprintAssets(root);
@@ -25,7 +24,6 @@ assets.teamData={file:'/assets/team-data.'+teamHash.slice(0,16)+'.json',sha256:t
 const eventPayload=JSON.stringify({events:JSON.parse(fs.readFileSync('src/data/aniimo-events.json')).events,rewards:JSON.parse(fs.readFileSync('src/data/aniimo-rewards.json')),updates:JSON.parse(fs.readFileSync('src/data/aniimo-update-history.json')),codes:JSON.parse(fs.readFileSync('src/data/gift-codes.json'))}),eventHash=createHash('sha256').update(eventPayload).digest('hex');assets.eventData={file:'/assets/event-data.'+eventHash.slice(0,16)+'.json',sha256:eventHash,mime:'application/json'};fs.writeFileSync('.'+assets.eventData.file,eventPayload);fs.writeFileSync('assets/asset-manifest.json',JSON.stringify(assetManifest,null,2)+'\n');
 const qualityCopy=JSON.parse(fs.readFileSync(path.join(root,'src/locales/product-quality.json'),'utf8'));
 const publicationReview=JSON.parse(fs.readFileSync(path.join(root,'src/data/publication-review.json'),'utf8'));
-const giftCodes=JSON.parse(fs.readFileSync(path.join(root,'src/data/gift-codes.json'),'utf8'));
 const maintenance=JSON.parse(fs.readFileSync(path.join(root,'src/data/maintenance.json'),'utf8'));
 const newsData=JSON.parse(fs.readFileSync(path.join(root,'src/data/news.json'),'utf8'));
 const localeFiles=['en.json','zh-CN.json','ja.json'];
@@ -226,24 +224,12 @@ for(const l of locales){
   fs.writeFileSync(file,html.replace('<div class="update-timeline">',calendar+'<div class="update-timeline">'));
 }
 
-// A source report is not a successful redemption or a current availability claim.
-for(const l of locales){
- const q=l.quality,file=outPath(l,'codes'),html=fs.readFileSync(file,'utf8');
- const group=historical=>giftCodes.records.filter(r=>(r.reportedStatus==='reported_expired')===historical).map(r=>{
-  const status=giftCodeStatus(r,{asOf:qualityReviewDate+'T00:00:00Z',freshnessDays:giftCodes.freshnessDays});
-  const label=({needs_recheck:q.needsRecheck,reported_expired:q.reportedExpired,third_party_reported_active:q.reportedActive})[status]||q.unverified;
-  return `<tr data-code-report="${r.reportedStatus}" data-source-checked="${r.sourceCheckedAt}" data-freshness-days="${giftCodes.freshnessDays}" data-needs-recheck="${esc(q.needsRecheck)}"><td><code>${esc(r.code)}</code></td><td>${esc(r.reportedReward)}</td><td><a href="${r.sourceUrl}" rel="nofollow noopener">PC Gamer · ${r.sourcePublishedAt}</a><br><a href="${r.corroboratingSourceUrl}" rel="nofollow noopener">Steam Community</a><br>${esc(q.sourceDate)}: ${r.sourceCheckedAt}<br>${esc(q.reviewDate)}: ${r.lastReviewedAt}</td><td class="code-status">${esc(label)}</td><td>${esc(q.unknown)}</td><td>${esc(q.notRedeemed)}</td></tr>`;
- }).join('');
- const table=historical=>`<section class="support-matrix reported-codes" data-reviewed="${giftCodes.lastReviewedAt}"><h2>${esc(historical?q.historical:q.codeTitle)}</h2><p>${esc(q.codeRule.replace('{days}',String(giftCodes.freshnessDays)))}</p><div><table><thead><tr>${[q.codeLabel,q.reward,q.source,q.status,q.expiry,q.notRedeemed].map(x=>`<th scope="col">${esc(x)}</th>`).join('')}</tr></thead><tbody>${group(historical)}</tbody></table></div></section>`;
- fs.writeFileSync(file,html.replace('<p><a href="https://www.aniimo.com/"',table(false)+table(true)+'<p><a href="https://www.aniimo.com/"'));
-}
-
 // Short news notices and generated species profiles remain browseable, but stay
 // out of the search index until they contain substantial, independently reviewed content.
 for(const l of locales){const q=teamCopy[l.lang];write(outPath(l,'team-builder'),doc({l,route:'team-builder',title:q.title+' | Aniimo.GG',description:q.intro,active:'team-builder',noindex:true,body:renderTeam(l,assets)}));}
 for(const l of locales){
  const c=p1dCopy[l.lang];write(outPath(l,'events'),doc({l,route:'events',title:c.title+' | Aniimo.GG',description:c.intro,active:'events',noindex:true,body:renderEvents(l,assets)}));
- for(const route of ['codes','patch-notes']){const file=outPath(l,route),html=fs.readFileSync(file,'utf8');fs.writeFileSync(file,html.replace(/<h1>([\s\S]*?)<\/h1>/,'<h2>$1</h2>').replace('<main>','<main>'+renderEvents(l,assets,route)).replace('<section class="listing-shell utility-page">','<details class="event-archive section"><summary>'+esc(c.archive)+'</summary><section class="listing-shell utility-page">').replace('</main>','</details></main>'));}
+ for(const route of ['codes','patch-notes']){const file=outPath(l,route),html=fs.readFileSync(file,'utf8');if(route==='codes'){write(file,doc({l,route,title:c.codes+' | Aniimo.GG',description:c.stale+' '+c.notRedeemed,active:'',body:renderEvents(l,assets,route),schemaExtra:crumbs(l,[[l.nav.home,urlPath(l)],[c.codes,urlPath(l,route)]])}));continue;}fs.writeFileSync(file,html.replace(/<h1>([\s\S]*?)<\/h1>/,'<h2>$1</h2>').replace('<main>','<main>'+renderEvents(l,assets,route)).replace('<section class="listing-shell utility-page">','<details class="event-archive section"><summary>'+esc(c.archive)+'</summary><section class="listing-shell utility-page">').replace('</main>','</details></main>'));}
 }
 const sitemap=[];for(const route of [...data.routes.filter(x=>!data.noindexRoutes.includes(x)),...data.guideArticles.filter(x=>!data.noindexGuideArticles?.includes(x)).map(x=>'guides/'+x)]){const guideId=route.startsWith('guides/')?route.slice(7):'';const modified=route==='patch-notes'?data.routeModified[route]:data.guideMeta[guideId]?.modifiedAt||qualityReviewDate;const image=guideId?`<image:image><image:loc>${data.domain}/assets/guides/${guideId}-cover.webp</image:loc></image:image>`:'';for(const locale of locales)sitemap.push(`<url><loc>${abs(locale,route)}</loc><lastmod>${modified}</lastmod>${image}${locales.map(l=>`<xhtml:link rel="alternate" hreflang="${l.lang}" href="${abs(l,route)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${abs(locales[0],route)}"/></url>`)}
 write(path.join(root,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${sitemap.join('')}</urlset>`);
