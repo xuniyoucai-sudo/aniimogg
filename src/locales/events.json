@@ -107,7 +107,9 @@
     "compensation": "Maintenance compensation",
     "level": "Level",
     "photoReward": "Photo rewards",
-    "offering": "Offering recipe"
+    "offering": "Offering recipe",
+    "sourcePublished": "Source first published",
+    "sourceUpdated": "Source last updated"
   },
   "zh-CN": {
     "title": "活动与奖励中心",
@@ -217,7 +219,9 @@
     "compensation": "维护补偿",
     "level": "等级",
     "photoReward": "拍照奖励",
-    "offering": "供品配方"
+    "offering": "供品配方",
+    "sourcePublished": "来源首次发布",
+    "sourceUpdated": "来源最后更新"
   },
   "zh-TW": {
     "title": "活動與獎勵中心",
@@ -327,7 +331,9 @@
     "compensation": "維護補償",
     "level": "等級",
     "photoReward": "拍照獎勵",
-    "offering": "供品配方"
+    "offering": "供品配方",
+    "sourcePublished": "來源首次發布",
+    "sourceUpdated": "來源最近更新"
   },
   "ja": {
     "title": "イベント＆報酬センター",
@@ -437,6 +443,8 @@
     "compensation": "メンテナンス補償",
     "level": "レベル",
     "photoReward": "撮影報酬",
-    "offering": "供物レシピ"
+    "offering": "供物レシピ",
+    "sourcePublished": "情報源の初公開",
+    "sourceUpdated": "情報源の最終更新"
   }
 }
