@@ -9,7 +9,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Registered before Season 2 version update"
+    "eligibility": "Registered before Season 2 version update",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "snapshots-1-reward",
@@ -21,7 +25,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Student II"
+    "eligibility": "Student II",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "snapshots-2-reward",
@@ -33,7 +41,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Student II"
+    "eligibility": "Student II",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "snapshots-3-reward",
@@ -45,7 +57,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Student II"
+    "eligibility": "Student II",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-1Designation",
@@ -57,7 +73,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-1Profile",
@@ -69,7 +89,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-1Avatar Frame",
@@ -81,7 +105,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-1Growth Resources",
@@ -93,7 +121,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-2Designation",
@@ -105,7 +137,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-2Profile",
@@ -117,7 +153,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-2Avatar Frame",
@@ -129,7 +169,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-2Growth Resources",
@@ -141,7 +185,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-3Designation",
@@ -153,7 +201,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-3Profile",
@@ -165,7 +217,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-3Avatar Frame",
@@ -177,7 +233,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "dash-3Growth Resources",
@@ -189,7 +249,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "aniimo-goAvatar Frame",
@@ -201,7 +265,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "aniimo-goGrowth Resources",
@@ -213,7 +281,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Level 40"
+    "eligibility": "Level 40",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "night-paradeAvatar Frame",
@@ -225,7 +297,11 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Student I"
+    "eligibility": "Student I",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "night-paradeSparkling Crystal",
@@ -237,19 +313,27 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Student I"
+    "eligibility": "Student I",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "homeland-adjustmentFurniture",
     "eventId": "homeland-adjustment",
-    "name": "Furniture",
-    "type": "Furniture",
+    "name": "Furniture collection rewards",
+    "type": "other",
     "quantity": null,
     "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "UNKNOWN"
+    "eligibility": "Furniture-set collection conditions; exact requirements unknown",
+    "publishedAt": "2026-11-09",
+    "sourceCheckedAt": "2026-11-12T04:52:15.743Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
     "rewardId": "fantasy-resonanceOffering recipe",
@@ -261,18 +345,90 @@
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "Student I"
+    "eligibility": "Student I",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   },
   {
-    "rewardId": "homeland-nightFurniture",
-    "eventId": "homeland-night",
-    "name": "Furniture",
-    "type": "Furniture",
+    "rewardId": "egg-heist-giga-egg",
+    "eventId": "egg-heist",
+    "name": "Giga-Egg",
+    "type": "other",
+    "quantity": 1,
+    "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+    "claimStartAt": null,
+    "claimEndAt": null,
+    "claimEvidence": null,
+    "eligibility": "Winning team member · Level 50 · Rising Egg Scout",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
+  },
+  {
+    "rewardId": "holo-sim-first",
+    "eventId": "holo-sim",
+    "name": "First-clear rewards",
+    "type": "other",
     "quantity": null,
     "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
     "claimStartAt": null,
     "claimEndAt": null,
     "claimEvidence": null,
-    "eligibility": "RV Level 10 · Act Seven: Festivals of Astra"
+    "eligibility": "Trailblazer I",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
+  },
+  {
+    "rewardId": "holo-sim-weekly",
+    "eventId": "holo-sim",
+    "name": "Weekly rewards",
+    "type": "other",
+    "quantity": null,
+    "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+    "claimStartAt": null,
+    "claimEndAt": null,
+    "claimEvidence": null,
+    "eligibility": "Trailblazer I",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
+  },
+  {
+    "rewardId": "holo-interlink-stars",
+    "eventId": "holo-interlink",
+    "name": "Star rewards",
+    "type": "other",
+    "quantity": null,
+    "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+    "claimStartAt": null,
+    "claimEndAt": null,
+    "claimEvidence": null,
+    "eligibility": "Trailblazer I",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
+  },
+  {
+    "rewardId": "egg-heist-activation-chest",
+    "eventId": "egg-heist",
+    "name": "Activation reward chest",
+    "type": "other",
+    "quantity": null,
+    "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+    "claimStartAt": null,
+    "claimEndAt": null,
+    "claimEvidence": null,
+    "eligibility": "Team reaches required activation value; threshold unknown",
+    "publishedAt": "2026-10-27",
+    "sourceCheckedAt": "2026-11-12T04:52:14.731Z",
+    "verifiedAt": "2026-11-12T04:55:43.508Z",
+    "modifiedAt": "2026-11-12T04:55:43.508Z"
   }
 ]

@@ -87,9 +87,9 @@
       "MAINTENANCE_WINDOW_ELAPSED_NEEDS_CONFIRMATION": "Planned maintenance elapsed; completion unconfirmed"
     },
     "details": {
-      "snapshots": "First five different regular types each give a reward; completing five adds another. First Dazzling and Shadow photographs have separate rewards; either grants an extra reward once per phase. Special types do not count toward five. Repeats give nothing. Target Aniimo unknown.",
-      "dash": "Solo all day; multiplayer 18:00–24:00, up to 8 Pathfinders. Redrock multiplayer special events unavailable.",
-      "reset": "Pre-adjustment Whirlbite Basic / Prismana only. Refund/revert EXP, Star Up, Awakening and Capafruit. Verify eligibility in game.",
+      "snapshots": "Use the in-game camera to photograph the phase target's Sparkling types; target Aniimo unknown. First five different regular Sparkling types each give a reward, plus a five-type completion reward. First Dazzling Sparkling and Shadow Sparkling each have rewards; either grants an extra reward once per phase. Special types do not count toward five. Repeats give no progress or rewards.",
+      "dash": "Breezy Plains Cup - Full Throttle: solo all day. Breezy Plains Cup - Speed Showdown: daily 18:00–24:00, up to 8 Pathfinders. Redrock multiplayer special track events unavailable.",
+      "reset": "Pre-adjustment Whirlbite Basic / Prismana only. Refund used EXP items and deduct their EXP; refund and reset Star Up / Awakening materials. Refund Capafruit, restore uses and remove effects. Verify eligibility in game.",
       "homeland": "Phase 2/3 schedule adjusted after update; furniture collection rewards. Exact times and quantities unknown.",
       "season": "Companion Handbook, achievements and Stamp Shop refreshed.",
       "go": "Racing; Avatar Frame and growth resources.",
@@ -109,7 +109,20 @@
     "photoReward": "Photo rewards",
     "offering": "Offering recipe",
     "sourcePublished": "Source first published",
-    "sourceUpdated": "Source last updated"
+    "sourceUpdated": "Source last updated",
+    "rewardNames": {
+      "other": "Other official rewards",
+      "First-clear rewards": "First-clear rewards",
+      "Weekly rewards": "Weekly rewards",
+      "Star rewards": "Star rewards",
+      "Furniture collection rewards": "Furniture collection rewards (prize type unspecified)",
+      "Activation reward chest": "Activation reward chest"
+    },
+    "eggWinEligibility": "Winning team member · Level 50 · Rising Egg Scout",
+    "furnitureEligibility": "Furniture-set collection conditions; exact requirements unknown",
+    "chestEligibility": "Team reaches required activation value; threshold unknown",
+    "officialCodes": "Officially published codes",
+    "thirdPartyCodes": "Third-party reports · validity unverified"
   },
   "zh-CN": {
     "title": "活动与奖励中心",
@@ -199,9 +212,9 @@
       "MAINTENANCE_WINDOW_ELAPSED_NEEDS_CONFIRMATION": "计划维护窗口已过，完成情况待确认"
     },
     "details": {
-      "snapshots": "每阶段前5种不同普通类型各有奖励，集齐5种另有额外奖励。首次拍摄Dazzling及Shadow各有奖励，任一特殊类型可触发每阶段仅1次额外奖励。特殊类型不计入普通5种，重复无进度或奖励。目标伊莫未知。",
-      "dash": "单人全天；多人18:00–24:00，最多8名玩家。Redrock多人特殊赛道事件不可用。",
-      "reset": "仅调整前获得的Whirlbite基础／Prismana。返还并重置经验、升星、觉醒及Capafruit；游戏内核实资格。",
+      "snapshots": "使用游戏内相机拍摄阶段目标伊莫的不同闪光（Sparkling）类型；目标伊莫未公布。每阶段前5种不同普通闪光类型各有奖励，集齐5种另加奖。首次拍摄Dazzling Sparkling和Shadow Sparkling分别有奖励；拍任一特殊类型另有每阶段限1次的额外奖励。特殊类型不计入普通5种，重复不增加进度或奖励。",
+      "dash": "Breezy Plains Cup - Full Throttle：单人全天开放。Breezy Plains Cup - Speed Showdown：每日18:00–24:00，最多8名玩家。Redrock多人模式的特殊赛道事件暂不可用。",
+      "reset": "仅限调整前获得的Whirlbite基础／Prismana形态。返还已用经验道具并扣除对应经验；返还升星、能力觉醒材料并重置。返还Capafruit、恢复可用次数并移除效果。请在游戏内核实资格。",
       "homeland": "更新后调整第2、3阶段，增加家具收集奖励；准确时间、数量未知。",
       "season": "手册、成就与印章商店更新。",
       "go": "竞速；头像框与培养资源。",
@@ -221,7 +234,20 @@
     "photoReward": "拍照奖励",
     "offering": "供品配方",
     "sourcePublished": "来源首次发布",
-    "sourceUpdated": "来源最后更新"
+    "sourceUpdated": "来源最后更新",
+    "rewardNames": {
+      "other": "其他官方奖励",
+      "First-clear rewards": "首次通关奖励",
+      "Weekly rewards": "每周奖励",
+      "Star rewards": "星级奖励",
+      "Furniture collection rewards": "家具套装收集奖励（奖品类型未公布）",
+      "Activation reward chest": "激活进度奖励宝箱"
+    },
+    "eggWinEligibility": "获胜队伍成员 · 等级50 · Rising Egg Scout",
+    "furnitureEligibility": "家具套装收集条件；具体要求未知",
+    "chestEligibility": "队伍达到要求的激活值；具体门槛未知",
+    "officialCodes": "官方发布的代码",
+    "thirdPartyCodes": "第三方报告 · 有效性未核实"
   },
   "zh-TW": {
     "title": "活動與獎勵中心",
@@ -311,9 +337,9 @@
       "MAINTENANCE_WINDOW_ELAPSED_NEEDS_CONFIRMATION": "預定維護時段已過，尚待確認完成"
     },
     "details": {
-      "snapshots": "每階段前5種不同一般類型各有獎勵，完成5種另有加碼。首次拍下Dazzling與Shadow各有獎勵，任一特殊類型可獲每階段限1次的額外獎勵。特殊類型不計入一般5種；重複不增加進度或獎勵。目標伊莫尚未公布。",
-      "dash": "單人全天開放；多人18:00–24:00，最多8位玩家。Redrock多人賽道特殊事件暫不可用。",
-      "reset": "僅限調整前取得的Whirlbite基礎／Prismana形態。返還並重設經驗、升星、覺醒與Capafruit；資格以遊戲內為準。",
+      "snapshots": "用遊戲內相機拍下階段目標伊莫的不同閃光（Sparkling）類型；目標尚未公布。每階段前5種不同一般閃光類型各有獎勵，完成5種再領加碼。首次拍下Dazzling Sparkling及Shadow Sparkling各有獎勵，任一特殊類型另有每階段限1次的額外獎勵。特殊類型不計入一般5種，重複不累計進度或獎勵。",
+      "dash": "Breezy Plains Cup - Full Throttle：單人全天開放。Breezy Plains Cup - Speed Showdown：每日18:00–24:00，最多8位玩家。Redrock多人模式的特殊賽道事件暫不可用。",
+      "reset": "僅限調整前取得的Whirlbite基礎／Prismana形態。退還使用過的經驗道具並扣除對應經驗；退還升星與能力覺醒素材並重設。退還Capafruit、恢復使用次數並移除效果。請在遊戲內確認資格。",
       "homeland": "更新後調整第2、3階段時程，新增家具收集獎勵；確切時間與數量尚未確認。",
       "season": "手冊、成就及印章商店內容更新。",
       "go": "競速挑戰；頭像框及培養素材。",
@@ -333,7 +359,20 @@
     "photoReward": "拍照獎勵",
     "offering": "供品配方",
     "sourcePublished": "來源首次發布",
-    "sourceUpdated": "來源最近更新"
+    "sourceUpdated": "來源最近更新",
+    "rewardNames": {
+      "other": "其他官方獎勵",
+      "First-clear rewards": "首次通關獎勵",
+      "Weekly rewards": "每週獎勵",
+      "Star rewards": "星級獎勵",
+      "Furniture collection rewards": "家具套裝收藏獎勵（獎品種類未公布）",
+      "Activation reward chest": "啟動進度獎勵寶箱"
+    },
+    "eggWinEligibility": "獲勝隊伍成員 · 等級50 · Rising Egg Scout",
+    "furnitureEligibility": "家具套裝收藏條件；詳細要求未確認",
+    "chestEligibility": "隊伍達到所需啟動值；詳細門檻未公開",
+    "officialCodes": "官方發布的序號",
+    "thirdPartyCodes": "第三方回報 · 有效性尚未確認"
   },
   "ja": {
     "title": "イベント＆報酬センター",
@@ -423,9 +462,9 @@
       "MAINTENANCE_WINDOW_ELAPSED_NEEDS_CONFIRMATION": "予定時間経過・完了未確認"
     },
     "details": {
-      "snapshots": "各段階で異なる通常5種類それぞれに報酬、5種類達成で追加報酬。Dazzling・Shadowは各初回報酬があり、いずれかの撮影で段階ごと1回の追加報酬。特殊タイプは通常5種類に含まれず、重複は進捗・報酬なし。対象アニモ不明。",
-      "dash": "ソロは終日、マルチは18:00–24:00、最大8人。Redrockのマルチ特殊イベントは利用不可。",
-      "reset": "調整前に入手したWhirlbite基本／Prismana限定。経験値・Star Up・覚醒・Capafruitを返還・リセット。資格はゲーム内確認。",
+      "snapshots": "ゲーム内カメラで段階の対象アニモ（不明）のSparklingタイプを撮影。異なる通常5種類それぞれに報酬、5種類達成で追加報酬。Dazzling Sparkling・Shadow Sparklingは各初回報酬があり、いずれかで段階ごと1回の追加報酬。特殊タイプは通常5種類に含まれず、重複は進捗・報酬なし。",
+      "dash": "Breezy Plains Cup - Full Throttle：ソロは終日。Breezy Plains Cup - Speed Showdown：毎日18:00–24:00、最大8人。Redrockのマルチ特殊コースイベントは利用不可。",
+      "reset": "調整前に入手したWhirlbite基本／Prismana限定。使用した経験値アイテムを返還し、相当する経験値を減算。Star Up・覚醒の素材を返還してリセット。Capafruitを返還し、使用回数を戻して効果を解除。資格はゲーム内で確認。",
       "homeland": "更新後に第2・3段階の日程調整、家具収集報酬を追加。詳細時刻・数量は不明。",
       "season": "手帳・実績・スタンプ交換内容を更新。",
       "go": "レースでフレームと育成素材。",
@@ -445,6 +484,19 @@
     "photoReward": "撮影報酬",
     "offering": "供物レシピ",
     "sourcePublished": "情報源の初公開",
-    "sourceUpdated": "情報源の最終更新"
+    "sourceUpdated": "情報源の最終更新",
+    "rewardNames": {
+      "other": "その他の公式報酬",
+      "First-clear rewards": "初回クリア報酬",
+      "Weekly rewards": "週間報酬",
+      "Star rewards": "星の報酬",
+      "Furniture collection rewards": "家具セット収集報酬（報酬の種類は不明）",
+      "Activation reward chest": "起動進捗の報酬箱"
+    },
+    "eggWinEligibility": "勝利チームのメンバー · レベル50 · Rising Egg Scout",
+    "furnitureEligibility": "家具セット収集の条件。詳細は不明",
+    "chestEligibility": "チームが必要な起動値を達成。閾値は不明",
+    "officialCodes": "公式発表のコード",
+    "thirdPartyCodes": "第三者の報告・有効性は未確認"
   }
 }

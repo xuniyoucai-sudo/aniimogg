@@ -12,7 +12,6 @@ export function eventStatus(e,server,now=Date.now()){
 export function rewardStatus(r,e,server,checked,now=Date.now()){
  if(checked)return 'CLAIMED_BY_USER';
  if(r.claimEndAt&&now>Date.parse(r.claimEndAt))return 'EXPIRED_BY_SCHEDULE';
- if(e&&eventStatus(e,server,now)==='ENDED_BY_SCHEDULE')return 'EXPIRED_BY_SCHEDULE';
  if(r.claimStartAt&&now<Date.parse(r.claimStartAt))return 'UPCOMING';
  if(!r.claimEvidence)return e&&eventStatus(e,server,now)==='UPCOMING'?'UPCOMING':'UNKNOWN';
  return r.claimableEvidence?'CLAIMABLE':'AVAILABLE';
