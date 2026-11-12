@@ -76,5 +76,5 @@ if(typeof document!=='undefined')document.querySelectorAll('.aniimo-index[data-c
  [search,element,role,group,stage,form,collection].forEach(c=>c.addEventListener(c===search?'input':'change',apply));
  index.querySelectorAll('.index-clear').forEach(b=>b.addEventListener('click',()=>{resetFilters();apply();search.focus();}));
  find('.empty-clear').addEventListener('click',()=>{search.value='';apply();search.focus();});
- syncSaved();apply();renderCompare();index.dataset.ready='true';
+ syncSaved();apply();renderCompare();index.dataset.ready='true';const linked=/^#entity=(ag-[a-f0-9]{16})$/.exec(location.hash);if(linked&&byId.has(linked[1]))showDetails(linked[1],search);
 });

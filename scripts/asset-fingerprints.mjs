@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 
-export const assetInputs={app:'app.js',styles:'styles.css',siteContent:'site-content.css',accessibility:'accessibility.css',aniimoModel:'aniimo-model.js',teamModel:'team-model.js',team:'team-builder.js',teamStyle:'team-builder.css',compendium:'compendium.js',compendiumStyle:'compendium.css'};
+export const assetInputs={app:'app.js',styles:'styles.css',siteContent:'site-content.css',accessibility:'accessibility.css',aniimoModel:'aniimo-model.js',teamModel:'team-model.js',team:'team-builder.js',teamStyle:'team-builder.css',compendium:'compendium.js',compendiumStyle:'compendium.css',regionModel:'region-model.js',region:'region-explorer.js',regionStyle:'region-explorer.css'};
 export const sha256=bytes=>createHash('sha256').update(bytes).digest('hex');
 export function fingerprintAssets(root){
   const assets={};
@@ -10,7 +10,7 @@ export function fingerprintAssets(root){
     // Sources formerly lived at the web root. Resolve their local dependencies
     // there before moving the generated stylesheet under /assets/.
     let source=fs.readFileSync(path.join(root,'src/assets',name));
-    for(const [marker,key] of [['./aniimo-model.js','aniimoModel'],['./team-model.js','teamModel']]){if(source.toString().includes(marker)){if(!assets[key])throw Error('Asset dependency order');source=Buffer.from(source.toString().replace(marker,assets[key].file));if(source.toString().includes(marker))throw Error('Duplicate import marker');}}
+    for(const [marker,key] of [['./aniimo-model.js','aniimoModel'],['./team-model.js','teamModel'],['./region-model.js','regionModel']]){if(source.toString().includes(marker)){if(!assets[key])throw Error('Asset dependency order');source=Buffer.from(source.toString().replace(marker,assets[key].file));if(source.toString().includes(marker))throw Error('Duplicate import marker');}}
     const bytes=name.endsWith('.css')?Buffer.from(source.toString().replace(/url\((['"]?)([^)'"\s]+)\1\)/g,(all,q,url)=>/^(?:\/|#|data:|https?:)/.test(url)?all:`url(${q}/${url}${q})`)):source;
     const digest=sha256(bytes),ext=path.extname(name),stem=path.basename(name,ext);
     const file=`/assets/${stem}.${digest.slice(0,16)}${ext}`;

@@ -5,6 +5,9 @@ const root=process.cwd();
 const assets=JSON.parse(fs.readFileSync('assets/asset-manifest.json','utf8')).assets;
 const size=file=>fs.statSync(path.join(root,file)).size;
 const checks=[
+ ['region total JavaScript',['app','aniimoModel','teamModel','regionModel','region'].reduce((n,k)=>n+size(assets[k].file.slice(1)),0),20_000],
+ ['region total CSS',['styles','siteContent','accessibility','regionStyle'].reduce((n,k)=>n+size(assets[k].file.slice(1)),0),50_000],
+ ['region JSON',size(assets.regionData.file.slice(1)),200_000],
   ['shared CSS',size(assets.styles.file.slice(1))+size(assets.siteContent.file.slice(1))+size(assets.accessibility.file.slice(1)),50_000],
   ['shared JavaScript',size(assets.app.file.slice(1)),20_000],
   ['compendium JavaScript',size(assets.compendium.file.slice(1)),20_000],

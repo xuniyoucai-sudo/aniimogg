@@ -1,0 +1,10 @@
+{
+  "commit": "05a93baec8171ef82a87e42e01bd01a11fdebafc",
+  "files": {
+    "_headers": "5170ab1e6501c24380a6b45ebaf11d81e256f51a1bdba97817d1641aea8b7975",
+    "ads.txt": "b07f82718f06ad688acc5d5ec38583fef30d27cd9d6e0efbf38b12b9a152884f",
+    "robots.txt": "bf935da66313e23f454fd424cc7952dfe7d1a01232f36f021e10177faec437df",
+    "sitemap.xml": "005006682fd0686c737b3fa1ed36cadd31dbc61503925994774cbb7923ef5a4d",
+    "src/data/aniimo-index.json": "5d67ee9b40c798d682c8783d28a3fe62f18a2836f0c3d06578683cbc34587e13"
+  }
+}

@@ -14,11 +14,12 @@ try{
  page.on('request',r=>requests.push(r.url()));page.on('requestfailed',r=>{if(r.url().startsWith(base))failures.push(r.url());});
  page.on('response',r=>{const a=Object.values(manifest.assets).find(a=>r.url()===base+a.file);if(a)pending.push(r.body().then(body=>{bytes.push({url:r.url(),status:r.status(),sha256:sha256(body),expected:a.sha256,mime:r.headers()['content-type']});}));});
  const remote=await context.request.get(base+'/assets/asset-manifest.json');assert.equal(remote.status(),200);assert.deepEqual(await remote.json(),manifest);
- for(const prefix of ['','zh-cn/','zh-tw/','ja/'])for(const route of ['','guides/confirmed-aniimo/','team-builder/']){
+ for(const prefix of ['','zh-cn/','zh-tw/','ja/'])for(const route of ['','guides/confirmed-aniimo/','team-builder/','map/']){
   const path='/'+prefix+route;const r=await page.goto(base+path,{waitUntil:'domcontentloaded'});assert.equal(r.status(),200);
   const refs=await page.locator('script[src],link[rel=stylesheet]').evaluateAll(xs=>xs.map(x=>x.getAttribute('src')||x.getAttribute('href')).filter(x=>!x.startsWith('https:')));
-  assert.deepEqual(refs.sort(),(route==='team-builder/'?['styles','siteContent','accessibility','team','teamStyle']:route?['app','styles','siteContent','accessibility','compendium','compendiumStyle']:['app','styles','siteContent','accessibility']).map(key=>manifest.assets[key].file).sort());
+  assert.deepEqual(refs.sort(),(route==='map/'?['app','styles','siteContent','accessibility','region','regionStyle']:route==='team-builder/'?['styles','siteContent','accessibility','team','teamStyle']:route?['app','styles','siteContent','accessibility','compendium','compendiumStyle']:['app','styles','siteContent','accessibility']).map(key=>manifest.assets[key].file).sort());
   assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://aniimogg.com'+path);
+  if(route==='map/')await page.locator('[data-region-explorer][data-ready=true]').waitFor();
   if(route==='team-builder/')await page.locator('.team-status').filter({hasText:/Saved|保存|儲存/}).waitFor();
   if(route==='guides/confirmed-aniimo/'){await page.locator('.index-search').fill('Emberpup');assert.equal(await page.locator('.aniimo-card:visible').count(),1);}
   results.push({path,status:200,refs,canonical:'production URL'});
@@ -32,4 +33,4 @@ try{
  await page.goto(base+'/zh-cn/guides/confirmed-aniimo/',{waitUntil:'domcontentloaded'});await page.locator('.index-search').fill('Emberpup');await page.screenshot({path:output+'/preview-proof.png'});
  await context.close();
 }finally{fs.writeFileSync(output+'/asset-network.json',JSON.stringify({base,cache:'enabled, no routing interception',results,bytes,errors,failures,requests},null,2));await browser.close();}
-console.log('PASS verified deployment: 12 four-language pages, exact browser response SHA-256/MIME and manifest, no old query or production resource requests, canonical retained.');
+console.log('PASS verified deployment: 16 four-language pages, exact browser response SHA-256/MIME and manifest, no old query or production resource requests, canonical retained.');

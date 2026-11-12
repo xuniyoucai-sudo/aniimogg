@@ -1,0 +1,3599 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-11-12",
+  "regions": [
+    {
+      "regionId": "idyll",
+      "regionType": "world",
+      "officialName": "Idyll",
+      "localizedNames": {
+        "en": "Idyll"
+      },
+      "parentRegionId": null,
+      "children": [
+        "breezy-plains",
+        "whisperwake-isles"
+      ],
+      "description": {
+        "en": "Idyll is the world explored by Pathfinders and their Aniimo companions.",
+        "zh-CN": "Idyll 是探路者与伊莫伙伴共同探索的世界。",
+        "zh-TW": "探路者與伊莫夥伴在 Idyll 展開旅程。",
+        "ja": "IdyllはパスファインダーとAniimoが冒険する世界です。"
+      },
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "Season 1 — Departure with the Wind: Part 2",
+      "representativeFamilies": [],
+      "stories": [],
+      "guides": [
+        "regions-world"
+      ]
+    },
+    {
+      "regionId": "breezy-plains",
+      "regionType": "major-region",
+      "officialName": "Breezy Plains",
+      "localizedNames": {
+        "en": "Breezy Plains",
+        "zh-CN": "风吻平原",
+        "zh-TW": "風吻平原",
+        "ja": "ソヨカゼ\r\n平原"
+      },
+      "parentRegionId": "idyll",
+      "children": [],
+      "description": {
+        "en": "An official Wiki major-region category. No child map regions have been verified in this review.",
+        "zh-CN": "官方 Wiki 的大区域分类；本次未核实其下级地图区域。",
+        "zh-TW": "官方 Wiki 列出的大區域；此次查核尚未確認所屬地圖區域。",
+        "ja": "公式Wikiの大地域分類です。今回の確認では下位の地図地域は未確認です。"
+      },
+      "sourceUrl": "https://wiki.aniimo.com/",
+      "sourceType": "official-wiki",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "representativeFamilies": [],
+      "stories": [],
+      "guides": [
+        "regions-world"
+      ]
+    },
+    {
+      "regionId": "whisperwake-isles",
+      "regionType": "major-region",
+      "officialName": "Whisperwake Isles",
+      "localizedNames": {
+        "en": "Whisperwake Isles",
+        "zh-CN": "潮音群岛",
+        "zh-TW": "潮音群島",
+        "ja": "シオサイ群島"
+      },
+      "parentRegionId": "idyll",
+      "children": [
+        "crescent-bay",
+        "rosy-mirelands",
+        "wildwater-gorge",
+        "cloudreach-falls"
+      ],
+      "description": {
+        "en": "An ocean-ringed island cluster with four announced map regions and a new story chapter.",
+        "zh-CN": "海洋环绕的群岛，官方公布四个地图区域及新故事篇章。",
+        "zh-TW": "海洋環繞的群島，官方已介紹四個地圖區域及新的故事篇章。",
+        "ja": "海に囲まれた島々。公式告知で4つの地図地域と新しい物語が紹介されました。"
+      },
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "Season 1 — Departure with the Wind: Part 2",
+      "representativeFamilies": [],
+      "stories": [
+        {
+          "name": "Whisperwake Isles story / Journey Quests",
+          "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+          "publishedAt": "2026-10-27",
+          "updateDate": "2026-10-29"
+        }
+      ],
+      "guides": [
+        "regions-world",
+        "prismana-rare-forms"
+      ]
+    },
+    {
+      "regionId": "crescent-bay",
+      "regionType": "map-region",
+      "officialName": "Crescent Bay",
+      "localizedNames": {
+        "en": "Crescent Bay"
+      },
+      "parentRegionId": "whisperwake-isles",
+      "children": [],
+      "description": {
+        "en": "A lakeside bay with giant bubbles and a cliffside village.",
+        "zh-CN": "湖湾漂浮着巨大的泡泡，村落坐落于悬崖之上。",
+        "zh-TW": "巨大的泡泡浮在湖灣，村莊則位於崖邊。",
+        "ja": "巨大な泡が浮かぶ湖畔の湾。崖の上には村があります。"
+      },
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "Season 1 — Departure with the Wind: Part 2",
+      "representativeFamilies": [
+        "Bubbeep"
+      ],
+      "stories": [
+        {
+          "name": "The Coral Sea of Dreams / Squarrel’s Poem of Revolution",
+          "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+          "publishedAt": "2026-11-09",
+          "updateDate": "2026-11-12"
+        }
+      ],
+      "guides": [
+        "regions-world",
+        "prismana-rare-forms"
+      ]
+    },
+    {
+      "regionId": "rosy-mirelands",
+      "regionType": "map-region",
+      "officialName": "Rosy Mirelands",
+      "localizedNames": {
+        "en": "Rosy Mirelands"
+      },
+      "parentRegionId": "whisperwake-isles",
+      "children": [],
+      "description": {
+        "en": "Rivers feed wetlands and woodland, with colorful slime along the banks.",
+        "zh-CN": "河流滋养湿地与林地，河岸可见色彩斑斓的黏液。",
+        "zh-TW": "河水滋養濕地與樹林，繽紛黏液為岸邊添上色彩。",
+        "ja": "川が湿地と林を潤し、岸辺には色鮮やかなスライムが見られます。"
+      },
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "Season 1 — Departure with the Wind: Part 2",
+      "representativeFamilies": [
+        "Sugarfish"
+      ],
+      "stories": [],
+      "guides": [
+        "regions-world",
+        "prismana-rare-forms"
+      ]
+    },
+    {
+      "regionId": "wildwater-gorge",
+      "regionType": "map-region",
+      "officialName": "Wildwater Gorge",
+      "localizedNames": {
+        "en": "Wildwater Gorge"
+      },
+      "parentRegionId": "whisperwake-isles",
+      "children": [],
+      "description": {
+        "en": "A rocky gorge shaped by strong currents and rapids.",
+        "zh-CN": "急流奔涌的岩石峡谷。",
+        "zh-TW": "湍急水流穿越岩壁構成的峽谷。",
+        "ja": "激しい流れが岩場を駆け抜ける峡谷です。"
+      },
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "Season 1 — Departure with the Wind: Part 2",
+      "representativeFamilies": [
+        "Saws",
+        "Prawnch"
+      ],
+      "stories": [],
+      "guides": [
+        "regions-world",
+        "prismana-rare-forms"
+      ]
+    },
+    {
+      "regionId": "cloudreach-falls",
+      "regionType": "map-region",
+      "officialName": "Cloudreach Falls",
+      "localizedNames": {
+        "en": "Cloudreach Falls"
+      },
+      "parentRegionId": "whisperwake-isles",
+      "children": [],
+      "description": {
+        "en": "Clifftop lake water creates a vast waterfall over steep rock.",
+        "zh-CN": "崖顶湖水溢出岩缝，形成落差巨大的瀑布。",
+        "zh-TW": "崖頂的湖水自岩縫湧出，化作壯觀瀑布。",
+        "ja": "崖上の湖から流れる水が、大きな滝を作り出します。"
+      },
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "Season 1 — Departure with the Wind: Part 2",
+      "representativeFamilies": [
+        "Jeglid"
+      ],
+      "stories": [],
+      "guides": [
+        "regions-world",
+        "prismana-rare-forms"
+      ]
+    }
+  ],
+  "nonGeographic": [
+    {
+      "regionId": "season-1-keepsakes",
+      "regionType": "collection-category",
+      "officialName": "Season 1 Keepsakes",
+      "sourceUrl": "https://wiki.aniimo.com/",
+      "sourceType": "official-wiki",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    },
+    {
+      "regionId": "mirrorsea-village",
+      "regionType": "sub-location",
+      "parentRegionId": "crescent-bay",
+      "officialName": "Mirrorsea Village",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    },
+    {
+      "regionId": "skytear-rift",
+      "regionType": "story-location",
+      "parentRegionId": null,
+      "officialName": "Skytear Rift",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    },
+    {
+      "regionId": "tideblossom-coast",
+      "officialName": "Tideblossom Coast",
+      "regionType": "event-location",
+      "parentRegionId": null,
+      "announcementMapRegionId": "rosy-mirelands",
+      "mentionedForm": "Pouchwisp (Prismana)",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "eventStartLocal": "2026-11-02 04:00",
+      "eventEndLocal": "2026-11-09 03:59",
+      "serverTimezones": {
+        "Europe": "UTC+0",
+        "Americas": "UTC-4",
+        "Apac": "UTC+8"
+      },
+      "geographicStatus": "UNKNOWN",
+      "evidence": "Time-limited Prismana appearance announcement; slash-separated locations do not establish permanent geographic hierarchy",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    },
+    {
+      "regionId": "sea-of-flowers",
+      "officialName": "Sea of Flowers",
+      "regionType": "event-location",
+      "parentRegionId": null,
+      "announcementMapRegionId": "wildwater-gorge",
+      "mentionedForm": "Royalby (Prismana)",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "eventStartLocal": "2026-11-09 04:00",
+      "eventEndLocal": "2026-11-16 03:59",
+      "serverTimezones": {
+        "Europe": "UTC+0",
+        "Americas": "UTC-4",
+        "Apac": "UTC+8"
+      },
+      "geographicStatus": "UNKNOWN",
+      "evidence": "Time-limited Prismana appearance announcement; slash-separated locations do not establish permanent geographic hierarchy",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    },
+    {
+      "regionId": "russet-highlands",
+      "officialName": "Russet Highlands",
+      "regionType": "event-location",
+      "parentRegionId": null,
+      "announcementMapRegionId": "cloudreach-falls",
+      "mentionedForm": "Jeburst (Prismana)",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "eventStartLocal": "2026-11-16 04:00",
+      "eventEndLocal": "2026-11-23 03:59",
+      "serverTimezones": {
+        "Europe": "UTC+0",
+        "Americas": "UTC-4",
+        "Apac": "UTC+8"
+      },
+      "geographicStatus": "UNKNOWN",
+      "evidence": "Time-limited Prismana appearance announcement; slash-separated locations do not establish permanent geographic hierarchy",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    },
+    {
+      "regionId": "echoback-landing",
+      "officialName": "Echoback Landing",
+      "regionType": "event-location",
+      "parentRegionId": null,
+      "announcementMapRegionId": "crescent-bay",
+      "mentionedForm": "Glameep (Prismana)",
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "publishedAt": "2026-10-27",
+      "eventStartLocal": "2026-11-23 04:00",
+      "eventEndLocal": "2026-11-30 03:59",
+      "serverTimezones": {
+        "Europe": "UTC+0",
+        "Americas": "UTC-4",
+        "Apac": "UTC+8"
+      },
+      "geographicStatus": "UNKNOWN",
+      "evidence": "Time-limited Prismana appearance announcement; slash-separated locations do not establish permanent geographic hierarchy",
+      "sourceType": "official-announcement",
+      "verificationStatus": "official-mention-only",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN"
+    }
+  ],
+  "associations": [
+    {
+      "entityId": "ag-029b2ebf8f4d0dbc",
+      "sourceRecordId": "10008879",
+      "sourceUrl": "https://wiki.aniimo.com/item/057/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "f43276235296a17acd491b9970a6f726811299a3e48f50caa313d0172bdac669",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10453.png"
+    },
+    {
+      "entityId": "ag-066d9584559cbe17",
+      "sourceRecordId": "10008833",
+      "sourceUrl": "https://wiki.aniimo.com/item/010/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4089598ecabd79967e7d0392455968278b77ef20bf36430bc9834fe1a74a1dac",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10583.png"
+    },
+    {
+      "entityId": "ag-09f73ff43b898ce4",
+      "sourceRecordId": "10009008",
+      "sourceUrl": "https://wiki.aniimo.com/item/008/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "1a1a54ef2fcba8830c8435eed23e2caa20f9349207d97d7101806423c6fd12ad",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10184.png"
+    },
+    {
+      "entityId": "ag-09f886ee1fb3d6c7",
+      "sourceRecordId": "10009025",
+      "sourceUrl": "https://wiki.aniimo.com/item/077/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "9bdeb64be5401cae1b59cccbd089671da9b9e7f551af61fe9e490cfa48c93724",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10141.png"
+    },
+    {
+      "entityId": "ag-0afba9734d9e50f6",
+      "sourceRecordId": "10008966",
+      "sourceUrl": "https://wiki.aniimo.com/item/10007/basic-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "9c4d8c82b9ab2915bf82630c5855fb4a8adec2816aff39ae47b8a36cc71d4c48",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10713.png"
+    },
+    {
+      "entityId": "ag-0d6304b21caef6a7",
+      "sourceRecordId": "10008802",
+      "sourceUrl": "https://wiki.aniimo.com/item/035/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "ae4a45a5a22d03fec64ac4f6c6adcd75c51b951db4b7201c68b01c06b7448c70",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10324.png"
+    },
+    {
+      "entityId": "ag-0d6946da460c8a4d",
+      "sourceRecordId": "10008857",
+      "sourceUrl": "https://wiki.aniimo.com/item/10003/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "ef0c001da874e311da374a94277ee670891d8dc3e3d86fa3386524a25b63aa1b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10033.png"
+    },
+    {
+      "entityId": "ag-11e990960ed984eb",
+      "sourceRecordId": "10008917",
+      "sourceUrl": "https://wiki.aniimo.com/item/070/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "8831759c8444e2ba948327683dca77c1b10458387b465d9fe0347c1a473990eb",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10281.png"
+    },
+    {
+      "entityId": "ag-12f47e07aa6502ef",
+      "sourceRecordId": "10008908",
+      "sourceUrl": "https://wiki.aniimo.com/item/074/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "7774be629904dc4ef3b7f03f19c52662444f7c597884e44d2e01dd66327c8879",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10285.png"
+    },
+    {
+      "entityId": "ag-166bc8d1a94afc1c",
+      "sourceRecordId": "10008803",
+      "sourceUrl": "https://wiki.aniimo.com/item/059/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "a52128d93d1f32f37e14e495ac649875ec291fec048ac40d8ee02e53aa132e62",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10291.png"
+    },
+    {
+      "entityId": "ag-1880b7de5e99d437",
+      "sourceRecordId": "10008864",
+      "sourceUrl": "https://wiki.aniimo.com/item/073/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "c84518edb8a8df53a8f9fa59d318a8a8f36150b038b9e36f900399929083ccbd",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10284.png"
+    },
+    {
+      "entityId": "ag-1915384ded0219df",
+      "sourceRecordId": "10008952",
+      "sourceUrl": "https://wiki.aniimo.com/item/078/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "1766709f8475138cbbe7c4ce7927080a911ee96c585c460ac4dc1fe4dd74a79f",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10142.png"
+    },
+    {
+      "entityId": "ag-198392564007e203",
+      "sourceRecordId": "10008961",
+      "sourceUrl": "https://wiki.aniimo.com/item/036/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cbcd430a7f1bcd23edd08c89bb74bc5988009fe4560232bd7cfdbbf90984ac88",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10471.png"
+    },
+    {
+      "entityId": "ag-199039ee2da74e17",
+      "sourceRecordId": "10008939",
+      "sourceUrl": "https://wiki.aniimo.com/item/027/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "a87c535fc1defb957af7f8265126e44d3a215e5035c79dab7ea74d5a45a8e80e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10691.png"
+    },
+    {
+      "entityId": "ag-1c2d63a0cccc48c2",
+      "sourceRecordId": "10008935",
+      "sourceUrl": "https://wiki.aniimo.com/item/022/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "c2376c25a0af8ac8a01378b945ddcc18d430e4aadba3aca479b64485d321ff39",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10614.png"
+    },
+    {
+      "entityId": "ag-1c799e6799252ce6",
+      "sourceRecordId": "10008912",
+      "sourceUrl": "https://wiki.aniimo.com/item/004/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "e1e2621f0ecb1879c4841491cd017f9ddac878c2c3924de425f98733f079e682",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1005503.png"
+    },
+    {
+      "entityId": "ag-1d3bd9f2f694f89b",
+      "sourceRecordId": "10008872",
+      "sourceUrl": "https://wiki.aniimo.com/item/002/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "f5524ab3aa7917c3f87f2135d874806cc78a794b8f4c073f5886fc89c324953a",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10383.png"
+    },
+    {
+      "entityId": "ag-1ec99fb4fa905e09",
+      "sourceRecordId": "10008984",
+      "sourceUrl": "https://wiki.aniimo.com/item/029/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "98d9aedaf41434c9921124e8a1d4760c0eeeeef49fd2d659e0a33233ecdd0d21",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10444.png"
+    },
+    {
+      "entityId": "ag-203570af7731137e",
+      "sourceRecordId": "10009001",
+      "sourceUrl": "https://wiki.aniimo.com/item/066/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "209b42438db7f3a42af51ef4296aa5ff8b31d35cf7df76fbeda2579f954f6436",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10023.png"
+    },
+    {
+      "entityId": "ag-20c9ebbf2cd4515b",
+      "sourceRecordId": "10008983",
+      "sourceUrl": "https://wiki.aniimo.com/item/020/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "f65b6c2b7b41f4de5be8d1ce6c421320cb9889ccfabd1dd4d6400ec7bdf4bdee",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10201.png"
+    },
+    {
+      "entityId": "ag-21b6b3c01ba6c263",
+      "sourceRecordId": "10008891",
+      "sourceUrl": "https://wiki.aniimo.com/item/10004/basic-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "10aeba2663616ff3979a5e6cec5697b990a00920622ef5f1005c23bacfb199ac",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10223.png"
+    },
+    {
+      "entityId": "ag-23f3beb2d7be97c9",
+      "sourceRecordId": "10008815",
+      "sourceUrl": "https://wiki.aniimo.com/item/072/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "aa085d1088a1489816b3e5cc7eb829c97f7d1ea64c23bc383b10b95f235e77f1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10283.png"
+    },
+    {
+      "entityId": "ag-25b4785c90203df3",
+      "sourceRecordId": "10008968",
+      "sourceUrl": "https://wiki.aniimo.com/item/028/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "960562fa9de23a2af09a3b590505b9f0f7662d7e5ede7ffdce3b169d1daa5176",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10693.png"
+    },
+    {
+      "entityId": "ag-26101edc165bce3a",
+      "sourceRecordId": "10008868",
+      "sourceUrl": "https://wiki.aniimo.com/item/067/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "fe6f99c38a4426051202aa71f4e2a1932d8ffe72a04bd9bbea6de67e3f588e25",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10025.png"
+    },
+    {
+      "entityId": "ag-2a047c8d9713413c",
+      "sourceRecordId": "10008962",
+      "sourceUrl": "https://wiki.aniimo.com/item/034/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "77dabe64c0410c3e9e1286a360f71ea7a712f36eb755afef40a0a5aafef6eda7",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10323.png"
+    },
+    {
+      "entityId": "ag-2bb147fb5ea5ccf0",
+      "sourceRecordId": "10008905",
+      "sourceUrl": "https://wiki.aniimo.com/item/065/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "3207704b17e207f00c9f956962807f1372cc898efbb1516bee8a6527f8c6a3cb",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10022.png"
+    },
+    {
+      "entityId": "ag-2c7436fd550d917a",
+      "sourceRecordId": "10008794",
+      "sourceUrl": "https://wiki.aniimo.com/item/032/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "85b0e3f19eecbc0fd8ac3d3f667b9d91d4d14ab48e89d9a6b637bb89d97f81a5",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10443.png"
+    },
+    {
+      "entityId": "ag-2e2dd7c6975a0285",
+      "sourceRecordId": "10008887",
+      "sourceUrl": "https://wiki.aniimo.com/item/99996/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 0,
+        "label": "UNKNOWN"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "49a0dbc3bf2c66bfe4d964580e3bb1b95e7b758be8b2562c4ac6e4b1836a1845",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10371.png"
+    },
+    {
+      "entityId": "ag-31028dd816568d8d",
+      "sourceRecordId": "10008923",
+      "sourceUrl": "https://wiki.aniimo.com/item/015/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cdc457e1652bc408bdea52ce727b63243bf6a4162da2c95e144e450ae666bbe8",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10594.png"
+    },
+    {
+      "entityId": "ag-34c34f04032c0c5a",
+      "sourceRecordId": "10008856",
+      "sourceUrl": "https://wiki.aniimo.com/item/021/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cd0ea07fcb90a6fd489f50c59393197ac2404043405c344343179b981ddcf935",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10613.png"
+    },
+    {
+      "entityId": "ag-358fccfedc40790f",
+      "sourceRecordId": "10008801",
+      "sourceUrl": "https://wiki.aniimo.com/item/99998/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 0,
+        "label": "UNKNOWN"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "8f2d861c80dda20ae23a24a745c6a677414aa65fd8ffd1532e6e3250b1bd1fb0",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10361.png"
+    },
+    {
+      "entityId": "ag-3815f8606aab6320",
+      "sourceRecordId": "10008838",
+      "sourceUrl": "https://wiki.aniimo.com/item/080/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "1efb3993e465773282e76d5d69b05221e77fb30e3b717d8bf658f307af84d541",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10481.png"
+    },
+    {
+      "entityId": "ag-38492afbd813ffa8",
+      "sourceRecordId": "10008900",
+      "sourceUrl": "https://wiki.aniimo.com/item/007/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4866818390f92748ce9a3832d88e556f99481751691a0d8a441c4f69aca60c5b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10631.png"
+    },
+    {
+      "entityId": "ag-3ef1cdccf36431ec",
+      "sourceRecordId": "10008944",
+      "sourceUrl": "https://wiki.aniimo.com/item/026/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "049b7be1eb02543b933649f5f9f55c5e5aa552f1bb1118472a33a90f55929ac3",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10331.png"
+    },
+    {
+      "entityId": "ag-3f263e275021fa26",
+      "sourceRecordId": "10008996",
+      "sourceUrl": "https://wiki.aniimo.com/item/052/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4f03ac5931d763d6049554c58c56191374c63f4290198db09470f37d1b6d2bf7",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10174.png"
+    },
+    {
+      "entityId": "ag-3f455020c46e99fe",
+      "sourceRecordId": "10008829",
+      "sourceUrl": "https://wiki.aniimo.com/item/047/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "5c28fc0c5dc74b8b75563cc397cc5f4acc7c9ec7bd3ce7edbbc6edefb5ee4c63",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10511.png"
+    },
+    {
+      "entityId": "ag-449c154b2e3ba5bc",
+      "sourceRecordId": "10009050",
+      "sourceUrl": "https://wiki.aniimo.com/item/048/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cca3198da0124abcfafe7b2f3a807224079503c79454825274c0e3b9512392b1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10512.png"
+    },
+    {
+      "entityId": "ag-44e7f085acf15987",
+      "sourceRecordId": "10008840",
+      "sourceUrl": "https://wiki.aniimo.com/item/016/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "5c178b29f3aa94e7a92c57fa44f89465e229e51c398fadeafe30a0d2246c757b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10045.png"
+    },
+    {
+      "entityId": "ag-465085b4a57ece81",
+      "sourceRecordId": "10008973",
+      "sourceUrl": "https://wiki.aniimo.com/item/024/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "40f6226a5d4d60b9c024e1497bb7f7f1d5f445d4dd637002afd6f32f5862ff86",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10393.png"
+    },
+    {
+      "entityId": "ag-47e29ff593ab59f4",
+      "sourceRecordId": "10009023",
+      "sourceUrl": "https://wiki.aniimo.com/item/049/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "319cb126dccb6af76917b187f7731ee8a6300f33d9aa7f513368b753741c3efb",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10171.png"
+    },
+    {
+      "entityId": "ag-47ee6a2ba21035c5",
+      "sourceRecordId": "10008943",
+      "sourceUrl": "https://wiki.aniimo.com/item/010/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "7a1f7270af58c5d78e99c69897b9e023d121b39949bb4daf6409fb985caefb8d",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10187.png"
+    },
+    {
+      "entityId": "ag-4885bf021bd85374",
+      "sourceRecordId": "10008859",
+      "sourceUrl": "https://wiki.aniimo.com/item/012/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "a1efe9aefae020d333f5e464053f140503d5afc8898d782ebe98d77dabe2089b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10623.png"
+    },
+    {
+      "entityId": "ag-49f9e625a469e75d",
+      "sourceRecordId": "10009004",
+      "sourceUrl": "https://wiki.aniimo.com/item/062/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "fda86b7cbc4966870eecf04fcd719818f5fc69bd7e2aad36557c2ca8f0ab9246",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10026.png"
+    },
+    {
+      "entityId": "ag-4a7fe3b34f529a5d",
+      "sourceRecordId": "10008933",
+      "sourceUrl": "https://wiki.aniimo.com/item/001/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "2dbbd31182d9f7112a2498177f6e49847de74a843756b3541185a50ca3865d99",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10051.png"
+    },
+    {
+      "entityId": "ag-53f7512be8b22f5b",
+      "sourceRecordId": "10009039",
+      "sourceUrl": "https://wiki.aniimo.com/item/053/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "227e46a1425a7bf2ee255ae0ddd4a880d32cc5054f5b46cf14dc2811768d623e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10191.png"
+    },
+    {
+      "entityId": "ag-55a411b484befff4",
+      "sourceRecordId": "10008896",
+      "sourceUrl": "https://wiki.aniimo.com/item/060/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "c3727afcb4f0cd934a02fb00e325ccb27bea19f0a2edcd32d5d217b5178d1352",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10293.png"
+    },
+    {
+      "entityId": "ag-55c98afd1c1fcfdd",
+      "sourceRecordId": "10008862",
+      "sourceUrl": "https://wiki.aniimo.com/item/051/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "3addd6235102516e05d81d19d50429630e4967a00edf8a753789a1643f811424",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10173.png"
+    },
+    {
+      "entityId": "ag-58d45bff430fa766",
+      "sourceRecordId": "10009010",
+      "sourceUrl": "https://wiki.aniimo.com/item/061/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b9e52bf79defc4c5cbaa9b0565fb0347f8524cd0897eab306fc8734e227796ff",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10021.png"
+    },
+    {
+      "entityId": "ag-5b6f16e6b7ba7a56",
+      "sourceRecordId": "10008839",
+      "sourceUrl": "https://wiki.aniimo.com/item/019/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b61c2c90195482222e933fe41e43ead72c8f2dd1fc7893f6ebfa7c0f0ceb7d9d",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10263.png"
+    },
+    {
+      "entityId": "ag-5c35ab7d4552a78b",
+      "sourceRecordId": "10009028",
+      "sourceUrl": "https://wiki.aniimo.com/item/030/prismana-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "134fc3e151689b9330455f830b9367a732cd9dca57928bc58d05751d028bd421",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10233.png"
+    },
+    {
+      "entityId": "ag-5dc70a2de26032b4",
+      "sourceRecordId": "10008867",
+      "sourceUrl": "https://wiki.aniimo.com/item/008/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "902c4581b27b03ccb8ecc74cc823c460f4f4b0f55cd6b6fc3cc9d839e6e09048",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1063303.png"
+    },
+    {
+      "entityId": "ag-640a178404817a8b",
+      "sourceRecordId": "10008830",
+      "sourceUrl": "https://wiki.aniimo.com/item/029/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "f1b441b00135fa1ca82fac48905c46b359d5206582e6e0983d0e723769cfa929",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1044403.png"
+    },
+    {
+      "entityId": "ag-659f03cf54aa8301",
+      "sourceRecordId": "10008809",
+      "sourceUrl": "https://wiki.aniimo.com/item/10001/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "de49c001874eeeff891a06b9d3f7d291351526b17fa1d7c5cb253a5c0d96eb1e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10213.png"
+    },
+    {
+      "entityId": "ag-66278249e0448421",
+      "sourceRecordId": "10008814",
+      "sourceUrl": "https://wiki.aniimo.com/item/050/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "694fbdcf4d9f81b11ac9398b93f05390d422cf9bad5d5907c6a1e2de6daf28ef",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10172.png"
+    },
+    {
+      "entityId": "ag-6630fe0d83e5b393",
+      "sourceRecordId": "10008938",
+      "sourceUrl": "https://wiki.aniimo.com/item/081/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "af2fcbbbb8d8c9c70aeb10a19a668eb3708642eb0e010aba94b970f91c1eab05",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10483.png"
+    },
+    {
+      "entityId": "ag-6a07ad8e2830f593",
+      "sourceRecordId": "10008936",
+      "sourceUrl": "https://wiki.aniimo.com/item/022/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4012e2af3d16e2696c3d63af10e7cbb8091c771073314e9051ccb82c03123e48",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1061403.png"
+    },
+    {
+      "entityId": "ag-6b9570fce3d4137b",
+      "sourceRecordId": "10008267",
+      "sourceUrl": "https://wiki.aniimo.com/item/005/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "fbf3ef00f269c45b4c7c227c623efb065949a6b6a81751c4a89a89fc9b0cd470",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10011.png"
+    },
+    {
+      "entityId": "ag-6f86b4dd7fe65bbc",
+      "sourceRecordId": "10008927",
+      "sourceUrl": "https://wiki.aniimo.com/item/11001/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "7d590c8ede175d725fd7d2e2786cdf93c85e6cb733f1b4e06eee3bd2ca19a67b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_69993.png"
+    },
+    {
+      "entityId": "ag-715000c132310b33",
+      "sourceRecordId": "10008897",
+      "sourceUrl": "https://wiki.aniimo.com/item/028/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b0fbb210e7ec25fc385a42dd77537dd8465ab611b5f0552fac4bcb58e4daae41",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1069301.png"
+    },
+    {
+      "entityId": "ag-715f4ad9fe468e54",
+      "sourceRecordId": "10008928",
+      "sourceUrl": "https://wiki.aniimo.com/item/004/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "7e938946a01612659fb8ad629ab9c72cd8d54ecf8a3420c654b85a11530ebbdd",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10055.png"
+    },
+    {
+      "entityId": "ag-7195a68fb3bc86ca",
+      "sourceRecordId": "10009016",
+      "sourceUrl": "https://wiki.aniimo.com/item/025/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "e0e36042a5db91b83ff19fa3a06e35e5780eab143830b99de7030fd0d18ecc78",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10163.png"
+    },
+    {
+      "entityId": "ag-746ce017d035d15c",
+      "sourceRecordId": "10008860",
+      "sourceUrl": "https://wiki.aniimo.com/item/043/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "6fcb0d48f7fb4c6e89f034f8d1de6f63e49db27986e7bc88ccf192a817b1a68e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10132.png"
+    },
+    {
+      "entityId": "ag-7808aca6b3132c43",
+      "sourceRecordId": "10009007",
+      "sourceUrl": "https://wiki.aniimo.com/item/023/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b7e1f2944086e1d2016f8e8b552a2185981dc70d7e06542bd1652e63792f410a",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10161.png"
+    },
+    {
+      "entityId": "ag-79b26fc1640efb41",
+      "sourceRecordId": "10008877",
+      "sourceUrl": "https://wiki.aniimo.com/item/006/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "2203d0d068f9d7766a9f9a6f7e87c7d03bbff6c546d5314ad5c60dfcbab5ae61",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10653.png"
+    },
+    {
+      "entityId": "ag-7b0bd19acee24747",
+      "sourceRecordId": "10008842",
+      "sourceUrl": "https://wiki.aniimo.com/item/014/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "2d88153911ef79b5095fb430eb8f53956add7e21d2e15e263c73b6764582ca22",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10593.png"
+    },
+    {
+      "entityId": "ag-7bd36740dae0a9f5",
+      "sourceRecordId": "10008855",
+      "sourceUrl": "https://wiki.aniimo.com/item/067/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "5eeac1a858d27a9f9efa768b85bd358e6b0408f7d1adbffe13c79a10e676015e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1002503.png"
+    },
+    {
+      "entityId": "ag-7d4f042eddf3b66b",
+      "sourceRecordId": "10009015",
+      "sourceUrl": "https://wiki.aniimo.com/item/001/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "224f50d55009da777400fcbb5ad1739eca18af39bcd18664d6df2dfe2461b3fb",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10381.png"
+    },
+    {
+      "entityId": "ag-7fb8b3cdc6b0e735",
+      "sourceRecordId": "10008821",
+      "sourceUrl": "https://wiki.aniimo.com/item/042/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "271ae0b601aca4fc1001b76f4f6d0ecd9b8ba281b3d3509db3205462d2353672",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10131.png"
+    },
+    {
+      "entityId": "ag-80947a8e6ed6b200",
+      "sourceRecordId": "10008854",
+      "sourceUrl": "https://wiki.aniimo.com/item/016/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "8a3d0af1399fa7d829268131547f5f27365e7d9ac4ddc0cf456c323d4b3725a3",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10541.png"
+    },
+    {
+      "entityId": "ag-895ab66d2dc6c1cb",
+      "sourceRecordId": "10008852",
+      "sourceUrl": "https://wiki.aniimo.com/item/007/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "8c91c09eed6c7835958b35ebee25cc4d9fba3cf8aefc88b689126e3bcb47589e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10181.png"
+    },
+    {
+      "entityId": "ag-89b737221d880c2a",
+      "sourceRecordId": "10008824",
+      "sourceUrl": "https://wiki.aniimo.com/item/003/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "235d3d482cd7d8e33e90699a72b2cf68515e60ab8a904f6a148ca9edc7ed2c59",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10053.png"
+    },
+    {
+      "entityId": "ag-8aa72ee90351d2e1",
+      "sourceRecordId": "10008922",
+      "sourceUrl": "https://wiki.aniimo.com/item/044/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "799f9a53e6fc7860800f6f5d99f3464a60b015a74fb935f40bb83bbf552068c6",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10133.png"
+    },
+    {
+      "entityId": "ag-8b179c7617eb9d1f",
+      "sourceRecordId": "10008921",
+      "sourceUrl": "https://wiki.aniimo.com/item/021/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4889313e066030c8a0d8f5b258d83c269d53fee80d610cc31cbf8ec63600228c",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10203.png"
+    },
+    {
+      "entityId": "ag-8f262a6699a9da84",
+      "sourceRecordId": "10008915",
+      "sourceUrl": "https://wiki.aniimo.com/item/005/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "18265ddc34a3d77d5cb9e79d36634f68f5cd87460f7ec9ddc7f7baa32f9478dc",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10651.png"
+    },
+    {
+      "entityId": "ag-926fbb84b5fbb89b",
+      "sourceRecordId": "10008946",
+      "sourceUrl": "https://wiki.aniimo.com/item/015/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "1c0b6ad26c1897700b84f71c31098c98f569b733f7891a55ef48f8a64cf65015",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10043.png"
+    },
+    {
+      "entityId": "ag-95cc1c4d9d43d143",
+      "sourceRecordId": "10008869",
+      "sourceUrl": "https://wiki.aniimo.com/item/003/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "75252dc130b32757a7ff6fbc198ba8ea23d627e5a1beef3879c0bb904f6707ce",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10571.png"
+    },
+    {
+      "entityId": "ag-97ac7fab88b663f6",
+      "sourceRecordId": "10008845",
+      "sourceUrl": "https://wiki.aniimo.com/item/009/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "9d3953a5c9ab4832087742803dd93b99d9ad5882f6963b8d32915a90e49edffc",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10185.png"
+    },
+    {
+      "entityId": "ag-9a957e93192701e8",
+      "sourceRecordId": "10008932",
+      "sourceUrl": "https://wiki.aniimo.com/item/029/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "d755a7c9a7873e8b9607c12839e9c8fd56f95a8f280545bb43e299ba083bcb3b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10232.png"
+    },
+    {
+      "entityId": "ag-9bdfa9c427e29f50",
+      "sourceRecordId": "10008995",
+      "sourceUrl": "https://wiki.aniimo.com/item/055/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "ffda93e9283a35ab14344d5a0ed155bf6dda60918bc00822770ec5f80b275085",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10194.png"
+    },
+    {
+      "entityId": "ag-9e1b4441f7cddb70",
+      "sourceRecordId": "10008914",
+      "sourceUrl": "https://wiki.aniimo.com/item/038/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "54884d15b7323fd31e8fb398eaeb92bcb05755d195c093fc847437728269123d",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10351.png"
+    },
+    {
+      "entityId": "ag-9e43feceec7349bd",
+      "sourceRecordId": "10008819",
+      "sourceUrl": "https://wiki.aniimo.com/item/006/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "fb968b1ffce50ce6a7d43d15560f8ba6b0fff5462114c2d1aa2ad5c2e660bbcd",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10012.png"
+    },
+    {
+      "entityId": "ag-a1c4a4fc9b71ec1e",
+      "sourceRecordId": "10008844",
+      "sourceUrl": "https://wiki.aniimo.com/item/026/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "74d2b2e504d11d341273991631bc3cf7b1a4ede6eb64db972df6da396c4b8cb1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10403.png"
+    },
+    {
+      "entityId": "ag-a3f07854025c3d27",
+      "sourceRecordId": "10008847",
+      "sourceUrl": "https://wiki.aniimo.com/item/013/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "9de0f0fabdcc13e1e61d45dc6a2b2bc964836dca27438c10225c1c3820ccdb46",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10041.png"
+    },
+    {
+      "entityId": "ag-a550705fdce59588",
+      "sourceRecordId": "10009042",
+      "sourceUrl": "https://wiki.aniimo.com/item/054/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "a64a98a353fb99627c56cea0a09b44018b4456665377a8a54b65edb03f256a56",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10192.png"
+    },
+    {
+      "entityId": "ag-a70278bedef56b5b",
+      "sourceRecordId": "10008999",
+      "sourceUrl": "https://wiki.aniimo.com/item/002/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "43a9ed082ab916c51208d3fb417a82c0b3e1bacc59d3799f742e84f44b929b07",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10052.png"
+    },
+    {
+      "entityId": "ag-a923a4bc4a2ef1f5",
+      "sourceRecordId": "10008890",
+      "sourceUrl": "https://wiki.aniimo.com/item/031/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "191621eee586cd6e6609b094f653c95346d7f6aa8fede2c13a4e9cf1db442928",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10441.png"
+    },
+    {
+      "entityId": "ag-abfe3c6bdc6dfd8f",
+      "sourceRecordId": "10008813",
+      "sourceUrl": "https://wiki.aniimo.com/item/017/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b60f4aa5c60864612c9f04691c8f4da9bab973411f7bafc7b9be4a9bd63653f8",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10543.png"
+    },
+    {
+      "entityId": "ag-ac9a75217169e91b",
+      "sourceRecordId": "10008901",
+      "sourceUrl": "https://wiki.aniimo.com/item/076/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cf0323676896a667d0a45df2d006c4be37521f7f743985e02363da5d6f23dd5b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10433.png"
+    },
+    {
+      "entityId": "ag-ad19bf83f75db68e",
+      "sourceRecordId": "10009049",
+      "sourceUrl": "https://wiki.aniimo.com/item/10006/basic-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "9b50d1dea16518de0cb9ef6d08de841ad04dddfc7a1bcbe6b8ea9cc96d34d563",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10574.png"
+    },
+    {
+      "entityId": "ag-ad6232569c52545a",
+      "sourceRecordId": "10008974",
+      "sourceUrl": "https://wiki.aniimo.com/item/040/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "c6c05f3ac0d86d30dfd998c49558559348f0df70d3ec299250a9e9f912a52541",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10031.png"
+    },
+    {
+      "entityId": "ag-adde11cf9bed0114",
+      "sourceRecordId": "10008982",
+      "sourceUrl": "https://wiki.aniimo.com/item/079/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "ed5e41afbdbfac955987e95a2775903cf6cd1c9f727eea891f4d1aac630afb0f",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10143.png"
+    },
+    {
+      "entityId": "ag-af42cda376988338",
+      "sourceRecordId": "10009038",
+      "sourceUrl": "https://wiki.aniimo.com/item/058/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "d85ab5b30c564bb10f68a29fd7fdb47f7a3747a124328b76086cbcc1c262b422",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10454.png"
+    },
+    {
+      "entityId": "ag-b0e10d7cbc8ed536",
+      "sourceRecordId": "10008861",
+      "sourceUrl": "https://wiki.aniimo.com/item/033/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "1b05a23550fade6297b8d1f11b0843187ba22f7b23c88f5d02c0ee1cd1fdca39",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10321.png"
+    },
+    {
+      "entityId": "ag-b2152ec1f9c6ee2d",
+      "sourceRecordId": "10009045",
+      "sourceUrl": "https://wiki.aniimo.com/item/069/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "053db656c58c51fe7ba8a69e8ab619510c0816d06c5c45340e93dd59d855a3e1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10503.png"
+    },
+    {
+      "entityId": "ag-b21fe688d499a22e",
+      "sourceRecordId": "10009000",
+      "sourceUrl": "https://wiki.aniimo.com/item/027/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4bfda5952ae9d3d3a811097c210a569460d5c3a8ffb23b7b0fedc163b1fd17b2",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10333.png"
+    },
+    {
+      "entityId": "ag-b25209e6b6a620a4",
+      "sourceRecordId": "10009034",
+      "sourceUrl": "https://wiki.aniimo.com/item/017/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "d48b6e3649fa28383f1e559f005cb4d10c1f6469d7e95ae83ecc542c4d8ae9f7",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10261.png"
+    },
+    {
+      "entityId": "ag-b4547a9418808cb3",
+      "sourceRecordId": "10008798",
+      "sourceUrl": "https://wiki.aniimo.com/item/045/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "d888c4522abe65b0b26c4bd3ca2bbb1d0039830f4c3bc7c6a783647feb9a81d4",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10221.png"
+    },
+    {
+      "entityId": "ag-b4a1151de6e2a847",
+      "sourceRecordId": "10008907",
+      "sourceUrl": "https://wiki.aniimo.com/item/011/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "772dc285d3e874eb2c89a2f1d129653e6ec373c0c725c158408288e91cdd12e1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10211.png"
+    },
+    {
+      "entityId": "ag-b53fbb7f1ccdcdd9",
+      "sourceRecordId": "10008886",
+      "sourceUrl": "https://wiki.aniimo.com/item/018/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b5bc066acc65caa149ce899beb00620de96bbb90f3724181ad0a026503a434c5",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10601.png"
+    },
+    {
+      "entityId": "ag-ba1ab01327d9cc7a",
+      "sourceRecordId": "10008920",
+      "sourceUrl": "https://wiki.aniimo.com/item/044/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b31e2ef790c01d82ba14c0453f8eacdb5a132c183ae8e388646fa51a1ae658e1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1013301.png"
+    },
+    {
+      "entityId": "ag-bbf2e91b026072e8",
+      "sourceRecordId": "10008831",
+      "sourceUrl": "https://wiki.aniimo.com/item/010/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "0118ca06f766a798d79ecb42280cc1a8ea087601a0dc59e0a79274e3660458b4",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1058301.png"
+    },
+    {
+      "entityId": "ag-beaf0d27c22731dd",
+      "sourceRecordId": "10008883",
+      "sourceUrl": "https://wiki.aniimo.com/item/028/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "14fc38bdfff3fc8f2226d6fd9b040526c137a0246dd337fbfeaafee2e4ed728b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10231.png"
+    },
+    {
+      "entityId": "ag-bff87023a182590b",
+      "sourceRecordId": "10008800",
+      "sourceUrl": "https://wiki.aniimo.com/item/035/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "22eb958499697c32783ab2a33104281cffee067a667598e4c3ef5ffcdc33a996",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1032402.png"
+    },
+    {
+      "entityId": "ag-c030e66b10def1ea",
+      "sourceRecordId": "10008850",
+      "sourceUrl": "https://wiki.aniimo.com/item/019/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "2b596fd7bcb600a6ea6183da173f6ad870f43f4084cbb05967941145fca4fd52",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10603.png"
+    },
+    {
+      "entityId": "ag-c57a371a03c29347",
+      "sourceRecordId": "10008990",
+      "sourceUrl": "https://wiki.aniimo.com/item/071/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "ab6cb235e5940125712b961fbc052021c78436a61541a719e623413c3b7b36a1",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10282.png"
+    },
+    {
+      "entityId": "ag-c8d2ea056c76d451",
+      "sourceRecordId": "10008881",
+      "sourceUrl": "https://wiki.aniimo.com/item/013/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "ee71b38c8c293eea68e6f1d34271b21a8393bfe2d7cb4875a2931151a02a4dce",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10591.png"
+    },
+    {
+      "entityId": "ag-cbe2fbb01c5b2db0",
+      "sourceRecordId": "10008823",
+      "sourceUrl": "https://wiki.aniimo.com/item/068/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "abab2a939bc5e0615ef982991c5e26220a6750e3daeccadf43c122e1bb35a3ca",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10501.png"
+    },
+    {
+      "entityId": "ag-ce67aca67feec2ff",
+      "sourceRecordId": "10009017",
+      "sourceUrl": "https://wiki.aniimo.com/item/064/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "bd10359a75bc3357d4a07830a6df37c3d845c6850512270708fb8a8a01e3a30b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10024.png"
+    },
+    {
+      "entityId": "ag-d4663d6c9ecc3f17",
+      "sourceRecordId": "10008889",
+      "sourceUrl": "https://wiki.aniimo.com/item/020/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "b0eaa97bcec316644b0b378638ae690ffdaabe6bbe004a10a790d05167c2a9cf",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10611.png"
+    },
+    {
+      "entityId": "ag-d535f7e986c73ca7",
+      "sourceRecordId": "10008976",
+      "sourceUrl": "https://wiki.aniimo.com/item/012/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "4352cb6820943d19c7254ae7976062b6c293e54375f2c9c867faa5099fb40714",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10212.png"
+    },
+    {
+      "entityId": "ag-d55f1694b7d3942c",
+      "sourceRecordId": "10008797",
+      "sourceUrl": "https://wiki.aniimo.com/item/041/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "515044e759069106dd34a357db2de234cb4ffe0eb2b02eb835010455c0a7396b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10032.png"
+    },
+    {
+      "entityId": "ag-ddf4156fa00d7c82",
+      "sourceRecordId": "10008972",
+      "sourceUrl": "https://wiki.aniimo.com/item/022/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "6404bd2d32dc500d09894557da381485132ad3e1b1b3b715f3b5e2fb3df1ce3e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10207.png"
+    },
+    {
+      "entityId": "ag-e41ca99cb1ad1670",
+      "sourceRecordId": "10008875",
+      "sourceUrl": "https://wiki.aniimo.com/item/009/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "24968965e15bf5d655ba232ff2fce4f512b4fef714a6d9c2b0d02538644c38c9",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10581.png"
+    },
+    {
+      "entityId": "ag-e563fd57230ce760",
+      "sourceRecordId": "10008954",
+      "sourceUrl": "https://wiki.aniimo.com/item/037/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "da01f1cdee5b202b2b6f7640dcb34e951bb574d6a927e908d3710f859e865dff",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10475.png"
+    },
+    {
+      "entityId": "ag-e65f8087fff6ae48",
+      "sourceRecordId": "10008825",
+      "sourceUrl": "https://wiki.aniimo.com/item/004/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cd331fb807b07a976bb8b8feca73bb4cdc331a51f64ab082cf4a2943cc29b873",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10573.png"
+    },
+    {
+      "entityId": "ag-eb1b24d83bc1f9af",
+      "sourceRecordId": "10009030",
+      "sourceUrl": "https://wiki.aniimo.com/item/056/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "54cdc72b766d3bd356aa0824e40434896e5e1a741dc788a439fd3ff4d114e4aa",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10451.png"
+    },
+    {
+      "entityId": "ag-ebff4aeac9085c07",
+      "sourceRecordId": "10008987",
+      "sourceUrl": "https://wiki.aniimo.com/item/039/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "cf03207e65853f6196c0f8a3e857ef523bff19c0c52d7cf446db4ab0b27437b8",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10352.png"
+    },
+    {
+      "entityId": "ag-ec0cacff1dbaa16d",
+      "sourceRecordId": "10008882",
+      "sourceUrl": "https://wiki.aniimo.com/item/014/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "d793c2205c3c9069fa76a2a931ed35d5db68d7f10565ed919ffa5689c6b6ca2f",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10042.png"
+    },
+    {
+      "entityId": "ag-f05f7accc838434e",
+      "sourceRecordId": "10009002",
+      "sourceUrl": "https://wiki.aniimo.com/item/023/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "19e97e80c92902c1ffcaf01318b26f4e48809d2c76b95202cea8ac5981a326c8",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10391.png"
+    },
+    {
+      "entityId": "ag-f1fe77aef71a1615",
+      "sourceRecordId": "10008846",
+      "sourceUrl": "https://wiki.aniimo.com/item/046/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "85e8fe3a25a8589ecc8b9fafea4449a829d643e860b690fd271530bdb6bbb70b",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10222.png"
+    },
+    {
+      "entityId": "ag-f2a43a68079305db",
+      "sourceRecordId": "10008807",
+      "sourceUrl": "https://wiki.aniimo.com/item/075/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "e48838090f8bd12969aac4046e76a912e2a4bf90564f4a0d4f54884c49ec2898",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10431.png"
+    },
+    {
+      "entityId": "ag-f3308c6d64f9f007",
+      "sourceRecordId": "10009036",
+      "sourceUrl": "https://wiki.aniimo.com/item/057/prismana-form/1000",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "56582d7ab9046864d5544a20e596f63351052b6c51f62acfd967526c25abccac",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_1045302.png"
+    },
+    {
+      "entityId": "ag-f3d8296efa14886f",
+      "sourceRecordId": "10008997",
+      "sourceUrl": "https://wiki.aniimo.com/item/024/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "0bc08aed1e3cbfe39a102c251b03df1d5b3242e17a08def893c929b772e6268e",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10162.png"
+    },
+    {
+      "entityId": "ag-f60917948c4b8bab",
+      "sourceRecordId": "10008866",
+      "sourceUrl": "https://wiki.aniimo.com/item/008/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "3c0234f88c44ad97e04665068fe58de31c5e97420f1b88bc9697f1b3b486f848",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10633.png"
+    },
+    {
+      "entityId": "ag-f69d136a2452a90d",
+      "sourceRecordId": "10009014",
+      "sourceUrl": "https://wiki.aniimo.com/item/082/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "5919959b2d2300902bf512f9de535be0de24a8660ae3998f7038920246a10d24",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10122.png"
+    },
+    {
+      "entityId": "ag-faa267465844d893",
+      "sourceRecordId": "10008988",
+      "sourceUrl": "https://wiki.aniimo.com/item/063/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "c4fbae639530ed3e4df2578c7eaab7ac565280fc506e27e047795ec23b4d4583",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10027.png"
+    },
+    {
+      "entityId": "ag-fc3a3d52c8d80fc1",
+      "sourceRecordId": "10008795",
+      "sourceUrl": "https://wiki.aniimo.com/item/018/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300001,
+        "label": "Breezy Plains"
+      },
+      "regionIds": [
+        "breezy-plains"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "93f72cd352c77976662dc0be655d5fc2a5e17d8025dd955ce97527e67a9a201a",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10262.png"
+    },
+    {
+      "entityId": "ag-fc3d8d8fc6b4d509",
+      "sourceRecordId": "10008895",
+      "sourceUrl": "https://wiki.aniimo.com/item/10002/basic-form",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 1000,
+        "label": "Season 1 Keepsakes"
+      },
+      "regionIds": [],
+      "geographicStatus": "UNKNOWN",
+      "collectionCategory": "season-1-keepsakes",
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "2319157cfddf8cc6bdf4e9725cab06ff220af5fbb8db6b42885804c1cdedbb8f",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10474.png"
+    },
+    {
+      "entityId": "ag-fc463aa04df8af3d",
+      "sourceRecordId": "10008893",
+      "sourceUrl": "https://wiki.aniimo.com/item/011/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "15c18259bd0636884d495d0f283651846a7d7cfd1cda2416732654e7173bfa0a",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10621.png"
+    },
+    {
+      "entityId": "ag-fd12b2b49b5db39a",
+      "sourceRecordId": "10008953",
+      "sourceUrl": "https://wiki.aniimo.com/item/025/basic-form/300301",
+      "sourceType": "official-wiki",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-12",
+      "gameVersion": "UNKNOWN",
+      "officialRegionField": {
+        "key": "countryId",
+        "value": 300301,
+        "label": "Whisperwake Isles"
+      },
+      "regionIds": [
+        "whisperwake-isles"
+      ],
+      "geographicStatus": "confirmed-major-region",
+      "collectionCategory": null,
+      "evidence": {
+        "indexSha256": "3cfca27ecf6b655d034b1fcbaec0660f089385635ec09460243343f7ad2b5cf2",
+        "detailSha256": "24c6ddf9cd603c6ed39c6c9888ba40fd50f24f263f7c07e9bf058c89930678e3",
+        "method": "exact sourceRecordId + detail record id + name/form + index countryId = detail searchKey countryId = aniimoInfo formData countryId; resolve through official countryNames filter tags (never local indexGroupId)"
+      },
+      "imageUrl": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10401.png"
+    }
+  ],
+  "localizationEvidence": {
+    "zh-CN": {
+      "sourceUrl": "https://wiki.yimo.com/",
+      "verifiedAt": "2026-11-12",
+      "method": "official countryNames tags matched by tagKey"
+    },
+    "zh-TW": {
+      "sourceUrl": "https://wiki.aniimo.com/tw",
+      "verifiedAt": "2026-11-12",
+      "method": "official countryNames tags matched by tagKey"
+    },
+    "ja": {
+      "sourceUrl": "https://wiki.aniimo.com/ja",
+      "verifiedAt": "2026-11-12",
+      "method": "official countryNames tags matched by tagKey"
+    }
+  },
+  "sourceEvidence": {
+    "100244": {
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100244",
+      "sha256": "c8080619138332eadfe2d7fc85eb69165de01d1f79c34d4aa32555e60b2a8b03",
+      "verifiedAt": "2026-11-12"
+    },
+    "100298": {
+      "sourceUrl": "https://www.aniimo.com/newslist/detail/100298",
+      "sha256": "a56b42982430269125d8597325c7cf7e28970dfad78d0efdb3469335b3810613",
+      "verifiedAt": "2026-11-12"
+    }
+  }
+}
