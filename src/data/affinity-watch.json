@@ -1,0 +1,19 @@
+{
+  "topic": "Individual Aniimo Affinity, not Friend Affinity",
+  "reviewedAt": "2026-11-13",
+  "gameVersion": "November 12 update notice; no numeric client build verified",
+  "status": "NO_NEW_OFFICIAL_NUMERIC_EVIDENCE",
+  "unknownMetrics": ["level_count", "rename_threshold", "party_daily_gain", "home_daily_gain", "star_up_gain", "ascend_gain", "pathfinder_challenges_gain", "egg_heist_gain", "wild_battle_gain", "alpha_battle_gain", "daily_cap", "weekly_cap", "heal_effect", "swoleshroom_effect"],
+  "sources": [
+    {"url":"https://www.aniimo.com/newslist/detail/100298","language":"en","kind":"official","publishedAt":"2026-11-09"},
+    {"url":"https://www.aniimo.com/ja/newslist/detail/100299","language":"ja","kind":"official","publishedAt":"2026-11-09"},
+    {"url":"https://www.aniimo.com/zh-tw/newslist/detail/100301","language":"zh-TW","kind":"official","publishedAt":"2026-11-09"},
+    {"url":"https://wiki.aniimo.com/","language":"en","kind":"official"},
+    {"url":"https://wiki.yimo.com/","language":"zh-CN","kind":"official"},
+    {"url":"https://wiki.aniimo.com/tw","language":"zh-TW","kind":"official"},
+    {"url":"https://wiki.aniimo.com/ja","language":"ja","kind":"official"},
+    {"url":"https://www.aniimoverse.com/blog/aniimo-affinity-renaming-and-skill-effects","language":"en","kind":"third_party","publishedAt":"2026-11-12"},
+    {"url":"https://www.aniimoverse.com/guides/trading","language":"en","kind":"third_party","publishedAt":"2026-09-23"},
+    {"url":"https://aniimo.guide/en/guides/friends-trading-companion-mode","language":"en","kind":"third_party","publishedAt":"2026-09-19"}
+  ]
+}

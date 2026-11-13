@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-site.mjs",
-    "test": "node scripts/check-site.mjs && node scripts/check-compendium-ui.mjs && node scripts/check-launch-ui.mjs && node scripts/check-product-quality.mjs && node scripts/check-asset-fingerprints.mjs && node scripts/check-localizations.mjs && node scripts/check-browser-diagnostics.mjs && node scripts/check-team-model.mjs && node scripts/check-regions.mjs && node scripts/check-events-model.mjs && node scripts/check-operation-reviews.mjs && node scripts/check-article-media.mjs",
+    "test": "node scripts/check-site.mjs && node scripts/check-compendium-ui.mjs && node scripts/check-launch-ui.mjs && node scripts/check-product-quality.mjs && node scripts/check-asset-fingerprints.mjs && node scripts/check-localizations.mjs && node scripts/check-browser-diagnostics.mjs && node scripts/check-team-model.mjs && node scripts/check-regions.mjs && node scripts/check-events-model.mjs && node scripts/check-operation-reviews.mjs && node scripts/check-article-media.mjs && node scripts/check-affinity-review.mjs",
     "check:performance": "node scripts/check-performance-budget.mjs",
     "audit:local": "npm run build && npm test && npm run check:performance",
     "audit:live": "node scripts/daily-audit.mjs --live",
@@ -15,6 +15,8 @@
     "check:assets": "node scripts/check-asset-fingerprints.mjs",
     "test:team": "node scripts/run-team-tests.mjs",
     "test:regions": "node scripts/check-region-browser.mjs && node scripts/check-region-preservation-browser.mjs",
-    "test:events": "node scripts/check-events-browser.mjs"
+    "test:events": "node scripts/check-events-browser.mjs",
+    "test:affinity": "node scripts/check-affinity-review.mjs",
+    "check:official-sources": "node scripts/check-official-events.mjs"
   }
 }

@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 22
       - name: Verify operational review logic
-        run: node scripts/check-operation-reviews.mjs
+        run: node scripts/check-operation-reviews.mjs && node scripts/check-affinity-review.mjs
       - name: Check official notices without changing site data
         id: sources
         run: node scripts/check-official-events.mjs

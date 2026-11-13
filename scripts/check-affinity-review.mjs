@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {affinityReview} from './affinity-review.mjs';
+const html='<h3>New Aniimo Affinity Feature</h3><p>1. Aniimo Affinity unlocks renaming.</p><p>Each Aniimo has daily and weekly Affinity limits.</p><h3>New Events</h3><p>Level 40 and 500 points.</p>';
+const initial=affinityReview(html);assert.equal(initial.scope,'individual_aniimo_section');assert.equal(initial.changed,null);assert.ok(!initial.added.join(' ').includes('500'));assert.equal(initial.numericStatus,'UNVERIFIED_REVIEW_ONLY');
+assert.equal(affinityReview(html,initial).changed,false);
+const changed=affinityReview(html.replace('limits.','limits of 200.'),initial);assert.equal(changed.changed,true);assert.ok(changed.numericCandidates.some(s=>s.includes('200')));assert.ok(changed.removedHashes.length);assert.equal(changed.requiresScopeVerification,true);
+const friend=affinityReview('<p>Friend Affinity Level 2 needs 100 points. Gift of Affection.</p>');assert.equal(friend.scope,'unclassified_mentions');assert.equal(friend.numericStatus,'UNVERIFIED_REVIEW_ONLY');
+assert.ok(affinityReview('<h3>New Aniimo Affinity Feature</h3><p>Heal improves by 20%.</p><h3>New Events</h3>').numericCandidates.some(s=>s.includes('20%')));
+for(const heading of ['新增伊莫親密度功能','アニモ親密度機能追加'])assert.equal(affinityReview(`<h3>${heading}</h3><p>親密度上限。</p>`).scope,'individual_aniimo_section');
+assert.deepEqual(affinityReview('<script>Aniimo Affinity 999</script><p>Wiki index</p>').matchedTerms,[]);
+const watch=JSON.parse(fs.readFileSync('src/data/affinity-watch.json'));assert.equal(watch.unknownMetrics.length,14);assert.equal(watch.sources.filter(s=>s.kind==='third_party').length,3);
+assert.equal(watch.status,'NO_NEW_OFFICIAL_NUMERIC_EVIDENCE');
+console.log('PASS Affinity review: scope separation, changed/unchanged evidence, numeric candidates never verified, events excluded and 14 UNKNOWN metrics.');
