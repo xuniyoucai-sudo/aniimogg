@@ -1,0 +1,19 @@
+{
+  "body": [
+    ["Part 2 官方規則：60 級是個體升階檢查點", "2026 年 10 月 27 日公告說明，伊莫達到 60 級後，繼續升級需要 Ascension，並消耗該伊莫主屬性對應的 Evolution Item。應核對目前的材料預覽；公告沒有提供通用數量。稱號開放等級上限與完成某隻伊莫的升階是兩項檢查。"],
+    ["Part 2 官方規則：賽季標籤改變晶體適用範圍", "帶 Season Tag 的伊莫可使用任意地區的 Dewdrop Crystal 進行 Resonance Star Up。這是針對賽季標籤的例外，不代表所有伊莫或所有升級材料都通用。公告另說明，65 級伊莫可透過 Resonance Star Up 突破至 Stellar Tier 6；不能據此推導永久完整階段費用表。"],
+    ["先辨識卡點再投入——編輯核對清單", "先分清目前畫面是角色／稱號上限、所選伊莫等級，還是 Resonance 星數。60 級個體停滯時檢查升階預覽和主屬性；地區晶體能否混用先看 Season Tag；65 級時查看 Stellar Tier 6 的 Star Up 操作。遵循目前條件，不用材料盲試繞過另一系統的門檻。"]
+  ],
+  "rows": [
+    ["伊莫達到 60 級", "查看 Ascension 與主屬性 Evolution Item", "10 月 27 日官方 Part 2 公告；未提供通用數量"],
+    ["伊莫帶 Season Tag", "核對 Star Up 的任意地區 Dewdrop Crystal 選項", "官方例外針對帶標籤個體，並非所有材料"],
+    ["伊莫達到 65 級", "查看通向 Stellar Tier 6 的 Resonance Star Up", "官方說明可進行突破，不是自動升級"]
+  ],
+  "faq": [
+    ["60 級伊莫為什麼不能繼續升級？", "Part 2 官方公告要求先 Ascension，並使用主屬性對應的 Evolution Item。分別檢查個體預覽與角色／稱號上限，本站不推測具體材料數量。"],
+    ["所有伊莫都能使用任意地區的 Dewdrop Crystal 嗎？", "Part 2 例外明確針對帶 Season Tag 的伊莫進行 Resonance Star Up。不能推廣到所有伊莫，也不能認為所有 Ascension 材料都改變了。"],
+    ["達到 65 級會自動獲得 Stellar Tier 6 嗎？", "公告沒有說明自動升級，只說明 65 級伊莫可透過 Resonance Star Up 突破；請查看目前操作與條件。"]
+  ],
+  "changeLog": "補充官方 Part 2 的 60 級個體升階、賽季標籤晶體適用範圍與 65 級 Stellar Tier 6 檢查，保留 1.0 社區流程及未知費用邊界。",
+  "source": "10 月 27 日官方 Part 2 公告：培養系統調整（11 月 14 日核驗）"
+}

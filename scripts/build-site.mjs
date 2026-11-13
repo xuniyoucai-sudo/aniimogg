@@ -1,4 +1,5 @@
 import {renderEvents,eventCopy as p1dCopy} from './event-page.mjs';
+import {applyAscensionLocalization} from './ascension-content.mjs';
 import {applyWeek1Content} from './week1-content.mjs';
 import {renderRegions,regionCopy} from './region-page.mjs';
 import {renderTeam,teamCopy} from './team-builder-page.mjs';
@@ -43,6 +44,7 @@ const twCharacters={阵:'陣',鉴:'鑑',万:'萬',与:'與',专:'專',业:'業',
 const toTraditional=value=>typeof value==='string'?Array.from(value,c=>twCharacters[c]||c).join(''):Array.isArray(value)?value.map(toTraditional):value&&typeof value==='object'?Object.fromEntries(Object.entries(value).map(([k,v])=>[k,toTraditional(v)])):value;
 const zhTwLocale=source=>({...toTraditional(source),lang:'zh-TW',label:'繁體中文',prefix:'zh-tw',locale:'zh_TW'});
 const locales=[...baseLocales,zhTwLocale(baseLocales.find(l=>l.lang==='zh-CN'))];
+applyAscensionLocalization({locales});
 const localizedCopy=(copy,lang)=>copy[lang]??(lang==='zh-TW'?toTraditional(copy['zh-CN']):copy.en);
 const newsLocale=(item,lang)=>lang==='zh-TW'?toTraditional(item.locales['zh-CN']):item.locales[lang];
 const slugify=value=>data.speciesRoutes?.[value]||value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
