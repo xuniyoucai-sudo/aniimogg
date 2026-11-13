@@ -1,6 +1,6 @@
 # ANIIMOGG P2-A Week 1.2 内容实施报告
 
-执行日期：2026-11-14（Asia/Shanghai）。当前状态：本地实施完成，发布验证进行中；本节将在取得实际部署结果后更新，不将待执行操作记为通过。
+执行日期：2026-11-14（Asia/Shanghai）。最终状态：**PASS，已上线并完成生产验收**。内容版本为`57563b6cf3bd6a140c4cc1dff6d513b4844e726b`；缺失的分析数据与游戏规则仍保留UNKNOWN，不影响本轮已证实内容的定向维护。
 
 ## 实际修改与四语言结果
 
@@ -49,8 +49,33 @@
 
 本地真实Chrome验收PASS：24页、移动390px与桌面1440px共48组布局检查，最终标题/H1、canonical、hreflang、Article/FAQ、第一方资源响应SHA256、FAQ键盘操作和日文正式名搜索。静态保护检查覆盖所有已跟踪HTML的索引策略，24个实际改文日期变化，其他Article日期不变。全部130个日文官方名称重新逐条匹配成功；官方索引130/130，无差异。
 
-独立分支：`codex/p2-a-week1-2-content`。Preview和Production尚待取得实际发布结果，不将本地验收冒充远端验收。
+### 最终发布证据
+
+| 阶段 | 实际结果 |
+| --- | --- |
+| 独立分支 | `codex/p2-a-week1-2-content`，保留作发布证据 |
+| 内容实施提交 | `4c3cb23e956ebc8c9ef9fd2fc59e31fcbac8b6a3` |
+| 最终日期一致性提交 | `57563b6cf3bd6a140c4cc1dff6d513b4844e726b` |
+| 最终Preview | [f98d8829.aniimogg.pages.dev](https://f98d8829.aniimogg.pages.dev)，deployment `f98d8829-e938-4bd1-a785-03451d403c7b`，Cloudflare检查success |
+| Preview GitHub Actions | [43463394276](https://github.com/xuniyoucai-sudo/aniimogg/actions/runs/43463394276)，success |
+| 合并 | Preview静态及浏览器验收通过后，fast-forward合并同一SHA到main并push |
+| Production GitHub Actions | [43463808447](https://github.com/xuniyoucai-sudo/aniimogg/actions/runs/43463808447)，明确为main / push / 最终完整SHA，success |
+| 最终Cloudflare Production | deployment `ced460b1-ee26-4367-83c5-40ae3c62bd20`，main push后检查success；正式域名内容已核对，不把分支Preview当生产 |
+| 正式入口 | [aniimogg.com](https://aniimogg.com/)，24个目标语言页全部HTTP200 |
+
+两轮发布均先经过独立分支及Preview门禁。首次内容发布为4c3cb23e，生产deployment `8d838d86-8d38-4290-8601-4de4a7dfd3ba`；收尾发现评审日期沿用旧值后，修正并重新验收57563b6c，以上表的最终版本为准。没有绕过失败测试直接推main。
+
+### 最终线上验收
+
+- 24个目标页的生产HTML SHA256与最终本地构建逐页完全一致；来源、关键正文、最终title/H1和修正后的编辑评审日期已生效。
+- 实际Preview与Production各完成24页、48组移动／桌面布局检查；最终生产浏览器pageerror为0。FAQ键盘操作、Article/FAQ JSON-LD、canonical/hreflang、日文正式名搜索和第一方资源响应哈希全部PASS。
+- 生产sitemap精确字节与构建相同，仍为原168 URL集合；没有新增重复页面。四条既有重定向样本301；四语言Team Builder／Map／Events共12页保留noindex。
+- 资源manifest和现有实体数据未变，没有新增固定query资源引用。原130个entityId及名称映射未变，用户已有改动和原未跟踪文件均与工作前哈希一致。
+- 原始日志、HTML/资源哈希、截图、官方逐条匹配及保护检查留在私有`artifacts/private/aniimogg-p2-a/week1-2/`，未上传公开GitHub。最终报告另作仅文档归档提交，以`[CF-Pages-Skip]`避免无内容变化的再次生产部署。
+- IndexNow：**NOT_EXECUTED**，遵守本轮不批量提交要求，未发送全站或批量请求，也不把上线表述为已收录。
 
 ## 回滚与未解决事项
 
-仅在真实部署或关键线上验收失败时回滚本轮内容，不触碰用户已有改动或其他系统；尚未发生生产变更或回滚。GSC六项缺口、正确GA4资源归属、当前Deck评级、Steam/Epic解绑后果及其他UNKNOWN继续保留。
+本轮最终生产部署及关键验收均PASS，**未执行回滚**。日期一致性问题采用经过相同门禁的向前修正，不改动游戏规则或扩大范围。
+
+未解决项：GSC六项Query→Pages仍受浏览器工具阻塞；正确GA4 Property／Web Data Stream归属未确认，未创建或接入；当前Deck兼容面板、Steam/Epic解绑后果及其他游戏UNKNOWN继续保留。既有CSP缺失警告未处理，不与亲密度或内容维护混改。下一步仅在连接恢复或有可靠新官方证据时补证，不用提高CTR或收录数量作为编造结论、改变noindex或批量提交的理由。
