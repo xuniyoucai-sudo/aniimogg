@@ -41,7 +41,7 @@
 
 保留canonical、四语言hreflang、x-default、robots/noindex、既有重定向及原168个sitemap URL集合；工具页noindex不变。新增回归检查最终title/H1与Article一致、FAQ结构化数据与可见正文一致、资源指纹、UNKNOWN和实体名称。
 
-只有24个实际改文主页面的Article dateModified及sitemap lastmod更新到2026-11-14。保留原官方资料评审日期与公告日期，不伪装成新发布事实。未改GA4、隐私声明、广告、CSP、响应头、DNS或缓存规则。既有用户报告改动和所有原未跟踪文件保留且不混入提交。
+只有24个实际改文主页面的编辑评审日期、Article dateModified及sitemap lastmod更新到2026-11-14。保留原官方公告和历史来源日期，不伪装成新发布事实。最终复核修正了评审提示沿用旧日期的问题；目录和首页现有入口同步反映实际更新。未改GA4、隐私声明、广告、CSP、响应头、DNS或缓存规则。既有用户报告改动和所有原未跟踪文件保留且不混入提交。
 
 ## 验证与发布
 

@@ -29,5 +29,5 @@ for(const [prefix,lang]of [['','en'],['zh-cn/','zh-CN'],['zh-tw/','zh-TW'],['ja/
 const tw=fs.readFileSync('zh-tw/guides/elements-roles/index.html','utf8');
 for(const s of ['光','火','冰','暗','電','草','水','土','風','輸出','治療','輔助','擊破','回能'])assert.ok(tw.includes(`<td>${s}</td>`));
 assert.ok(tw.includes('https://wiki.aniimo.com/tw'));assert.ok(!tw.includes('岩石'));assert.ok(!tw.includes('雷電'));assert.ok(!tw.includes('中文是本站譯名'));
-for(const slug of contentSlugs)assert.equal(site.guideMeta[slug].modifiedAt,contentDate);
+for(const slug of contentSlugs){assert.equal(site.guideMeta[slug].modifiedAt,contentDate);assert.equal(site.guideMeta[slug].updated,contentDate);}
 console.log('PASS Week 1.2: 24 final title/H1/FAQ/schema/lastmod, evidence UNKNOWN, same-locale links, 130 stable localized identities, TW official terms and unchanged tool indexing.');

@@ -50,6 +50,7 @@ export function applyWeek1Content({locales}){
   cross.body=[c.cross.answer,c.cross.check,...cross.body.slice(1),cross.body[0]];
   cross.matrix=matrix(c.cross.table);cross.faq=[...c.cross.faq,...cross.faq.filter((_,i)=>i!==1&&i!==2&&i!==3&&i!==7)];
   const deck=g['steam-deck'];Object.assign(deck,{title:c.deck.title,h1:c.deck.h1,description:c.deck.lead,body:c.deck.body,faq:c.deck.faq,changeLog:c.deck.log,contentUpdatedAt:contentDate});
+  if(l.lang==='en')deck.body[0][1]=deck.body[0][1].replace('October 4, 2026','October 4, 2026 (2026-10-04)');
   if(!deck.sources.some(x=>x[1]==='https://www.steamdeck.com/en/verified'))deck.sources.push(['Valve — Deck compatibility categories','https://www.steamdeck.com/en/verified']);
   if(!deck.sources.some(x=>x[1].endsWith('/100089')))deck.sources.push(['Official PC / console FAQ','https://www.aniimo.com/newslist/detail/100089']);
   const catalogue=g['confirmed-aniimo'];Object.assign(catalogue,{title:c.catalogue.title,h1:c.catalogue.title,description:c.catalogue.lead,contentUpdatedAt:contentDate});catalogue.body[0][1]=c.catalogue.lead;
