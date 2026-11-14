@@ -1,6 +1,7 @@
 import {renderEvents,eventCopy as p1dCopy} from './event-page.mjs';
 import {applyAscensionLocalization} from './ascension-content.mjs';
 import {applyWeek1Content} from './week1-content.mjs';
+import {applyRegionCoverage} from './region-coverage-content.mjs';
 import {renderRegions,regionCopy} from './region-page.mjs';
 import {renderTeam,teamCopy} from './team-builder-page.mjs';
 import {createHash} from 'node:crypto';
@@ -180,6 +181,7 @@ const maintenancePanel=l=>{const m=localizedCopy(maintenance.locales,l.lang);ret
 const guideCard=(l,id)=>`<a href="${urlPath(l,'guides/'+id)}"><img src="${mediaAsset('guides',id).thumbnail.file}" srcset="${mediaAsset('guides',id).thumbnail.file} 640w, ${mediaFile('guides',id)} 1200w" sizes="(max-width:680px) 90vw, 420px" width="1200" height="675" loading="lazy" alt="${esc(mediaAlt(l,'guides',id))}"><span>${esc(l.nav.guides)}</span><h2>${esc(l.guides[id].h1)}</h2><p>${esc(l.guides[id].description)}</p></a>`;
 for(const l of locales){const q=compendiumCopy[l.lang];Object.assign(l.guides['confirmed-aniimo'],{title:q.title+' | Aniimo.GG',h1:q.title,description:q.description});}
 applyWeek1Content({locales});
+applyRegionCoverage({locales});
 const aniimoTable=l=>renderCompendium({l,snapshot,images:aniimoOfficialImages});
 
 for(const l of locales){

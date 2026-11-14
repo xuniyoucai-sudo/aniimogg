@@ -150,4 +150,10 @@ for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
   for(const row of formRows){const card=cards.find(x=>x[1]===entryKey(row))?.[0]||'';if(!card.includes(localizedEntryUrl(row,prefix))||card.includes('<img'))errors.push(`${prefix}form card: wrong route or unverified base artwork for ${row[2]}`)}
   for(const token of ['130','stagesMap.4','value="4"','/item/10001/prismana-form/1000','/item/030/prismana-form','data-aniimo-save="1000:004:prismana-form"'])if(!page.includes(token))errors.push(`${prefix}forms: missing ${token}`);
 }
+for(const prefix of ['', 'zh-cn/', 'zh-tw/', 'ja/']){
+ const page=fs.readFileSync(path.join(root,prefix,'guides/regions-world/index.html'),'utf8');
+ for(const token of ['Whisperwake Isles','Crescent Bay','Rosy Mirelands','Wildwater Gorge','Cloudreach Falls','newslist/detail/100244','"dateModified":"2026-11-15"',`href="/${prefix}map/"`])if(!page.includes(token))errors.push(`${prefix}regions-world: missing scoped Part 2 coverage ${token}`);
+ const faq=[...page.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)].map(x=>JSON.parse(x[1])).find(x=>x['@type']==='FAQPage');
+ if(!faq?.mainEntity.some(x=>x.acceptedAnswer.text.includes('Cloudreach Falls')))errors.push(`${prefix}regions-world: Part 2 FAQ schema missing`);
+}
 console.log(`Checked ${html.length} HTML files.`);if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log('All multilingual checks passed.');
