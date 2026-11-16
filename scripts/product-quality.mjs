@@ -51,12 +51,12 @@ export function applyProductQuality({locales,utilityCopy,launchCopy,copy,manifes
  }
  for(const [id,m] of Object.entries(data.guideMeta)){
   m.sourceStatus=m.status;
-  m.status=id==='editorial-policy'||id==='team-setup'?'editorial':m.status==='verified'?'mixed':m.status==='official'?(id==='confirmed-aniimo'?'official':'mixed'):'unverified';
+  m.status=m.status==='editorial'||id==='editorial-policy'||id==='team-setup'?'editorial':m.status==='verified'?'mixed':m.status==='official'?(id==='confirmed-aniimo'?'official':'mixed'):'unverified';
   m.lastReviewedAt=m.updated;m.modifiedAt=m.modifiedAt||qualityReviewDate;
  }
 }
 export function blockEvidence({id,heading,text,q}){
- if(id==='editorial-policy')return q.editorial;
+ if(id==='editorial-policy'||id==='alpha-omega-boss-preparation')return q.editorial;
  if(id==='team-setup'&&!/official labels|official Compendium|公式.*分類|官方.*标签|官方.*標籤/.test(heading))return q.editorial;
  if(/editorial|checklist|safe |Aniimo.GG recommends|本站建议|本站建議|核对清单|核對清單|チェックリスト/i.test(heading+' '+text))return q.editorial;
  return q.mixed;

@@ -13,7 +13,7 @@ for(const r of codes.records){assert.equal(r.sourceCheckedAt,'2026-09-28');asser
 assert.equal(giftCodeStatus({...codes.records[0],sourceCheckedAt:'invalid'},{asOf:'2026-11-11',freshnessDays:7}),'needs_recheck');
 const example=codes.records[0];assert.equal(giftCodeStatus(example,{asOf:'2026-10-05T00:00:00Z',freshnessDays:7}),'third_party_reported_active');assert.equal(giftCodeStatus(example,{asOf:'2026-10-05T00:00:01Z',freshnessDays:7}),'needs_recheck');
 const policyUrls=[...site.routes.filter(r=>!site.noindexRoutes.includes(r)),...site.guideArticles.filter(r=>!site.noindexGuideArticles.includes(r)).map(r=>'guides/'+r)].flatMap(r=>['','zh-cn/','zh-tw/','ja/'].map(p=>'https://aniimogg.com/'+p+r+(r?'/':'')));
-const sitemap=fs.readFileSync('sitemap.xml','utf8'),urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);assert.deepEqual([...urls].sort(),policyUrls.sort());assert.equal(urls.length,168);
+const sitemap=fs.readFileSync('sitemap.xml','utf8'),urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);assert.deepEqual([...urls].sort(),policyUrls.sort());assert.equal(urls.length,180);
 for(const [lang,prefix] of [['en',''],['zh-CN','zh-cn/'],['zh-TW','zh-tw/'],['ja','ja/']]){
  const html=p=>fs.readFileSync(prefix+p+'/index.html','utf8');const home=fs.readFileSync(prefix+'index.html','utf8'),catalogue=html('guides/confirmed-aniimo');
  assert.ok(home.includes(copy[lang].forms));assert.ok(home.includes('2026-11-06'));assert.ok(!home.includes('August 30')&&!home.includes('8 月 30')&&!home.includes('8月30'));
@@ -26,4 +26,4 @@ for(const [lang,prefix] of [['en',''],['zh-CN','zh-cn/'],['zh-TW','zh-tw/'],['ja
  assert.ok(html('news').includes(copy[lang].newsArchive));assert.ok(html('launch-verification').includes(copy[lang].verification));
  for(const r of site.guideArticles){const page=html('guides/'+r);assert.ok(page.includes(site.guideMeta[r].updated),r+' original fact review date missing');assert.ok(page.includes('"dateModified":"'+(site.guideMeta[r].modifiedAt||'2026-11-11')+'"')); }
 }
-console.log('PASS quality: 130/118/12 manifest, opaque identity map, null unknowns, freshness boundary, four-language evidence/copy, original fact dates and unchanged 168-URL indexing policy.');
+console.log('PASS quality: 130/118/12 manifest, opaque identity map, null unknowns, freshness boundary, four-language evidence/copy, original fact dates and 180-URL indexing policy.');

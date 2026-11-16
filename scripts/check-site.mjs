@@ -1,4 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';
+import './check-guide-expansion.mjs';
 import {entryKey,entryUrl,normalizeOfficial} from './aniimo-records.mjs';
 const localizations=JSON.parse(fs.readFileSync('src/data/aniimo-localizations.json','utf8'));
 const localizedEntryUrl=(row,prefix)=>localizations.records[row[1]].localizationEvidence[({'':'en','zh-cn/':'zh-CN','zh-tw/':'zh-TW','ja/':'ja'})[prefix]].sourceUrl;

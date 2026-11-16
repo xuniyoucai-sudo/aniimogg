@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {contentDate,contentSlugs} from './week1-content.mjs';
 const site=JSON.parse(fs.readFileSync('src/data/site.json'));
 const sitemap=fs.readFileSync('sitemap.xml','utf8');
-assert.equal([...sitemap.matchAll(/<loc>/g)].length,168);
+// Original 168 URLs are retained; the explicitly approved three-guide release adds 12.
+assert.equal([...sitemap.matchAll(/<loc>/g)].length,180);
 const names=JSON.parse(fs.readFileSync('src/data/aniimo-localizations.json'));
 for(const [prefix,lang]of [['','en'],['zh-cn/','zh-CN'],['zh-tw/','zh-TW'],['ja/','ja']]){
  for(const slug of contentSlugs){

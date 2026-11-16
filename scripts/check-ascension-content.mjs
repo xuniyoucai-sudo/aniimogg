@@ -18,5 +18,5 @@ for(const prefix of ['','zh-cn/','zh-tw/','ja/']){
 const tw=JSON.parse(fs.readFileSync('src/locales/ascension-tw.json','utf8')),h=fs.readFileSync('zh-tw/guides/resonance-ascension/index.html','utf8');
 for(const section of tw.body)for(const v of section)assert.ok(h.includes(esc(v)));
 assert.ok(!/[赛适识对当给两据导绕槛]/.test(JSON.stringify(tw)),'New TW text must be human-reviewed');
-assert.equal([...sitemap.matchAll(/<loc>/g)].length,168);
-console.log('PASS Ascension: four-language official Part 2 boundaries, human-reviewed TW, historical community scope, FAQ/schema/dates and 168 sitemap URLs.');
+assert.equal([...sitemap.matchAll(/<loc>/g)].length,180);
+console.log('PASS Ascension: four-language official Part 2 boundaries, human-reviewed TW, historical community scope, FAQ/schema/dates and 180 sitemap URLs.');

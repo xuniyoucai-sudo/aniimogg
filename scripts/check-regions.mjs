@@ -1,4 +1,5 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';import {gunzipSync} from 'node:zlib';import {createHash} from 'node:crypto';import {decodeSSR} from './official-region-ssr.mjs';import {regionMatches,findRegions} from '../src/assets/region-model.js';import {normalizeSnapshot} from './aniimo-snapshot.mjs';
+import {expansionSlugs} from './guide-expansion-content.mjs';
 const read=f=>JSON.parse(fs.readFileSync(f)),d=read('src/data/aniimo-regions.json'),manifest=read('assets/asset-manifest.json'),rows=normalizeSnapshot(read('src/data/aniimo-index.json'),read('src/data/aniimo-index-manifest.json')).entities,sha=b=>createHash('sha256').update(b).digest('hex');
 const idx=gunzipSync(fs.readFileSync('src/fixtures/regions/index-en.html.gz')).toString(),source=decodeSSR(idx),tags=source['aniimo-country-tags-en'],list=source['aniimo-wiki-list-en'];assert.equal(d.associations.length,130);assert.equal(new Set(d.associations.map(a=>a.entityId)).size,130);
 for(const r of rows){const a=d.associations.find(a=>a.entityId===r.entityId),html=gunzipSync(fs.readFileSync('src/fixtures/regions/'+r.sourceRecordId+'.html.gz')).toString(),detail=Object.entries(decodeSSR(html)).find(([k])=>k.startsWith('aniimo-detail-'))[1],item=list.find(x=>String(x.id)===String(r.sourceRecordId));assert.equal(a.sourceRecordId,r.sourceRecordId);assert.equal(a.sourceUrl,r.sourceUrl);assert.equal(String(detail.id),String(r.sourceRecordId));assert.equal(detail.searchKey.name,r.officialName);assert.equal(a.evidence.detailSha256,sha(html));assert.equal(a.evidence.indexSha256,sha(idx));assert.equal(detail.searchKey.countryId,item.searchKey.countryId);const info=detail.directories.flatMap(x=>x.components||[]).find(x=>x.type==='aniimoInfo').props.formData;assert.equal(info.countryId,item.searchKey.countryId);const label=tags.find(t=>String(t.tagKey)===String(info.countryId))?.name||'UNKNOWN';assert.equal(a.officialRegionField.label,label);assert.deepEqual(a.regionIds,({'Breezy Plains':['breezy-plains'],'Whisperwake Isles':['whisperwake-isles']})[label]||[]);if(label==='Season 1 Keepsakes')assert.equal(a.geographicStatus,'UNKNOWN');}
@@ -15,6 +16,10 @@ for(const k of ['regionData','teamData']){const a=manifest.assets[k];assert.equa
 // sitemap field and every other protected file. check-site validates new images.
 const baseline=read('src/fixtures/regions/provenance.json');for(const [file,hash]of Object.entries(baseline.files)){
  let bytes=fs.readFileSync(file);
+ // The three user-approved new articles are checked exhaustively by
+ // check-guide-expansion. Remove only those entries before applying the original
+ // region-era byte guard; every pre-existing URL and alternate stays protected.
+ if(file==='sitemap.xml')bytes=Buffer.from(bytes.toString().replace(/<url>[\s\S]*?<\/url>/g,block=>expansionSlugs.some(id=>new RegExp('<loc>https://aniimogg\\.com/(?:zh-cn/|zh-tw/|ja/)?guides/'+id+'/</loc>').test(block))?'':block));
 // Explicit guide modification dates may advance after the region snapshot.
 // Validate against editorial metadata, then normalize to the captured date.
 // URL membership, hreflang and all other protected bytes still use the hash guard.

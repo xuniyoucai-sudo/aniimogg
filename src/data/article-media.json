@@ -526,6 +526,9 @@
     }
   },
   "guides": {
+    "controls-keyboard-controller-mobile":{"cover":"ai-accessibility","visual":"ai-devices"},
+    "photo-mode":{"cover":"skippy","visual":"collection-feature"},
+    "alpha-omega-boss-preparation":{"cover":"erlath-fahloo","visual":"team-up"},
     "crossplay-cross-save": {
       "cover": "ai-devices",
       "visual": "homeland-feature"
